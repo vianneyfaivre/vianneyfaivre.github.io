@@ -1,5 +1,6 @@
 ---
 layout: default
+description: "About Vianney FAIVRE"
 ---
 
 # About
