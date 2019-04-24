@@ -1,0 +1,26 @@
+url: https://vianneyfaivre.github.io/
+repository: "vianneyfaivre/jekyll-blog"
+
+title: Vianney's blog
+author: Vianney FAIVRE
+linkedin_username: vianneyfaivre
+github_username: vianneyfaivre
+social:
+  name: Vianney FAIVRE
+  links:
+    - https://www.linkedin.com/in/vianneyfaivre
+    - https://github.com/vianneyfaivre
+
+permalink: /:categories/:title
+paginate: 15
+excerpt_separator: <!--more-->
+
+theme: minima
+header_pages: 
+  - tech.html
+  - misc.html
+  - about.md
+ 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
