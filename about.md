@@ -26,4 +26,4 @@ At work, I like to:
 
 ## Contact me!
 
-You can contact me via my LinkedIn profile.
+You can contact me via my [LinkedIn profile](https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}?locale=en_US).
