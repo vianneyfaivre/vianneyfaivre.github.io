@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Spring Boot: How to set RestTemplate read timeout"
-description: "test"
 categories: [tech]
 ---
 
