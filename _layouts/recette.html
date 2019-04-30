@@ -1,25 +1,20 @@
 ---
 layout: default
 ---
-<style>
-.emoji {
-	padding-bottom: 5px;
-}
-</style>
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry recette" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header style="border-bottom: 1px solid #e8e8e8; margin-bottom: 15px;">
-    <h1 class="post-title p-name" itemprop="name headline" style="text-align:center">{{ page.title | escape }}</h1>
+  <header>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
 
-	<div style="display: flex; border-bottom: 1px solid #e8e8e8; padding-bottom: 15px; margin-bottom: 15px;">
+	<div class="main-panel">
 	
-		<div style="width: 20%">
+		<div class="ingredients-panel">
 
 			<h4>Ingrédients :memo:</h4>
-			<ul style="list-style-type: none;">
+			<ul class="no-dots">
 			{% for ingredient in page.ingredients %}
 				<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 			{% endfor %}
@@ -27,7 +22,7 @@ layout: default
 			
 			{% if page.materiel %}
 				<h4>Matériel :hammer:</h4>
-				<ul style="list-style-type: none;">
+				<ul class="no-dots">
 				{% for materiel in page.materiel %}
 					<li>{{ materiel }}</li>
 				{% endfor %}
@@ -36,7 +31,7 @@ layout: default
 			
 		</div>
 		
-		<div style="width:80%; border-left: 1px solid #e8e8e8; padding-left: 15px;">
+		<div class="etapes-panel">
 		
 			{% for etape in page.etapes %}
 			<h4>{{etape.label}} :scroll:</h4>
@@ -72,7 +67,7 @@ layout: default
 	
 		{% if page.variantes %}
 			<h4>Variantes :bulb:</h4>
-			<ul style="list-style-type: none;">
+			<ul class="no-dots">
 			{% for variante in page.variantes %}
 				<li>
 					{% if variante.todo %}

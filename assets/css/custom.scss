@@ -4,3 +4,39 @@
 .pagination {
 	text-align: center;
 }
+
+.recette {
+
+	header {
+		border-bottom: 1px solid #e8e8e8; margin-bottom: 15px;
+	}
+	
+	h1 {
+		text-align:center;
+	}
+
+	.main-panel {
+		display: flex; 
+		border-bottom: 1px solid #e8e8e8; 
+		padding-bottom: 15px; 
+		margin-bottom: 15px;
+	}
+	
+	.ingredients-panel {
+		width: 20%
+	}
+	
+	.etapes-panel {
+		width:80%; 
+		border-left: 1px solid #e8e8e8; 
+		padding-left: 15px;
+	}
+	
+	.no-dots {
+		list-style-type: none;
+	}
+
+	.emoji {
+		padding-bottom: 5px;
+	}
+}
