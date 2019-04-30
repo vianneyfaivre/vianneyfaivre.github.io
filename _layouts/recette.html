@@ -1,0 +1,95 @@
+---
+layout: default
+---
+<style>
+.emoji {
+	padding-bottom: 5px;
+}
+</style>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header style="border-bottom: 1px solid #e8e8e8; margin-bottom: 15px;">
+    <h1 class="post-title p-name" itemprop="name headline" style="text-align:center">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+
+	<div style="display: flex; border-bottom: 1px solid #e8e8e8; padding-bottom: 15px; margin-bottom: 15px;">
+	
+		<div style="width: 20%">
+
+			<h4>Ingrédients :memo:</h4>
+			<ul style="list-style-type: none;">
+			{% for ingredient in page.ingredients %}
+				<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+			{% endfor %}
+			</ul>
+			
+			{% if page.materiel %}
+				<h4>Matériel :hammer:</h4>
+				<ul style="list-style-type: none;">
+				{% for materiel in page.materiel %}
+					<li>{{ materiel }}</li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+			
+		</div>
+		
+		<div style="width:80%; border-left: 1px solid #e8e8e8; padding-left: 15px;">
+		
+			{% for etape in page.etapes %}
+			<h4>{{etape.label}} :scroll:</h4>
+				
+				<ol>
+				{% for detail in etape.details %}
+					<li>{{ detail }}</li>
+				{% endfor %}
+				</ol>
+			{% endfor %}
+			
+			{% if page.cuisson %}
+				<h4>Cuisson :fire:</h4>
+				<ul>
+				{% for cuisson in page.cuisson %}
+					<li>{{ cuisson }}</li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+		</div>
+	</div>
+	
+	<div>
+		
+		{% if page.notes %}
+			<h4>Notes :speech_balloon:</h4>
+			<ul>
+			{% for note in page.notes %}
+				<li>{{ note }}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+	
+		{% if page.variantes %}
+			<h4>Variantes :bulb:</h4>
+			<ul style="list-style-type: none;">
+			{% for variante in page.variantes %}
+				<li>
+					{% if variante.todo %}
+					  <input type="checkbox" />
+					{% else %}
+					  <input type="checkbox" checked="checked" />
+					{% endif %}
+					
+					{{ variante.label }}
+				</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+		
+	</div>
+
+  </div>  
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

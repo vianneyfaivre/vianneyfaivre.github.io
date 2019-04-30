@@ -21,5 +21,6 @@ header_pages:
   - about.md
  
 plugins:
+  - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
