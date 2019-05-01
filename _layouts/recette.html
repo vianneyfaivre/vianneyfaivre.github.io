@@ -14,19 +14,15 @@ layout: default
 		<div class="ingredients-panel">
 
 			<h4>Ingrédients :memo:</h4>
-			<ul class="no-dots">
 			{% for ingredient in page.ingredients %}
-				<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+				<div>- {{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</div>
 			{% endfor %}
-			</ul>
 			
 			{% if page.materiel %}
-				<h4>Matériel :hammer:</h4>
-				<ul class="no-dots">
+				<h4 class="materiel">Matériel :hammer:</h4>
 				{% for materiel in page.materiel %}
-					<li>{{ materiel }}</li>
+					<div>- {{ materiel }}</div>
 				{% endfor %}
-				</ul>
 			{% endif %}
 			
 		</div>

@@ -16,20 +16,37 @@
 	}
 
 	.main-panel {
-		display: flex; 
 		border-bottom: 1px solid #e8e8e8; 
 		padding-bottom: 15px; 
 		margin-bottom: 15px;
+		
+		display: flex; 
+		flex-flow: row nowrap;
+	}
+	
+	@media all and (max-width: 700px) {
+	  .main-panel {
+		flex-direction: column;
+	  }
 	}
 	
 	.ingredients-panel {
-		width: 20%
+		margin: 5px;
+		
+		flex: 0 1 auto;
+		width: 250px;
 	}
-	
+
 	.etapes-panel {
-		width:80%; 
 		border-left: 1px solid #e8e8e8; 
-		padding-left: 15px;
+		padding-left: 10px;
+		margin: 5px;
+		
+		flex: 1 1 auto;
+	}
+		
+	.materiel {
+		margin-top: 15px;
 	}
 	
 	.no-dots {

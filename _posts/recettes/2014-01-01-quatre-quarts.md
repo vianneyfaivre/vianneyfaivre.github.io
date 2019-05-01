@@ -1,0 +1,32 @@
+---
+layout: recette
+categories: [recettes]
+lang: fr
+title: Quatre Quarts
+ingredients: 
+  - nom: oeufs 
+    qte: 3
+  - nom: farine
+    qte: poids des oeufs
+  - nom: beurre
+    qte: poids des oeufs
+  - nom: sucre
+    qte: poids des oeufs
+  - nom: levure
+    qte: 11
+    unite: gr
+etapes:
+  - label: Préparation
+    details:
+      - Blanchir le beurre mou avec le sucre
+      - Ajouter les oeufs et battre à vitesse maximale pendant 5 minutes (la préparation doit doubler de volume)
+      - Tamiser la farine et la levure sur la préparation
+      - Mélanger doucement avec une spatule
+      - Beurrer et fariner le moule puis y ajouter la préparation
+materiel:
+  - moule à cake
+  - batteur électrique
+cuisson:
+  - Préchauffer le four à 180°C
+  - Cuire 35 à 40 minutes à 180°C
+---
