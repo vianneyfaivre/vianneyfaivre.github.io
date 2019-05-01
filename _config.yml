@@ -17,7 +17,6 @@ google_analytics: UA-139044020-1
 theme: minima
 header_pages: 
   - tech.html
-  - misc.html
   - about.md
  
 plugins:
