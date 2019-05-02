@@ -17,7 +17,9 @@ I like to:
 
 ## What I do
 
-I am a fullstack web developer.
+I am a backend developer, I also work with frontend technologies and everything that can be related to software development.
+
+Still, my favorite area is backend development.
 
 At work, I like to:
 
