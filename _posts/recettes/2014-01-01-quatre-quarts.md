@@ -15,6 +15,9 @@ ingredients:
   - nom: levure
     qte: 11
     unite: gr
+preconditions:
+  - Le beurre doit être mou
+  - Préchauffer le four à 180°C
 etapes:
   - label: Préparation
     details:
@@ -26,7 +29,7 @@ etapes:
 materiel:
   - moule à cake
   - batteur électrique
-cuisson:
-  - Préchauffer le four à 180°C
+cuisson: 
   - Cuire 35 à 40 minutes à 180°C
+  - Vérifier que le gateau est cuit avec la pointe d'un couteau
 ---
