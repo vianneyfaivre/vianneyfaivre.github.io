@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<article class="post h-entry recette" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry recette">
 
   <header>
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content">
 
 	<div class="main-panel">
 	
@@ -94,3 +94,22 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item":
+   {
+	"@id": "https://vianneyfaivre.com/{{page.categories[0]}}",
+	"name": "{{page.categories[0]}}"
+	}
+  }
+ ]
+}
+</script>
