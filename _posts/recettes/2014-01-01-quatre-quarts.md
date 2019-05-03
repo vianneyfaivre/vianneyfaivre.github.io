@@ -1,6 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
+hidden: true
 lang: fr
 title: Quatre Quarts
 ingredients: 
