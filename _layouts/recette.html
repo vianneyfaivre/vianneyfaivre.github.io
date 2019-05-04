@@ -14,15 +14,22 @@ layout: default
 		<div class="ingredients-panel">
 
 			<h4>🛒 Ingrédients</h4>
+			
+			<ul>
 			{% for ingredient in page.ingredients %}
-				<div>- {{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</div>
+				<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 			{% endfor %}
+			</ul>
 			
 			{% if page.materiel %}
 				<h4 class="materiel">🔪 Matériel</h4>
+				
+				<ul>
 				{% for materiel in page.materiel %}
-					<div>- {{ materiel }}</div>
+					<li>{{ materiel }}</li>
 				{% endfor %}
+				</ul>
+				
 			{% endif %}
 			
 		</div>

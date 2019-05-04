@@ -1,10 +1,8 @@
 ---
 ---
 
-
 // Width of the content area
 $content-width:    1000px !default;
-
 
 @import "minima";
 
@@ -15,11 +13,13 @@ $content-width:    1000px !default;
 .recette {
 
 	header {
-		border-bottom: 1px solid #e8e8e8; margin-bottom: 15px;
+		border-bottom: 1px solid #e8e8e8; 
+		margin-bottom: 15px;
 	}
 	
 	h1 {
-		text-align:center;
+		text-align: center;
+		margin-bottom: 30px;
 	}
 
 	.main-panel {
@@ -31,23 +31,17 @@ $content-width:    1000px !default;
 		flex-flow: row nowrap;
 	}
 	
-	@media all and (max-width: 700px) {
-	  .main-panel {
-		flex-direction: column;
-	  }
-	}
-	
 	.ingredients-panel {
-		margin: 5px;
+		padding-right: 10px;
 		
 		flex: 0 1 auto;
-		width: 250px;
+		min-width: 200px;
+		max-width: 250px;
 	}
 
 	.etapes-panel {
 		border-left: 1px solid #e8e8e8; 
 		padding-left: 10px;
-		margin: 5px;
 		
 		flex: 1 1 auto;
 	}
@@ -59,8 +53,20 @@ $content-width:    1000px !default;
 	.no-dots {
 		list-style-type: none;
 	}
-
-	.emoji {
-		padding-bottom: 5px;
+	
+	/* Mobile view */ 
+	
+	@media all and (max-width: 700px) {
+	  .main-panel {
+		flex-direction: column;
+	  }
+	  
+	  .etapes-panel {
+		border-left: 0; 
+		padding-left: 0px;
+		margin: 0px;
+		
+		flex: 1 1 auto;
+	  }
 	}
 }
