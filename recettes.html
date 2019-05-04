@@ -5,10 +5,12 @@ lang: fr
 description: "Recettes de cuisine"
 ---
 
+{% assign recettesSorted = site.categories.recettes | sort: 'title' %}
+ 
 <h1 class="page-heading">Recettes (FR)</h1>
 
 <ul class="post-list">
-{% for post in site.categories.recettes %}
+{% for post in recettesSorted %}
   <li>
 	
 	<p class="post-link">
