@@ -17,7 +17,7 @@ ingredients:
     qte: 11
     unite: gr
 preconditions:
-  - Le beurre doit être mou
+  - Le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
 etapes:
   - label: Préparation

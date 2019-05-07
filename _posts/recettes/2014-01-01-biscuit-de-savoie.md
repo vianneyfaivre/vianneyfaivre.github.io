@@ -17,6 +17,7 @@ ingredients:
     qte: 60
     unite: gr
 preconditions:
+  - Les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
 etapes:
   - label: Préparation

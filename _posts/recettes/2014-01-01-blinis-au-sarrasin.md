@@ -30,6 +30,10 @@ ingredients:
     qte: 110
     unite: mL
 
+preconditions:
+  - Les oeufs, le lait, la crème liquide et la crème fraiche doivent être à température ambiante
+  - Préchauffer le four à 180°C
+
 etapes:
   - label: Préparation 1/2
     details:

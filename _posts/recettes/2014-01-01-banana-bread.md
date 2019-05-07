@@ -25,6 +25,8 @@ ingredients:
     qte: 5
     unite: cL
 preconditions:
+  - Le lait, les bananes et les oeufs doivent être à température ambiante
+  - Le beurre doit être mou
   - Préchauffer le four à 160°C
 etapes:
   - label: Préparation
