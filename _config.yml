@@ -20,6 +20,9 @@ header_pages:
   - tech.html
   - things.html
   - about.md
+
+# Hide posts when post.date > today
+future: false
  
 plugins:
   - jemoji
