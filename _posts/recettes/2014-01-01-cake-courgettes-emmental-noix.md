@@ -28,6 +28,9 @@ ingredients:
   - nom: emmental rapé
     qte: 100
     unite: gr
+  - nom: sel
+    qte: 15
+    unite: grammes
 preconditions:
   - Le lait et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
@@ -54,6 +57,10 @@ cuisson:
   - Cuire 50 minutes à 180°C
   - Vérifier que le cake est cuit avec la pointe d'un couteau
 variantes:
+  - label: 2 courgettes moyennes, 150 grammes de fromage, plus de sel
+    todo: true
+  - label: Ajouter du paprika
+    todo: true
   - label: Utiliser du fromage bleu et de l'emmental (moitié moitié)
     todo: true  
   - label: Ajouter des herbes (thym, romarin, ...)
