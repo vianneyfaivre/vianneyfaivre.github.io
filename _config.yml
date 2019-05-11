@@ -10,6 +10,7 @@ social:
 
 permalink: /:categories/:title
 paginate: 15
+
 excerpt_separator: <!--more-->
 
 google_analytics: UA-139044020-1
@@ -23,3 +24,10 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Adding the flag "isFlag" to flags
+defaults:
+  - scope:
+      path: "assets/images/flags-small"
+    values:
+      isFlag: true
