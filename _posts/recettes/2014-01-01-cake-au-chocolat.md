@@ -38,4 +38,5 @@ materiel:
   - moule à cake
 cuisson: 
   - Cuire 30 minutes à 180°C
+  - Vérifier que le cake est cuit avec la pointe d'un couteau
 ---

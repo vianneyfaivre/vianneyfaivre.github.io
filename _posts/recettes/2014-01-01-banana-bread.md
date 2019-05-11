@@ -43,4 +43,5 @@ materiel:
   - batteur électrique
 cuisson: 
   - Cuire 60 minutes à 160°C
+  - Vérifier que le cake est cuit avec la pointe d'un couteau
 ---

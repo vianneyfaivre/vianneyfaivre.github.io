@@ -32,5 +32,5 @@ materiel:
   - batteur électrique
 cuisson: 
   - Cuire 35 à 40 minutes à 180°C
-  - Vérifier que le gateau est cuit avec la pointe d'un couteau
+  - Vérifier que le gâteau est cuit avec la pointe d'un couteau
 ---
