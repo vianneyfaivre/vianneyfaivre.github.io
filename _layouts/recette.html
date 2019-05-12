@@ -17,7 +17,12 @@ layout: default
 			
 			<ul>
 			{% for ingredient in page.ingredients %}
-				<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+				
+				{% if ingredient.qte %}
+					<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+				{% else %}
+					<li>{{ ingredient.nom }}</li>
+				{% endif %}
 			{% endfor %}
 			</ul>
 			
