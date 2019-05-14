@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Biscuit de Savoie
+type: sucre
 ingredients: 
   - nom: oeufs 
     qte: 8

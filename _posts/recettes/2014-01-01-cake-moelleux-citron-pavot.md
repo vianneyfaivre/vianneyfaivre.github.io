@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Cake Moelleux Citron Pavot
+type: sucre
 ingredients: 
   - nom: oeufs 
     qte: 4

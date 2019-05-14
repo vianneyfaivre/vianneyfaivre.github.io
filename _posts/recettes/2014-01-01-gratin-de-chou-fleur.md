@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Gratin de Chou Fleur
+type: sel
 ingredients: 
   - nom: chou fleur
     qte: 1

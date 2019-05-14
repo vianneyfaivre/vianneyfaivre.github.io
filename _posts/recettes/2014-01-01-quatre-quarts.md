@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Quatre Quarts
+type: sucre
 ingredients: 
   - nom: oeufs 
     qte: 3

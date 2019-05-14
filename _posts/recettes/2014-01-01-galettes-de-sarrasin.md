@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Galettes de Sarrasin
+type: sel
 pour: pour 12 galettes
 ingredients: 
   - nom: farine de sarrasin 

@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Fondants au Chocolat
+type: sucre
 pour: pour 4 ramequins
 ingredients: 
   - nom: oeufs 

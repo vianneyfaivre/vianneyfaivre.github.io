@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Cake au Chocolat
+type: sucre
 ingredients: 
   - nom: oeufs 
     qte: 4

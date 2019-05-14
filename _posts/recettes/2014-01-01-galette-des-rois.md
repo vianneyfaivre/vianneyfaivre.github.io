@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Galette des Rois
+type: sucre
 ingredients: 
   - nom: pâte feuilletée 
     qte: 2

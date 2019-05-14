@@ -1,22 +1,37 @@
 ---
 layout: default
-title: "Recettes (FR)"
+title: "Recipes (FR)"
 lang: fr
 description: "Recettes de cuisine"
 ---
 
-{% assign recettesSorted = site.categories.recettes | sort: 'title' %}
+{% assign recettesSucre = site.categories.recettes | where:"type","sucre" | sort: 'title'  %}
+{% assign recettesSel = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
  
-<h1 class="page-heading">Recettes (FR)</h1>
+<h1 class="page-heading">Recettes</h1>
 
-<ul class="post-list">
-{% for post in recettesSorted %}
-  <li>
+<div class="recettes-list-container">
+
+	<div class="sucre">
+		<h2>Sucré</h2>
+		<ul class="recipes-list">
+			{% for post in recettesSucre %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 	
-	<p class="post-link">
-	  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	</p>
-
-  </li>
-{% endfor %}
-</ul>
+	<div>
+		<h2>Salé</h2>
+		<ul class="recipes-list">
+			{% for post in recettesSel %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	
+</div>

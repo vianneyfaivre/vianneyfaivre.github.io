@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Cake Courgettes Emmental Noix
+type: sel
 ingredients: 
   - nom: courgettes moyennes 
     qte: 3

@@ -4,6 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Blinis au Sarrasin
+type: sel
 ingredients: 
   - nom: lait 
     qte: 500

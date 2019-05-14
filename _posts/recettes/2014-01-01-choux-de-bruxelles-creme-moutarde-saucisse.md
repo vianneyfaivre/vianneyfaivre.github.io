@@ -3,7 +3,8 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
-title: Choux de Bruxelles, Saucisses et Crème à la moutarde
+title: Choux de Bruxelles, Saucisses et crème à la Moutarde
+type: sel
 ingredients: 
   - nom: choux de Bruxelles
     qte: 15
