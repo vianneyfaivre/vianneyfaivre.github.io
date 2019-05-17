@@ -12,7 +12,9 @@ ingredients:
   - nom: sucre glace
     qte: 50
     unite: gr
-  - nom: extrait de vanille
+  - nom: vanille liquide
+    qte: 1/2
+    unite: cuillère à café
 preconditions:
   - "Tout doit être froid, donc mettre au congélateur pendant 15 minutes : la crème, le saladier, les fouets du batteur"
 etapes:

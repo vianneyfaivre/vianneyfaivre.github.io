@@ -56,7 +56,13 @@ layout: default
 					
 				<ol>
 				{% for detail in etape.details %}
-					<li>{{ detail }}</li>
+					
+					{% if detail.link %}
+						<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
+					{% else %}
+						<li>{{ detail }}</li>
+					{% endif %}
+					
 				{% endfor %}
 				</ol>
 			{% endfor %}
