@@ -84,7 +84,12 @@ layout: default
 			<h4>📝 Notes</h4>
 			<ul>
 			{% for note in page.notes %}
-				<li>{{ note }}</li>
+
+				{% if note.link %}
+					<li><a href="{{ note.link }}">{{ note.label }}</a></li>
+				{% else %}
+					<li>{{ note }}</li>
+				{% endif %}
 			{% endfor %}
 			</ul>
 		{% endif %}
