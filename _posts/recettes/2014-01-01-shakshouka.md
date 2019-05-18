@@ -27,7 +27,7 @@ ingredients:
     qte: 1
     unite: cuillère à café
   - nom: paprika doux
-    qte: 3
+    qte: 4
     unite: cuillères à café
 preconditions:
   - Dans un verre, ajouter les épices, du sel et du poivre
