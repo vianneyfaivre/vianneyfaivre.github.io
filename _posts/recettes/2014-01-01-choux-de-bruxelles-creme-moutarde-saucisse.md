@@ -34,4 +34,6 @@ etapes:
       - Mélanger la crème avec la moutarde
       - Ajouter les choux de et la crème
       - Laisser mijoter 10 minutes
+notes:
+  - Plus la crème est grasse meilleur le plat sera
 ---

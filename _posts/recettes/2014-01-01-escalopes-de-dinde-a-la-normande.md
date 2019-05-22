@@ -20,12 +20,10 @@ ingredients:
   - nom: crème fraiche
     qte: 125
     unite: gr
-
+preconditions:
+  - Couper les escalopes en lamelles
+  - Couper les champignons en tranches
 etapes:
-  - label: Préambule
-    details:
-      - Couper les escalopes en lamelles
-      - Couper les champignons en tranches
   - label: Préparation
     details:
       - Chauffer une poêle et y mettre un morceau de beurre
@@ -42,4 +40,6 @@ variantes:
     todo: false
   - label: Boire la bouteille de vin pendant que ça mijote
     todo: false
+notes:
+  - Plus la crème est grasse meilleur le plat sera
 ---

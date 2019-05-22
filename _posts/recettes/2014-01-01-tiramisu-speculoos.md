@@ -20,11 +20,10 @@ ingredients:
     qte: 250
     unite: gr
   - nom: cacao en poudre non sucré
+preconditions:
+  - Séparer les blancs des jaunes
+  - Émietter les Speculoos en petits bouts
 etapes:
-  - label: Préambule
-    details:
-      - Séparer les blancs des jaunes
-      - Émietter les Speculoos en petits bouts
   - label: Préparation
     details:
       - Séparer les blancs des jaunes

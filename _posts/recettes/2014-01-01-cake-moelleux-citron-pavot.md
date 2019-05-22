@@ -28,12 +28,10 @@ ingredients:
 preconditions:
   - Le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
+  - Séparer les blancs des jaunes
+  - Zester les citrons
+  - Presser les citrons
 etapes:
-  - label: Préambule
-    details:
-      - Séparer les blancs des jaunes
-      - Zester les citrons
-      - Presser les citrons
   - label: Préparation
     details:
       - Blanchir les jaunes avec le sucre
