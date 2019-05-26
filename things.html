@@ -4,17 +4,22 @@ title: "Things"
 description: "Things and stuff created/written by Vianney"
 ---
 
-<h1 class="page-heading">Things</h1>
+<h1 class="page-heading">Things</h1> 
 
 <ul class="post-list">
 {% for post in site.categories.things %}
   <li>
-	
-		<div class="post-link">
-			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			<span class="things-description">{{post.description}}</span>
-		</div>
-
+	<div class="post-link">
+		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		<span class="things-description">{{post.description}}</span>
+	</div>
   </li>
 {% endfor %}
+
+  <li>
+	<div class="post-link">
+		<a href="{% post_url 2014-01-01-crepes %}">Crêpes (FR)</a>
+		<span class="things-description">Several crêpes recipes within the same page</span>
+	</div>
+  </li>
 </ul>
