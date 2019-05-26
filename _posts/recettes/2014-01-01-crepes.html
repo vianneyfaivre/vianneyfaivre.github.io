@@ -1,0 +1,110 @@
+---
+layout: default
+categories: [recettes]
+hidden: true
+lang: fr
+title: Crêpes
+type: sucre
+---
+<article class="post h-entry recette recette-crepe">
+
+  <header>
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
+
+    <p class="crepes-params">
+      Je veux faire 
+      <input 
+          type="text" id="crepes-count-input" name="crepes-count-input" 
+          value="" required="true" minlength="1" maxlength="2" size="1" /> 
+      crêpes en utilisant la recette 
+      <select id="recipes-selector">
+      </select>
+    </p>
+  </header>
+
+  <div class="post-content e-content">
+
+	<div class="main-panel">
+	
+		<div class="ingredients-panel">
+
+			<h4>
+        🛒 Ingrédients pour 
+        <span id="crepes-count-title"></span> 
+        crêpes
+      </h4>
+			
+			<ul id="ingredients">
+			</ul>
+			
+		</div>
+		
+		<div class="etapes-panel">
+		
+      <h4>⚠️ Préambule</h4>
+      <ul id="preconditions">
+      </ul>
+
+      <h4>📜 Préparation</h4>
+      <ol id="steps">
+      </ol>
+
+      <div id="cuisson-panel" style="visibility: hidden">
+        <h4>🍳 Cuisson</h4>
+        <ul>
+          <li>Bien chauffer une poêle à crêpes</li>
+          <li>Beurrer la poêle avec un bout de sopalin</li>
+          <li>Verser 75 mL de pâte sur la poêle</li>
+          <li>Retourner la crêpe quand la pâte est cuite</li>
+          <li>Laisser cuire trente secondes</li>
+          <li>Continuer !</li>
+        </ul>
+      </div>
+
+		</div>
+	</div>
+	
+	<div>
+		
+    <h4>📝 Notes</h4>
+    <ul>
+      <li>Utiilser 75 mL de pâte par crêpe pour en obtenir <span id='crepes-count-note'></span> au total</li>
+      <li>Plus la pâte a été travaillée, plus elle devra reposer</li>
+      <li>Le fait de mettre la même quantité de matière solide (farine, sucre) que de matière liquide (oeufs, lait) va empêcher la formation de grumeaux</li>
+    </ul>
+
+    <h4>👨‍🍳 Recettes à tester</h4>
+    <ul>
+      <li><a href="https://www.meilleurduchef.com/fr/recette/crepe-sans-gluten.html">sans gluten</a></li>
+      <li><a href="https://cuisine.journaldesfemmes.fr/recette/1004869-crepes-au-lait-d-amande-moelleuses">au lait d'amande</a></li>
+      <li>mix farine complete + farine blanche</li>
+      <li><a href="http://cuisinedunetribugourmande.over-blog.com/article-pate-a-crepes-sans-oeufs-par-aurelie-98575856.html">sans oeufs</a></li>
+      <li><a href="https://www.youtube.com/watch?v=YbxWMDdVSPY">raymond oliver</a></li>
+    </ul>
+    
+  </div>
+
+  </div>  
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<script src="/assets/js/crepes.js"></script>
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item":
+   {
+	"@id": "https://vianneyfaivre.com/{{page.categories[0]}}",
+	"name": "{{page.categories[0]}}"
+	}
+  }
+ ]
+}
+</script>

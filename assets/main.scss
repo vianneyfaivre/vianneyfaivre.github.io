@@ -93,6 +93,21 @@ $content-width:    1000px !default;
 		flex: 1 1 auto;
 	  }
 	}
+
+	// Specific for 2014-01-01-crepes.html
+	&.recette-crepe {
+		.crepes-params {
+			text-align: center;
+			font-size: 20px;
+			
+			input, select {
+				text-align: center;
+				font-size: 18px;
+				border-radius: 3px;
+				border: 1px solid #ccc;
+			}
+		}
+	}
 }
 
 .flags-of-the-world {
