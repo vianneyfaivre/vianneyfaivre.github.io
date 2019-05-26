@@ -19,6 +19,7 @@ theme: minima
 header_pages: 
   - tech.html
   - things.html
+  - recettes.html
   - about.md
 
 # Hide posts when post.date > today
