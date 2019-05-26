@@ -21,7 +21,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='3' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -43,7 +43,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='3' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -67,7 +67,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='3' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -90,7 +90,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='3' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -110,7 +110,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='3' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -136,11 +136,17 @@ toIngredientListItem = (ingredient) ->
 toPreconditionListItem = (precondition) -> "<li>#{precondition}</li>"
 
 toStepListItem = (step) -> 
-  display = if step.hidden then "hidden" else "visible"
-  "<li class='step step-hidden-#{step.hidden}' style='visibility: #{display}'>#{step.value}</li>"
+  display = if step.hidden then "none" else "list-item"
+  "<li class='step step-hidden-#{step.hidden}' style='display: #{display}'>#{step.value}</li>"
 
-hide = (item) -> item.style.visibility = "hidden" 
-display = (item) -> item.style.visibility = "visible"
+hide = (item) -> 
+  item.style.display = "none"
+
+display = (item) -> 
+  if item.nodeName == "LI"
+    item.style.display = "list-item"
+  else
+    item.style.display = "block"
 
 updateCount = (newCount) ->
   document.getElementById("crepes-count-title").innerHTML = newCount
@@ -153,8 +159,14 @@ toIngredientsList = (ingredients) ->
 
 showError = (li, milkToAdd) ->
   eggsToRemove = Math.abs milkToAdd 
-  error = document.createElement "div" 
-  error.id = 'mix-error'
+
+  error = document.getElementById "mix-error"
+  if (!error)
+    error = document.createElement "div" 
+    error.id = 'mix-error'
+  else 
+    error.innerHTML = ''
+  
   errorText = document.createTextNode "Retirer #{eggsToRemove} grammes d'oeufs"
 
   btnOnClick = (event) -> 
@@ -212,17 +224,27 @@ eggsGramsOnChange = (eggsGrams) ->
   eggsGramsHtmlInput = document.getElementById("eggs-grams")
   eggsGramsHtmlListItem = eggsGramsHtmlInput.parentNode
 
-  milkToAdd = CURRENT_RECIPE.mixSolidGrams - eggsGrams
-  document.getElementById("mix-liquid").innerHTML = milkToAdd
+  mixLiquidHtmlSpan = document.getElementById("mix-liquid")
+  mixLiquidHtmlListItem = mixLiquidHtmlSpan.parentNode
 
-  if(milkToAdd >= 0) 
+  cuissonHtmlDiv = document.getElementById "cuisson-panel"
+
+  milkToAdd = CURRENT_RECIPE.mixSolidGrams - eggsGrams
+  mixLiquidHtmlSpan.innerHTML = milkToAdd
+
+  if (milkToAdd == 0)
+    display step for step in document.getElementsByClassName("step-hidden-true")
+    hide mixLiquidHtmlListItem
+    hideError eggsGramsHtmlListItem
+    display cuissonHtmlDiv
+  else if(milkToAdd > 0) 
     display step for step in document.getElementsByClassName("step-hidden-true")
     hideError eggsGramsHtmlListItem
-    display document.getElementById "cuisson-panel"
+    display cuissonHtmlDiv
   else
     hide step for step in document.getElementsByClassName("step-hidden-true")
     showError eggsGramsHtmlListItem, milkToAdd
-    hide document.getElementById "cuisson-panel"
+    hide cuissonHtmlDiv
 
 #
 # Business Logic
@@ -269,6 +291,9 @@ onCrepesCountChange = (recipes, newCount) ->
   document.getElementById("eggs-grams").value = ''
   document.getElementById("mix-liquid").innerHTML = ''
   document.getElementById("ingredients").innerHTML = ''
+
+  error = document.getElementById "mix-error"
+  if error then hide error
 
   hide step for step in document.getElementsByClassName("step-hidden-true") 
   hide document.getElementById "cuisson-panel" 
