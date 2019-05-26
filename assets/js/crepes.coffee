@@ -21,7 +21,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -43,7 +43,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -67,7 +67,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -90,7 +90,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
@@ -110,7 +110,7 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text'  style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
