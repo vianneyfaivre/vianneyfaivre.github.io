@@ -7,7 +7,7 @@ description: "About Vianney FAIVRE"
 
 ## Who I am
 
-My name is Vianney (French pronunciation: ​vjane). I am living/working in Auckland (New Zealand).
+My name is Vianney ([French pronunciation: ​[vjane]](https://en.wikipedia.org/wiki/Help:IPA/French)). I am living/working in Auckland (New Zealand).
 
 I like to:
 
