@@ -7,13 +7,13 @@ description: "About Vianney FAIVRE"
 
 ## Who I am
 
-Hey! My name is Vianney, I was born in France.
+My name is Vianney (French pronunciation: ​vjane). I am living/working in Auckland (New Zealand).
 
 I like to:
 
-* Live as a minimalist
-* Meet new people and discover new things
+* Live with less
 * Get things done
+* Meet new people and discover new things
 
 ## What I do
 
@@ -21,11 +21,11 @@ I am a backend developer, I also work with frontend technologies and everything 
 
 Still, my favorite area is backend development.
 
-At work, I like to:
+At work, I enjoy:
 
-* Understand how things work
-* Design and code applications that are easy to read and to maintain
-* Refactor and improve stuff (when needed)
+* Understanding how things work
+* Designing and developing applications that will be easy to maintain
+* Refactoring and improving stuff (when needed)
 
 ## Contact me!
 
