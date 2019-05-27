@@ -14,17 +14,17 @@ ingredients:
   - nom: farine
     qte: 250
     unite: gr
-  - nom: bicarbonate de soude
-    qte: 3
+  - nom: levure
+    qte: 5
     unite: gr
-  - nom: bananes ultra mûres
+  - nom: bananes mûres
     qte: 2
   - nom: beurre mou
     qte: 80
     unite: gr
   - nom: lait
-    qte: 5
-    unite: cL
+    qte: 50
+    unite: mL
 preconditions:
   - Le lait, les bananes et les oeufs doivent être à température ambiante
   - Le beurre doit être mou
@@ -32,16 +32,16 @@ preconditions:
 etapes:
   - label: Préparation
     details:
-      - Tamiser 150 gr de farine, le sucre, la levure et le bicarbonate dans un saladier
-      - Écraser les bananes avec une fourchette
-      - Ajouter les bananes, le beurre et le lait
-      - Battre au mixeur 
+      - Tamiser 150 gr de farine et la levure dans un saladier
+      - Y ajouter le sucre
+      - Dans un bol, écraser les bananes avec une fourchette
+      - Dans le saladier, ajouter les bananes, le beurre et le lait
+      - Mélanger au fouet
       - Ajouter les oeufs et les 100 derniers grammes de farine
       - Mélanger au fouet
       - Beurrer et fariner le moule puis y ajouter la préparation
 materiel:
   - moule à cake
-  - batteur électrique
 cuisson: 
   - Cuire 60 minutes à 160°C
   - Vérifier que le cake est cuit avec la pointe d'un couteau
