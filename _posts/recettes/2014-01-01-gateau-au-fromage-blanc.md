@@ -36,10 +36,10 @@ etapes:
       - Fouetter
   - label: Préparation 2/2
     details:
-      - Casser les oeufs dans un autre saladier
+      - Dans un autre saladier, casser les oeufs
       - Ajouter le sucre
       - Faire blanchir
-      - Ajouter ce mélange sur le précédent
+      - Ajouter le mélange de fromage blanc et de crème fraiche
       - Tamiser la farine et la levure sur le mélange
       - Mélanger
   - label: Assemblage
@@ -51,4 +51,7 @@ materiel:
 cuisson: 
   - Cuire 30 minutes à 150°C
   - Cuire 20 minutes à 180°C
+variantes:
+  - label: Mettre des zestes de citron au moment de faire la pâte brisée, en mettre également dans le fromage blanc
+    todo: false
 ---
