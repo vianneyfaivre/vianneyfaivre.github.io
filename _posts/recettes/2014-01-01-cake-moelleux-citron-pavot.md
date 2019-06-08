@@ -34,12 +34,12 @@ preconditions:
 etapes:
   - label: Préparation
     details:
-      - Blanchir les jaunes avec le sucre
-      - Ajouter le jus de citron
-      - Ajouter le beurre fondu
+      - Dans un saladier, blanchir les jaunes avec le sucre
+      - Mélanger avec le jus de citron et le beurre mou
       - Tamiser la farine et la levure sur la préparation
       - Mélanger doucement avec une spatule
       - Ajouter les zestes de citron (à souhait)
+      - Ajouter les graines de pavot 
       - Monter les blancs en neige
       - Les incorporer à la préparation en deux fois
       - Beurrer et fariner le moule puis y ajouter la préparation
