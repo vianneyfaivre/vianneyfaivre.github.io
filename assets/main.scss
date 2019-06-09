@@ -78,6 +78,10 @@ $content-width:    1000px !default;
 		list-style-type: none;
 		margin-left: 10px;
 	}
+
+	#timer-action {
+		cursor: pointer;
+	}
 	
 	/* Mobile view */ 
 	@media all and (max-width: 700px) {

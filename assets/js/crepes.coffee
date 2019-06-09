@@ -1,6 +1,6 @@
 ---
 ---
-# Don't judge me on this piece of code, it's shitty I know :)
+# Don't judge me on this piece of code, I know it's shitty :)
 
 # Each recipe is based on 15 units
 DEFAULT_QUANTITY = 15

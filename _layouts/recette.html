@@ -37,6 +37,14 @@ layout: default
 				
 			{% endif %}
 			
+			{% if page.cuissonMinutes %}
+				<h4>
+					⏲️
+					<span id="timer-countdown" timerDuration="{{ page.cuissonMinutes }}"></span>
+					<span id="timer-action"></span>
+				</h4>
+			{% endif %}
+			
 		</div>
 		
 		<div class="etapes-panel">
@@ -118,6 +126,7 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
+<script src="/assets/js/recette.js"></script>
 <script type="application/ld+json">
 {
  "@context": "http://schema.org",
