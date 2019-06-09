@@ -35,6 +35,7 @@ etapes:
       - Ajouter la farine
       - Répartir dans les ramequins
       - Ajouter un carré de chocolat au milieu de chaque ramequin
+cuissonMinutes: 13
 cuisson: 
   - Cuire 13 minutes à 180°C
   - Vérifier que le cake est cuit avec la pointe d'un couteau

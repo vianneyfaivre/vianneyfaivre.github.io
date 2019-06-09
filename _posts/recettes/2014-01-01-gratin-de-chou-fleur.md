@@ -46,6 +46,7 @@ etapes:
       - Couvrir de fromage rapé
 materiel:
   - plat à gratin
+cuissonMinutes: 30
 cuisson: 
   - Cuire 30 minutes à 200°C
   - Le dessus doit être bien gratiné

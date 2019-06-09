@@ -40,6 +40,7 @@ etapes:
       - Battre les oeufs dans un saladier
       - Ajouter le fromage rapé
       - Déposer ce mélange sur le plat à gratin
+cuissonMinutes: 30
 cuisson: 
   - 30 minutes à 200°C
   - Le dessus doit être bien gratiné

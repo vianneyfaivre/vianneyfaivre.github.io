@@ -46,6 +46,7 @@ etapes:
       - Verser le mélange et répartir les éléments solides dans le moule
 materiel:
   - plat à tarte
+cuissonMinutes: 40
 cuisson: 
   - Cuire 40 minutes à 180°C
 ---

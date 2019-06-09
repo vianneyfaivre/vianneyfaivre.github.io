@@ -46,6 +46,7 @@ etapes:
 materiel:
   - moule à cake
   - batteur électrique
+cuissonMinutes: 30
 cuisson: 
   - Cuire 30 minutes à 180°C
   - Vérifier que le gâteau est cuit avec la pointe d'un couteau

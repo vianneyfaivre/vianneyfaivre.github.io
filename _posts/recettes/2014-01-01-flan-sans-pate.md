@@ -44,6 +44,7 @@ etapes:
       - Ajouter le beurre et mélanger à la spatule silicone
 materiel:
   - moule à cake
+cuissonMinutes: 40
 cuisson: 
   - Beurrer le moule généreusement
   - Verser la préparation dans le moule
