@@ -9,17 +9,17 @@ ingredients:
   - nom: pâte brisée 
     qte: 1
   - nom: oeufs 
-    qte: 6
+    qte: 5
   - nom: oignon
     qte: 1
   - nom: jambon
     qte: 4
     unite: tranches
   - nom: crème liquide
-    qte: 20
+    qte: 15
     unite: cL
   - nom: lait
-    qte: 20
+    qte: 15
     unite: cL
   - nom: champignons
     qte: 200
