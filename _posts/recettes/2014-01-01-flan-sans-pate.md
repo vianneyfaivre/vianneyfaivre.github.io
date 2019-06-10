@@ -39,7 +39,7 @@ etapes:
       - Quand le lait commence à bouillir, le verser en deux fois dans le saladier tout en mélangeant continuellement au fouet
       - Reverser le tout dans la casserole
       - Mettre à feu doux et mélanger continuellement au fouet jusqu'à ce que ça commence à épaissir
-      - Dès le début de l'épaicissement, continuer de mélanger hors du feu jusqu'à ce que ça soit suffisamment solide 
+      - Dès le début de l'épaississement, continuer de mélanger hors du feu jusqu'à ce que ça soit suffisamment solide 
       - Transvaser dans un saladier
       - Ajouter le beurre et mélanger à la spatule silicone
 materiel:
