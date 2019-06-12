@@ -13,7 +13,8 @@ I like to:
 
 * Live with less
 * Get things done
-* Meet new people and discover new things
+* Discover new things
+* Cook
 
 ## What I do
 
