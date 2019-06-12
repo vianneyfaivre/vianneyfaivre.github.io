@@ -40,7 +40,12 @@ layout: default
 			{% if page.cuissonMinutes %}
 				<h4>
 					⏲️
-					<span id="timer-countdown" timerDuration="{{ page.cuissonMinutes }}"></span>
+					<input 
+						id="timer-countdown" 
+						timerDuration="{{ page.cuissonMinutes }}"
+						minlength="5"
+						maxlength="5"
+						size="3" />
 					<span id="timer-action"></span>
 				</h4>
 			{% endif %}

@@ -79,8 +79,15 @@ $content-width:    1000px !default;
 		margin-left: 10px;
 	}
 
+	#timer-countdown {
+		text-align: center;
+		border: 0px;
+		font-size: 20px;
+	}
+
 	#timer-action {
 		cursor: pointer;
+		font-size: 14px;
 	}
 	
 	/* Mobile view */ 
