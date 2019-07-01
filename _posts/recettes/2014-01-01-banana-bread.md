@@ -15,7 +15,7 @@ ingredients:
     qte: 250
     unite: gr
   - nom: levure
-    qte: 5
+    qte: 11
     unite: gr
   - nom: bananes mûres
     qte: 2
@@ -23,7 +23,7 @@ ingredients:
     qte: 80
     unite: gr
   - nom: lait
-    qte: 50
+    qte: 40
     unite: mL
 preconditions:
   - Le lait, les bananes et les oeufs doivent être à température ambiante
@@ -32,12 +32,14 @@ preconditions:
 etapes:
   - label: Préparation
     details:
-      - Tamiser 150 gr de farine et la levure dans un saladier
-      - Y ajouter le sucre
       - Dans un bol, écraser les bananes avec une fourchette
-      - Dans le saladier, ajouter les bananes, le beurre et le lait
-      - Mélanger au fouet
-      - Ajouter les oeufs et les 100 derniers grammes de farine
+      - Dans un saladier, tamiser 150 gr de farine avec la levure
+      - Ajouter le sucre
+      - Ajouter les bananes, le beurre et le lait
+      - Mélanger à la cuillère en bois
+      - Ajouter les oeufs
+      - Mélanger à la cuillère en bois
+      - Ajouter les 100 derniers grammes de farine
       - Mélanger au fouet
       - Beurrer et fariner le moule puis y ajouter la préparation
 materiel:
