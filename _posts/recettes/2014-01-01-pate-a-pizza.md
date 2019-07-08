@@ -33,20 +33,20 @@ etapes:
       - Pétrir jusqu'à ce que ça arrête de coller au saladier
       - Sortir la boule et pétrir sur la plan de travail avec la paume de la main
       - Former une boule qui doit être bien lisse
-      - Remettre dans le saladier, couvrir et laisser reposer 2 heures minimum
+      - Remettre dans le saladier, couvrir et laisser reposer 2 heures minimum dans un endroit chaud
 cuisson: 
   - Préchauffer le four à 240°C 
   - Sortir la boule (elle a du beaucoup gonfler), faire évacuer l'air en appuyant dessus
   - Garnir
   - Cuire 18 minutes à 240°C
 notes:
-  - label: Recette
-    link: https://www.youtube.com/watch?v=SF2F1xKTrdE
   - label: Comment pétrir
     link: https://www.youtube.com/watch?v=SF2F1xKTrdE 
   - label: Comment étaler
     link: https://youtu.be/FZDoI20pTHw?t=265
   - label: Comment étaler 2
     link: https://www.youtube.com/watch?v=oopnT_wGGHE
+  - label: Explications
+    link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
 
 ---
