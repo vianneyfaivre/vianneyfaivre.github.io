@@ -2,6 +2,6 @@
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     <div class="post-meta">
         {{ post.date | date: "%b %-d, %Y" }}
-        | <a href="{{ post.categories[0] }}">{{ post.categories[0] | capitalize }}</a>
+        | <a href="/{{ post.categories[0] }}">{{ post.categories[0] | capitalize }}</a>
     </div>
 </div>
