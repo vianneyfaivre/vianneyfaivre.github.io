@@ -3,7 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
-title: Cheesecake aux Speculoos sans cuisson
+title: Cheesecake sans cuisson
 type: sucre
 ingredients: 
   - nom: beurre 
@@ -29,7 +29,7 @@ ingredients:
     unite: cuillère à soupe
 preconditions:
   - "Pour la chantilly tout doit être froid, donc mettre au congélateur pendant 15 minutes : la crème, le saladier, les fouets du batteur"
-  - Le beurre et le philadelphia doivent être à température ambiante
+  - Le philadelphia doit être à température ambiante
   - Casser les Speculoos en petits bouts
   - Mettre du papier sulfurisé au fond du moule
 etapes:
