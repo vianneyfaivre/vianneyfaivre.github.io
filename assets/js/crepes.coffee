@@ -117,6 +117,24 @@ CREPES_RECIPES = {
         { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
+    SANS_OEUFS: {
+      title: 'Sans oeufs',
+      ingredients: [
+        { name: 'farine', quantity: 500, unite: 'gr', type: "solid" },
+        { name: 'sucre', quantity: 100, unite: 'gr', type: "solid" },
+        { name: 'lait', quantity: 1000, unite: 'mL' },
+        { name: 'beurre', quantity: 100, unite: 'gr' }
+      ],
+      preconditions: [
+        "Le lait doit être à température ambiante",
+      ], 
+      steps: [
+        { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
+        { hidden: false, value: "Verser le lait dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter le beurre fondu puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
+      ]
+    },
     
 }
 

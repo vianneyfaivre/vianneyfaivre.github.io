@@ -12,7 +12,7 @@ ingredients:
   - nom: farine
     qte: 100
     unite: gr
-  - nom: beurre mou
+  - nom: beurre
     qte: 110
     unite: gr
   - nom: sucre glace
@@ -23,14 +23,14 @@ ingredients:
 preconditions:
   - Préchauffer le four à 180°C
   - Zester le citron
-  - Presser le citron
+  - Presser le citron et garder 20 grammes de jus maximum
 etapes:
   - label: Préparation
     details:
-      - Dans un saladier, mélanger à la spatule le sucre glace avec le beurre fondu et les zestes du citron
+      - À l'aide d'une spatule, mélanger le sucre glace, le beurre fondu et les zestes du citron
       - Mélanger avec la farine en deux fois
-      - Dans un autre saladier fouetter les oeufs et 20 grammes (maximum) de jus de citron
-      - Tout mélanger et fouetter
+      - Dans un autre saladier fouetter les oeufs et les 20 grammes de jus de citron
+      - Tout mélanger au fouet
 materiel:
   - moule à muffins
 cuissonMinutes: 20
