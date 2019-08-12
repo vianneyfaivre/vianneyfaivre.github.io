@@ -1,0 +1,65 @@
+---
+layout: default
+title: Sequence Diagrams
+description: Online UML Sequence Diagrams editor, built with Jison, Typescript and SVG.js.
+categories: [things]
+hidden: true
+---
+<div class="sequence-diagrams-page">
+
+    <h1>Sequence Diagrams Editor</h1>
+
+    <p>Inspired by <a href="https://websequencediagrams.com">websequencediagrams.com</a>. Built for fun with Jison, Typescript and SVG.js</p>
+
+    <div class="sequence-diagrams-container">
+        
+        <textarea class="sequence-diagrams-container-left-child" id="diagram-input">
+title Very Simple Example
+John->Frontend: GET /home.html
+Frontend->Backend: GET /users/john
+Backend-->Frontend: User "John" details
+Frontend-->John: home.html</textarea>
+
+        <div class="sequence-diagrams-container-right-child">
+            <div width="500px" height="500px" id="diagram-container"></div>
+            <pre id="errors-container" class="error-message" style="display: none"></pre>
+        </div>
+    </div>
+
+    <script src="/assets/js/sequence-diagrams-1.0.js"></script>
+    
+    <script>
+        var textarea = document.getElementById("diagram-input");
+        var diagramContainer = document.getElementById("diagram-container");
+        var errorsContainer = document.getElementById("errors-container");
+
+        // initial loading
+        var sequenceDiagram = new SequenceDiagram();
+        sequenceDiagram.load(textarea.value);
+        sequenceDiagram.draw(diagramContainer.id);
+        
+        // redraw when textarea changes
+        textarea.addEventListener('input', function(e) {
+            console.log("Redrawing SVG");
+
+            // Clean previous SVG
+            while (diagramContainer.firstChild) {
+                diagramContainer.firstChild.remove();
+            }
+
+            try {
+                // Redraw
+                sequenceDiagram = new SequenceDiagram();
+                sequenceDiagram.load(textarea.value);
+                sequenceDiagram.draw(diagramContainer.id);
+
+                diagramContainer.style.display = "block";
+                errorsContainer.style.display = "none";
+            } catch(e) {
+                errorsContainer.innerHTML = e;
+                diagramContainer.style.display = "none";
+                errorsContainer.style.display = "block";
+            }
+        });
+    </script>
+</div>

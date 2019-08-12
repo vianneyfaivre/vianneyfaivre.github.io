@@ -6,6 +6,14 @@ $content-width:    1000px !default;
 
 @import "minima";
 
+.error-message {
+	padding: 10px;
+	margin: 10px;
+	color: #ba3939;
+	background: #ffe0e0;
+	border: 1px solid #a33a3a;
+}
+
 .pagination {
 	text-align: center;
 }
@@ -17,6 +25,21 @@ $content-width:    1000px !default;
 	
 	li {
 		margin-bottom: 15px;
+	}
+}
+
+.sequence-diagrams-container {
+	
+	display: flex;
+	flex-flow: row nowrap;
+
+	.sequence-diagrams-container-left-child {
+		width: 350px;
+		height: 400px;
+	}
+
+	pre.error-message {
+		max-width: 350px;
 	}
 }
 
