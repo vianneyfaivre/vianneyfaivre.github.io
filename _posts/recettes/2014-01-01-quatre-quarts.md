@@ -37,4 +37,10 @@ cuisson:
 variantes:
   - label: Coco-Choco - Ajouter 25 grammes de cacao en poudre non sucré. Remplacer 15% de la farine par de la farine de noix de coco.
     todo: false
+  - label: À l'amande - Remplacer 60% de la farine par de la poudre d'amande. Ajouter des amandes efilées sur le dessus.
+    todo: false
+  - label: Moitié de sucre en moins
+    todo: true
+  - label: Monter les blancs en neige
+    todo: true
 ---

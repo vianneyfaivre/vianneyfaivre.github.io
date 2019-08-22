@@ -2,7 +2,7 @@
 ---
 
 // Width of the content area
-$content-width:    1000px !default;
+$content-width:    1050px !default;
 
 @import "minima";
 
@@ -27,6 +27,16 @@ $content-width:    1000px !default;
 		margin-bottom: 15px;
 	}
 }
+
+.disable-text-selection {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+  }
 
 .sequence-diagrams-container {
 	
@@ -171,5 +181,99 @@ $content-width:    1000px !default;
 
 	.word {
 		cursor: pointer;
+	}
+}
+
+.my-life {
+
+	table {
+		border-collapse: collapse;
+		width: auto;
+		cursor: default;
+		user-select: none; 
+
+		td {
+			padding: 0px;
+			text-align: center;
+		}
+
+		thead td {
+			color: royalblue;
+			font-size: 10px;
+			height: 15px;
+			min-height: 15px;
+		}
+
+		tbody {
+			td {
+				height: 25px;
+				min-height: 25px;
+				width: 25px;
+				min-width: 25px;
+				color: white;
+
+				&.tooltip-show {
+					.tooltip-content { 
+						opacity: 1; 
+						visibility: visible;
+					}
+				}
+			}
+		}
+		
+	}
+	.emoji {
+		font-size: 16px;
+		text-align: center;
+		line-height: 25px;
+		cursor: pointer;
+	}
+
+	.emojis {
+		font-size: 8px;
+		text-align: center;
+		line-height: 25px;
+		cursor: pointer;
+	}
+
+	.passed-month {
+		background-color: lightgreen;
+	}
+
+	.current-month {
+		background-color: lightsalmon;
+	}
+
+	.remaining-month {
+		background-color: lightcoral;
+	}
+
+	.years-range {
+		color: royalblue;
+		font-size: 10px;
+	}
+
+	.tooltip {
+		position: relative; 
+	}
+
+	.tooltip ul {
+		margin-left: 10px;
+		margin-bottom: 0;
+	}
+
+	.tooltip .tooltip-content {
+		font-size: 12px;
+		padding: 10px;
+		left: 25px;     
+		background-color: royalblue; 
+		color: white;
+		height: auto;
+		border-radius: 0 15px 15px 15px;
+		opacity: 0; 
+		position: absolute;
+		visibility: hidden;
+		white-space: nowrap;
+		transition: all 0.5s;    
 	}
 }
