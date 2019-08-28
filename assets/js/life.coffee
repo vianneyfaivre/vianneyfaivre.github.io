@@ -123,7 +123,9 @@ EVENTS = [
     new Event(2018, 7, EventType.TRAVEL, "two weeks", "Gaspésie (QC), Canada 🍁🇨🇦 & New York City, USA 🗽"),
     new Event(2018, 11, EventType.TRAVEL, "two weeks", "Eastern France 🇫🇷"),
     new Event(2019, 0, EventType.TRAVEL, "four days", "Edinburgh, Scotland 🇬🇧"),
+    new Event(2019, 3, EventType.TRAVEL, "five days", "Rotorua/Taupo area, New Zealand 🥝🇳🇿"),
     new Event(2019, 5, EventType.TRAVEL, "one week", "Coromandel area, New Zealand 🥝🇳🇿"),
+    new Event(2019, 7, EventType.TRAVEL, "four days", "Wellington, New Zealand 🥝🇳🇿"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
@@ -145,7 +147,7 @@ EVENTS = [
     new Event(2008, 8, EventType.SCHOOL, "University", null);
 
     new Event(2005, 3, EventType.MOTORCYCLE, "Got Small Motorcycle License", null),
-    new Event(2009, 3, EventType.DRIVE, "Got Driver License", null),
+    new Event(2009, 3, EventType.DRIVE, "Got Driver's License", null),
 
 
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
