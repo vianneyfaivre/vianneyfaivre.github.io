@@ -28,6 +28,7 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 # Adding the flag "isFlag" to flags
 defaults:
