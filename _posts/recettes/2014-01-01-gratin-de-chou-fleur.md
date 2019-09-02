@@ -6,7 +6,7 @@ lang: fr
 title: Gratin de Chou Fleur
 type: sel
 ingredients: 
-  - nom: chou fleur
+  - nom: gros chou fleur
     qte: 1
   - nom: farine
     qte: 100
@@ -51,6 +51,7 @@ cuisson:
   - Cuire 30 minutes à 200°C
   - Le dessus doit être bien gratiné
 notes:
+  - La quantité de chou fleur dépend de la taille du plat
   - Toujours mélanger la béchamel pour éviter qu'elle brûle / colle au fond de la casserole 
   - Goûter la béchamel pour vérifier qu'elle est assez salée
 variantes:
