@@ -9,23 +9,51 @@ layout: default
 
   <div class="post-content e-content">
 
+	{% if page.recettes %}
+	<div class="variantes-tabs">
+		
+		{% for recette in page.recettes %}
+			<button class="variantes-btn">{{ recette[0] }}</button>
+		{% endfor %}
+
+	</div>
+	{% endif %}
+
 	<div class="main-panel">
 	
 		<div class="ingredients-panel">
 
 			<h4>🛒 Ingrédients {{ page.pour }}</h4>
 			
-			<ul>
-			{% for ingredient in page.ingredients %}
-				
-				{% if ingredient.qte %}
-					<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
-				{% else %}
-					<li>{{ ingredient.nom }}</li>
-				{% endif %}
-			{% endfor %}
-			</ul>
-			
+			{% if page.recettes %}
+				{% for recette in page.recettes %}
+
+					<ul id="{{recette[0]}}" class="variante-ingredients">
+					{% for ingredient in recette[1] %}
+						
+						{% if ingredient.qte %}
+							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+						{% else %}
+							<li>{{ ingredient.nom }}</li>
+						{% endif %}
+
+					{% endfor %}
+					</ul>
+
+				{% endfor %}
+			{% else %}
+				<ul id="ingredients-list">
+				{% for ingredient in page.ingredients %}
+					
+					{% if ingredient.qte %}
+						<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+					{% else %}
+						<li>{{ ingredient.nom }}</li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+			{% endif %}
+
 			{% if page.materiel %}
 				<h4 class="materiel">🔪 Matériel</h4>
 				

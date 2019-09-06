@@ -5,18 +5,50 @@ hidden: true
 lang: fr
 title: Quatre Quarts
 type: sucre
-ingredients: 
-  - nom: oeufs 
-    qte: 3
-  - nom: farine
-    qte: poids des oeufs
-  - nom: beurre
-    qte: poids des oeufs
-  - nom: sucre glace
-    qte: poids des oeufs
-  - nom: levure
-    qte: 2.2
-    unite: "% de la farine"
+recettes:
+  Quatre Quarts: 
+    - nom: oeufs 
+      qte: 3
+    - nom: farine
+      qte: poids des oeufs
+    - nom: beurre
+      qte: poids des oeufs
+    - nom: sucre glace
+      qte: poids des oeufs
+    - nom: levure
+      qte: 2.2
+      unite: "% de la farine"
+  Coco Choco: 
+    - nom: oeufs 
+      qte: 3
+    - nom: farine
+      qte: 85% du poids des oeufs
+    - nom: farine de noix de coco
+      qte: 15% du poids des oeufs
+    - nom: chocolat en poudre non sucré
+      qte: 25
+      unite: gr
+    - nom: beurre
+      qte: poids des oeufs
+    - nom: sucre glace
+      qte: poids des oeufs
+    - nom: levure
+      qte: 2.2
+      unite: "% de la farine"
+  Amandes: 
+    - nom: oeufs 
+      qte: 3
+    - nom: farine
+      qte: 40% du poids des oeufs
+    - nom: poudre d'amandes
+      qte: 60% du poids des oeufs
+    - nom: beurre
+      qte: poids des oeufs
+    - nom: sucre glace
+      qte: poids des oeufs
+    - nom: levure
+      qte: 2.2
+      unite: "% de la farine"
 preconditions:
   - Le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
@@ -35,12 +67,18 @@ cuisson:
   - Cuire 35 à 40 minutes à 180°C
   - Vérifier que le gâteau est cuit avec la pointe d'un couteau
 variantes:
-  - label: Coco-Choco - Ajouter 25 grammes de cacao en poudre non sucré. Remplacer 15% de la farine par de la farine de noix de coco.
-    todo: false
-  - label: À l'amande - Remplacer 60% de la farine par de la poudre d'amande. Ajouter des amandes efilées sur le dessus.
-    todo: false
   - label: Moitié de sucre en moins
     todo: true
   - label: Monter les blancs en neige
+    todo: true
+  - label: Sans gluten
+    todo: true
+  - label: Avec des pommes
+    todo: true
+  - label: Au chocolat
+    todo: true
+  - label: Sans sucre blanc
+    todo: true
+  - label: Citron pavot
     todo: true
 ---

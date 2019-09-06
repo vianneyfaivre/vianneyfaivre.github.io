@@ -1,17 +1,24 @@
 ---
 ---
+
+# Countdown
 bell = new Audio('/assets/sounds/bell.mp3')
 bell.loop = true
 countdownInput = document.getElementById "timer-countdown"
 actionButton = document.getElementById "timer-action"
 
+# Variantes
+variantesButtons = document.getElementsByClassName "variantes-btn"
+variantesIngredients = document.getElementsByClassName "variante-ingredients"
+
+# Constants
 ACTION_PLAY = '▶️'
 ACTION_PAUSE = '⏸️'
 ACTION_STOP = '⏹️'
 ACTION_INVALID = '⛔'
 KEYCODE_SPACEBAR = 32
-TIMER_DURATION_MINUTES = countdownInput.getAttribute "timerDuration"
 
+# Global State
 state = {
     currentActionButton: ACTION_PLAY
     duration: null
@@ -21,11 +28,42 @@ state = {
 }
 
 main = () ->
-  shouldInit = countdownInput && actionButton && bell
-  if shouldInit 
+  shouldInitCountdown = countdownInput != null && actionButton != null && bell
+  if shouldInitCountdown 
+    TIMER_DURATION_MINUTES = countdownInput.getAttribute "timerDuration"
     initCountdown(TIMER_DURATION_MINUTES, 0)
     changeActionButton ACTION_PLAY
     initEventsListeners()
+  
+  shouldInitVariantes = variantesButtons.length > 0
+  if shouldInitVariantes
+
+    # Attach click events to the variante buttons
+    for varianteButton in variantesButtons
+      varianteButton.addEventListener 'click', (e) -> onVarianteButtonClick(e.target)
+    
+    # Activate the first variante
+    variantesButtons[0].click()
+
+
+onVarianteButtonClick = (btn) ->
+  varianteId = btn.innerHTML
+
+  # Remove all buttons highlighting
+  for varianteButton in variantesButtons
+    varianteButton.classList.remove "active"
+
+  # Highlight the clicked button
+  btn.classList.add "active"
+
+  # Hide all variantes
+  for varianteIngredients in variantesIngredients
+    varianteIngredients.style.display = 'none' 
+
+  # Display the right variante
+  varianteIngredients = document.getElementById varianteId
+  if varianteIngredients
+    varianteIngredients.style.display = 'block' 
 
 initEventsListeners = () ->
   actionButton.addEventListener 'click', () -> onActionButtonClick()

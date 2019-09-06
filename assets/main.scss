@@ -126,6 +126,35 @@ $content-width:    1050px !default;
 		cursor: pointer;
 		font-size: 14px;
 	}
+
+	/* Specific for the recipes with multiple variantes */
+	.variantes-tabs {
+		overflow: hidden;
+		border-bottom: 1px solid #e8e8e8;
+		margin-bottom: 15px;
+		margin-top: -15px;
+	}
+	
+	.variantes-tabs button {
+		background-color: inherit;
+		border: none;
+		cursor: pointer;
+		padding: 10px;
+		font-size: 13px;
+		transition: 0.3s;
+	}
+	
+	.variantes-tabs button:hover {
+		background-color: #ddd;
+	}
+	
+	.variantes-tabs button.active {
+		background-color: #e8e8e8;
+	}
+	
+	.variante-ingredients {
+		display: none;
+	} 
 	
 	/* Mobile view */ 
 	@media all and (max-width: 700px) {
@@ -142,7 +171,7 @@ $content-width:    1050px !default;
 	  }
 	}
 
-	// Specific for 2014-01-01-crepes.html
+	/* Specific for 2014-01-01-crepes.html */
 	&.recette-crepe {
 		.crepes-params {
 			text-align: center;
