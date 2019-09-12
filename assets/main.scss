@@ -28,6 +28,17 @@ $content-width:    1050px !default;
 	}
 }
 
+img.flag-emoji {
+	height: 15px;
+	vertical-align: baseline;
+}
+
+.flour-table {
+	th {
+		text-align: center;
+	}
+}
+
 .disable-text-selection {
 	-webkit-touch-callout: none; /* iOS Safari */
 	  -webkit-user-select: none; /* Safari */

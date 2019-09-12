@@ -8,14 +8,14 @@ type: sucre
 ingredients: 
   - nom: oeufs 
     qte: 2
-  - nom: sucre
+  - nom: sucre glace
     qte: 150
     unite: gr
   - nom: farine
     qte: 250
     unite: gr
   - nom: levure
-    qte: 11
+    qte: 8
     unite: gr
   - nom: bananes mûres
     qte: 2
@@ -27,20 +27,19 @@ ingredients:
     unite: mL
 preconditions:
   - Le lait, les bananes et les oeufs doivent être à température ambiante
-  - Le beurre doit être mou
+  - Les bananes doivent être en purée
+  - Le beurre doit être pommade
   - Préchauffer le four à 160°C
 etapes:
   - label: Préparation
     details:
-      - Dans un bol, écraser les bananes avec une fourchette
-      - Dans un saladier, tamiser 150 gr de farine avec la levure
-      - Ajouter le sucre
+      - Dans un saladier, tamiser 150 gr de farine avec la levure et le sucre
       - Ajouter les bananes, le beurre et le lait
-      - Mélanger à la cuillère en bois
-      - Ajouter les oeufs
-      - Mélanger à la cuillère en bois
+      - Mélanger
+      - Ajouter les oeufs un à un
+      - Mélanger
       - Ajouter les 100 derniers grammes de farine
-      - Mélanger au fouet
+      - Mélanger
       - Beurrer et fariner le moule puis y ajouter la préparation
 materiel:
   - moule à cake
