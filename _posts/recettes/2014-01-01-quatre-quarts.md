@@ -49,6 +49,22 @@ recettes:
     - nom: levure
       qte: 2.2
       unite: "% de la farine"
+  Citron Pavot: 
+    - nom: oeufs 
+      qte: 3
+    - nom: farine
+      qte: poids des oeufs
+    - nom: beurre
+      qte: poids des oeufs
+    - nom: sucre glace
+      qte: poids des oeufs
+    - nom: levure
+      qte: 2.2
+      unite: "% de la farine"
+    - nom: graines de pavot
+      qte: une cuillère à soupe
+    - nom: jus de citron
+      qte: au goût
 preconditions:
   - Le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
@@ -78,7 +94,5 @@ variantes:
   - label: Au chocolat
     todo: true
   - label: Sans sucre blanc
-    todo: true
-  - label: Citron pavot
     todo: true
 ---
