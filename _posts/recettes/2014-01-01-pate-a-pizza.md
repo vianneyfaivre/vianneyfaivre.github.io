@@ -31,7 +31,7 @@ etapes:
       - Pétrir
       - Ajouter le reste du liquide
       - Pétrir jusqu'à ce que ça arrête de coller au saladier
-      - Sortir la boule et pétrir sur la plan de travail avec la paume de la main
+      - Sortir la boule et pétrir sur le plan de travail avec la paume de la main
       - Former une boule qui doit être bien lisse
       - Remettre dans le saladier, couvrir et laisser reposer 2 heures minimum dans un endroit chaud
 cuisson: 
@@ -49,4 +49,7 @@ notes:
   - label: Explications
     link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
 
+variantes:
+  - label: une cuillère de sucre blanc pour activer plus rapidement la levure
+    todo: true
 ---

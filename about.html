@@ -7,12 +7,18 @@ description: "About Vianney FAIVRE"
 <div class="about">
     <h1>About</h1>
 
-    <h2>Who I am</h2>
-    <p>
-        My name is Vianney. I am living & working in Auckland, New Zealand.
-    </p>
+    <div class="side-by-side-blocks">
+        <img src="/assets/images/misc/vianney-linkedin.jpg" class="profile-pic" alt="Vianney">
+        
+        <div>
+            My name is Vianney.<br />
+            I am living in Auckland, New Zealand.<br />
+            I am a full stack developer working for the University of Auckland.<br />
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}?locale=en_US">Contact me!</a>
+        </div>
+    </div>
 
-    <div>
+    <div class="side-by-side-blocks">
         
         <div>
             <h2>What I like to do</h2>
@@ -26,23 +32,11 @@ description: "About Vianney FAIVRE"
 
         <div>
             <h2>What I do at work</h2>
-            <p>
-                I am a backend developer, I also work with frontend technologies and everything that can be related to software development.
-                <br />
-                Still, my favorite area is backend development.
-            </p>
-
             <ul>
                 <li>Understanding how things work</li>
-                <li>Designing and developing applications that will be easy to maintain</li>
-                <li>Refactoring and improving stuff (when needed)</li>
+                <li>Designing and developing maintainable & documented applications</li>
+                <li>Refactoring and improving stuff</li>
             </ul>
         </div>
     </div>
-
-    <h2>Contact me!</h2>
-    <p>
-        You can contact me via my 
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}?locale=en_US">LinkedIn profile</a>.
-    </p>
 </div>
