@@ -48,6 +48,7 @@ notes:
     link: https://www.youtube.com/watch?v=oopnT_wGGHE
   - label: Explications
     link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
+  - Penser à presser la mozzarella avec du sopalin pour absorber l'eau
 
 variantes:
   - label: une cuillère de sucre blanc pour activer plus rapidement la levure
