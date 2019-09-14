@@ -3,7 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
-title: Quatre Quarts
+title: Cake Sucré
 type: sucre
 recettes:
   Quatre Quarts: 

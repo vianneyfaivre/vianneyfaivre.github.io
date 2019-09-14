@@ -38,7 +38,7 @@ etapes:
   - label: Préparation du quatre quarts
     details:
       - label: Faire le quatre-quarts avec les 2 oeufs
-        link: https://vianneyfaivre.com/recettes/quatre-quarts
+        link: https://vianneyfaivre.com/recettes/cake-sucre
       - Le laisser dans son moule
   - label: Préparation de la chantilly
     details:
