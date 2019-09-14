@@ -52,8 +52,8 @@ img.flag-emoji {
 .about {
 
 	.profile-pic {
-		height: 150px;
 		margin-right: 25px;
+		height: 150px;
 	}
 
 	.side-by-side-blocks {
@@ -61,7 +61,7 @@ img.flag-emoji {
 		flex-flow: row nowrap;
 		margin-top: 25px;
 
-		div {
+		div.what {
 			min-width: 200px;
 			margin-right: 25px;
 		}
