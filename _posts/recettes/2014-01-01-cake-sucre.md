@@ -18,6 +18,21 @@ recettes:
     - nom: levure
       qte: 2.2
       unite: "% de la farine"
+  C'est Ma Fournée: 
+    - nom: oeufs 
+      qte: 3
+    - nom: farine
+      qte: 175
+      unite: gr
+    - nom: beurre
+      qte: 125
+      unite: gr
+    - nom: sucre glace
+      qte: 125
+      unite: gr
+    - nom: levure
+      qte: 2.2
+      unite: "% de la farine"
   Coco Choco: 
     - nom: oeufs 
       qte: 3
@@ -80,7 +95,7 @@ materiel:
   - moule à cake
 cuissonMinutes: 35
 cuisson: 
-  - Cuire 35 à 40 minutes à 180°C
+  - Cuire 35 à 40 minutes à 180°C en chaleur tournante
   - Vérifier que le gâteau est cuit avec la pointe d'un couteau
 variantes:
   - label: Moitié de sucre en moins
