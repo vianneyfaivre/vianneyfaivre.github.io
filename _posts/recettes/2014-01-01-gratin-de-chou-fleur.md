@@ -32,12 +32,8 @@ etapes:
       - Le faire cuire pendant 15 minutes dans l'eau bouillante 
   - label: "Préparation 2/3 : Béchamel"
     details:
-      - Faire fondre le beurre dans une casserole
-      - Hors du feu, ajouter la farine et mélanger
-      - Ajouter le litre de lait et mélanger
-      - Ajouter une cuillère à café de sel et de la muscade
-      - Porter à ébullition puis réduire le feu
-      - Mélanger continuellement sur et hors du feu jusqu'à ce que ça épaississe
+      - label: Faire la béchamel
+        link: https://vianneyfaivre.com/recettes/bechamel
   - label: "Préparation 3/3 : Assemblage"
     details:
       - Mettre une couche de béchamel dans le plat à gratin
