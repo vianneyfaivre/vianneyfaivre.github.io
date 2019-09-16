@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Mayonnaise
-type: sel
+type: base
 ingredients: 
   - nom: huile de tournesol
     qte: 150

@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Pâte à Pizza
-type: sel
+type: base
 ingredients: 
   - nom: farine
     qte: 380

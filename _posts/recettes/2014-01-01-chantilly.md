@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Chantilly
-type: sucre
+type: base
 ingredients: 
   - nom: crème fleurette 
     qte: 500

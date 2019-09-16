@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Pâte Brisée
-type: sel
+type: base
 ingredients: 
   - nom: farine
     qte: 200

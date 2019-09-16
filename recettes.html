@@ -8,6 +8,7 @@ description: "Recettes de cuisine"
 {% assign recettesSucre = site.categories.recettes | where:"type","sucre" | sort: 'title'  %}
 {% assign recettesSel = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
 {% assign cuisine = site.categories.cuisine | sort: 'title'  %}
+{% assign bases = site.categories.recettes | where:"type","base" | sort: 'title'  %}
  
 <h1 class="page-heading">Recettes</h1>
 
@@ -36,6 +37,15 @@ description: "Recettes de cuisine"
 	</div>
 	
 </div>
+
+<h2>Bases</h2>
+<ul>
+	{% for post in bases %}
+	<li>
+		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+</ul>
 
 <h2>Notes</h2>
 <ul>
