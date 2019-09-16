@@ -9,7 +9,7 @@ pour: pour 4 ramequins
 ingredients: 
   - nom: oeufs 
     qte: 2
-  - nom: sucre
+  - nom: sucre glace
     qte: 50
     unite: gr
   - nom: farine

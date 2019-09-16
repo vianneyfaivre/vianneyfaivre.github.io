@@ -14,7 +14,7 @@ ingredients:
   - nom: beurre mou
     qte: 80
     unite: gr
-  - nom: sucre
+  - nom: sucre glace
     qte: 130
     unite: gr
   - nom: graines de pavot

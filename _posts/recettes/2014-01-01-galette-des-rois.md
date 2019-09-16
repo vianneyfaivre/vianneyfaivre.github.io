@@ -8,7 +8,7 @@ type: sucre
 ingredients: 
   - nom: pâte feuilletée 
     qte: 2
-  - nom: sucre
+  - nom: sucre glace
     qte: 150
     unite: gr
   - nom: fine poudre d'amande

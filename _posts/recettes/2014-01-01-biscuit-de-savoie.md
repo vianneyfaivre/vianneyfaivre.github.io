@@ -8,7 +8,7 @@ type: sucre
 ingredients: 
   - nom: oeufs 
     qte: 8
-  - nom: sucre
+  - nom: sucre glace
     qte: 250
     unite: gr
   - nom: farine
