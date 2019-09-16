@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java 8: how to filter out Optional.absent() items from a stream"
+title: "Java 8: how to filter out non Optional#isPresent() items from a stream"
 categories: [tech]
 ---
 I use java.util.Optional a lot.
@@ -9,7 +9,7 @@ Explicitly telling that a method might not return a result == no more null check
 
 <!--more-->
 
-I also use streams a lot, here is a snippet that demonstrate how to filter out Optional.absent() values from a stream.
+I also use streams a lot, here is a snippet that demonstrate how to filter out non Optional.isPresent() values from a stream.
 
 {% highlight java %}
 Arrays.asList(1, 2, 3, 4, 5)

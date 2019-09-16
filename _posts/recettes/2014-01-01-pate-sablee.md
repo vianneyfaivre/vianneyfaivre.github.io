@@ -46,4 +46,9 @@ notes:
   - Fraiser une nouvelle fois la pâte si elle est trop friable
   - label: Gestes
     link: https://www.youtube.com/watch?v=6x3OldldC_g
+variantes:
+  - label: Avec de la poudre d'amandes
+    todo: true
+  - label: Avec des graines de pavot
+    todo: true
 ---
