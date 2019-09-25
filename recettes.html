@@ -7,8 +7,8 @@ description: "Recettes de cuisine"
 
 {% assign recettesSucre = site.categories.recettes | where:"type","sucre" | sort: 'title'  %}
 {% assign recettesSel = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
-{% assign cuisine = site.categories.cuisine | sort: 'title'  %}
-{% assign bases = site.categories.recettes | where:"type","base" | sort: 'title'  %}
+{% assign cuisine = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
+{% assign bases = site.categories.recettes | where:"type","base"| sort: 'title'  %}
  
 <h1 class="page-heading">Recettes</h1>
 
