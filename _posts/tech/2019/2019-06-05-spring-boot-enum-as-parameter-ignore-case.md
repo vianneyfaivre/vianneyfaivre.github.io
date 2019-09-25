@@ -13,7 +13,7 @@ Let's say you have a controller class like this:
 public class MyController {
     
     @GetMapping("/test/{myEnum}")
-    public String addFormatters(@PathVariable MyEnum myEnum) {
+    public String getMyEnum(@PathVariable MyEnum myEnum) {
         return "Hey " + myEnum;
     }
 }
