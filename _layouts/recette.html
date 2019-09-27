@@ -28,8 +28,8 @@ layout: default
 			{% if page.recettes %}
 				{% for recette in page.recettes %}
 
-					<ul id="{{recette[0]}}" class="variante-ingredients">
-					{% for ingredient in recette[1] %}
+					<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
+					{% for ingredient in recette[1].ingredients %}
 						
 						{% if ingredient.qte %}
 							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
@@ -91,22 +91,48 @@ layout: default
 				{% endfor %}
 				</ul>
 			{% endif %}
-			
-			{% for etape in page.etapes %}
-				<h4>📜 {{etape.label}}</h4>
-					
-				<ol>
-				{% for detail in etape.details %}
-					
-					{% if detail.link %}
-						<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
-					{% else %}
-						<li>{{ detail }}</li>
-					{% endif %}
-					
+						
+			{% if page.recettes %}
+
+				{% for recette in page.recettes %}
+
+					<div id="{{recette[0]}}-etapes" class="variante-etapes">
+
+						{% for etape in recette[1].etapes %}
+							<h4>📜 {{etape.label}}</h4>
+							<ol>
+							{% for detail in etape.details %}
+								
+								{% if detail.link %}
+									<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
+								{% else %}
+									<li>{{ detail }}</li>
+								{% endif %}
+								
+							{% endfor %}
+							</ol>
+						{% endfor %}
+					</div>
+
 				{% endfor %}
-				</ol>
-			{% endfor %}
+
+			{% else %}
+				{% for etape in page.etapes %}
+					<h4>📜 {{etape.label}}</h4>
+						
+					<ol>
+					{% for detail in etape.details %}
+						
+						{% if detail.link %}
+							<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
+						{% else %}
+							<li>{{ detail }}</li>
+						{% endif %}
+						
+					{% endfor %}
+					</ol>
+				{% endfor %}
+			{% endif %}
 			
 			{% if page.cuisson %}
 				<h4>🔥 Cuisson</h4>

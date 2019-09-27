@@ -10,6 +10,7 @@ actionButton = document.getElementById "timer-action"
 # Variantes
 variantesButtons = document.getElementsByClassName "variantes-btn"
 variantesIngredients = document.getElementsByClassName "variante-ingredients"
+variantesEtapes = document.getElementsByClassName "variante-etapes"
 
 # Constants
 ACTION_PLAY = '▶️'
@@ -48,6 +49,8 @@ main = () ->
 
 onVarianteButtonClick = (btn) ->
   varianteId = btn.innerHTML
+  ingredientsId = varianteId + "-ingredients"
+  etapesId = varianteId + "-etapes"
 
   # Remove all buttons highlighting
   for varianteButton in variantesButtons
@@ -59,11 +62,18 @@ onVarianteButtonClick = (btn) ->
   # Hide all variantes
   for varianteIngredients in variantesIngredients
     varianteIngredients.style.display = 'none' 
+  
+  for varianteEtape in variantesEtapes
+    varianteEtape.style.display = 'none' 
 
   # Display the right variante
-  varianteIngredients = document.getElementById varianteId
+  varianteIngredients = document.getElementById ingredientsId
   if varianteIngredients
     varianteIngredients.style.display = 'block' 
+    
+  varianteEtapes = document.getElementById etapesId
+  if varianteEtapes
+    varianteEtapes.style.display = 'block' 
 
 initEventsListeners = () ->
   actionButton.addEventListener 'click', () -> onActionButtonClick()
