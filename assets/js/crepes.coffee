@@ -24,8 +24,8 @@ CREPES_RECIPES = {
         { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Ajouter le beurre mou puis mélanger" },
+        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -46,9 +46,9 @@ CREPES_RECIPES = {
         { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: true, value: "Ajouter l'huile puis mélanger" },
         { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Ajouter la bière puis mélanger" },
-        { hidden: true, value: "Ajouter l'huile puis mélanger" },
         { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -70,8 +70,8 @@ CREPES_RECIPES = {
         { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Ajouter le beurre mou puis mélanger" },
+        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -93,8 +93,8 @@ CREPES_RECIPES = {
         { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
         { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Ajouter le beurre mou puis mélanger" },
+        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
         { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
