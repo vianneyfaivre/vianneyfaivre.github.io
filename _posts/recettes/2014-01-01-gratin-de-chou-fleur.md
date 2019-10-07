@@ -48,8 +48,6 @@ cuisson:
   - Le dessus doit être bien gratiné
 notes:
   - La quantité de chou fleur dépend de la taille du plat
-  - Toujours mélanger la béchamel pour éviter qu'elle brûle / colle au fond de la casserole 
-  - Goûter la béchamel pour vérifier qu'elle est assez salée
 variantes:
  - label: Utiliser du comté
    todo: false
