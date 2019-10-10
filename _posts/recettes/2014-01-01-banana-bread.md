@@ -18,7 +18,8 @@ ingredients:
     qte: 8
     unite: gr
   - nom: bananes mûres
-    qte: 2
+    qte: 200
+    unite: gr
   - nom: beurre mou
     qte: 80
     unite: gr
@@ -27,20 +28,22 @@ ingredients:
     unite: mL
 preconditions:
   - Le lait, les bananes et les oeufs doivent être à température ambiante
-  - Les bananes doivent être en purée
   - Le beurre doit être pommade
   - Préchauffer le four à 160°C
 etapes:
+  - label: Préparation des bananes
+    details:
+      - Écraser les bananes dans un bol
+      - Ajouter le lait et le beurre
+      - Mélanger
   - label: Préparation
     details:
       - Dans un saladier, tamiser 150 gr de farine avec la levure et le sucre
       - Ajouter les bananes, le beurre et le lait
-      - Mélanger
-      - Ajouter les oeufs un à un
-      - Mélanger
-      - Ajouter les 100 derniers grammes de farine
-      - Mélanger
-      - Beurrer et fariner le moule puis y ajouter la préparation
+      - Mélanger les oeufs un à un
+      - Mélanger avec les 100 derniers grammes de farine
+      - Beurrer et fariner le moule
+      - Verser la préparation dans le moule
 materiel:
   - moule à cake
 cuissonMinutes: 60
