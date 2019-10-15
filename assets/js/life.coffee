@@ -126,6 +126,7 @@ EVENTS = [
     new Event(2019, 3, EventType.TRAVEL, "five days", "Rotorua/Taupo area, New Zealand 🥝🇳🇿"),
     new Event(2019, 5, EventType.TRAVEL, "one week", "Coromandel area, New Zealand 🥝🇳🇿"),
     new Event(2019, 7, EventType.TRAVEL, "four days", "Wellington, New Zealand 🥝🇳🇿"),
+    new Event(2019, 9, EventType.TRAVEL, "three days", "Northland, New Zealand 🥝🇳🇿"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
@@ -140,15 +141,29 @@ EVENTS = [
     new Event(2013 + 40, 0, EventType.RETIREMENT, "Retirement", null),
     new Event(2091, 3, EventType.HUNDRED, "100th birthday", null),
 
+    # 1993 - 1994 - petite section
+    # 1994 - 1995 - moyenne section
+    # 1995 - 1996 - grande section
+    # 1996 - 1997 - cp
+    # 1997 - 1998 - ce1
+    # 1998 - 1999 - ce2
+    # 1999 - 2000 - cm1
+    # 2000 - 2001 - cm2
+    # 2001 - 2002 - sixieme
+    # 2002 - 2003 - cinquieme
+    # 2003 - 2004 - quatrieme
+    # 2004 - 2005 - troisieme
+    # 2005 - 2006 - seconde
+    # 2006 - 2007 - premiere
+    # 2007 - 2008 - terminale
     new Event(1993, 8, EventType.SCHOOL, "Kindergarten", null);
-    new Event(1997, 8, EventType.SCHOOL, "Primary School", null);
+    new Event(1996, 8, EventType.SCHOOL, "Primary School", null);
     new Event(2001, 8, EventType.SCHOOL, "Secondary School", null);
     new Event(2005, 8, EventType.SCHOOL, "High School", null);
     new Event(2008, 8, EventType.SCHOOL, "University", null);
 
     new Event(2005, 3, EventType.MOTORCYCLE, "Got Small Motorcycle License", null),
     new Event(2009, 3, EventType.DRIVE, "Got Driver's License", null),
-
 
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
     new Event(2018, 6, EventType.SOCCER, "Fifa World Cup Champion ⭐⭐", null),
