@@ -81,6 +81,12 @@ initEventsListeners = () ->
   countdownInput.addEventListener 'input', (e) -> onCountdownInputChange(e.target.value)
   window.addEventListener 'keyup', (e) -> if e.keyCode == KEYCODE_SPACEBAR then onActionButtonClick()
   window.addEventListener 'keydown', (e) -> if e.keyCode == KEYCODE_SPACEBAR && e.target == document.body then e.preventDefault()
+  window.addEventListener 'beforeunload', (e) -> onCloseWindow(e)
+
+onCloseWindow = (e) ->
+  if state.currentActionButton != ACTION_PLAY 
+    e.preventDefault()
+    e.returnValue = ''
 
 onCountdownInputChange = (newValue) -> 
   if validateCountdownValue(newValue) 
