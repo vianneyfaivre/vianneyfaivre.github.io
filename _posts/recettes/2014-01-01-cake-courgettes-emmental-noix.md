@@ -39,9 +39,10 @@ etapes:
   - label: "Préparation 1/2"
     details:
       - Raper les courgettes
-      - Saupoudrer une cuillère à soupe de sel sur les courgettes
+      - Saupoudrer une cuillère à café de sel sur les courgettes
       - Mélanger
       - Laisser dégorger 30 minutes
+      - Presser les courgettes et débarrasser le jus
   - label: "Préparation 2/2"
     details:
       - Mélanger les oeufs avec l'huile et le lait
@@ -49,7 +50,6 @@ etapes:
       - Mélanger avec une cuillère en bois
       - Ajouter les noix
       - Ajouter l'emmental rapé
-      - Presser les courgettes pour enlever le jus
       - Ajouter les courgettes (sans le jus)
       - Mélanger
 materiel:
@@ -58,13 +58,4 @@ cuissonMinutes: 50
 cuisson: 
   - Cuire 50 minutes à 180°C
   - Vérifier que le cake est cuit avec la pointe d'un couteau
-variantes:
-  - label: 2 courgettes moyennes, 150 grammes de fromage, plus de sel
-    todo: true
-  - label: Ajouter du paprika
-    todo: true
-  - label: Utiliser du fromage bleu et de l'emmental (moitié moitié)
-    todo: true  
-  - label: Ajouter des herbes (thym, romarin, ...)
-    todo: true
 ---
