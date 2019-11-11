@@ -6,8 +6,9 @@ lang: fr
 title: Cake Courgettes Emmental Noix
 type: sel
 ingredients: 
-  - nom: courgettes moyennes 
-    qte: 3
+  - nom: courgettes crues 
+    qte: 200
+    unite: grammes
   - nom: noix de grenoble
     qte: 100
     unite: gr
@@ -15,10 +16,13 @@ ingredients:
     qte: 3
     unite: gr
   - nom: farine
-    qte: 200
+    qte: 100
+    unite: gr
+  - nom: farine complète
+    qte: 100
     unite: gr
   - nom: levure chimique
-    qte: 11
+    qte: 7
     unite: gr
   - nom: huile végétale
     qte: 15
@@ -27,26 +31,31 @@ ingredients:
     qte: 150
     unite: mL
   - nom: emmental rapé
-    qte: 100
+    qte: 150
     unite: gr
+  - nom: muscade
+    qte: 0.5
+    unite: cuillère à café
+  - nom: paprika
+    qte: 1
+    unite: cuillère à café
   - nom: sel
-    qte: 15
-    unite: grammes
+
 preconditions:
   - Le lait et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
 etapes:
-  - label: "Préparation 1/2"
+  - label: "Préparation des Courgettes"
     details:
       - Raper les courgettes
       - Saupoudrer une cuillère à café de sel sur les courgettes
       - Mélanger
       - Laisser dégorger 30 minutes
       - Presser les courgettes et débarrasser le jus
-  - label: "Préparation 2/2"
+  - label: "Préparation du Cake"
     details:
       - Mélanger les oeufs avec l'huile et le lait
-      - Tamiser la farine et la levure sur la préparation
+      - Tamiser les farines, les épices et la levure sur la préparation
       - Mélanger avec une cuillère en bois
       - Ajouter les noix
       - Ajouter l'emmental rapé
@@ -58,4 +67,6 @@ cuissonMinutes: 50
 cuisson: 
   - Cuire 50 minutes à 180°C
   - Vérifier que le cake est cuit avec la pointe d'un couteau
+notes:
+  - 200 grammes de courgettes crues équivaut environ à deux petites courgettes
 ---

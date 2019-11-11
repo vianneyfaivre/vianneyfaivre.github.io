@@ -11,7 +11,7 @@ ingredients:
   - nom: sucre glace
     qte: 150
     unite: gr
-  - nom: fine poudre d'amande
+  - nom: fine poudre d'amandes
     qte: 250
     unite: gr
   - nom: beurre mou
@@ -30,7 +30,7 @@ etapes:
     details:
       - Mélanger le beurre et le sucre
       - Ajouter les oeufs un à un
-      - Ajouter la poudre d'amande
+      - Ajouter la poudre d'amandes
       - Ajouter le rhum
   - label: Assemblage
     details:

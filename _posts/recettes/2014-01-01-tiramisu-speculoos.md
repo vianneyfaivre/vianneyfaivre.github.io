@@ -40,7 +40,7 @@ etapes:
       - Ajouter le reste de la préparation
       - Mettre au frigo 3h minimum
 notes:
-  - Ajouter le cacao au moment de servir sinon il va s'humidifier
+  - Ajouter le cacao au moment de servir sinon il va absorber l'humidité
 materiel:
   - moule rectangle
   - batteur électrique
