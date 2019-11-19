@@ -5,17 +5,19 @@ categories: [tech]
 ---
 Here are some useful commands when manipulating Java keystores. (I will update this post from time to time)
 
-<!--more-->
-
 (default keystore password: `changeit`)
 
 <h3>Import a certficate into a Java keystore</h3>
 
 {% highlight shell %}keytool -import -keystore /jre/lib/security/cacerts -file mycertificate.der{% endhighlight %}
 
-<h3>Create a truststore from a PEM file (text files that contains certificates)</h3>
+<h3>Create a truststore from a PEM file</h3> 
 
 {% highlight shell %}keytool -import -file CA-Certificates.pem -alias firstCA -keystore truststore.pkcs12{% endhighlight %}
+
+<h3>Create a truststore from a CER file</h3>
+
+{% highlight shell %}keytool -keystore truststore.jks -import -file my-cert.cer{% endhighlight %}
 
 <h3>Import a list of certificates into a Java keystore</h3>
 

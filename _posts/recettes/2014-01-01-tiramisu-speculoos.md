@@ -10,6 +10,7 @@ ingredients:
     qte: 5
   - nom: sucre
     qte: 50
+    unite: gr
   - nom: mascarpone
     qte: 250
     unite: gr

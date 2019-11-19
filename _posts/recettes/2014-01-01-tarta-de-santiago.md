@@ -30,7 +30,7 @@ etapes:
       - Faire fondre le beurre
       - Mélanger les oeufs avec le sucre tamisé
       - Ajouter le beurre fondu et mélanger
-      - Ajouter la poudre d'amandes, les épices et les zestes
+      - Ajouter la poudre d'amandes, la cannelle et les zestes
       - Mélanger et verser dans un moule rond
 cuissonMinutes: 30
 cuisson: 
