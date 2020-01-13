@@ -3,12 +3,12 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
-title: Galette des Rois
+title: Galette des Rois - Pithiviers
 type: sucre
 ingredients: 
   - nom: pâte feuilletée 
     qte: 2
-  - nom: sucre glace
+  - nom: sucre blanc
     qte: 150
     unite: gr
   - nom: fine poudre d'amandes
@@ -41,10 +41,12 @@ etapes:
       - Dorer avec un jaune d'oeuf (sauf le long du bord)
       - Faire un dessin avec la pointe d'un couteau
 cuisson: 
-  - Cuire 20 minutes à 200°C
-  - Cuire 25 minutes à 180°C
+  - Cuire 15 minutes à 200°C (pas de chaleur tournante, à placer quasiment en bas du four)
+  - Cuire 25 minutes à 180°C (idem)
 notes:
   - Laisser un peu de place sur les bords
   - Utiliser le dos d'une cuillère et la pointe d'un couteau pour faire les bords
   - Il ne faut pas dorer le long du bord car le jaune d'oeufs va empêcher la pâte de gonfler à la cuisson
+  - Le rhum peut être remplacé par de l'Amaretto
+  - Cette recette remplit amplement un Pithiviers de 25x25 cm
 ---
