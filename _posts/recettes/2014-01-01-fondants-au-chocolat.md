@@ -18,7 +18,7 @@ ingredients:
   - nom: beurre
     qte: 50
     unite: gr
-  - nom: chocolat noir patissier 
+  - nom: chocolat noir 
     qte: 75
     unite: gr
   - nom: chocolat
