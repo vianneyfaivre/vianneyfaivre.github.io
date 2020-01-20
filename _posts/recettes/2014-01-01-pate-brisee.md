@@ -9,38 +9,36 @@ ingredients:
   - nom: farine
     qte: 200
     unite: gr
+  - nom: jaune d'oeuf
+    qte: 1
+  - nom: eau
+    qte: 40
+    unite: mL
   - nom: beurre
-    qte: 140
+    qte: 100
     unite: gr
   - nom: sel
     qte: 3
     unite: gr
-  - nom: eau froide
-    qte: 37
-    unite: mL
-  - nom: jus de citron
-    qte: 3
-    unite: mL
 preconditions:
-  - Mélanger l'eau et le jus de citron, réserver au frais
-  - Le beurre doit être froid
+  - Le beurre doit être coupés en dés et pommade
 etapes:
   - label: Préparation
     details:
-      - Dans un saladier verser la farine et le sel
-      - Couper le beurre en petits dés
-      - Ajouter le beurre sur la farine
-      - Écraser les dés de beurre du bout des doigts
-      - Frotter la pâte entre les mains jusqu'à l'obtention de petits bouts
-      - Ajouter l'eau froide et le jus de citron
-      - Former une boule
-      - Sur le plan de travail, fraiser la boule une/deux fois
-      - Former une boule et l'applatir un peu
-      - Laisser reposer minimum 30 minutes au frigo
-cuissonMinutes: 30
-notes:
-  - Ne pas trop travailler la pâte sinon elle va durcir a la cuisson
-  - Fraiser une nouvelle fois la pâte si elle est trop friable
-  - label: Gestes
-    link: https://www.youtube.com/watch?v=6x3OldldC_g
+      - Verser la farine sur le plan de travail
+      - Faire un puits
+      - Mettre le jaune d'oeuf au centre
+      - Le casser
+      - Ajouter l'eau
+      - Mélanger l'eau et le jaune d'oeuf avec les doigts
+  - label: Pétrissage
+    details:
+      - Saupoudrer d'un peu de farine (juste pour recouvrir)
+      - Prendre la pâte dans la main
+      - Fermer la main
+      - Répéter ces étapes jusqu'a ce qu'il ne reste plus de farine
+  - label: Boulage
+    details:
+      - Former une boule (la pâte doit etre bien lisse à ce stade)
+      - Réserver au frais au moins une heure
 ---
