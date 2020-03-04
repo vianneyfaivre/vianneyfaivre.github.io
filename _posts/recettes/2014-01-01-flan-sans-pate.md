@@ -25,7 +25,9 @@ ingredients:
   - nom: beurre
     qte: 30
     unite: gr
-  - nom: vanille
+  - nom: vanille liquide
+    qte: 1
+    unite: cuillère à café
 preconditions:
   - Cette recette est faite pour un flan rectangle (dans un moule à cake). Une fois cuit il fera 5 cm de hauteur environ
   - Couper le beurre en petits dés
@@ -33,7 +35,7 @@ preconditions:
 etapes:
   - label: Préparation
     details:
-      - Faire bouillir le lait, la crème et la vanille dans une casserole
+      - Porter le lait, la crème et la vanille à ébullition (environ 80°C)
       - Dans un saladier, mélanger l'oeuf entier avec les jaunes et le sucre
       - Ajouter la fécule de maïs et mélanger
       - Quand le lait commence à bouillir, le verser en deux fois dans le saladier tout en mélangeant continuellement au fouet

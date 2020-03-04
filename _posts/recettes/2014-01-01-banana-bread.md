@@ -35,7 +35,7 @@ etapes:
     details:
       - Écraser les bananes dans un bol
       - Ajouter le lait et le beurre
-      - Mélanger
+      - Mélanger à l'aide d'une fourchette
   - label: Préparation
     details:
       - Dans un saladier, tamiser 150 gr de farine avec la levure et le sucre
