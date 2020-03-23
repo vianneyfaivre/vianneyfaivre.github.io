@@ -12,7 +12,7 @@ ingredients:
   - nom: sel
     qte: 6
     unite: gr
-  - nom: eau tiède
+  - nom: eau
     qte: 18
     unite: cL
   - nom: huile d'olive
@@ -24,10 +24,11 @@ ingredients:
 etapes:
   - label: "Préparation"
     details:
-      - Mélanger l'eau tiède avec la levure jusqu'à ce que ça se dissoude
+      - Mélanger l'eau tiède (40 degrés Celsius maximum) avec la levure et une cuillère de sucre blanc
+      - "Laisser la levure s'activer 10 minutes dans le four"
+      - Dans un saladier, verser la farine et le sel
+      - Ajouter la moitié du mélange eau-levure dans le saladier de farine
       - Ajouter l'huile d'olive
-      - Mélanger la farine et le sel
-      - Ajouter la moitié du mélange eau tiède levure dans la farine
       - Pétrir
       - Ajouter le reste du liquide
       - Pétrir jusqu'à ce que ça arrête de coller au saladier
@@ -36,7 +37,7 @@ etapes:
       - Remettre dans le saladier, couvrir et laisser reposer 2 heures minimum dans un endroit chaud
 cuisson: 
   - Préchauffer le four à 240°C 
-  - Sortir la boule (elle a du beaucoup gonfler), faire évacuer l'air en appuyant dessus
+  - Sortir la boule (elle a du beaucoup lever), dégazer puis l'étaler au rouleau
   - Garnir
   - Cuire 18 minutes à 240°C
 notes:
@@ -48,9 +49,4 @@ notes:
     link: https://www.youtube.com/watch?v=oopnT_wGGHE
   - label: Explications
     link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
-  - Penser à presser la mozzarella avec du sopalin pour absorber l'eau
-
-variantes:
-  - label: une cuillère de sucre blanc pour activer plus rapidement la levure
-    todo: true
 ---
