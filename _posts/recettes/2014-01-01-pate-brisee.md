@@ -25,12 +25,11 @@ preconditions:
 etapes:
   - label: Préparation
     details:
-      - Verser la farine sur le plan de travail
+      - Verser la farine et le sel sur le plan de travail
       - Faire un puits
-      - Mettre le jaune d'oeuf au centre
-      - Le casser
-      - Ajouter l'eau
-      - Mélanger l'eau et le jaune d'oeuf avec les doigts
+      - Y mettre le jaune d'oeuf et l'eau
+      - Mélanger avec les doigts
+      - Ajouter le beurre au centre
   - label: Pétrissage
     details:
       - Saupoudrer d'un peu de farine (juste pour recouvrir)
