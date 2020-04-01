@@ -7,11 +7,11 @@ title: Flan Sans Pâte
 type: sucre
 ingredients: 
   - nom: lait entier
-    qte: 400
-    unite: mL
+    qte: 420
+    unite: gr
   - nom: crème liquide
-    qte: 100
-    unite: mL
+    qte: 80
+    unite: gr
   - nom: oeuf
     qte: 1
   - nom: jaunes d'oeuf
