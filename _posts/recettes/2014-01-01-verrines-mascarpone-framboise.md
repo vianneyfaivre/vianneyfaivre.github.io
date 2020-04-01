@@ -28,10 +28,10 @@ etapes:
   - label: Préparation
     details:
       - Séparer les blancs des jaunes
-      - Blanchir les jaunes d'oeufs avec le sucre
-      - Ajouter le mascarpone
+      - Blanchir les jaunes d'oeufs avec le sucre au fouet électrique
+      - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
       - Monter les blancs en neige
-      - Les incorporer en deux fois au mélange
+      - Les incorporer en deux fois au mélange à l'aide d'une spatule silicone
   - label: Assemblage
     details:
       - Mettre les biscuits émiettés au fond

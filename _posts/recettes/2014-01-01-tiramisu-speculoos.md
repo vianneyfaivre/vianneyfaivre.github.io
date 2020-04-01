@@ -28,11 +28,10 @@ etapes:
   - label: Préparation
     details:
       - Séparer les blancs des jaunes
-      - Blanchir les jaunes d'oeufs avec le sucre
-      - Ajouter le mascarpone
-      - Ajouter la vanille liquide
+      - Blanchir les jaunes d'oeufs avec le sucre au fouet électrique
+      - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
       - Monter les blancs en neige
-      - Les incorporer en deux fois au mélange
+      - Les incorporer en deux fois au mélange à l'aide d'une spatule silicone
   - label: Assemblage
     details:
       - Mettre la moitié des Speculoos au fond
@@ -42,9 +41,6 @@ etapes:
       - Mettre au frigo 3h minimum
 notes:
   - Ajouter le cacao au moment de servir sinon il va absorber l'humidité
-materiel:
-  - moule rectangle
-  - batteur électrique
 variantes:
   - label: Ajouter du caramel au fond avec les Speculoos
     todo: false
