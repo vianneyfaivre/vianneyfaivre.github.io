@@ -29,26 +29,21 @@ ingredients:
     qte: 1
     unite: cuillère à café
 preconditions:
-  - Cette recette est faite pour un flan rectangle (dans un moule à cake). Une fois cuit il fera 5 cm de hauteur environ
   - Couper le beurre en petits dés
   - Préchauffer le four à 180°C
 etapes:
   - label: Préparation
     details:
       - Porter le lait, la crème et la vanille à ébullition (environ 80°C)
-      - Dans un saladier, mélanger l'oeuf entier avec les jaunes et le sucre
-      - Ajouter la fécule de maïs et mélanger
-      - Quand le lait commence à bouillir, le verser en deux fois dans le saladier tout en mélangeant continuellement au fouet
+      - Dans un saladier, mélanger l'oeuf entier avec les jaunes, le sucre et la fécule de maïs
+      - Quand le lait commence à bouillir, le verser en deux fois dans le saladier tout en fouettant continuellement
       - Reverser le tout dans la casserole
-      - Mettre à feu doux et mélanger continuellement au fouet jusqu'à ce que ça commence à épaissir
-      - Dès le début de l'épaississement, continuer de mélanger hors du feu jusqu'à ce que ça soit suffisamment solide 
+      - Mettre à feu moyen-doux et fouetter continuellement jusqu'à ce que ça commence à épaissir
       - Transvaser dans un saladier
-      - Ajouter le beurre et mélanger à la spatule silicone
-materiel:
-  - moule à cake
+      - Ajouter le beurre et mélanger à l'aide d'une spatule silicone
 cuissonMinutes: 40
 cuisson: 
-  - Beurrer le moule généreusement
+  - Beurrer le moule
   - Verser la préparation dans le moule
   - Cuire 40 minutes à 180°C
   - Laisser refroidir le flan dans le moule avant de démouler
@@ -57,4 +52,5 @@ notes:
   - Avant de mettre le lait, mouiller la casserole afin d'éviter qu'il n'accroche au fond
   - Quand le lait est sur le feu, le remuer assez fréquemment afin d'éviter qu'il n'accroche au fond
   - Multiplier les quantités par deux pour faire un flan dans un moule à gâteau rond
+  - Cette recette est faite pour un flan à cuire dans un moule à cake standard. Une fois cuit il fera 5 cm de hauteur environ
 ---
