@@ -9,12 +9,14 @@ description: "Recettes de cuisine"
 {% assign recettesSel = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
 {% assign cuisine = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
 {% assign bases = site.categories.recettes | where:"type","base"| sort: 'title'  %}
+{% assign boulangerie = site.categories.recettes | where:"type","boulangerie"| sort: 'title'  %}
+{% assign autres = site.categories.recettes | where:"type","autre"| sort: 'title'  %}
  
 <h1 class="page-heading">Recettes</h1>
 
 <div class="recettes-list-container">
 
-	<div class="sucre">
+	<div class="col">
 		<h2>Sucré</h2>
 		<ul class="recipes-list">
 			{% for post in recettesSucre %}
@@ -25,7 +27,7 @@ description: "Recettes de cuisine"
 		</ul>
 	</div>
 	
-	<div>
+	<div class="col">
 		<h2>Salé</h2>
 		<ul class="recipes-list">
 			{% for post in recettesSel %}
@@ -36,16 +38,40 @@ description: "Recettes de cuisine"
 		</ul>
 	</div>
 	
-</div>
+	<div class="col">
+		<h2>Bases</h2>
+		<ul>
+			{% for post in bases %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 
-<h2>Bases</h2>
-<ul>
-	{% for post in bases %}
-	<li>
-		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ul>
+	<div class="col">
+		<h2>Boulangerie</h2>
+		<ul>
+			{% for post in boulangerie %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	
+	<div>
+		<h2>Autres</h2>
+		<ul>
+			{% for post in autres %}
+			<li>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+</div>
 
 <h2>Notes</h2>
 <ul>

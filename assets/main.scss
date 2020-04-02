@@ -92,13 +92,14 @@ img.flag-emoji {
 
 	display: flex;
 	flex-flow: row nowrap;
+	white-space: nowrap;
 
-	.sucre {
+	.col {
 		margin-right: 15px; 
 		border-right: 1px solid #e8e8e8; 
 		padding-right: 15px;
 	}
-	
+
 	/* Mobile view */ 
 	@media all and (max-width: 700px) {
 		flex-direction: column;

@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Pâte à Pizza
-type: base
+type: boulangerie
 ingredients: 
   - nom: farine
     qte: 380

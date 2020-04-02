@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 pour: pour 4 rolls
 title: Cinnamon Rolls
-type: sucre
+type: boulangerie
 ingredients: 
   - nom: lait tiède 
     qte: 160

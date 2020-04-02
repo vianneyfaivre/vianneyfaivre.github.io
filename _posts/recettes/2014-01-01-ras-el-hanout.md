@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Ras el hanout
-type: base
+type: autre
 ingredients: 
   - nom: cumin
     qte: 2
