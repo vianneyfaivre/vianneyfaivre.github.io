@@ -9,7 +9,7 @@ MAX_AGE = 100
 EventType = 
   WORK : '👔'
   RETIREMENT: '🎉'
-  TRAVEL : '✈️'
+  TRAVEL : '🌍'
   HUNDRED: '💯'
   GRADUATION: '🎓'
   SOCCER: '⚽'
@@ -19,6 +19,7 @@ EventType =
   MOVE: '📦'
   DRIVE: '🚘'
   MOTORCYCLE: '🛵'
+  COVID19: '😷' 
 
 State = 
   NOT_BORN: 0
@@ -168,6 +169,9 @@ EVENTS = [
 
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
     new Event(2018, 6, EventType.SOCCER, "Fifa World Cup Champion ⭐⭐", null),
+    
+    new Event(2020, 2, EventType.COVID19, "COVID-19 Lockdown", null),
+    new Event(2020, 3, EventType.COVID19, "COVID-19 Lockdown", null),
 ]
 
 main = () ->
