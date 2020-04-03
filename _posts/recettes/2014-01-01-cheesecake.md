@@ -60,8 +60,6 @@ notes:
   - Pour presser la croûte, si vous n'avez pas de spatule coudée vous pouvez utiliser un verre ou un presse purée
   - C'est pas grave si le centre du cheesecake est pas très ferme, une fois mis au frais ça ira
   - Le cheesecake doit être cuit mais pas trop, il ne doit pas dorer
-materiel:
-  - moule à cheesecake
 cuissonMinutes: 45
 cuisson: 
   - Cuire 45 minutes à 160°C

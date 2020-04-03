@@ -25,6 +25,4 @@ etapes:
       - Mettre tous les ingrédients dans un bol
       - Saler et poivrer
       - Mixer jusqu'à ce que ça prenne, en commençant par le fond
-materiel:
-  - mixeur plongeant
 ---

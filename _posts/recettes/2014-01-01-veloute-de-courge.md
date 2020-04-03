@@ -23,8 +23,6 @@ etapes:
       - Quand la courge est cuite (vérifier avec une fourchette), essorer
       - Tout verser dans un saladier et mixer 
       - Ajouter la crème fraiche et saler
-materiel:
-  - mixeur plongeant
 variantes:
   - label: ajouter des patates
     todo: false

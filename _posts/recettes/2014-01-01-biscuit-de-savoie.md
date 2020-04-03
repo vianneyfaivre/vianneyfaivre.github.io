@@ -31,9 +31,6 @@ etapes:
       - Incorporer un tiers des blancs au fouet
       - Incorporer le reste des blancs à la spatule silicone
       - Beurrer et fariner le moule puis y ajouter la préparation
-materiel:
-  - moule rond
-  - batteur électrique
 cuissonMinutes: 30
 cuisson: 
   - Cuire 30 minutes à 180°C

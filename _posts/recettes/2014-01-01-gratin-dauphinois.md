@@ -45,9 +45,6 @@ cuisson:
   - 30 minutes à 200°C
   - Le dessus doit être bien gratiné
   - Vérifier la cuisson des patates avec un couteau
-materiel:
-  - Plat à gratin
-  - Marmite
 variantes:
   - label: Utiliser du Comté
     todo: true

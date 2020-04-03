@@ -43,9 +43,6 @@ etapes:
       - Monter les blancs en neige
       - Les incorporer à la préparation en deux fois
       - Beurrer et fariner le moule puis y ajouter la préparation
-materiel:
-  - moule à cake
-  - batteur électrique
 cuissonMinutes: 30
 cuisson: 
   - Cuire 30 minutes à 180°C

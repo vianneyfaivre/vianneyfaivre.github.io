@@ -62,9 +62,6 @@ etapes:
       - Placer au frigo pour 6h
 notes:
   -  Pour presser la croûte, si vous n'avez pas de spatule coudée vous pouvez utiliser un verre ou un presse purée
-materiel:
-  - moule à cheesecake
-  - batteur électrique
 variantes:
   - label: Essayer avec un peu de gélatine pour que le cheesecake se tienne mieux
     todo: true

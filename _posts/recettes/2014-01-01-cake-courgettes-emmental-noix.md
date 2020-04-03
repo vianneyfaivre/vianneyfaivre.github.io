@@ -61,8 +61,6 @@ etapes:
       - Ajouter l'emmental rapé
       - Ajouter les courgettes (sans le jus)
       - Mélanger
-materiel:
-  - moule à cake
 cuissonMinutes: 50
 cuisson: 
   - Cuire 50 minutes à 180°C

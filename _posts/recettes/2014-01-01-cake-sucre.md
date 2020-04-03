@@ -157,8 +157,6 @@ recettes:
 preconditions:
   - Le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 180°C
-materiel:
-  - moule à cake
 cuissonMinutes: 35
 cuisson: 
   - Cuire 35 à 40 minutes à 180°C en chaleur tournante

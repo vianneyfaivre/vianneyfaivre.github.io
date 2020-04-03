@@ -55,9 +55,6 @@ etapes:
       - Étaler la chantilly sur le gâteau
       - Laisser au frigo pendant 4 heures
       - Au moment de servir, saupoudrer de cacao en poudre 
-materiel:
-  - moule à cake
-  - batteur électrique
 notes:
   - Ne pas mettre de sucre dans la chantilly, le gâteau est suffisamment sucré comme ça
 ---

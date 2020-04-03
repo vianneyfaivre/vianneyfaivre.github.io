@@ -46,8 +46,6 @@ etapes:
     details: 
       - Étaler la pâte brisée dans un moule rond
       - Verser le mélange
-materiel:
-  - moule rond
 cuisson: 
   - Cuire 30 minutes à 150°C
   - Cuire 20 minutes à 180°C

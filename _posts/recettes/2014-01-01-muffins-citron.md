@@ -31,8 +31,6 @@ etapes:
       - Mélanger avec la farine en deux fois
       - Dans un autre saladier fouetter les oeufs et les 20 grammes de jus de citron
       - Tout mélanger au fouet
-materiel:
-  - moule à muffins
 cuissonMinutes: 20
 cuisson: 
   - Cuire 20 minutes à 180°C

@@ -39,6 +39,4 @@ etapes:
       - Ajouter une couche de framboises
       - Ajouter le reste de la préparation
       - Mettre au frigo 3h minimum
-materiel:
-  - batteur électrique
 ---

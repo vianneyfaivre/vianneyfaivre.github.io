@@ -41,8 +41,6 @@ etapes:
       - Ajouter un tiers du fromage râpé et baisser le feu
       - Délayer, quand le fromage est lisse, ajouter un autre tiers
       - Ajouter le dernier tiers et délayer
-materiel:
-  - appareil à fondue
 notes:
   - Prendre trois fromages différents à la fromagerie (Beaufort, Comté, Abondance, Emmental, Appenzeller, ...)
   - Demander au fromager de raper le fromage

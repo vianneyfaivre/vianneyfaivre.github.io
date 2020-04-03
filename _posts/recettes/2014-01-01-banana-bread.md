@@ -44,8 +44,6 @@ etapes:
       - Mélanger avec les 100 derniers grammes de farine
       - Beurrer et fariner le moule
       - Verser la préparation dans le moule
-materiel:
-  - moule à cake
 cuissonMinutes: 60
 cuisson: 
   - Cuire 60 minutes à 160°C
