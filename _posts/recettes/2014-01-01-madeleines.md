@@ -5,48 +5,52 @@ hidden: true
 lang: fr
 title: Madeleines
 type: sucre
-pour: pour 24 madeleines
+pour: pour 12 madeleines
 ingredients: 
   - nom: oeufs 
     qte: 2
-  - nom: farine
-    qte: 150
-    unite: gr
-  - nom: beurre
-    qte: 125
-    unite: gr
   - nom: sucre
-    qte: 150
+    qte: 75
+    unite: gr
+  - nom: farine
+    qte: 100
     unite: gr
   - nom: levure chimique
-    qte: 5
+    qte: 4
     unite: gr
-  - nom: miel
-    qte: 1
-    unite: cuillère à café
+  - nom: beurre
+    qte: 50
+    unite: gr
+  - nom: lait
+    qte: 25
+    unite: gr
+  - nom: jus de citron
+    qte: 1/2
   - nom: zestes de citron
 preconditions:
-  - Le beurre et les oeufs doivent être à température ambiante
+  - Le beurre, le lait et les oeufs doivent être à température ambiante
+  - Faire fondre le beurre
 etapes:
-  - label: Préparation
+  - label: Préparation 1/2
     details:
-      - Beurrer généreusement le moule
-      - Mélanger les oeufs et le sucre au fouet (sans insister)
+      - Blanchir les oeufs et le sucre au fouet
+      - Ajouter les zestes de citron, le jus et le lait
+      - Mélanger au fouet
       - Tamiser la farine et la levure chimique au dessus du mélange
-      - Mélanger à la spatule silicone (sans insister)
-      - Ajouter le beurre pommade
-      - Ajouter le miel et le zeste de citron
-      - Mélanger 
-      - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts en partant de la partie basse de la madeleine)
-materiel:
-  - moule à madeleines
+      - Mélanger au fouet (sans insister)
+      - Ajouter le beurre fondu (doit être froid/tiède mais pas chaud !)
+      - Mélanger au fouet (sans insister)
+      - Laisser la pâte 15 minutes au réfrigérateur
+  - label: Préparation 2/2
+    details:
+      - (Optionnel) Ajouter des fruits confits / pépites de chocolat (les fariner avant pour éviter qu'ils ne retombent)
+      - Beurrer le moule
+      - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts)
 cuisson: 
-  - Préchauffer le four à 280°C
-  - Mettre les madeleines au congélateur 15 minutes
-  - Éteindre le four
-  - Mettre les madeleines dans le four éteint pendant 6 minutes
-  - Rallumer le four à 180°C
-  - Laisser les madeleines pendant 5 minutes
+  - Préchauffer le four à 250°C
+  - Mettre les madeleines au four
+  - Attendre 2 minutes puis baisser le four à 200°C
+  - Cuire pendant 10 minutes
   - Sortir les madeleines et les démouler à moitié (les laisser reposer sur le côté)
 notes:
   - La différence de température à la cuisson va aider les madeleines à bien gonfler afin d'obtenir une belle bosse
