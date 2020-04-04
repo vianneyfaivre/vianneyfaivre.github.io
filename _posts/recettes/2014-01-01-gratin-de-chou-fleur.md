@@ -33,7 +33,7 @@ etapes:
   - label: "Préparation 2/3 : Béchamel"
     details:
       - label: Faire la béchamel
-        link: https://vianneyfaivre.com/recettes/bechamel
+        link: /recettes/bechamel
   - label: "Préparation 3/3 : Assemblage"
     details:
       - Mettre une couche de béchamel dans le plat à gratin

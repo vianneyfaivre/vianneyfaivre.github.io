@@ -48,7 +48,7 @@ etapes:
   - label: Préparation de la chantilly
     details:
       - label: Voir ici
-        link: https://vianneyfaivre.com/recettes/chantilly
+        link: /recettes/chantilly
       - Réserver au frigo
   - label: Mélange du philadelphia avec la chantilly
     details:

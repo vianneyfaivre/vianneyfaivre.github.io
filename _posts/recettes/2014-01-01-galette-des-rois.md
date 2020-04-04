@@ -81,7 +81,7 @@ recettes:
       - label: "Garniture 1/3 : Crème Patissière"
         details:
           - label: Faire la crème patissière
-            link: https://vianneyfaivre.com/recettes/creme-patissiere
+            link: /recettes/creme-patissiere
       - label: "Garniture 2/3 : Crème d'amandes"
         details:
           - Mélanger le beurre et le sucre
