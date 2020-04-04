@@ -20,7 +20,7 @@ ingredients:
   - nom: graines de pavot
     qte: 10
     unite: gr
-  - nom: levure
+  - nom: levure chimique
     qte: 11
     unite: gr
   - nom: petits citrons

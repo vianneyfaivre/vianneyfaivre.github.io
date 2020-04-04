@@ -14,7 +14,7 @@ ingredients:
   - nom: farine
     qte: 250
     unite: gr
-  - nom: levure
+  - nom: levure chimique
     qte: 8
     unite: gr
   - nom: bananes mûres

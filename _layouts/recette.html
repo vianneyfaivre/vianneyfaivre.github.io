@@ -71,13 +71,19 @@ layout: default
 		
 		<div class="etapes-panel">
 		
-			{% if page.preconditions %}
+			{% if page.preconditions or page.withYeast %}
 				<h4>⚠️ Préambule</h4>
 				
 				<ul>
+				
 				{% for precondition in page.preconditions %}
 					<li>{{ precondition }}</li>
 				{% endfor %}
+					
+				{% if page.withYeast %}
+					<li><a href="/cuisine/levure">Activer la levure</a></li>
+				{% endif %}
+
 				</ul>
 			{% endif %}
 						

@@ -16,7 +16,7 @@ recettes:
         qte: poids des oeufs
       - nom: sucre glace
         qte: poids des oeufs
-      - nom: levure
+      - nom: levure chimique
         qte: 2.2
         unite: "% de la farine"
     etapes:
@@ -40,7 +40,7 @@ recettes:
       - nom: sucre glace
         qte: 125
         unite: gr
-      - nom: levure
+      - nom: levure chimique
         qte: 2.2
         unite: "% de la farine"
     etapes:
@@ -66,7 +66,7 @@ recettes:
         qte: poids des oeufs
       - nom: sucre glace
         qte: poids des oeufs
-      - nom: levure
+      - nom: levure chimique
         qte: 2.2
         unite: "% de la farine"
     etapes:
@@ -89,7 +89,7 @@ recettes:
         qte: poids des oeufs
       - nom: sucre glace
         qte: poids des oeufs
-      - nom: levure
+      - nom: levure chimique
         qte: 2.2
         unite: "% de la farine"
     etapes:
@@ -110,7 +110,7 @@ recettes:
         qte: poids des oeufs
       - nom: sucre glace
         qte: poids des oeufs
-      - nom: levure
+      - nom: levure chimique
         qte: 2.2
         unite: "% de la farine"
       - nom: graines de pavot
@@ -136,7 +136,7 @@ recettes:
         qte: poids des oeufs
       - nom: sucre glace
         qte: poids des oeufs
-      - nom: levure
+      - nom: levure chimique
         qte: 2.2
         unite: "% de la farine"
       - nom: Rondelles d'ananas

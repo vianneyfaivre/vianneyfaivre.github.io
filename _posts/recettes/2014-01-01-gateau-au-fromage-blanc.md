@@ -19,7 +19,7 @@ ingredients:
   - nom: crème fraiche
     qte: 30
     unite: gr
-  - nom: levure
+  - nom: levure chimique
     qte: 11
     unite: gr
   - nom: sucre

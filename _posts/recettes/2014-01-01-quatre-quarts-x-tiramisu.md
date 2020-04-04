@@ -14,7 +14,7 @@ ingredients:
     qte: poids des oeufs
   - nom: sucre
     qte: poids des oeufs
-  - nom: levure
+  - nom: levure chimique
     qte: 7
     unite: gr
   - nom: crème fleurette

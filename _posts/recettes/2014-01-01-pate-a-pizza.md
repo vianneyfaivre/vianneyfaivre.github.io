@@ -5,6 +5,7 @@ hidden: true
 lang: fr
 title: Pâte à Pizza
 type: boulangerie
+withYeast: true
 ingredients: 
   - nom: farine
     qte: 380
@@ -24,8 +25,6 @@ ingredients:
 etapes:
   - label: "Préparation"
     details:
-      - Mélanger l'eau tiède (40 degrés Celsius maximum) avec la levure et une cuillère de sucre blanc
-      - "Laisser la levure s'activer 10 minutes dans le four"
       - Dans un saladier, verser la farine et le sel
       - Ajouter la moitié du mélange eau-levure dans le saladier de farine
       - Ajouter l'huile d'olive

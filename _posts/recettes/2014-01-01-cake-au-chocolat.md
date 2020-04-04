@@ -20,7 +20,7 @@ ingredients:
   - nom: chocolat noir 
     qte: 200
     unite: gr
-  - nom: levure
+  - nom: levure chimique
     qte: 5
     unite: gr
 preconditions:
