@@ -16,8 +16,8 @@ ingredients:
   - nom: baguettes
     qte: 3
   - nom: vin blanc sec
-    qte: 20
-    unite: cL 
+    qte: 200
+    unite: mL 
   - nom: fécule de maïs
     qte: 1
     unite: cuillère à soupe

@@ -21,8 +21,8 @@ ingredients:
     qte: 300
     unite: mL
   - nom: Baileys
-    qte: 5
-    unite: cL
+    qte: 50
+    unite: mL
   - nom: chocolat noir
     qte: 75
     unite: gr

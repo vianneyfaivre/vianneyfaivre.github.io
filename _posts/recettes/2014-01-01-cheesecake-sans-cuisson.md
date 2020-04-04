@@ -22,8 +22,8 @@ ingredients:
     qte: 150
     unite: gr
   - nom: crème fleurette
-    qte: 40
-    unite: cL
+    qte: 400
+    unite: mL
   - nom: vanille liquide
     qte: 1/2
     unite: cuillère à soupe

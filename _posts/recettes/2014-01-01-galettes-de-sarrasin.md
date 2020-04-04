@@ -13,8 +13,8 @@ ingredients:
   - nom: oeufs
     qte: 1
   - nom: eau
-    qte: 70
-    unite: cL
+    qte: 700
+    unite: mL
   - nom: sel
     qte: 25
     unite: gr

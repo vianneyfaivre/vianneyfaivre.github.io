@@ -15,8 +15,8 @@ ingredients:
   - nom: oignon
     qte: 1
   - nom: vin blanc sec
-    qte: 15
-    unite: cL
+    qte: 150
+    unite: mL
   - nom: crème fraiche
     qte: 125
     unite: gr

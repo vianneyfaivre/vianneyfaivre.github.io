@@ -14,8 +14,8 @@ ingredients:
     qte: 6
     unite: gr
   - nom: eau
-    qte: 18
-    unite: cL
+    qte: 180
+    unite: mL
   - nom: huile d'olive
     qte: 3
     unite: cuillères à soupe

@@ -25,8 +25,8 @@ recettes:
       - nom: oeufs
         qte: 3
       - nom: rhum
-        qte: 4
-        unite: cL
+        qte: 40
+        unite: mL
     etapes:
       - label: Garniture
         details:
@@ -75,8 +75,8 @@ recettes:
       - nom: oeufs
         qte: 2
       - nom: rhum
-        qte: 4
-        unite: cL
+        qte: 40
+        unite: mL
     etapes:
       - label: "Garniture 1/3 : Crème Patissière"
         details:

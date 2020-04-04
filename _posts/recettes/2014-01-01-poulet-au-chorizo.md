@@ -14,8 +14,8 @@ ingredients:
   - nom: oignon
     qte: 1
   - nom: crème liquide
-    qte: 20
-    unite: cL
+    qte: 200
+    unite: mL
   - nom: chorizo
     qte: 1
 preconditions:
