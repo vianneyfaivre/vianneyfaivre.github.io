@@ -18,6 +18,7 @@ google_analytics: UA-139044020-1
 
 theme: minima
 header_pages: 
+  - tech.html
   - things.html
   - recettes.html
   - about.html
