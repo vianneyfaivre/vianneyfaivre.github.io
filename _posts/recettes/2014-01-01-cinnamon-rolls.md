@@ -19,10 +19,10 @@ ingredients:
   - nom: levure sèche
     qte: 3
     unite: gr
-  - nom: farine
+  - nom: farine blanche
     qte: 160
     unite: gr
-  - nom: farine
+  - nom: farine blanche
     qte: 40
     unite: gr
   - nom: farine

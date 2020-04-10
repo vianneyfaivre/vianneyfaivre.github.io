@@ -7,7 +7,7 @@ title: Pâte à Pizza
 type: boulangerie
 withYeast: true
 ingredients: 
-  - nom: farine
+  - nom: farine blanche
     qte: 380
     unite: gr
   - nom: sel

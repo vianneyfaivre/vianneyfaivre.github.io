@@ -6,7 +6,7 @@ lang: fr
 title: Pâte Brisée
 type: boulangerie
 ingredients: 
-  - nom: farine
+  - nom: farine blanche
     qte: 200
     unite: gr
   - nom: jaune d'oeuf

@@ -6,7 +6,7 @@ lang: fr
 title: Pâte Sablée
 type: boulangerie
 ingredients: 
-  - nom: farine
+  - nom: farine blanche
     qte: 200
     unite: gr
   - nom: beurre
