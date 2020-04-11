@@ -166,8 +166,6 @@ variantes:
     todo: true
   - label: Monter les blancs en neige
     todo: true
-  - label: Sans gluten
-    todo: true
   - label: Avec des pommes
     todo: true
   - label: Au chocolat
@@ -175,5 +173,7 @@ variantes:
   - label: Sans sucre blanc
     todo: true
   - label: Imbibé à l'orange
+    todo: true
+  - label: Marbré Chocolat
     todo: true
 ---
