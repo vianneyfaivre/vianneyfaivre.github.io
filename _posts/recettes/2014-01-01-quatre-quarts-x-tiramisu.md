@@ -15,8 +15,8 @@ ingredients:
   - nom: sucre
     qte: poids des oeufs
   - nom: levure chimique
-    qte: 7
-    unite: gr
+    qte: 2.2
+    unite: "% de la farine"
   - nom: crème fleurette
     qte: 300
     unite: mL
@@ -39,7 +39,7 @@ etapes:
     details:
       - label: Faire le quatre-quarts avec les 2 oeufs
         link: /recettes/cake-sucre
-      - Le laisser dans son moule
+      - Ne pas le démouler. Le laisser refroidir à température ambiante
   - label: Préparation de la chantilly
     details:
       - label: Voir ici
