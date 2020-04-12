@@ -18,16 +18,16 @@ ingredients:
     qte: 2.2
     unite: "% de la farine"
   - nom: crème fleurette
-    qte: 300
+    qte: 200
     unite: mL
   - nom: Baileys
     qte: 50
     unite: mL
   - nom: chocolat noir
-    qte: 75
+    qte: 50
     unite: gr
   - nom: crème liquide 15%
-    qte: 200
+    qte: 100
     unite: mL
   - nom: cacao non sucré
     qte: à souhait
@@ -47,7 +47,7 @@ etapes:
       - Réserver au frigo
   - label: Assmeblage
     details:
-      - Faire 8 trous réguliers dans le quatre-quarts avec le manche d'une cuillère en bois
+      - Faire 12 trous réguliers dans le quatre-quarts avec le manche d'une cuillère en bois
       - Dans une casserole, mettre la crème liquide et y faire fondre le chocolat noir
       - Hors du feu, ajouter le Baileys
       - Imbiber le quatre-quarts de ce mélange

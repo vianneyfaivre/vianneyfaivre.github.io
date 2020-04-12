@@ -16,7 +16,7 @@ ingredients:
     qte: 1/2
     unite: cuillère à café
 preconditions:
-  - "Tout doit être froid, donc mettre au congélateur pendant 15 minutes : la crème, le saladier, les fouets du batteur"
+  - "Tout doit être froid, donc mettre au congélateur pendant 10 minutes : la crème, le saladier, les fouets du batteur"
 etapes:
   - label: Préparation
     details:
