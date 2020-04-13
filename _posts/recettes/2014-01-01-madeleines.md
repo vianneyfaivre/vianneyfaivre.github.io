@@ -43,16 +43,30 @@ etapes:
       - Laisser la pâte 15 minutes au réfrigérateur
   - label: Préparation 2/2
     details:
+      - Mélanger la pâte à la spatule silicone afin de casser les bulles qui se sont formées
       - (Optionnel) Ajouter des fruits confits / pépites de chocolat (les fariner avant pour éviter qu'ils ne retombent)
       - Beurrer le moule
       - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts)
 cuisson: 
   - Préchauffer le four à 250°C
   - Mettre les madeleines au four
-  - Attendre 2 minutes puis baisser le four à 200°C
-  - Cuire pendant 10 minutes
-  - Sortir les madeleines et les démouler à moitié (les laisser reposer sur le côté)
+  - Attendre 2 minutes puis baisser le four à 200°C (ouvrir la porte du four pour que la température chute)
+  - Cuire pendant 6 à 10 minutes
+  - Démouler les madeleines et les laisser refroidir sur une grille
+  - Mettre dans une boite hermétique et patienter 2 heures
 notes:
   - La différence de température à la cuisson va aider les madeleines à bien gonfler afin d'obtenir une belle bosse
   - Bien surveiller la cuisson, ça dépendra beaucoup du four
+  - Entre deux fournées, laver le moule afin qu'il soit propre et froid 
+variantes:
+  - label: Fourrées (confiture, pâte à tartiner)
+    todo: true
+  - label: Coques en chocolat
+    todo: true
+  - label: Orange et Chocolat
+    todo: true
+  - label: Fruits confits
+    todo: false
+  - label: Pépites de chocolat
+    todo: false
 ---
