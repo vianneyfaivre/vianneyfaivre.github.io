@@ -48,7 +48,7 @@ etapes:
       - Beurrer le moule
       - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts)
 cuisson: 
-  - Préchauffer le four à 250°C
+  - Préchauffer le four à 220°C
   - Mettre les madeleines au four
   - Attendre 2 minutes puis baisser le four à 200°C (ouvrir la porte du four pour que la température chute)
   - Cuire pendant 6 à 10 minutes
