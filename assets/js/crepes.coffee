@@ -295,10 +295,11 @@ onRecipeChange = (recipes, selectedRecipe, quantity) ->
   hide document.getElementById "cuisson-panel"
 
   # Update mix-liquid value
-  eggsGramsHtmlInput.addEventListener 'input', (event) -> 
-    eggsGrams = parseInt(event.target.value)
-    if isNaN(eggsGrams) then return 
-    eggsGramsOnChange eggsGrams
+  if eggsGramsHtmlInput?
+    eggsGramsHtmlInput.addEventListener 'input', (event) -> 
+      eggsGrams = parseInt(event.target.value)
+      if isNaN(eggsGrams) then return 
+      eggsGramsOnChange eggsGrams
 
 onCrepesCountChange = (recipes, newCount) ->
   console.log "Changed Crepes Count to #{newCount}"
@@ -307,8 +308,8 @@ onCrepesCountChange = (recipes, newCount) ->
     return 
 
   updateCount newCount
-  document.getElementById("eggs-grams").value = ''
-  document.getElementById("mix-liquid").innerHTML = ''
+  document.getElementById("eggs-grams")?.value = ''
+  document.getElementById("mix-liquid")?.innerHTML = ''
   document.getElementById("ingredients").innerHTML = ''
 
   error = document.getElementById "mix-error"
