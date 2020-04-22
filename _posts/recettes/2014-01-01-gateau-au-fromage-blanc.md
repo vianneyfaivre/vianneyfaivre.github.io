@@ -7,6 +7,7 @@ title: Gâteau au Fromage Blanc
 type: sucre
 ingredients: 
   - nom: pâte brisée 
+    lien: /recettes/pate-brisee 
     qte: 1
   - nom: fromage blanc
     qte: 500

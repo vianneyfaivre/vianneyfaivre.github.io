@@ -32,7 +32,11 @@ layout: default
 					{% for ingredient in recette[1].ingredients %}
 						
 						{% if ingredient.qte %}
-							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+							{% if ingredient.lien %}
+								<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+							{% else %}
+								<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+							{% endif %}
 						{% else %}
 							<li>{{ ingredient.nom }}</li>
 						{% endif %}
@@ -46,10 +50,15 @@ layout: default
 				{% for ingredient in page.ingredients %}
 					
 					{% if ingredient.qte %}
-						<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+						{% if ingredient.lien %}
+							<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+						{% else %}
+							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+						{% endif %}
 					{% else %}
 						<li>{{ ingredient.nom }}</li>
 					{% endif %}
+
 				{% endfor %}
 				</ul>
 			{% endif %}
