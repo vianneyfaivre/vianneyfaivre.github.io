@@ -40,7 +40,8 @@ etapes:
       - Sur le plan de travail, fraiser la boule une/deux fois
       - Former une boule et l'applatir un peu
       - Laisser reposer minimum 30 minutes au frigo
-cuissonMinutes: 30
+cuisson:
+  - "À blanc : 170°C pour 15 à 20 minutes"
 notes:
   - Ne pas trop travailler la pâte sinon elle va durcir a la cuisson
   - Fraiser une nouvelle fois la pâte si elle est trop friable

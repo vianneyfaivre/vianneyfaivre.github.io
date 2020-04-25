@@ -34,23 +34,23 @@ etapes:
     details:
       - Mettre le fromage blanc dans un saladier
       - Ajouter la crème fraiche
-      - Fouetter
+      - "(Optionnel) : Ajouter les zestes et le jus de citron" 
+      - Mélanger au fouet jusqu'à ce que tout soit lisse
   - label: Préparation 2/2
     details:
-      - Dans un autre saladier, casser les oeufs
-      - Ajouter le sucre
-      - Faire blanchir
+      - Casser les oeufs dans un autre saladier
+      - Blanchir les oeufs avec le sucre
       - Ajouter le mélange de fromage blanc et de crème fraiche
       - Tamiser la farine et la levure sur le mélange
-      - Mélanger
+      - Mélanger au fouet jusqu'à ce que tout soit lisse
   - label: Assemblage
     details: 
-      - Étaler la pâte brisée dans un moule rond
+      - Foncer la pâte brisée dans un moule à tarte
       - Verser le mélange
 cuisson: 
   - Cuire 30 minutes à 150°C
   - Cuire 20 minutes à 180°C
 variantes:
-  - label: Mettre des zestes de citron au moment de faire la pâte brisée, en mettre également dans le fromage blanc
+  - label: Ajouter les zestes d'un citron et le jus d'un demi citron
     todo: false
 ---
