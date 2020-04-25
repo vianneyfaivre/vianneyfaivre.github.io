@@ -21,10 +21,10 @@ ingredients:
     qte: 30
     unite: gr
   - nom: levure chimique
-    qte: 11
+    qte: 4
     unite: gr
   - nom: sucre
-    qte: 175
+    qte: 125
     unite: gr
 preconditions:
   - Le fromage blanc, la crème fraiche et les oeufs doivent être à température ambiante
@@ -52,5 +52,9 @@ cuisson:
   - Cuire 20 minutes à 180°C
 variantes:
   - label: Ajouter les zestes d'un citron et le jus d'un demi citron
+    todo: false
+  - label: Le fromage blanc peut être remplacé par du Quark
+    todo: false
+  - label: La crème fraîche peut être remplacée par du cream cheese
     todo: false
 ---
