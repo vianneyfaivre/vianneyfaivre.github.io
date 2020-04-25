@@ -15,4 +15,4 @@ My Personal Blog
 
 # Update Dependencies
 
-`bundle update`
+`bundle update github-pages`
