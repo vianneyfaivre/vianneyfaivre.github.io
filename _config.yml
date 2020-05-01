@@ -16,7 +16,9 @@ excerpt_separator: <!--more-->
 
 google_analytics: UA-139044020-1
 
+# Source can be found in /<path_to_ruby>/gems/minima-<version>
 theme: minima
+
 header_pages: 
   - tech.html
   - things.html
