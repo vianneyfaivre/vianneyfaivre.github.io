@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: true
+hidden: false
 lang: fr
 title: Fondants au Chocolat
 type: sucre

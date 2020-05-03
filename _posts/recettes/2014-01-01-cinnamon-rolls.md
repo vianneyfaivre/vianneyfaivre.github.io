@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: true
+hidden: false
 lang: fr
 pour: pour 4 rolls
 title: Cinnamon Rolls

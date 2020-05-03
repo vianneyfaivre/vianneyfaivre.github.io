@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: true
+hidden: false
 lang: fr
 title: Crème Pâtissière
 type: base

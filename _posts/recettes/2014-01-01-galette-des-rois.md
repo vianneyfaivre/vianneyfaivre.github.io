@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Galette des Rois
-type: sucre
+type: false
 preconditions:
   - La pâte feuilletée, le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 200°C
