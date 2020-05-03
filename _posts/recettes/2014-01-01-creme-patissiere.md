@@ -24,7 +24,8 @@ ingredients:
 etapes:
   - label: Préparation
     details:
-      - Faire bouillir le lait et la vanille
+      - Rincer la casserole avec de l'eau (pour éviter que le lait accroche)
+      - Verser le lait et la vanille dans la casserole
       - Blanchir les oeufs avec le sucre
       - Ajouter la farine et mélanger
       - Verser la moitié du lait sur le mélange tout en fouettant
