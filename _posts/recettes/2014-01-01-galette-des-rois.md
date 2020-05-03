@@ -78,9 +78,9 @@ recettes:
         qte: 40
         unite: mL
     etapes:
-      - label: "Garniture 1/3 : Crème Patissière"
+      - label: "Garniture 1/3 : Crème Pâtissière"
         details:
-          - label: Faire la crème patissière
+          - label: Faire la crème pâtissière
             link: /recettes/creme-patissiere
       - label: "Garniture 2/3 : Crème d'amandes"
         details:
@@ -91,8 +91,8 @@ recettes:
       - label: "Garniture 3/3"
         details:
           - Calculer 30% du poids de la crème d'amandes
-          - Peser ce montant en crème patissière
-          - Mélanger la crème d'amandes avec la crème patissière
+          - Peser ce montant en crème pâtissière
+          - Mélanger la crème d'amandes avec la crème pâtissière
       - label: Assemblage
         details:
           - Étaler une pâte feuilletée

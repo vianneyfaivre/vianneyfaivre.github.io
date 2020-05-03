@@ -3,7 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
-title: Crème Patissière
+title: Crème Pâtissière
 type: base
 ingredients: 
   - nom: lait

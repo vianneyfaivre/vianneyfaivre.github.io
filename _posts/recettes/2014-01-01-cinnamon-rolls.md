@@ -64,7 +64,7 @@ etapes:
       - Mélanger brièvement puis déposer sur le plan de travail
       - Pétrir pendant 10 minutes jusqu'à ce que la pâte soit bien lisse. Ajouter de la farine si la pâte colle trop.
       - Abaisser grossièrement la pâte avec les doigts de façon à obtenir un rectangle
-      - Utiliser un rouleau à patisserie pour obtenir un rectangle d'un centimètre d'épaisseur
+      - Utiliser un rouleau à pâtisserie pour obtenir un rectangle d'un centimètre d'épaisseur
       - Bien faire les coins
   - label: Assemblage
     details: 
