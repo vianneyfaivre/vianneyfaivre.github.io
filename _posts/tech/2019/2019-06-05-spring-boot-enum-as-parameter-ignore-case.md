@@ -6,7 +6,7 @@ categories: [tech]
 
 Here is a way to enable the use of case-insensitive enumerations request parameters. You won't need to do any code modification in your enum.
 
-Let's say you have a controller class like this:
+Let's say you have a controller class:
 
 {% highlight java %}
 @RestController
@@ -19,7 +19,7 @@ public class MyController {
 }
 {% endhighlight %}
 
-And an Enum like this:
+And an Enumeration:
 
 {% highlight java %}
 public enum MyEnum {
@@ -28,15 +28,19 @@ public enum MyEnum {
 }
 {% endhighlight %}
 
-You have to add the following Spring Boot configuration:
+You have to create a custom Spring converter that converts String into MyEnum:
 
 {% highlight java %}
-@Configuration
-public class WebMvcConfig implements WebMvcConfigurer {
-    
+
+import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyEnumConverter implements Converter<String, MyEnum> {
+
     @Override
-    public void addFormatters(FormatterRegistry registry) {
-        ApplicationConversionService.configure(registry);
+    public MyEnum convert(String value) {
+        return MyEnum.valueOf(value.toUpperCase());
     }
 }
 {% endhighlight %}
@@ -46,4 +50,4 @@ Tests:
 * `GET /test/HELLO` will return `Hey HELLO`
 * `GET /test/hello` will return `Hey HELLO`
 
-Tested with Spring Boot 2.1.4
+Tested with Spring Boot 2.2.6
