@@ -3,33 +3,25 @@ layout: recette
 categories: [recettes]
 hidden: false
 lang: fr
-pour: pour 4 rolls
+pour: pour 6 rolls
 title: Cinnamon Rolls
 type: boulangerie
+withYeast: true
 ingredients: 
-  - nom: lait tiède 
-    qte: 160
-    unite: mL
-  - nom: sucre
-    qte: 50
-    unite: gr
-  - nom: beurre fondu
-    qte: 40
+  - nom: lait 
+    qte: 170
     unite: gr
   - nom: levure sèche
     qte: 3
     unite: gr
   - nom: farine blanche
-    qte: 160
+    qte: 300
     unite: gr
-  - nom: farine blanche
+  - nom: sucre blanc
+    qte: 50
+    unite: gr
+  - nom: beurre
     qte: 40
-    unite: gr
-  - nom: farine
-    qte: 100
-    unite: gr
-  - nom: levure chimique
-    qte: 1.5
     unite: gr
   - nom: sel
     qte: 1
@@ -43,47 +35,41 @@ ingredients:
   - nom: cannelle en poudre
     qte: 2
     unite: cuillères à café
+preconditions:
+  - Couper 40 grammes de beurre en dés
+  - Dans un bol, mettre 55 grammes de beurre pommade
 etapes:
-  - label: Activation de la levure
+  - label: Pétrissage
     details:
-      - Faire fondre les 40 grammes de beurre au micro ondes
-      - Mélanger le lait, le sucre et le beurre. Le tout ne doit pas être trop chaud sinon la levure ne pourra pas fonctionner.
-      - Ajouter la levure sèche, mélanger, couvrir et laisser agir dans un endroit chaud 15 minutes. 
-  - label: Pâte 1/2
-    details:
-      - Ajouter 160 grammes de farine et mélanger avec une cuillère en bois jusqu'à absorption.
-      - Couvrir et laisser reposer dans un endroit chaud 1h30, cela devrait doubler de taille.
+      - Dans le récipient de la machine à pain, verser le mélange lait-levure
+      - Ajouter la farine
+      - Ajouter le sel
+      - Ajouter les 40 grammes de beurre en dés
+      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec levée)
   - label: Garniture
     details: 
-      - Mélanger la vergeoise avec le beurre pommade
+      - Mélanger la vergeoise avec les 55 grammes de beurre pommade
       - Ajouter la canelle et mélanger
-      - Mettre de côté
-  - label: Pâte 2/2
+      - Réserver
+  - label: Façonnage
     details: 
-      - Ajouter les 40 grammes de farine, la levure chimique et le sel
-      - Mélanger brièvement puis déposer sur le plan de travail
-      - Pétrir pendant 10 minutes jusqu'à ce que la pâte soit bien lisse. Ajouter de la farine si la pâte colle trop.
+      - Déposer la pâte sur le plan de travail
       - Abaisser grossièrement la pâte avec les doigts de façon à obtenir un rectangle
-      - Utiliser un rouleau à pâtisserie pour obtenir un rectangle d'un centimètre d'épaisseur
+      - Utiliser un rouleau à pâtisserie pour obtenir un rectangle d'un centimètre d'épaisseur environ
       - Bien faire les coins
-  - label: Assemblage
-    details: 
       - Étaler la garniture sur la pâte
-      - Rouler la pâte, ne pas trop la serrer
-      - Couper en rouleaux de taille égale
+      - Rouler la pâte sans trop la serrer
+      - Couper en 6 rolls de taille égale
       - Beurrer un moule rectangle
-      - Placer les cinnamon rolls dans le plat en les espaçant bien
+      - Placer les rolls dans le plat en les espaçant bien
       - Laisser reposer 45 minutes, cela devrait doubler de taille.
 notes:
-  - Ajouter un peu de farine pendant le pétrissage si la pâte colle trop (très peu à la fois !)
-  - Après le pétrissage, la boule de pâte doit être bien lisse et si on appuie dessus, le trou doit se refermer.
-  - Si la pâte est trop souple, la mettre au frais 15 minutes
   - Au roulage il ne faut pas trop serrer la pâte car elle a besoin d'espace pour pousser une nouvelle fois.
 cuissonMinutes: 30
 cuisson: 
   - Battre un oeuf et passer un coup de pinceau sur les rolls
   - Préchauffer le four à 180°C
   - Placer un verre d'eau dans le four
-  - Cuire pendant 30 minutes 
+  - Cuire pendant 25 minutes 
   - Laisser refroidir 10 minutes avant de déguster
 ---
