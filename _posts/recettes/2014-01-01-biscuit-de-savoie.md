@@ -34,7 +34,4 @@ etapes:
 cuissonMinutes: 30
 cuisson: 
   - Cuire 30 minutes à 180°C
-variantes:
-  - label: 150 grammes de sucre
-    todo: true
 ---
