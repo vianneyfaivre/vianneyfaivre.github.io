@@ -9,12 +9,12 @@ type: boulangerie
 withYeast: true
 ingredients: 
   - nom: lait 
-    qte: 170
+    qte: 175
     unite: gr
   - nom: levure sèche
     qte: 3
     unite: gr
-  - nom: farine blanche
+  - nom: farine T55
     qte: 300
     unite: gr
   - nom: sucre blanc
@@ -43,6 +43,7 @@ etapes:
     details:
       - Dans le récipient de la machine à pain, verser le mélange lait-levure
       - Ajouter la farine
+      - Ajouter le sucre
       - Ajouter le sel
       - Ajouter les 40 grammes de beurre en dés
       - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec levée)
