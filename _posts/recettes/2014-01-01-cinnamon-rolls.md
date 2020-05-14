@@ -39,14 +39,14 @@ preconditions:
   - Couper 40 grammes de beurre en dés
   - Dans un bol, mettre 55 grammes de beurre pommade
 etapes:
-  - label: Pétrissage
+  - label: Pétrissage et Pointage
     details:
       - Dans le récipient de la machine à pain, verser le mélange lait-levure
       - Ajouter la farine
       - Ajouter le sucre
       - Ajouter le sel
       - Ajouter les 40 grammes de beurre en dés
-      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec levée)
+      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec pointage)
   - label: Garniture
     details: 
       - Mélanger la vergeoise avec les 55 grammes de beurre pommade

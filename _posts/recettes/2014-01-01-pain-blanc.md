@@ -26,7 +26,7 @@ etapes:
       - Ajouter 1 gramme de levure sèche
       - Ajouter 150 grammes d'eau à 30°C
       - Mélanger, couvrir et laisser à température ambiante pour la nuit (12h maximum)
-  - label: Pétrissage (le lendemain - matin)
+  - label: Pétrissage  et Pointage (le lendemain - matin)
     details:
       - label: Activer 2 grammes de levure sèche avec les 40 grammes d'eau
         link: /cuisine/levure
@@ -34,12 +34,12 @@ etapes:
       - Ajouter le mélange eau-levure
       - Ajouter 160 grammes de farine
       - Ajouter le sel
-      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec levée)
+      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec pointage)
   - label: Division, Boulage et Détente
     details:
       - Diviser en pâtons de poids égaux
       - Bouler
-      - Détente de 5 minutes
+      - Laisser une détente de 5 minutes
   - label: Façonnage
     details:
       - Façonner en petits pains

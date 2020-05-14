@@ -32,7 +32,7 @@ preconditions:
   - Couper le beurre en dés
   - Battre l'oeuf
 etapes:
-  - label: Pétrissage
+  - label: Pétrissage et Pointage
     details:
       - Dans le récipient de la machine à pain, verser le mélange lait-levure
       - Ajouter l'oeuf
@@ -40,7 +40,7 @@ etapes:
       - Ajouter le sucre
       - Ajouter le sel
       - Ajouter le beurre
-      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec levée)
+      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec pointage)
   - label: Division, Boulage et Détente
     details:
       - Diviser en pâtons de poids égaux
@@ -54,6 +54,6 @@ etapes:
 cuissonMinutes: 15
 cuisson: 
   - Cuire 15 à 18 minutes à 200°C
-  - Dorer avec du beurre fondu
+  - Badigeonner avec du beurre fondu
   - Laisser refroidir sur une grille 10 minutes
 ---

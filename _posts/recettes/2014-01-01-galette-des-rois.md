@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 title: Galette des Rois
-type: false
+type: sucre
 preconditions:
   - La pâte feuilletée, le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 200°C
@@ -41,7 +41,7 @@ recettes:
           - Mouiller avec son doigt le bord de la pâte sur 2 cm avec de l'eau
           - Étaler la seconde pâte feuilletée sur la première
           - Bien pincer les bords
-          - Dorer avec un jaune d'oeuf (sauf le long du bord)
+          - Badigeonner avec un jaune d'oeuf (sauf le long du bord)
           - Faire un dessin avec la pointe d'un couteau
   Frangipane:
     ingredients: 
@@ -100,14 +100,14 @@ recettes:
           - Mouiller avec son doigt le bord de la pâte sur 2 cm avec de l'eau
           - Étaler la seconde pâte feuilletée sur la première
           - Bien pincer les bords
-          - Dorer avec un jaune d'oeuf (sauf le long du bord)
+          - Badigeonner avec un jaune d'oeuf (sauf le long du bord)
           - Faire un dessin avec la pointe d'un couteau
 cuisson: 
   - Cuire 30-35 minutes à 180°C (chaleur tournante, à placer quasiment en bas du four)
   - Cuire 15 minutes à 150°C
 notes:
   - Utiliser le dos d'une cuillère et la pointe d'un couteau pour faire les bords
-  - Il ne faut pas dorer le long du bord car le jaune d'oeuf va empêcher la pâte de gonfler à la cuisson
+  - Il ne faut pas badigeonner le long du bord car le jaune d'oeuf va empêcher la pâte de gonfler à la cuisson
   - Le rhum peut être remplacé par de l'Amaretto
   - Cette recette convient pour une galette de 25x25 cm. Veiller à ne pas trop surcharger de garniture
 ---
