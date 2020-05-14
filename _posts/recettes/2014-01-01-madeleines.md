@@ -20,7 +20,7 @@ ingredients:
   - nom: miel
     qte: 5
     unite: gr
-  - nom: farine
+  - nom: farine blanche
     qte: 65
     unite: gr
   - nom: levure chimique
@@ -31,13 +31,11 @@ ingredients:
     unite: gr
   - nom: arômes (vanille, citron, ...)
   - nom: zestes (orange, citron, ...)
-preconditions:
-  - Le beurre et les oeufs doivent être à température ambiante
-  - Faire fondre le beurre
 etapes:
   - label: Préparation 1/2
     details:
-      - Blanchir les oeufs, les jaunes d'oeufs et le sucre
+      - Faire fondre le beurre
+      - Blanchir les oeufs et les jaunes d'oeufs avec le sucre
       - (Optionnel) Ajouter les arômes et les zestes
       - Ajouter l'huile et le miel
       - Mélanger au fouet
@@ -45,7 +43,7 @@ etapes:
       - Mélanger à la spatule silicone jusqu'à incorporation
       - Ajouter le beurre fondu
       - Mélanger à la spatule silicone jusqu'à incorporation
-      - Laisser la pâte 15 minutes (minimum) au réfrigérateur
+      - Réserver la pâte 15 minutes (minimum) au réfrigérateur
   - label: Préparation 2/2
     details:
       - Mélanger la pâte à la spatule silicone afin de casser les bulles qui se sont formées
