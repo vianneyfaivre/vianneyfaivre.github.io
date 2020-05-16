@@ -37,7 +37,7 @@ etapes:
       - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec pointage)
   - label: Division, Boulage et Détente
     details:
-      - Diviser en pâtons de poids égaux
+      - Diviser en pâtons de poids égal
       - Bouler
       - Laisser une détente de 5 minutes
   - label: Façonnage

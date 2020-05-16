@@ -51,9 +51,9 @@ etapes:
       - Beurrer le moule
       - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts)
 cuisson: 
-  - Préchauffer le four à 210°C
+  - Préchauffer le four à 200°C
   - Enfourner pour 5 minutes
-  - Baisser le four à 180°C et ouvrir la porte du four pour que la température chute
+  - Baisser le four à 180°C (ouvrir la porte du four pour que la température chute)
   - Cuire pendant 3 à 6 minutes
   - Démouler légèrement en les laissant sur leur côté. Les laisser 5 minutes
   - Laisser refroidir 10 minutes sur une grille
@@ -65,8 +65,8 @@ notes:
 variantes:
   - label: Fourrées (confiture, pâte à tartiner)
     todo: true
-  - label: Coques en chocolat
-    todo: true
+  - label: Coques en chocolat (50 gr de chocolat + 7 gr d'huile de pépins de raisins)
+    todo: false
   - label: Orange et Chocolat
     todo: true
   - label: Fruits confits
