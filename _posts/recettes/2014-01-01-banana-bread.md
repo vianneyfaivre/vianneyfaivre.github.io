@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Banana Bread
 type: sucre
 ingredients: 

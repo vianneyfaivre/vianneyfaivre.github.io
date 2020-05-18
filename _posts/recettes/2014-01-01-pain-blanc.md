@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Pain Blanc
 type: boulangerie
 pour: pour 4 petites baguettes

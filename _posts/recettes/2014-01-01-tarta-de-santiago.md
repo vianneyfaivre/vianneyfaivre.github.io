@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Tarta de Santiago
 type: sucre
 ingredients: 

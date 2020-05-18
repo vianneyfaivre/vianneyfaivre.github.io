@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Gâteau au Fromage Blanc
 type: sucre
 ingredients: 

@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 pour: pour 6 rolls
 title: Cinnamon Rolls
 type: boulangerie

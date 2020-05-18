@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Madeleines
 type: sucre
 pour: pour 12 madeleines

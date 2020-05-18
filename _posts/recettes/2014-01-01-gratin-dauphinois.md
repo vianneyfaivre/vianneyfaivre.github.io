@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Gratin Dauphinois
 type: sel
 pour: pour un petit gratin

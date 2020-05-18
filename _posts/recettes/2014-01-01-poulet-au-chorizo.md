@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Poulet au Chorizo
 type: sel
 pour: pour 2 personnes

@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Fondants au Chocolat
 type: sucre
 pour: pour 4 ramequins

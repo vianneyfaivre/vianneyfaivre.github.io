@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Verrines Mascarpone Framboise
 type: sucre
 pour: pour 4 verrines

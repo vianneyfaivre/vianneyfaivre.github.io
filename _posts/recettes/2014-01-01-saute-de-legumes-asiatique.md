@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Sauté de légumes à l'asiatique
 type: sel
 pour: pour 4 personnes

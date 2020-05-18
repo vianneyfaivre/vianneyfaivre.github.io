@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Escalopes de Dinde à la Normande
 type: sel
 pour: pour 2 personnes

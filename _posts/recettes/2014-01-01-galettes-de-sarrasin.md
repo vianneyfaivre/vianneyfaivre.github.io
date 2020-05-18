@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Galettes de Sarrasin
 type: sel
 pour: pour 12 galettes

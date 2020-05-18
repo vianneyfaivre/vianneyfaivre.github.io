@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Cake Moelleux Citron Pavot
 type: sucre
 ingredients: 

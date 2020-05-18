@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Fondue Savoyarde
 type: sel
 pour: pour 6 personnes

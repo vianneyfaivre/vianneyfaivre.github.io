@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Pois Chiches à l'Espagnole
 type: sel
 ingredients: 

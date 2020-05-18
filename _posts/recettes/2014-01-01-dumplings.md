@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Dumplings
 pour: pour environ 40 dumplings
 type: sel

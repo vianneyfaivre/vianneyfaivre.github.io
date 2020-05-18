@@ -3,6 +3,7 @@ layout: recette
 categories: [recettes]
 hidden: true
 lang: fr
+sitemap: false
 title: Cheesecake sans cuisson
 type: sucre
 ingredients: 
