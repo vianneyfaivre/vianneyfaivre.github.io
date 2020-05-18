@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: false
+hidden: true
 lang: fr
 title: Escalopes de Dinde à la Normande
 type: sel

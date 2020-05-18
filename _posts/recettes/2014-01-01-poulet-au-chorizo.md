@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: false
+hidden: true
 lang: fr
 title: Poulet au Chorizo
 type: sel

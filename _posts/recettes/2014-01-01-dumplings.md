@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: false
+hidden: true
 lang: fr
 title: Dumplings
 pour: pour environ 40 dumplings

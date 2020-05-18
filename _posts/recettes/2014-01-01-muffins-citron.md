@@ -1,7 +1,7 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: false
+hidden: true
 lang: fr
 title: Muffins au Citron
 type: sucre
