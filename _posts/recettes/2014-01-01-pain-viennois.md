@@ -41,7 +41,7 @@ etapes:
       - Ajouter le sucre
       - Ajouter le sel
       - Ajouter le beurre
-      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec pointage)
+      - Lancer le programme "pétrissage seulement"
   - label: Division, Boulage et Détente
     details:
       - Diviser en pâtons de poids égal

@@ -47,7 +47,7 @@ etapes:
       - Ajouter le sucre
       - Ajouter le sel
       - Ajouter les 40 grammes de beurre en dés
-      - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec pointage)
+      - Lancer le programme "pétrissage seulement"
   - label: Garniture
     details: 
       - Mélanger la vergeoise avec les 55 grammes de beurre pommade

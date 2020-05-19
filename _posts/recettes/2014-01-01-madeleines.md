@@ -66,7 +66,7 @@ notes:
 variantes:
   - label: Fourrées (confiture, pâte à tartiner)
     todo: true
-  - label: Coques en chocolat (50 gr de chocolat + 7 gr d'huile de pépins de raisins)
+  - label: Coques en chocolat (20 gr de chocolat + 3 gr d'huile de pépins de raisins)
     todo: false
   - label: Orange et Chocolat (1 cuillère à café d'eau de fleur d'oranger + zeste d'une demie orange + coque en chocolat noir)
     todo: false
