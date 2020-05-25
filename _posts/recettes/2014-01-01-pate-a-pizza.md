@@ -34,7 +34,7 @@ etapes:
       - Pétrir jusqu'à ce que ça arrête de coller au saladier
       - Sortir la boule et pétrir sur le plan de travail avec la paume de la main
       - Former une boule qui doit être bien lisse
-      - Remettre dans le saladier, couvrir et laisser reposer 2 heures minimum dans un endroit chaud
+      - Remettre dans le saladier, couvrir et laisser reposer 2 heures à 25°C
 cuisson: 
   - Préchauffer le four à 240°C 
   - Sortir la boule (elle a du beaucoup lever), dégazer puis l'étaler au rouleau

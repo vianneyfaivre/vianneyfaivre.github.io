@@ -50,7 +50,7 @@ etapes:
   - label: Façonnage
     details:
       - Façonner en petits pains
-      - Laisser reposer 45 minutes
+      - Laisser reposer 45 minutes à 25°C
       - Grigner
 cuissonMinutes: 15
 cuisson: 

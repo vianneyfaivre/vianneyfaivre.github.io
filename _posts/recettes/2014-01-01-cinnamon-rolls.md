@@ -64,7 +64,7 @@ etapes:
       - Couper en 6 rolls de taille égale
       - Beurrer un moule rectangle
       - Placer les rolls dans le plat en les espaçant bien
-      - Laisser reposer 45 minutes, cela devrait doubler de taille.
+      - Laisser reposer 1 heure à 25°C
 notes:
   - Au roulage il ne faut pas trop serrer la pâte car elle a besoin d'espace pour pousser une nouvelle fois.
 cuissonMinutes: 30
