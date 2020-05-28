@@ -28,29 +28,36 @@ recettes:
         - Tamiser la farine et la levure sur la préparation
         - Mélanger doucement avec une spatule
         - Beurrer et fariner le moule puis y ajouter la préparation
-  C'est Ma Fournée: 
+  Chocolat: 
     ingredients:
-      - nom: oeufs 
-        qte: 3
-      - nom: farine
-        qte: 175
+      - nom: chocolat noir
+        qte: 200
         unite: gr
       - nom: beurre
-        qte: 125
+        qte: 80
         unite: gr
+      - nom: oeufs 
+        qte: 4
       - nom: sucre glace
-        qte: 125
+        qte: 100
+        unite: gr
+      - nom: farine
+        qte: 60
         unite: gr
       - nom: levure chimique
-        qte: 3
-        unite: "% de la farine"
+        qte: 5
+        unite: gr
+      - nom: chocolat en poudre non sucré
+        qte: 10
+        unite: gr
     etapes:
       - label: Préparation
         details:
-        - Blanchir le beurre mou avec le sucre
-        - Ajouter les oeufs et battre énergiquement au fouet
-        - Tamiser la farine et la levure sur la préparation
+        - Faire fondre le chocolat avec le beurre
+        - Battre au fouet les oeufs avec le sucre
+        - Tamiser la farine, le chocolat en poudre et la levure sur la préparation
         - Mélanger doucement avec une spatule
+        - Ajouter le mélange beurre-chocolat
         - Beurrer et fariner le moule puis y ajouter la préparation
   Coco Choco: 
     ingredients:
@@ -160,18 +167,10 @@ preconditions:
   - Préchauffer le four à 180°C
 cuissonMinutes: 35
 cuisson: 
-  - Cuire 35 à 40 minutes à 180°C en chaleur tournante
+  - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
   - Vérifier que le gâteau est cuit avec la pointe d'un couteau
 variantes:
-  - label: Moitié de sucre en moins
-    todo: true
-  - label: Monter les blancs en neige
-    todo: true
   - label: Avec des pommes
-    todo: true
-  - label: Au chocolat
-    todo: true
-  - label: Sans sucre blanc
     todo: true
   - label: Imbibé à l'orange
     todo: true
