@@ -12,7 +12,7 @@ ingredients:
     qte: 10
   - nom: oignon
     qte: 1
-  - nom: poivron vert 
+  - nom: poivron 
     qte: 1
   - nom: ail
     qte: 4
@@ -30,17 +30,18 @@ ingredients:
   - nom: paprika doux
     qte: 4
     unite: cuillères à café
-preconditions:
-  - Dans un verre, ajouter les épices, du sel et du poivre
 etapes:
   - label: "Préparation"
     details:
       - Faire revenir l’oignon dans de l’huile d’olive
       - Ajouter les poivrons et les faire ramollir à feu doux
-      - Ajouter l’ail et les épices
+      - Ajouter l’ail, les épices, du sel et du poivre
       - Mélanger et cuire à feu doux 2 minutes
       - Ajouter les tomates et les pois chiches
-      - Quand les tomates sont cuites, ajouter le persil
-      - Ajouter les oeufs directement dans la poele un par un (faire des trous juste avant)
+      - Faire des petits trous à l'aide d'une cuillère en bois
+      - Casser les oeufs directement dans les trous
       - Servir quand les blancs sont cuits mais pas les jaunes
+variantes:
+  - label: 800 grammes de tomates en boite à la place des tomates fraîches
+    todo: false
 ---
