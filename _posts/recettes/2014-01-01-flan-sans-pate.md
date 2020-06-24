@@ -27,16 +27,16 @@ ingredients:
     qte: 30
     unite: gr
   - nom: vanille liquide
-    qte: 1
-    unite: cuillère à café
+    qte: 2
+    unite: cuillères à café
 preconditions:
   - Couper le beurre en petits dés
   - Préchauffer le four à 180°C
 etapes:
   - label: Préparation
     details:
-      - Porter le lait, la crème et la vanille à ébullition (environ 80°C)
-      - Dans un saladier, mélanger l'oeuf entier avec les jaunes, le sucre et la fécule de maïs
+      - Porter le lait, la crème et la moitié de la vanille à ébullition (environ 80°C)
+      - Dans un saladier, mélanger l'oeuf entier avec les jaunes, le sucre, l'autre moitié de la vanille et la fécule de maïs
       - Quand le lait commence à bouillir, le verser en deux fois dans le saladier tout en fouettant continuellement
       - Reverser le tout dans la casserole
       - Mettre à feu moyen-doux et fouetter continuellement jusqu'à ce que ça commence à épaissir
@@ -44,7 +44,7 @@ etapes:
       - Ajouter le beurre et mélanger à l'aide d'une spatule silicone
 cuissonMinutes: 40
 cuisson: 
-  - Beurrer le moule
+  - Beurrer légèrement le moule
   - Verser la préparation dans le moule
   - Cuire 40 minutes à 180°C
   - Laisser refroidir le flan dans le moule avant de démouler

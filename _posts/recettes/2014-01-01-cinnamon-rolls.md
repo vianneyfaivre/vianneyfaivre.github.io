@@ -69,9 +69,9 @@ notes:
   - Au roulage il ne faut pas trop serrer la pâte car elle a besoin d'espace pour pousser une nouvelle fois.
 cuissonMinutes: 30
 cuisson: 
-  - Battre un oeuf et passer un coup de pinceau sur les rolls
+  - Battre un oeuf et une pincée de sel
+  - Badigeonner les rolls à l'aide d'un pinceau
   - Préchauffer le four à 180°C
-  - Placer un verre d'eau dans le four
   - Cuire pendant 25 minutes 
   - Laisser refroidir 10 minutes avant de déguster
 ---
