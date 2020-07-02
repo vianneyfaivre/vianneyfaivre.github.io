@@ -44,6 +44,7 @@ etapes:
       - Lancer le programme "pétrissage seulement"
   - label: Division, Boulage et Détente
     details:
+      - Dégazer
       - Diviser en pâtons de poids égal
       - Bouler
       - Détente de 5 minutes
