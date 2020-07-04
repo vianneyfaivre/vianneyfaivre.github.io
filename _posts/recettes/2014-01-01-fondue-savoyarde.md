@@ -55,4 +55,5 @@ notes:
   - Si la fondue est trop liquide, remettre un peu de fromage
   - Il ne faut pas que le pain soit trop dur
   - Faire fondre les fromages va prendre maximum 10 minutes
+  - "Version Nouvelle-Zélande: 50% Colby, 25% Tasty, 25% Edam"
 ---
