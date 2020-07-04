@@ -6,7 +6,7 @@ lang: fr
 sitemap: false
 title: Fondue Savoyarde
 type: sel
-pour: pour 6 personnes
+pour: pour 4 personnes
 ingredients: 
   - nom: fromage
     qte: 900
@@ -29,23 +29,30 @@ etapes:
     details: 
       - Couper les baguettes en gros bouts
       - Couper les bouts en quatre
-      - Mettre au four à 200°C porte ouverte pour qu'ils durcissent
+      - Les mettre au four à 200°C porte semie ouverte pour qu'ils durcissent
       - Tourner de temps en temps
       - Les sortir quand ils commencent à dorer
-  - label: Préparation de la fondue
+  - label: Préparation du fromage
     details:
       - Raper les fromages
-      - Peler l'ail et gratter le caquelon avec
-      - Verser la moitié du vin blanc dans le caquelon
-      - Dans un verre, diluer la fécule de maïs avec un peu du reste du vin blanc 
-      - Verser dans le caquelon et porter à ébullition
-      - Ajouter un tiers du fromage râpé et baisser le feu
+      - Verser de l'eau dans une casserole
+      - Placer un cul de poule dessus (bain marie)
+      - Peler l'ail et frotter le cul de poule avec
+      - Verser la moitié du vin blanc dans le cul de poule
+      - Dans un verre, diluer la fécule de maïs avec le reste du vin blanc 
+      - Porter à ébullition
+      - Baisser un peu le feu et ajouter un tiers du fromage
       - Délayer, quand le fromage est lisse, ajouter un autre tiers
       - Ajouter le dernier tiers et délayer
+  - label: Fondue
+    details:
+      - Peler l'ail et frotter le caquelon avec
+      - Faire chauffer l'appareil à fondue
+      - Verser le fromage dans le caquelon
 notes:
-  - Prendre trois fromages différents à la fromagerie (Beaufort, Comté, Abondance, Emmental, Appenzeller, ...)
-  - Demander au fromager de raper le fromage
+  - Prendre au moins trois fromages de qualité et différents (Beaufort, Comté, Abondance, Emmental, Appenzeller, ...)
   - Si la fondue est trop compacte, remettre un peu de vin blanc
-  - Faire attention avec le vin blanc, si vous en mettez trop la fondue sera trop liquide
+  - Si la fondue est trop liquide, remettre un peu de fromage
   - Il ne faut pas que le pain soit trop dur
+  - Faire fondre les fromages va prendre maximum 10 minutes
 ---
