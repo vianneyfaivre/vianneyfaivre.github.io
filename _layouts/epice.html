@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<article class="post h-entry recette">
+
+  <header>
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content e-content">
+
+	<div class="main-panel">
+	
+		<div class="ingredients-panel">
+
+			<h4>🛒 Ingrédients</h4>
+			
+			<ul id="ingredients-list">
+			{% for ingredient in page.ingredients %}
+				
+				{% if ingredient.qte %}
+					{% if ingredient.lien %}
+						<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+					{% else %}
+						<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+					{% endif %}
+				{% else %}
+					<li>{{ ingredient.nom }}</li>
+				{% endif %}
+
+			{% endfor %}
+			</ul>
+			
+		</div>
+	
+	<div>
+		
+		{% if page.utilisations %}
+			<h4>💡 Utilisations</h4>
+			<ul>
+			{% for utilisation in page.utilisations %}
+				{% if utilisation.link %}
+					<li><a href="{{ utilisation.link }}">{{ utilisation.label }}</a></li>
+				{% else %}
+					<li>{{ utilisation }}</li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		{% endif %}
+		
+	</div>
+
+  </div>  
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<script src="/assets/js/recette.js"></script>
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item":
+   {
+	"@id": "https://vianneyfaivre.com/{{page.categories[0]}}",
+	"name": "{{page.categories[0]}}"
+	}
+  }
+ ]
+}
+</script>

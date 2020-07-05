@@ -1,5 +1,5 @@
 ---
-layout: recette
+layout: epice
 categories: [recettes]
 hidden: true
 lang: fr
@@ -31,9 +31,6 @@ ingredients:
   - nom: sel
     qte: 2
     unite: cuillères à café
-etapes:
-  - label: Préparation
-    details:
-      - Tout doit être en poudre
-      - Tout mélanger
+utilisations:
+  - Couscous
 ---
