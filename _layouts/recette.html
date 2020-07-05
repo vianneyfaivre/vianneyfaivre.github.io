@@ -118,6 +118,17 @@ layout: default
 						{% endfor %}
 					</div>
 
+					{% if recette[1].cuisson %}
+						<div id="{{recette[0]}}-cuisson" class="variante-cuisson">
+							<h4>🔥 Cuisson</h4>
+							<ul>
+							{% for cuisson in recette[1].cuisson %}
+								<li>{{ cuisson }}</li>
+							{% endfor %}
+							</ul>
+						</div>
+					{% endif %}
+
 				{% endfor %}
 
 			{% else %}

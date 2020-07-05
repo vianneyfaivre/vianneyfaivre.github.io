@@ -21,8 +21,8 @@ preconditions:
 etapes:
   - label: Préparation
     details:
-      - Mélanger la crème avec le sucre glace et l'extrait de vanille
+      - Mélanger la crème avec le sucre glace et la vanille liquide
       - Battre la crème au batteur électrique jusqu'à obtention de la consistence voulue
 notes:
-  - Il faut absolument que la crème liquide ait au moins 30% de matière grasse
+  - Il faut absolument que la crème liquide ait au moins 30% de matières grasse
 ---
