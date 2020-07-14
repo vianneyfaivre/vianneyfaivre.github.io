@@ -19,16 +19,12 @@ ingredients:
   - nom: sel
     qte: 25
     unite: gr
-
-preconditions:
-  - Les oeufs doivent être à température ambiante
-
 etapes:
   - label: Préparation
     details:
-      - Verser la farine dans un grand saladier
+      - Mélanger la farine et le sel dans un saladier
       - Faire un trou au milieu
       - Mettre l'oeuf dans le trou
       - Ajouter l'eau au fur et à mesure en mélangeant au fouet
-      - Couvrir et laisser reposer minimum 1h
+      - Couvrir et laisser reposer 1h
 ---
