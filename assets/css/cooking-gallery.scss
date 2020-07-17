@@ -1,0 +1,17 @@
+---
+---
+
+.recipe-pictures {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: flex-start;
+
+    .recipe-picture {
+
+        padding: 5px;
+        border-radius: 10px;
+        transition: width 500ms;
+    }
+}

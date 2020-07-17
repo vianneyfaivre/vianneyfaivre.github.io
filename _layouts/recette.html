@@ -195,12 +195,61 @@ layout: default
 		
 	</div>
 
+	{% if page.recettes %}
+
+		{% for recette in page.recettes %}
+
+			<div id="{{recette[0]}}-pictures" class="hidden variante-pictures">
+
+				<h4>📷 Photos</h4>
+
+				<div class="recipe-pictures">
+
+					{% assign pictures = site.static_files | where: "isRecipePic", true %}
+					{% for picture in pictures %}
+
+						{% assign name = picture.name | split: '.' %}
+						{% if picture.path contains page.title and name[0] contains recette[0] %}
+							<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
+						{% endif %}
+				
+					{% endfor %}
+
+				</div>
+
+			</div>
+		{% endfor %}
+
+	{% else %}
+	
+		<div class="hidden" id="gallery">
+
+			<h4>📷 Photos</h4>
+
+			<div class="recipe-pictures">
+
+				{% assign pictures = site.static_files | where: "isRecipePic", true %}
+				{% for picture in pictures %}
+				
+					{% assign name = picture.name | split: '.' %}
+					{% if picture.path contains page.title %}
+					<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
+					{% endif %}
+				
+				{% endfor %}
+
+			</div>
+		
+		</div>
+	{% endif %}
+
   </div>  
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
 <script src="/assets/js/recette.js"></script>
+<script src="/assets/js/recipe-pictures.js"></script>
 <script type="application/ld+json">
 {
  "@context": "http://schema.org",

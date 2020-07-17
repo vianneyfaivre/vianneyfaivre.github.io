@@ -1,0 +1,22 @@
+---
+layout: default
+title: Cooking Gallery
+description: A list of (ugly) pictures of what I can bake
+categories: [things]
+hidden: true
+customCss: assets/css/cooking-gallery.css
+---
+
+<h1>Cooking Gallery</h1>
+
+<div class="recipe-pictures">
+
+  {% assign pictures = site.static_files | where: "isRecipePic", true %}
+  
+  {% for picture in pictures %}
+    {% assign name = picture.name | split: '.' %}
+    <img src="{{ picture.path }}" width="100" class="recipe-picture" alt="{{ name[0] }}" title="{{ name[0] }}" /> 
+  {% endfor %}
+</div>
+
+<script src="/assets/js/recipe-pictures.js"></script>

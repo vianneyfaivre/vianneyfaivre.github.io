@@ -34,9 +34,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Adding the flag "isFlag" to flags
+# Tag static resources
 defaults:
   - scope:
       path: "assets/images/flags-small"
     values:
       isFlag: true
+  - scope:
+      path: "assets/images/cooking/recipes"
+    values:
+      isRecipePic: true

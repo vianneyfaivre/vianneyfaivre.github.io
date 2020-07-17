@@ -12,6 +12,10 @@ variantesButtons = document.getElementsByClassName "variantes-btn"
 variantesIngredients = document.getElementsByClassName "variante-ingredients"
 variantesEtapes = document.getElementsByClassName "variante-etapes"
 variantesCuisson = document.getElementsByClassName "variante-cuisson"
+variantesPictures = document.getElementsByClassName "variante-pictures"
+
+# Pictures
+pictures = document.getElementsByClassName "recipe-picture"
 
 # Constants
 ACTION_PLAY = '▶️'
@@ -30,6 +34,8 @@ state = {
 }
 
 main = () ->
+
+  # Countdown
   shouldInitCountdown = countdownInput != null && actionButton != null && bell
   if shouldInitCountdown 
     TIMER_DURATION_MINUTES = countdownInput.getAttribute "timerDuration"
@@ -37,6 +43,7 @@ main = () ->
     changeActionButton ACTION_PLAY
     initEventsListeners()
   
+  # Variantes
   shouldInitVariantes = variantesButtons.length > 0
   if shouldInitVariantes
 
@@ -47,12 +54,20 @@ main = () ->
     # Activate the first variante
     variantesButtons[0].click()
 
+  # No Variantes
+  else if pictures.length > 0
+
+    picturesContainer = document.getElementById "gallery"
+  
+    # Show its picture container
+    picturesContainer.classList.remove "hidden"
 
 onVarianteButtonClick = (btn) ->
   varianteId = btn.innerHTML
   ingredientsId = varianteId + "-ingredients"
   etapesId = varianteId + "-etapes"
   cuissonId = varianteId + "-cuisson"
+  picturesId = varianteId + "-pictures"
 
   # Remove all buttons highlighting
   for varianteButton in variantesButtons
@@ -71,6 +86,9 @@ onVarianteButtonClick = (btn) ->
   for varianteCuisson in variantesCuisson
     varianteCuisson.style.display = 'none' 
 
+  for variantePictures in variantesPictures
+    variantePictures.style.display = 'none' 
+
   # Display the right variante
   varianteIngredients = document.getElementById ingredientsId
   if varianteIngredients
@@ -83,6 +101,14 @@ onVarianteButtonClick = (btn) ->
   varianteCuisson = document.getElementById cuissonId
   if varianteCuisson
     varianteCuisson.style.display = 'block' 
+
+  variantePictures = document.getElementById picturesId
+  if variantePictures
+
+    hasPictures = variantePictures.getElementsByClassName("recipe-picture").length > 0
+    
+    if hasPictures
+      variantePictures.style.display = 'block' 
 
 initEventsListeners = () ->
   actionButton.addEventListener 'click', () -> onActionButtonClick()
