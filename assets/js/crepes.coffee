@@ -304,7 +304,7 @@ onRecipeChange = (recipes, selectedRecipe, quantity) ->
 onCrepesCountChange = (recipes, newCount) ->
   console.log "Changed Crepes Count to #{newCount}"
 
-  if(isNaN(newCount))
+  if(isNaN(newCount) || newCount < 0)
     return 
 
   updateCount newCount

@@ -1,0 +1,17 @@
+--- 
+--- 
+
+.sequence-diagrams-container {
+	
+	display: flex;
+	flex-flow: row nowrap;
+
+	.sequence-diagrams-container-left-child {
+		min-width: 350px;
+		height: 400px;
+	}
+
+	pre.error-message {
+		max-width: 350px;
+	}
+}
