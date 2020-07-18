@@ -28,7 +28,7 @@ ingredients:
     qte: 10
     unite: gr
   - nom: tabasco
-    qte: à 
+    qte: à souhait
   - nom: coriandre
     qte: à souhait
 
