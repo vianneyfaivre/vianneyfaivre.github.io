@@ -4,33 +4,30 @@ categories: [recettes]
 hidden: true
 lang: fr
 sitemap: false
-title: Ras el hanout
+title: Speculoos
 type: epice
 ingredients: 
-  - nom: cumin
-    qte: 2
-    unite: cuillères à café
-  - nom: coriandre 
-    qte: 1
-    unite: cuillère à café
   - nom: cannelle
+    qte: 4
+    unite: cuillère à café
+  - nom: clous de girofle
+    qte: 2
+  - nom: sel
+    qte: 0.5
+    unite: cuillère à café
+  - nom: gingembre
     qte: 0.5
     unite: cuillère à café
   - nom: muscade
-    qte: 1
+    qte: 0.5
     unite: cuillère à café
-  - nom: gingembre
-    qte: 1
-    unite: cuillère à café
-  - nom: paprika
-    qte: 2
+  - nom: cardamome
+    qte: 0.5
     unite: cuillères à café
-  - nom: curcuma
-    qte: 1
+  - nom: poivre noir
+    qte: 0.25
     unite: cuillère à café
-  - nom: sel
-    qte: 2
-    unite: cuillères à café
 utilisations:
-  - Couscous
+  - Biscuits Speculoos
+  - Pâte sablée
 ---

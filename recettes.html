@@ -12,7 +12,7 @@ customCss: assets/css/recettes.css
 {% assign cuisine = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
 {% assign bases = site.categories.recettes | where:"type","base"| sort: 'title'  %}
 {% assign boulangerie = site.categories.recettes | where:"type","boulangerie"| sort: 'title'  %}
-{% assign autres = site.categories.recettes | where:"type","autre"| sort: 'title'  %}
+{% assign epices = site.categories.recettes | where:"type","epice"| sort: 'title'  %}
  
 <h1 class="page-heading">Recettes</h1>
 
@@ -63,9 +63,9 @@ customCss: assets/css/recettes.css
 	</div>
 	
 	<div>
-		<h2>Autres</h2>
+		<h2>Mélange d'épices</h2>
 		<ul>
-			{% for post in autres %}
+			{% for post in epices %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</li>

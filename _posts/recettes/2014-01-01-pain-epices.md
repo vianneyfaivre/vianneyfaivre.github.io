@@ -4,33 +4,32 @@ categories: [recettes]
 hidden: true
 lang: fr
 sitemap: false
-title: Ras el hanout
+title: Pain d'épices
 type: epice
 ingredients: 
-  - nom: cumin
+  - nom: cannelle
     qte: 2
     unite: cuillères à café
-  - nom: coriandre 
+  - nom: gingembre 
     qte: 1
     unite: cuillère à café
-  - nom: cannelle
-    qte: 0.5
+  - nom: cardamome
+    qte: 1
     unite: cuillère à café
   - nom: muscade
-    qte: 1
+    qte: 0.5
     unite: cuillère à café
-  - nom: gingembre
-    qte: 1
+  - nom: anis
+    qte: 0.5
     unite: cuillère à café
-  - nom: paprika
-    qte: 2
-    unite: cuillères à café
-  - nom: curcuma
-    qte: 1
+  - nom: clous de girofle
+    qte: 4
+  - nom: coriandre
+    qte: 0.5
     unite: cuillère à café
   - nom: sel
-    qte: 2
+    qte: 0.5
     unite: cuillères à café
 utilisations:
-  - Couscous
+  - Pain d'épices
 ---
