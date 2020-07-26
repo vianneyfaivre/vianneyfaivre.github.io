@@ -12,9 +12,9 @@ mvn deploy:deploy-file
     -DgeneratePom=true -Dpackaging=jar 
     -DrepositoryId=your-maven-repo 
     -Durl=https://your-maven-repo.com/repositories/releases 
-    -Dfile=target/utility-raw-to-datahub-1.8.jar 
-    -Dsources=target/utility-raw-to-datahub-1.8-sources.jar 
-    -Djavadoc=target/utility-raw-to-datahub-1.8-javadoc.jar
+    -Dfile=target/your-artifact-id-0.1.jar 
+    -Dsources=target/your-artifact-id-0.1-sources.jar 
+    -Djavadoc=target/your-artifact-id-0.1-javadoc.jar
 ```
 
 The parameter `repositoryId` should be defined in the section `distributionManagement` of your project' `pom.xml` or in your `~/.m2/settings.xml`.
