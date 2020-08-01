@@ -21,8 +21,8 @@ ingredients:
   - nom: cannelle
     qte: 0.5
     unite: cuillère à café
-  - nom: zeste de citron
-  - nom: zeste d'orange
+  - nom: zestes de citron
+  - nom: zestes d'orange
 preconditions:
   - Préchauffer le four à 180°C
 etapes:
