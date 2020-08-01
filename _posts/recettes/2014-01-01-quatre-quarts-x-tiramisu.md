@@ -30,7 +30,7 @@ ingredients:
   - nom: crème liquide 15%
     qte: 100
     unite: mL
-  - nom: cacao non sucré
+  - nom: cacao en poudre non sucré
     qte: à souhait
 preconditions:
   - "Pour la chantilly tout doit être froid, donc mettre au congélateur pendant 15 minutes : la crème, le saladier, les fouets du batteur"
