@@ -24,7 +24,7 @@ ingredients:
   - nom: Baileys
     qte: 50
     unite: mL
-  - nom: chocolat noir
+  - nom: chocolat noir 70%
     qte: 50
     unite: gr
   - nom: crème liquide 15%

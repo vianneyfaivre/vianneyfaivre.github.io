@@ -30,7 +30,7 @@ recettes:
         - Beurrer et fariner le moule puis y ajouter la préparation
   Chocolat: 
     ingredients:
-      - nom: chocolat noir
+      - nom: chocolat noir 70%
         qte: 200
         unite: gr
       - nom: beurre
