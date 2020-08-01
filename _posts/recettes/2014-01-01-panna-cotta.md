@@ -28,14 +28,16 @@ recettes:
     etapes:
       - label: Hydratation de la Gélatine
         details:
-          - Verser l'eau dans un petit récipient
+          - Verser l'eau dans un bol
           - Saupoudrer la gélatine dessus
       - label: Préparation
         details:
           - Mouiller une casserole
           - Verser la crème, la vanille liquide et le sucre dans la casserole
           - Arrêter avant l'ébullition
-          - Transvaser dans un récipient et attendre que le mélange soit environ à 60°C 
+          - Transvaser dans un récipient au travers d'un tamis
+          - Attendre que le mélange soit environ à 65°C 
+          - Écumer
           - Ajouter la gélatine
           - Mélanger jusqu'à ce que tout soit dissous
           - Verser dans les ramequins
@@ -57,7 +59,7 @@ recettes:
     etapes:
       - label: Hydratation de la Gélatine
         details:
-          - Verser de l'eau dans un cul de poule
+          - Verser de l'eau dans un bol
           - Mettre quelques glaçons
           - Ajouter les feuilles de gélatine
           - Patienter 10 minutes
@@ -66,7 +68,9 @@ recettes:
           - Mouiller une casserole
           - Verser la crème, la vanille liquide et le sucre dans la casserole
           - Arrêter avant l'ébullition
-          - Transvaser dans un récipient et attendre que le mélange soit environ à 60°C 
+          - Transvaser dans un récipient au travers d'un tamis 
+          - Attendre que le mélange soit environ à 65°C 
+          - Écumer
           - Essorer la gélatine
           - Ajouter la gélatine
           - Mélanger jusqu'à ce que tout soit dissous

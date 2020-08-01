@@ -10,27 +10,34 @@ pour: pour 2 personnes
 ingredients: 
   - nom: filets de poulet
     qte: 2
-  - nom: poivrons
+  - nom: chorizo
+    qte: 1
+  - nom: poivrons rouges
     qte: 2
   - nom: oignon
     qte: 1
+  - nom: ail
+    qte: 2
+    unite: gousses
   - nom: crème liquide
     qte: 200
     unite: mL
-  - nom: chorizo
-    qte: 1
-preconditions:
-  - Couper les filets de poulet et le chorizo en lamelles
-  - Émincer les poivrons et l'oignon
+  - nom: paprika
 etapes:
-  - label: Préparation
+  - label: Préparation de la viande
     details:
-      - Faire cuire le poulet et le chorizo
+      - Détailler les filets de poulet et le chorizo en lamelles
+      - Les faire cuire jusqu'à coloration
+      - Ajouter le paprika
       - Réserver 
+  - label: Préparation des légumes
+    details:
+      - Émincer les poivrons, l'oignon et l'ail
       - Faire revenir les oignons avec les poivrons
+      - Ajouter l'ail 
       - Ajouter le poulet et le chorizo
-      - Ajouter la crème fraiche
-      - Saler et poivrer
+      - Ajouter la crème liquide
+      - Ajuster la sauce (sel, piment, citron)
       - Laisser mijoter à semi-couvert à feu doux une dizaine de minutes
 notes:
   - Plus la crème est grasse meilleur le plat sera
