@@ -16,3 +16,5 @@ My Personal Blog
 # Update Dependencies
 
 `bundle update github-pages`
+
+`gem update`
