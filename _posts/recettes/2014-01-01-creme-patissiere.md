@@ -20,7 +20,7 @@ ingredients:
     qte: 1
   - nom: jaune d'oeuf
     qte: 3
-  - nom: vanille
+  - nom: vanille liquide
     qte: au goût
 etapes:
   - label: Préparation
