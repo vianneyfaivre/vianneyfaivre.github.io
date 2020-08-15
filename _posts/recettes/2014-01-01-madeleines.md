@@ -87,4 +87,6 @@ variantes:
     todo: false
   - label: Pépites de chocolat
     todo: false
+  - label: Cacao
+    todo: true
 ---
