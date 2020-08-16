@@ -162,4 +162,36 @@ recettes:
           - Verser le mélange dans le moule
           - Lisser avec une spatule coudée
           - Placer au frigo pour 6h
+
+  Basque:
+    ingredients: 
+      - nom: cream cheese
+        qte: 450
+        unite: gr
+      - nom: sucre glace
+        qte: 120
+        unite: gr
+      - nom: oeufs 
+        qte: 3
+      - nom: crème fleurette
+        qte: 250
+        unite: gr
+      - nom: farine blanche
+        qte: 20
+        unite: gr
+      - nom: vanille liquide
+    etapes:
+      - label: Préparation 
+        details:
+         - Dissoudre la farine dans 100 grammes de crème fleurette
+         - Mélanger le cream cheese avec le sucre à l'aide d'une spatule silicone
+         - Ajouter les oeufs un à un. Mélanger au fouet
+         - Ajouter 150 grammes de crème fleurette et la vanille. Mélanger au fouet
+         - Ajouter le mélanger farine-crème. Mélanger au fouet
+    cuisson:  
+      - Placer trois feuilles de papier cuisson dans le moule à cheesecake
+      - Cuire 45 minutes à 200°C
+      - Cuire 15 minutes à 180°C
+      - Se déguste à température ambiante
+
 ---
