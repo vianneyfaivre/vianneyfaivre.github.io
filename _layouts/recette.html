@@ -101,6 +101,21 @@ customCss: assets/css/recette.css
 
 				{% for recette in page.recettes %}
 
+					{% if recette[1].preconditions %}
+					<div id="{{recette[0]}}-preconditions" class="variante-preconditions">
+
+						<h4>📜 Préambule</h4>
+						
+						<ul>
+							
+							{% for precondition in recette[1].preconditions %}
+							<li>{{ precondition }}</li>
+							{% endfor %}
+							
+						</ul>
+					</div>
+					{% endif %}
+
 					<div id="{{recette[0]}}-etapes" class="variante-etapes">
 
 						{% for etape in recette[1].etapes %}

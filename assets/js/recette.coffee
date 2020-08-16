@@ -13,6 +13,7 @@ variantesIngredients = document.getElementsByClassName "variante-ingredients"
 variantesEtapes = document.getElementsByClassName "variante-etapes"
 variantesCuisson = document.getElementsByClassName "variante-cuisson"
 variantesPictures = document.getElementsByClassName "variante-pictures"
+variantesPreconditions = document.getElementsByClassName "variante-preconditions"
 
 # Pictures
 pictures = document.getElementsByClassName "recipe-picture"
@@ -68,6 +69,7 @@ onVarianteButtonClick = (btn) ->
   etapesId = varianteId + "-etapes"
   cuissonId = varianteId + "-cuisson"
   picturesId = varianteId + "-pictures"
+  preconditionsId = varianteId + "-preconditions"
 
   # Remove all buttons highlighting
   for varianteButton in variantesButtons
@@ -77,30 +79,25 @@ onVarianteButtonClick = (btn) ->
   btn.classList.add "active"
 
   # Hide all variantes
-  for varianteIngredients in variantesIngredients
-    varianteIngredients.style.display = 'none' 
-  
-  for varianteEtape in variantesEtapes
-    varianteEtape.style.display = 'none' 
-
-  for varianteCuisson in variantesCuisson
-    varianteCuisson.style.display = 'none' 
-
-  for variantePictures in variantesPictures
-    variantePictures.style.display = 'none' 
+  hideElements variantesIngredients
+  hideElements variantesEtapes
+  hideElements variantesCuisson
+  hideElements variantesPictures
+  hideElements variantesPictures
+  hideElements variantesPreconditions
 
   # Display the right variante
   varianteIngredients = document.getElementById ingredientsId
-  if varianteIngredients
-    varianteIngredients.style.display = 'block' 
+  changeDisplay varianteIngredients, 'block'
     
   varianteEtapes = document.getElementById etapesId
-  if varianteEtapes
-    varianteEtapes.style.display = 'block' 
+  changeDisplay varianteEtapes, 'block'
 
   varianteCuisson = document.getElementById cuissonId
-  if varianteCuisson
-    varianteCuisson.style.display = 'block' 
+  changeDisplay varianteCuisson, 'block'
+
+  variantePrecondition = document.getElementById preconditionsId
+  changeDisplay variantePrecondition, 'block'
 
   variantePictures = document.getElementById picturesId
   if variantePictures
@@ -108,7 +105,21 @@ onVarianteButtonClick = (btn) ->
     hasPictures = variantePictures.getElementsByClassName("recipe-picture").length > 0
     
     if hasPictures
-      variantePictures.style.display = 'block' 
+      displayElements variantePictures 
+
+changeDisplay = (element, mode) ->
+  if element
+    element.style.display = mode
+
+hideElements = (elements) ->
+  if elements 
+    for element in elements
+      changeDisplay element, 'none'
+
+displayElements = (elements) ->
+  if elements
+    for element in elements
+      changeDisplay element, 'block'
 
 initEventsListeners = () ->
   actionButton.addEventListener 'click', () -> onActionButtonClick()

@@ -163,7 +163,10 @@ recettes:
           - Lisser avec une spatule coudée
           - Placer au frigo pour 6h
 
-  Basque:
+  Basque Burnt:
+    preconditions:
+      - Le cream cheese doit être à température ambiante
+      - Mettre trois couches de papier sulfurisé dans le moule à cheesecake
     ingredients: 
       - nom: cream cheese
         qte: 450
@@ -189,7 +192,6 @@ recettes:
          - Ajouter 150 grammes de crème fleurette et la vanille. Mélanger au fouet
          - Ajouter le mélanger farine-crème. Mélanger au fouet
     cuisson:  
-      - Placer trois feuilles de papier cuisson dans le moule à cheesecake
       - Cuire 45 minutes à 200°C
       - Cuire 15 minutes à 180°C
       - Se déguste à température ambiante
