@@ -16,7 +16,7 @@ ingredients:
   - nom: sucre
     qte: poids des oeufs
   - nom: levure chimique
-    qte: 3
+    qte: 4
     unite: "% de la farine"
   - nom: crème fleurette
     qte: 200
