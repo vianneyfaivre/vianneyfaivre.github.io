@@ -57,5 +57,5 @@ cuissonMinutes: 15
 cuisson: 
   - Cuire 15 à 18 minutes à 200°C
   - Badigeonner avec du beurre fondu
-  - Laisser refroidir sur une grille 10 minutes
+  - Les laisser ressuer sur une grille 10 minutes
 ---

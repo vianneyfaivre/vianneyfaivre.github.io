@@ -51,5 +51,5 @@ cuissonMinutes: 15
 cuisson: 
   - Placer un verre d'eau bouillante dans le four
   - Cuire 15 à 18 minutes à 250°C 
-  - Laisser refroidir sur une grille 10 minutes
+  - Les laisser ressuer sur une grille 10 minutes
 ---
