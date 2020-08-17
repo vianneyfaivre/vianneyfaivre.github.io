@@ -33,13 +33,19 @@ customCss: assets/css/recette.css
 					{% for ingredient in recette[1].ingredients %}
 						
 						{% if ingredient.qte %}
+
 							{% if ingredient.lien %}
 								<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 							{% else %}
 								<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 							{% endif %}
 						{% else %}
-							<li>{{ ingredient.nom }}</li>
+							
+							{% if ingredient.lien %}
+								<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a></li>
+							{% else %}
+								<li>{{ ingredient.nom }}</li>
+							{% endif %}
 						{% endif %}
 
 					{% endfor %}
@@ -47,6 +53,7 @@ customCss: assets/css/recette.css
 
 				{% endfor %}
 			{% else %}
+
 				<ul id="ingredients-list">
 				{% for ingredient in page.ingredients %}
 					
@@ -57,7 +64,12 @@ customCss: assets/css/recette.css
 							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 						{% endif %}
 					{% else %}
-						<li>{{ ingredient.nom }}</li>
+							
+						{% if ingredient.lien %}
+							<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a></li>
+						{% else %}
+							<li>{{ ingredient.nom }}</li>
+						{% endif %}
 					{% endif %}
 
 				{% endfor %}
