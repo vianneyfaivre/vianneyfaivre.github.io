@@ -22,11 +22,10 @@ ingredients:
     qte: 40
     unite: gr
   - nom: rhum brun
-    qte: 40
+    qte: 30
     unite: gr
-  - nom: sucre glace
-    qte: 50
-    unite: gr
+  - nom: glaçage rhum
+    lien: /recettes/glacage 
   - nom: zestes de citron vert
 etapes:
   - label: Préparation
@@ -36,12 +35,10 @@ etapes:
       - Ajouter 15 grammes de rhum brun et la poudre d'amandes, battre à vitesse moyenne
       - Ajouter la farine
       - Incorporer à la spatule silicone
-  - label: Glaçage
+  - label: Glaçage au rhum
     details:
-      - Verser le sucre glace dans un bol
-      - Ajouter 10 grammes de rhum brun
-      - Mélanger
-      - Ajouter un peu d'eau si le mélange est trop dense
+      - label: Voir ici, l'onglet "Rhum"
+        link: /recettes/glacage
 cuissonMinutes: 40
 cuisson:
   - Cuire 40 minutes à 170°C
