@@ -9,6 +9,9 @@ type: sel
 recettes:
   Ricotta Épinards:
     ingredients: 
+      - nom: cannelloni
+        qte: 250
+        unite: gr
       - nom: sauce tomate pour 400 grammes de tomates
         lien: /recettes/sauce-tomate 
       - nom: épinards
