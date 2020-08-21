@@ -4,7 +4,7 @@ categories: [recettes]
 hidden: true
 lang: fr
 sitemap: false
-title: Speculoos
+title: Mélange Speculoos
 type: epice
 ingredients: 
   - nom: cannelle
