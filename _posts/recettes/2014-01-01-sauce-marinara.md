@@ -28,7 +28,7 @@ ingredients:
 etapes:
   - label: "Préparation"
     details:
-      - Faire revenir les oignons dans un filet d'huile d'Olive
+      - Faire revenir les oignons dans un filet d'huile d'olive
       - Émincer l'ail
       - L'ajouter aux oignons et le faire cuire quelques minutes
       - Ajouter les tomates concassées et la feuille de laurier
