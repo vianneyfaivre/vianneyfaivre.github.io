@@ -18,7 +18,7 @@ ingredients:
     unite: gr
   - nom: oeuf
     qte: 1
-  - nom: jaune d'oeuf
+  - nom: jaunes d'oeufs
     qte: 3
   - nom: vanille liquide
     qte: au goût

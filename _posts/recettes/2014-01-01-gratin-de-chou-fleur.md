@@ -7,24 +7,11 @@ sitemap: false
 title: Gratin de Chou Fleur
 type: sel
 ingredients: 
-  - nom: gros chou fleur
-    qte: 1
-  - nom: farine
-    qte: 100
-    unite: gr
-  - nom: beurre
-    qte: 100
-    unite: gr
-  - nom: lait
-    qte: 1
-    unite: L
-  - nom: emmental rapé
-    qte: 100
-    unite: gr
+  - nom: chou fleur
+  - nom: béchamel pour 1 litre de lait
+    lien: /recettes/bechamel 
+  - nom: fromage rapé
   - nom: muscade
-    qte: au goût
-preconditions:
-  - Préchauffer le four à 200°C
 etapes:
   - label: "Préparation 1/3 : Chou Fleur"
     details:
@@ -45,8 +32,6 @@ cuissonMinutes: 30
 cuisson: 
   - Cuire 30 minutes à 200°C
   - Le dessus doit être bien gratiné
-notes:
-  - La quantité de chou fleur dépend de la taille du plat
 variantes:
  - label: Utiliser du comté
    todo: false

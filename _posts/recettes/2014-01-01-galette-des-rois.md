@@ -57,9 +57,9 @@ recettes:
       - nom: farine
         qte: 25
         unite: gr
-      - nom: petit oeuf
+      - nom: oeuf
         qte: 1
-      - nom: jaune d'oeuf
+      - nom: jaunes d'oeufs
         qte: 2
       - nom: poudre d'amandes
         qte: 150
