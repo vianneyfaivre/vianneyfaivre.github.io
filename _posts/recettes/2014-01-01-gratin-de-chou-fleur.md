@@ -8,7 +8,7 @@ title: Gratin de Chou Fleur
 type: sel
 ingredients: 
   - nom: chou fleur
-  - nom: béchamel pour 1 litre de lait
+  - nom: béchamel pour 1 L de lait
     lien: /recettes/bechamel 
   - nom: fromage rapé
   - nom: muscade

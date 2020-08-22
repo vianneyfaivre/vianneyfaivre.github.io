@@ -6,6 +6,7 @@ lang: fr
 sitemap: false
 title: Cannelloni
 type: sel
+pour: pour 6 personnes
 recettes:
   Ricotta Épinards:
     ingredients: 
