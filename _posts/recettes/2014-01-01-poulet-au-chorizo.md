@@ -37,7 +37,7 @@ etapes:
       - Ajouter l'ail 
       - Ajouter le poulet et le chorizo
       - Ajouter la crème liquide
-      - Ajuster la sauce (sel, piment, citron)
+      - Goûter, ajuster si besoin (sel, piment, citron)
       - Laisser mijoter à semi-couvert à feu doux une dizaine de minutes
 notes:
   - Plus la crème est grasse meilleur le plat sera
