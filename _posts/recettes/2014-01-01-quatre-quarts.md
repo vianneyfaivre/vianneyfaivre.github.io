@@ -205,7 +205,7 @@ recettes:
         details:
           - label: Voir ici
             link: /recettes/chantilly
-          - Réserver au frigo
+          - Réserver au frais
       - label: Assemblage
         details:
           - Dans une casserole, faire fondre le chocolat noir avec la crème

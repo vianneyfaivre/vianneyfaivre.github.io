@@ -59,7 +59,7 @@ recettes:
     cuisson: 
       - Cuire 45 minutes à 160°C
       - Ce n'est pas grave si le centre du cheesecake n'est pas très ferme, une fois mis au frais quelques heures cela solidifiera
-      - Réserver au frigo pendant 4 heures minimum
+      - Réserver au frais pendant 4 heures minimum
   
   Fromage Blanc:
     ingredients: 
@@ -142,7 +142,7 @@ recettes:
           - Mélanger jusqu'à ce que la préparation soit homogène
           - Verser dans le moule
           - Presser la croûte avec une spatule coudée afin qu'elle soit compacte et plane
-          - Réserver au frigo
+          - Réserver au frais
       - label: Préparation du cream cheese
         details:
           - Mettre dans un saladier le cream cheese avec le sucre et l'arôme vanille
@@ -151,17 +151,17 @@ recettes:
         details:
           - label: Voir ici
             link: /recettes/chantilly
-          - Réserver au frigo
+          - Réserver au frais
       - label: Mélange du cream cheese avec la chantilly
         details:
           - Prendre la moitié de la chantilly et l'incorporer délicatement avec le cream cheese
           - Répéter avec le reste de la chantilly
       - label: Assemblage
         details: 
-          - Sortir le moule du frigo
+          - Sortir le moule du réfrigérateur
           - Verser le mélange dans le moule
           - Lisser avec une spatule coudée
-          - Placer au frigo pour 6h
+          - Réserver au frais pour 6h
 
   Basque Burnt:
     preconditions:

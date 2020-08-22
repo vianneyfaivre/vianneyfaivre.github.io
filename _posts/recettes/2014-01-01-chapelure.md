@@ -16,7 +16,7 @@ recettes:
         details:
           - Couper le pain en petits bouts
           - Le dessécher au four 15 minutes à 100°C 
-          - Placer le pain dans la cuve du robot
+          - Placer le pain dans le bol du robot
           - Broyer le pain
           - Ajouter le sel
   Italienne:
@@ -29,7 +29,7 @@ recettes:
         details:
           - Couper le pain en petits bouts
           - Le dessécher au four 15 minutes à 100°C 
-          - Placer le pain dans la cuve du robot
+          - Placer le pain dans le bol du robot
           - Broyer le pain
           - Ajouter les herbes et le sel
 ---

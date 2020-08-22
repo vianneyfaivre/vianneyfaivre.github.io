@@ -42,14 +42,53 @@ recettes:
           - Former une boule
           - Sur le plan de travail, fraiser la boule une/deux fois
           - Former une boule et l'applatir un peu
-          - Laisser reposer minimum 30 minutes au frigo
-    cuisson:
-      - "À blanc : 170°C pour 15 à 20 minutes"
+          - Réserver minimum 30 minutes au frais
+  Au Robot:
+    ingredients: 
+      - nom: farine blanche
+        qte: 265
+        unite: gr
+      - nom: beurre
+        qte: 210
+        unite: gr
+      - nom: sucre glace
+        qte: 20
+        unite: gr
+      - nom: sel
+        qte: 3
+        unite: gr
+      - nom: eau froide
+        qte: 60
+        unite: mL
+    preconditions:
+      - Mélanger l'eau et le jus de citron, réserver au frais
+      - Le beurre doit être froid
+    etapes:
+      - label: Préparation
+        details:
+          - Verser 175 grammes de farine, le sucre et le sel dans le bol du robot
+          - Mixer deux fois 
+          - Couper le beurre en petits dés
+          - Ajouter le beurre 
+          - Mixer jusqu'à incorporation (environ 25 coups)
+          - Bien racler les bords
+          - Ajouter la farine restante
+          - Mixer jusqu'à incorporation (environ 5 coups)
+          - Déverser la pâte dans un saladier
+          - Ajouter l'eau et mélanger à la main
+          - Former une boule
+          - Aplatir légèrement la boule
+          - Filmer
+          - Réserver minimum 2 heures au frais
+
+cuisson:
+  - "À blanc : 170°C pour 15 à 20 minutes"
 notes:
   - Ne pas trop travailler la pâte sinon elle va durcir a la cuisson
   - Fraiser une nouvelle fois la pâte si elle est trop friable
   - label: Gestes
     link: https://www.youtube.com/watch?v=6x3OldldC_g
+  - Une pâte sablée s'obtient par sablage. Une pâte sucrée s'obtient par crémage du beurre avec le sucre
 variantes:
   - label: Avec de la poudre d'amandes
     todo: true

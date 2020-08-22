@@ -102,7 +102,7 @@ recettes:
           - Laisser reposer 2h30 à 25°C
       - label: Pétrissage et Fermentation
         details:
-          - Transférer le pâton dans la cuve du robot
+          - Transférer le pâton dans le bol du robot
           - Ajouter le sucre, le sel et la levure
           - Mixer jusqu'à ce que le mélange soit lisse (1 minute environ)
           - Ajouter les 55 grammes d'eau et l'huile tout en mixant
