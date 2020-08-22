@@ -6,46 +6,47 @@ lang: fr
 sitemap: false
 title: Gratin Dauphinois
 type: sel
-pour: pour un petit gratin
-ingredients: 
-  - nom: pommes de terre
-    qte: 1
-    unite: dizaine
-  - nom: lait
-    qte: 1
-    unite: L
-  - nom: ail
-    qte: 2
-    unite: gousses
-  - nom: oeufs
-    qte: 2
-  - nom: crème fraiche
-    qte: 100
-    unite: gr
-  - nom: fromage rapé
-    qte: 150
-    unite: gr
-preconditions:
-  - Préchauffer le four à 200°C
-  - Peler les pommes de terre et les couper en petits bouts / rondelles fines
-  - Émincer l'ail
-etapes:
-  - label: Préparation
-    details:
-      - Mettre les pommes de terre dans le plat à gratin
-      - Faire bouillir le lait avec la crème dans la marmite
-      - Y ajouter les pommes de terre et l'ail
-      - Saler et poivrer
-      - Cuire 10 minutes à feu doux
-      - Mettre les pommes de terre et une partie du lait (pour que ça arrive aux trois quarts du plat) dans le plat à gratin
-      - Battre les oeufs dans un saladier
-      - Ajouter le fromage rapé
-      - Déposer ce mélange sur le plat à gratin
-cuissonMinutes: 30
-cuisson: 
-  - 30 minutes à 200°C
-  - Le dessus doit être bien gratiné
-  - Vérifier la cuisson des pommes de terre avec un couteau
+pour: pour 2 personnes
+recettes:
+  Classique:
+    ingredients: 
+      - nom: pommes de terre
+        qte: 300
+        unite: gr
+      - nom: lait
+        qte: 1
+        unite: L
+      - nom: ail
+        qte: 2
+        unite: gousses
+      - nom: oeufs
+        qte: 2
+      - nom: crème fraîche
+        qte: 100
+        unite: gr
+      - nom: fromage rapé
+        qte: 150
+        unite: gr
+    preconditions:
+      - Préchauffer le four à 200°C
+      - Peler les pommes de terre et les couper en petits bouts / rondelles fines
+      - Émincer l'ail
+    etapes:
+      - label: Préparation
+        details:
+          - Mettre les pommes de terre dans le plat à gratin
+          - Faire bouillir le lait avec la crème dans la marmite
+          - Y ajouter les pommes de terre et l'ail
+          - Saler et poivrer
+          - Cuire 10 minutes à feu doux
+          - Mettre les pommes de terre et une partie du lait (pour que ça arrive aux trois quarts du plat) dans le plat à gratin
+          - Battre les oeufs dans un saladier
+          - Ajouter le fromage rapé
+          - Déposer ce mélange sur le plat à gratin
+    cuisson: 
+      - 30 minutes à 200°C
+      - Le dessus doit être bien gratiné
+      - Vérifier la cuisson des pommes de terre avec un couteau
 variantes:
   - label: Utiliser du Comté
     todo: false

@@ -21,7 +21,7 @@ recettes:
       - nom: cream cheese
         qte: 500
         unite: gr
-      - nom: crème fraiche
+      - nom: crème fraîche
         qte: 250
         unite: gr
       - nom: oeufs
@@ -34,7 +34,7 @@ recettes:
         unite: gr
       - nom: vanille liquide
     preconditions:
-      - Le cream cheese et la crème fraiche doivent être à température ambiante
+      - Le cream cheese et la crème fraîche doivent être à température ambiante
       - Émietter les biscuits secs en petits morceaux
     etapes:
       - label: Préparation de la croûte
@@ -48,7 +48,7 @@ recettes:
         details:
           - Mettre dans un saladier le cream cheese avec le sucre et la vanille liquide
           - Mélanger avec une spatule silicone
-          - Ajouter la crème fraiche et la farine
+          - Ajouter la crème fraîche et la farine
           - Mélanger 
           - Ajouter les oeufs un à un
           - Mélanger jusqu'à ce que la préparation soit lisse
@@ -74,7 +74,7 @@ recettes:
       - nom: farine
         qte: 50
         unite: gr
-      - nom: crème fraiche
+      - nom: crème fraîche
         qte: 30
         unite: gr
       - nom: levure chimique
@@ -84,20 +84,20 @@ recettes:
         qte: 125
         unite: gr
     preconditions:
-      - Le fromage blanc, la crème fraiche et les oeufs doivent être à température ambiante
+      - Le fromage blanc, la crème fraîche et les oeufs doivent être à température ambiante
       - Préchauffer le four à 150°C
     etapes:
       - label: Préparation 1/2
         details:
           - Verser le fromage blanc dans un saladier
-          - Ajouter la crème fraiche
+          - Ajouter la crème fraîche
           - "(Optionnel) : Ajouter les zestes et le jus de citron" 
           - Mélanger au fouet jusqu'à ce que tout soit lisse
       - label: Préparation 2/2
         details:
           - Casser les oeufs dans un autre saladier
           - Blanchir les oeufs avec le sucre
-          - Ajouter le mélange de fromage blanc et de crème fraiche
+          - Ajouter le mélange de fromage blanc et de crème fraîche
           - Tamiser la farine et la levure sur le mélange
           - Mélanger au fouet jusqu'à ce que tout soit lisse
       - label: Assemblage

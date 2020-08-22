@@ -6,43 +6,45 @@ lang: fr
 sitemap: false
 title: Pâte Sablée
 type: boulangerie
-ingredients: 
-  - nom: farine blanche
-    qte: 200
-    unite: gr
-  - nom: beurre
-    qte: 140
-    unite: gr
-  - nom: sucre
-    qte: 50
-    unite: gr
-  - nom: sel
-    qte: 3
-    unite: gr
-  - nom: eau froide
-    qte: 37
-    unite: mL
-  - nom: jus de citron
-    qte: 3
-    unite: mL
-preconditions:
-  - Mélanger l'eau et le jus de citron, réserver au frais
-  - Le beurre doit être froid
-etapes:
-  - label: Préparation
-    details:
-      - Dans un saladier verser la farine, le sucre et le sel
-      - Couper le beurre en petits dés
-      - Ajouter le beurre sur la farine
-      - Écraser les dés de beurre du bout des doigts
-      - Frotter la pâte entre les mains jusqu'à l'obtention de petits bouts
-      - Ajouter l'eau froide et le jus de citron
-      - Former une boule
-      - Sur le plan de travail, fraiser la boule une/deux fois
-      - Former une boule et l'applatir un peu
-      - Laisser reposer minimum 30 minutes au frigo
-cuisson:
-  - "À blanc : 170°C pour 15 à 20 minutes"
+recettes:
+  À la main:
+    ingredients: 
+      - nom: farine blanche
+        qte: 200
+        unite: gr
+      - nom: beurre
+        qte: 140
+        unite: gr
+      - nom: sucre
+        qte: 50
+        unite: gr
+      - nom: sel
+        qte: 3
+        unite: gr
+      - nom: eau froide
+        qte: 37
+        unite: mL
+      - nom: jus de citron
+        qte: 3
+        unite: mL
+    preconditions:
+      - Mélanger l'eau et le jus de citron, réserver au frais
+      - Le beurre doit être froid
+    etapes:
+      - label: Préparation
+        details:
+          - Dans un saladier verser la farine, le sucre et le sel
+          - Couper le beurre en petits dés
+          - Ajouter le beurre sur la farine
+          - Écraser les dés de beurre du bout des doigts
+          - Frotter la pâte entre les mains jusqu'à l'obtention de petits bouts
+          - Ajouter l'eau froide et le jus de citron
+          - Former une boule
+          - Sur le plan de travail, fraiser la boule une/deux fois
+          - Former une boule et l'applatir un peu
+          - Laisser reposer minimum 30 minutes au frigo
+    cuisson:
+      - "À blanc : 170°C pour 15 à 20 minutes"
 notes:
   - Ne pas trop travailler la pâte sinon elle va durcir a la cuisson
   - Fraiser une nouvelle fois la pâte si elle est trop friable

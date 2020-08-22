@@ -10,7 +10,6 @@ customCss: assets/css/recette.css
 
   <div class="post-content e-content">
 
-	{% if page.recettes %}
 	<div class="variantes-tabs">
 		
 		{% for recette in page.recettes %}
@@ -18,53 +17,27 @@ customCss: assets/css/recette.css
 		{% endfor %}
 
 	</div>
-	{% endif %}
 
 	<div class="main-panel">
 	
 		<div class="ingredients-panel">
 
 			<h4>🛒 Ingrédients {{ page.pour }}</h4>
-			
-			{% if page.recettes %}
-				{% for recette in page.recettes %}
+		
+			{% for recette in page.recettes %}
 
-					<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
-					{% for ingredient in recette[1].ingredients %}
-						
-						{% if ingredient.qte %}
-
-							{% if ingredient.lien %}
-								<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
-							{% else %}
-								<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
-							{% endif %}
-						{% else %}
-							
-							{% if ingredient.lien %}
-								<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a></li>
-							{% else %}
-								<li>{{ ingredient.nom }}</li>
-							{% endif %}
-						{% endif %}
-
-					{% endfor %}
-					</ul>
-
-				{% endfor %}
-			{% else %}
-
-				<ul id="ingredients-list">
-				{% for ingredient in page.ingredients %}
+				<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
+				{% for ingredient in recette[1].ingredients %}
 					
 					{% if ingredient.qte %}
+
 						{% if ingredient.lien %}
 							<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 						{% else %}
 							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
 						{% endif %}
 					{% else %}
-							
+						
 						{% if ingredient.lien %}
 							<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a></li>
 						{% else %}
@@ -74,21 +47,9 @@ customCss: assets/css/recette.css
 
 				{% endfor %}
 				</ul>
-			{% endif %}
 
-			{% if page.cuissonMinutes %}
-				<h4>
-					⏲️
-					<input 
-						id="timer-countdown" 
-						timerDuration="{{ page.cuissonMinutes }}"
-						minlength="5"
-						maxlength="5"
-						size="3" />
-					<span id="timer-action"></span>
-				</h4>
-			{% endif %}
-			
+			{% endfor %}
+
 		</div>
 		
 		<div class="etapes-panel">
@@ -109,74 +70,54 @@ customCss: assets/css/recette.css
 				</ul>
 			{% endif %}
 						
-			{% if page.recettes %}
+			{% for recette in page.recettes %}
 
-				{% for recette in page.recettes %}
+				{% if recette[1].preconditions %}
+				<div id="{{recette[0]}}-preconditions" class="variante-preconditions">
 
-					{% if recette[1].preconditions %}
-					<div id="{{recette[0]}}-preconditions" class="variante-preconditions">
-
-						<h4>📜 Préambule</h4>
+					<h4>📜 Préambule</h4>
+					
+					<ul>
 						
+						{% for precondition in recette[1].preconditions %}
+						<li>{{ precondition }}</li>
+						{% endfor %}
+						
+					</ul>
+				</div>
+				{% endif %}
+
+				<div id="{{recette[0]}}-etapes" class="variante-etapes">
+
+					{% for etape in recette[1].etapes %}
+						<h4>📜 {{etape.label}}</h4>
+						<ol>
+						{% for detail in etape.details %}
+							
+							{% if detail.link %}
+								<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
+							{% else %}
+								<li>{{ detail }}</li>
+							{% endif %}
+							
+						{% endfor %}
+						</ol>
+					{% endfor %}
+				</div>
+
+				{% if recette[1].cuisson %}
+					<div id="{{recette[0]}}-cuisson" class="variante-cuisson">
+						<h4>🔥 Cuisson</h4>
 						<ul>
-							
-							{% for precondition in recette[1].preconditions %}
-							<li>{{ precondition }}</li>
-							{% endfor %}
-							
+						{% for cuisson in recette[1].cuisson %}
+							<li>{{ cuisson }}</li>
+						{% endfor %}
 						</ul>
 					</div>
-					{% endif %}
+				{% endif %}
 
-					<div id="{{recette[0]}}-etapes" class="variante-etapes">
+			{% endfor %}
 
-						{% for etape in recette[1].etapes %}
-							<h4>📜 {{etape.label}}</h4>
-							<ol>
-							{% for detail in etape.details %}
-								
-								{% if detail.link %}
-									<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
-								{% else %}
-									<li>{{ detail }}</li>
-								{% endif %}
-								
-							{% endfor %}
-							</ol>
-						{% endfor %}
-					</div>
-
-					{% if recette[1].cuisson %}
-						<div id="{{recette[0]}}-cuisson" class="variante-cuisson">
-							<h4>🔥 Cuisson</h4>
-							<ul>
-							{% for cuisson in recette[1].cuisson %}
-								<li>{{ cuisson }}</li>
-							{% endfor %}
-							</ul>
-						</div>
-					{% endif %}
-
-				{% endfor %}
-
-			{% else %}
-				{% for etape in page.etapes %}
-					<h4>📜 {{etape.label}}</h4>
-						
-					<ol>
-					{% for detail in etape.details %}
-						
-						{% if detail.link %}
-							<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
-						{% else %}
-							<li>{{ detail }}</li>
-						{% endif %}
-						
-					{% endfor %}
-					</ol>
-				{% endfor %}
-			{% endif %}
-			
 			{% if page.cuisson %}
 				<h4>🔥 Cuisson</h4>
 				<ul>
@@ -223,34 +164,9 @@ customCss: assets/css/recette.css
 		
 	</div>
 
-	{% if page.recettes %}
+	{% for recette in page.recettes %}
 
-		{% for recette in page.recettes %}
-
-			<div id="{{recette[0]}}-pictures" class="hidden variante-pictures">
-
-				<h4>📷 Photos</h4>
-
-				<div class="recipe-pictures">
-
-					{% assign pictures = site.static_files | where: "isRecipePic", true %}
-					{% for picture in pictures %}
-
-						{% assign name = picture.name | split: '.' %}
-						{% if picture.path contains page.title and name[0] contains recette[0] %}
-							<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
-						{% endif %}
-				
-					{% endfor %}
-
-				</div>
-
-			</div>
-		{% endfor %}
-
-	{% else %}
-	
-		<div class="hidden" id="gallery">
+		<div id="{{recette[0]}}-pictures" class="hidden variante-pictures">
 
 			<h4>📷 Photos</h4>
 
@@ -258,18 +174,18 @@ customCss: assets/css/recette.css
 
 				{% assign pictures = site.static_files | where: "isRecipePic", true %}
 				{% for picture in pictures %}
-				
+
 					{% assign name = picture.name | split: '.' %}
-					{% if picture.path contains page.title %}
-					<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
+					{% if picture.path contains page.title and name[0] contains recette[0] %}
+						<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
 					{% endif %}
-				
+			
 				{% endfor %}
 
 			</div>
-		
+
 		</div>
-	{% endif %}
+	{% endfor %}
 
   </div>  
 
