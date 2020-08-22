@@ -48,33 +48,19 @@ recettes:
     ingredients: 
       - nom: pâte feuilletée 
         qte: 2
-      - nom: lait
-        qte: 250
-        unite: mL
-      - nom: sucre
-        qte: 60
-        unite: gr
-      - nom: farine
-        qte: 25
-        unite: gr
-      - nom: oeuf
-        qte: 1
-      - nom: jaunes d'oeufs
-        qte: 2
-      - nom: poudre d'amandes
-        qte: 150
+      - nom: crème patissière pour 250 mL de lait
+        lien: /recettes/creme-patissiere
+      - nom: beurre mou
+        qte: 100
         unite: gr
       - nom: sucre glace
         qte: 100
         unite: gr
-      - nom: beurre mou
-        qte: 125
-        unite: gr
-      - nom: beurre mou
-        qte: 100
-        unite: gr
       - nom: oeufs
         qte: 2
+      - nom: poudre d'amandes
+        qte: 150
+        unite: gr
       - nom: rhum
         qte: 40
         unite: mL
@@ -86,7 +72,7 @@ recettes:
       - label: "Garniture 2/3 : Crème d'amandes"
         details:
           - Mélanger le beurre et le sucre
-          - Ajouter les deux oeufs un à un
+          - Ajouter les oeufs un à un
           - Ajouter la poudre d'amandes
           - Ajouter le rhum
       - label: "Garniture 3/3"
