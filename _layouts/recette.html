@@ -90,7 +90,13 @@ customCss: assets/css/recette.css
 				<div id="{{recette[0]}}-etapes" class="variante-etapes">
 
 					{% for etape in recette[1].etapes %}
-						<h4>📜 {{etape.label}}</h4>
+
+						{% assign etapeEmoji = '📜' %}
+						{% if etape.emoji %}
+							{% assign etapeEmoji = etape.emoji %}
+						{% endif %}
+
+						<h4>{{etapeEmoji}} {{etape.label}}</h4>
 						<ol>
 						{% for detail in etape.details %}
 							

@@ -37,16 +37,18 @@ recettes:
           - Ajouter 15 grammes de rhum brun et la poudre d'amandes, battre à vitesse moyenne
           - Ajouter la farine
           - Incorporer à la spatule silicone
-      - label: Glaçage au rhum
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 40 minutes à 170°C
+          - Démouler à l'envers sur une grille
+          - Imbiber de 15 grammes de rhum brun à l'aide d'un pinceau
+          - Laisser refroidir le gâteau
+      - label: Glaçage
         details:
           - label: Voir ici, l'onglet "Rhum"
             link: /recettes/glacage
-    cuisson:
-      - Cuire 40 minutes à 170°C
-      - Démouler à l'envers sur une grille
-      - Imbiber de 15 grammes de rhum brun à l'aide d'un pinceau
-      - Laisser refroidir le gâteau
-      - Verser le glaçage et l'étaler à l'aide d'une spatule coudée
-      - Réserver au frais
-      - Ajouter les zestes de citron vert
+          - Verser le glaçage et l'étaler à l'aide d'une spatule coudée
+          - Réserver au frais
+          - Ajouter les zestes de citron vert
 ---
