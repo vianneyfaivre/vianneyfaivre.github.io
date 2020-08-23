@@ -7,79 +7,32 @@ description: "Recettes de cuisine"
 customCss: assets/css/recettes.css
 ---
 
-{% assign recettesSucre = site.categories.recettes | where:"type","sucre" | sort: 'title'  %}
-{% assign recettesSel = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
-{% assign cuisine = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
-{% assign bases = site.categories.recettes | where:"type","base"| sort: 'title'  %}
-{% assign boulangerie = site.categories.recettes | where:"type","boulangerie"| sort: 'title'  %}
-{% assign epices = site.categories.recettes | where:"type","epice"| sort: 'title'  %}
- 
 <h1 class="page-heading">Recettes</h1>
 
-<div class="recettes-list-container">
+{% assign types = site.categories.recettes | where:"type","meta" | sort: 'title' | reverse %}
 
-	<div class="col">
-		<h2>Sucré</h2>
-		<ul class="recipes-list">
-			{% for post in recettesSucre %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-	
-	<div class="col">
-		<h2>Salé</h2>
-		<ul class="recipes-list">
-			{% for post in recettesSel %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-	
-	<div class="col">
-		<h2>Bases</h2>
-		<ul>
-			{% for post in bases %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
+<div class="cards">
 
-	<div class="col">
-		<h2>Boulangerie</h2>
-		<ul>
-			{% for post in boulangerie %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
+    {% for type in types %}
+	<div class="card" onClick="window.open('/recettes/{{ type.metatype }}', '_self')">
+		<img src="/assets/images/cooking/placeholders/{{ type.metatype }}.jpg" />
+		<span class="card-title">{{ type.metatype }}</span>
 	</div>
-	
-	<div>
-		<h2>Condiments</h2>
-		<ul>
-			{% for post in epices %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
+    {% endfor %}
 
 </div>
 
-<h2>Notes</h2>
-<ul>
-	{% for post in cuisine %}
-	<li>
-		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ul>
+
+<div class="notes">
+
+	{% assign cuisine = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
+
+	<h1>Notes</h1>
+	<ul>
+		{% for post in cuisine %}
+		<li>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>

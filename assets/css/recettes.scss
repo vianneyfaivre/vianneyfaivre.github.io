@@ -1,21 +1,54 @@
 --- 
 --- 
 
-.recettes-list-container {
-
+.cards {
 	display: flex;
 	flex-flow: row nowrap;
-	white-space: nowrap;
+	
+	.card {
+	  position: relative;
+	  text-align: center;
+	  cursor: pointer;
 
-	.col {
-		margin-right: 15px; 
-		border-right: 1px solid #e8e8e8; 
-		padding-right: 15px;
+	  margin-right: 20px;
+	  margin-top: 0;
+
+	  transition: 0.3s;
+	  img {
+		width: 200px;
+		height: 200px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  }
+	  &:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	  }
 	}
+	
+	.card-title {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  
+	  width: 200px;
+	  background-color: rgba(151, 150, 145, 0.55);
+	  color: white;
 
-	/* Mobile view */ 
+	  font-size: 27px;
+	  font-family: serif;
+	  font-weight: bold;
+	}
+	
 	@media all and (max-width: 700px) {
 		flex-direction: column;
-	}
 
+		.card {
+			margin-right: 0;
+			margin-top: 20px;
+		}
+	}
+}
+
+.notes {
+	margin-top: 25px;
 }

@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Sauce Piquante
-type: base
+type: condiment
 recettes:
   Jalapeños:
     ingredients: 

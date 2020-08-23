@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Crème Pâtissière
-type: base
+type: sucre
 recettes:
   Classique:
     ingredients: 

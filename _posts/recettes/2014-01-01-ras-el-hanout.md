@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Ras el hanout
-type: epice
+type: condiment
 ingredients: 
   - nom: cumin
     qte: 2

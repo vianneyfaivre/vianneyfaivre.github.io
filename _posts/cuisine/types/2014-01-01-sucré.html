@@ -1,0 +1,23 @@
+---
+layout: default
+hidden: true
+lang: fr
+sitemap: false
+title: "Sucré"
+categories: [recettes]
+type: meta
+metatype: sucré
+description: "Recettes de cuisine - sucré"
+---
+
+{% assign recettes = site.categories.recettes | where:"type","sucre" | sort: 'title'  %}
+ 
+<h1 class="page-heading">Sucré</h1>
+
+<ul>
+    {% for post in recettes %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

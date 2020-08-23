@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Vinaigre pour Sushis
-type: epice
+type: condiment
 recettes:
   Classique:
     ingredients: 

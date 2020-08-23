@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Mélange Speculoos
-type: epice
+type: condiment
 ingredients: 
   - nom: cannelle
     qte: 4

@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Mayonnaise
-type: base
+type: condiment
 recettes:
   Au Mixeur:
     ingredients: 

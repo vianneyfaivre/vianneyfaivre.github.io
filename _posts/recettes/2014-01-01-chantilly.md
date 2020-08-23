@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Chantilly
-type: base
+type: condiment
 recettes:
   Classique:
     ingredients: 

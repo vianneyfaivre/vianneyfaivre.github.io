@@ -5,7 +5,7 @@ hidden: true
 lang: fr
 sitemap: false
 title: Sauce Tomate
-type: base
+type: condiment
 recettes:
   Marinara:
     ingredients: 
