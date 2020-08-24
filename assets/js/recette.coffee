@@ -41,7 +41,6 @@ onVarianteButtonClick = (btn) ->
   hideElements variantesEtapes
   hideElements variantesCuisson
   hideElements variantesPictures
-  hideElements variantesPictures
   hideElements variantesPreconditions
 
   # Display the right variante
@@ -63,6 +62,8 @@ onVarianteButtonClick = (btn) ->
     hasPictures = variantePictures.getElementsByClassName("recipe-picture").length > 0
     
     if hasPictures
+      variantePictures.classList.remove "hidden"
+      changeDisplay variantePictures, 'block'
       displayElements variantePictures 
 
 changeDisplay = (element, mode) ->
