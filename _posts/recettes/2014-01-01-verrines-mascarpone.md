@@ -10,6 +10,15 @@ pour: pour 4 verrines
 recettes:
   Tiramisu:
     ingredients: 
+      - nom: Génoise pour 4 oeufs
+        lien: /recettes/genoise
+      - nom: eau
+        qte: 70
+        unite: mL
+      - nom: café soluble
+      - nom: amaretto
+        qte: 20
+        unite: gr
       - nom: oeufs 
         qte: 2
       - nom: sucre
@@ -19,20 +28,6 @@ recettes:
         qte: 250
         unite: gr
       - nom: vanille liquide
-        qte: 1
-        unite: cuillère à café
-      - nom: Speculoos
-        qte: 250
-        unite: gr
-      - nom: eau
-        qte: 70
-        unite: mL
-      - nom: café soluble
-        qte: 20
-        unite: gr
-      - nom: amaretto
-        qte: 20
-        unite: gr
       - nom: cacao en poudre non sucré
     etapes:
       - label: Génoise
