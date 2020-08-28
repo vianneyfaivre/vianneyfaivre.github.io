@@ -7,7 +7,7 @@ sitemap: false
 title: Mayonnaise
 type: condiment
 recettes:
-  Au Mixeur:
+  Classique:
     ingredients: 
       - nom: huile de tournesol
         qte: 150
@@ -25,6 +25,31 @@ recettes:
     etapes:
       - label: "Préparation"
         details:
+          - Mettre tous les ingrédients dans un bol
+          - Saler et poivrer
+          - Mixer jusqu'à ce que ça prenne, en commençant par le fond
+  À l'ail:
+    ingredients: 
+      - nom: huile de tournesol
+        qte: 150
+        unite: mL
+      - nom: oeuf
+        qte: 1
+      - nom: moutarde de Dijon
+        qte: 1
+        unite: cuillère à soupe
+      - nom: vinaigre de vin rouge
+        qte: 1
+        unite: cuillère à soupe
+      - nom: ail
+        qte: 1
+        unite: gousse
+    preconditions:
+      - Tous les ingrédients doivent être à température ambiante
+    etapes:
+      - label: "Préparation"
+        details:
+          - Hacher l'ail
           - Mettre tous les ingrédients dans un bol
           - Saler et poivrer
           - Mixer jusqu'à ce que ça prenne, en commençant par le fond

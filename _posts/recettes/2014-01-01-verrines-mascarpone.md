@@ -45,10 +45,10 @@ recettes:
       - label: Mascarpone
         details:
           - Séparer les blancs des jaunes
-          - Blanchir les jaunes d'oeufs avec 25 grammes de sucre au batteur électrique
-          - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
           - Monter les blancs en neige
-          - Les incorporer en deux fois au mélange à l'aide d'une spatule silicone
+          - Blanchir les jaunes d'oeufs avec 25 grammes de sucre au fouet
+          - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
+          - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
           - Placer un demi disque au fond de chaque ramequin
@@ -57,7 +57,7 @@ recettes:
           - Placer un demi disque dans chaque ramequin
           - Ajouter le reste de la préparation au mascarpone
           - Réserver au frais au moins trois heures 
-          - Saupoudrer de cacao au moment de servir sinon il va absorber l'humidité
+          - Saupoudrer de cacao au moment de servir
   Framboise:
     ingredients: 
       - nom: oeufs 
@@ -82,10 +82,10 @@ recettes:
         details:
           - Émietter les biscuits en petits morceaux
           - Séparer les blancs des jaunes
-          - Blanchir les jaunes d'oeufs avec le sucre au batteur électrique
-          - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
           - Monter les blancs en neige
-          - Les incorporer en deux fois au mélange à l'aide d'une spatule silicone
+          - Blanchir les jaunes d'oeufs avec le sucre au fouet
+          - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
+          - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
           - Mettre les biscuits émiettés au fond
@@ -115,10 +115,10 @@ recettes:
         details:
           - Émietter les Speculoos en petits morceaux
           - Séparer les blancs des jaunes
+          - Monter les blancs en neige
           - Blanchir les jaunes d'oeufs avec le sucre au batteur électrique
           - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
-          - Monter les blancs en neige
-          - Les incorporer en deux fois au mélange à l'aide d'une spatule silicone
+          - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
           - Mettre la moitié des Speculoos au fond
@@ -127,5 +127,5 @@ recettes:
           - Ajouter le reste des Speculoos
           - Ajouter le reste de la préparation au mascarpone
           - Réserver au frais au moins trois heures
-          - Saupoudrer de cacao au moment de servir sinon il va absorber l'humidité
+          - Saupoudrer de cacao au moment de servir
 ---
