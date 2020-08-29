@@ -116,7 +116,7 @@ recettes:
       unite: gr
     - nom: vanille liquide
     - nom: glaçage rocher
-      lien: /recettes/glacage 
+      lien: /recettes/glacage#Rocher
     etapes:
       - label: Préparation
         details:
@@ -146,8 +146,8 @@ recettes:
           - Laisser ressuer une heure
       - label: Glaçage Rocher
         details:
-          - label: Voir ici, l'onglet "Rocher"
-            link: /recettes/glacage
+          - label: Voir ici
+            link: /recettes/glacage#Rocher
           - Napper le gâteau avec le glaçage
           - Laisser le glaçage prendre (environ 2 heures à température ambiante)
 ---

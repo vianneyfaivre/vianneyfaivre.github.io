@@ -27,7 +27,7 @@ recettes:
         qte: 30
         unite: gr
       - nom: glaçage rhum
-        lien: /recettes/glacage 
+        lien: /recettes/glacage#Rhum
       - nom: zestes de citron vert
     etapes:
       - label: Préparation
@@ -46,8 +46,8 @@ recettes:
           - Laisser refroidir le gâteau
       - label: Glaçage
         details:
-          - label: Voir ici, l'onglet "Rhum"
-            link: /recettes/glacage
+          - label: Voir ici
+            link: /recettes/glacage#Rhum
           - Verser le glaçage et l'étaler à l'aide d'une spatule coudée
           - Réserver au frais
           - Ajouter les zestes de citron vert
