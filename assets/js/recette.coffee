@@ -14,12 +14,26 @@ pictures = document.getElementsByClassName "recipe-picture"
 
 main = () ->
 
+  #
   # Attach click events to the variante buttons
+  #
   for varianteButton in variantesButtons
     varianteButton.addEventListener 'click', (e) -> onVarianteButtonClick(e.target)
   
-  # Activate the first variante
-  variantesButtons[0].click()
+  #
+  # Activate the right recipe
+  #
+  selectedRecipe = decodeURI(window.location.hash.split("#")[1])
+  foundRecipe = false
+
+  if selectedRecipe
+    for varianteButton in variantesButtons
+      if varianteButton.innerHTML == selectedRecipe
+        varianteButton.click()
+        foundRecipe = true
+        
+  if foundRecipe == false
+    variantesButtons[0].click()
 
 onVarianteButtonClick = (btn) ->
   varianteId = btn.innerHTML
@@ -28,6 +42,10 @@ onVarianteButtonClick = (btn) ->
   cuissonId = varianteId + "-cuisson"
   picturesId = varianteId + "-pictures"
   preconditionsId = varianteId + "-preconditions"
+
+  # Update URL hash
+  if variantesButtons.length > 1 
+    window.location.replace("#" + varianteId)
 
   # Remove all buttons highlighting
   for varianteButton in variantesButtons
