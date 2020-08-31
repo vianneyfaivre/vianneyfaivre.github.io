@@ -53,6 +53,7 @@ recettes:
         details:
           - Placer un demi disque au fond de chaque ramequin
           - Imbiber les disques de sirop à l'aide d'un pinceau
+          - (Optionnel) Ajouter un peu de caramel mou
           - Ajouter la moitié de la préparation au mascarpone sur les disques
           - Placer un demi disque dans chaque ramequin
           - Ajouter le reste de la préparation au mascarpone
@@ -122,7 +123,7 @@ recettes:
       - label: Assemblage
         details:
           - Mettre la moitié des Speculoos au fond
-          - (Optionnel) Ajouter du caramel mou
+          - (Optionnel) Ajouter un peu de caramel mou
           - Ajouter la moitié de la préparation au mascarpone sur les Speculoos
           - Ajouter le reste des Speculoos
           - Ajouter le reste de la préparation au mascarpone
