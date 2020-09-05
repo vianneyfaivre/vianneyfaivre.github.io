@@ -7,28 +7,32 @@ sitemap: false
 title: Mayonnaise
 type: condiment
 recettes:
-  Classique:
+  À la Main: 
     ingredients: 
       - nom: huile de tournesol
         qte: 150
         unite: mL
-      - nom: oeuf
+      - nom: jaune d'oeuf
         qte: 1
       - nom: moutarde de Dijon
         qte: 1
         unite: cuillère à soupe
       - nom: vinaigre de vin rouge
         qte: 1
-        unite: cuillère à soupe
+        unite: cuillère à café
     preconditions:
       - Tous les ingrédients doivent être à température ambiante
     etapes:
       - label: "Préparation"
         details:
-          - Mettre tous les ingrédients dans un bol
+          - Verser le jaune d'oeuf et la moutarde dans un saladier
+          - Mélanger au fouet
+          - Ajouter un tout petit peu d'huile
+          - Mélanger au fouet jusqu'à ce que ça commence à changer de texture
+          - Émulsifier la préparation en versant progressivement l'huile tout en fouettant
           - Saler et poivrer
-          - Mixer jusqu'à ce que ça prenne, en commençant par le fond
-  À l'ail:
+          - Ajouter le vinaigre et mélanger
+  Au Mixeur:
     ingredients: 
       - nom: huile de tournesol
         qte: 150
@@ -46,6 +50,7 @@ recettes:
         unite: gousse
     preconditions:
       - Tous les ingrédients doivent être à température ambiante
+      - L'ail est optionnel
     etapes:
       - label: "Préparation"
         details:

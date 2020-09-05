@@ -41,4 +41,6 @@ recettes:
           - Verser la préparation dans un blender
           - Mixer jusqu'à ce que la préparation soit bien lisse
           - Embouteiller
+notes:
+  - Se conserve un mois au réfrigérateur
 ---
