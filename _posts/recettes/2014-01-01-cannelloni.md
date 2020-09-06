@@ -61,7 +61,9 @@ recettes:
         - Placer les cannelloni couchés dans le plat
         - Couvrir de sauce tomate
         - Couvrir de fromage rapé
-    cuisson: 
-    - Cuire 35 minutes à 190°C
-    - Le dessus doit être bien gratiné
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 35 minutes à 190°C
+        - Le dessus doit être bien gratiné
 ---

@@ -29,8 +29,10 @@ recettes:
           - Étaler à la main sur la plaque
           - Précouper les biscuits avec une roulette à pizza
           - Faire des trous réguliers à l'aide d'une fourchette
-    cuisson:
-      - Cuire 30 minutes à 160°C
-      - Laisser refroidir sur une grille 30 minutes
-      - Découper les biscuits
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 30 minutes à 160°C
+          - Laisser refroidir sur une grille 30 minutes
+          - Découper les biscuits
 ---

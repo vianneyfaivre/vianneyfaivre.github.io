@@ -47,11 +47,13 @@ recettes:
           - Retourner les bords
           - Étaler la crème fraîche
           - Parsemer d'oignons et de lardons
-    cuisson: 
-      - Préchauffer le four à 240°C. Chaleur statique par le bas
-      - Garnir
-      - Placer la flammekueche le plus bas possible
-      - Cuire 13 minutes à 240°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Préchauffer le four à 240°C. Chaleur statique par le bas
+          - Garnir
+          - Placer la flammekueche le plus bas possible
+          - Cuire 13 minutes à 240°C
 notes:
   - Si la pâte est trop dure à travailler, ajouter de l'eau une cuillère à soupe à la fois
 ---

@@ -39,7 +39,9 @@ recettes:
         - Incorporer le mélange beurre-chocolat
         - Beurrer et fariner un moule
         - Verser la préparation dans le moule
-    cuisson: 
+      - label: Cuisson
+        emoji: 🔥
+        details:
         - Réserver la préparation au frais le temps que le four chauffe
         - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
         - Vérifier que le gâteau est cuit avec la pointe d'un couteau
@@ -88,7 +90,9 @@ recettes:
         - Incorporer le mélange beurre-chocolat
         - Beurrer et fariner un moule
         - Verser la préparation dans le moule
-    cuisson: 
+      - label: Cuisson
+        emoji: 🔥
+        details:
         - Réserver au frais au moins une heure avant cuisson
         - Cuire 45 minutes à 160°C en chaleur tournante
         - Vérifier que le gâteau est cuit avec la pointe d'un couteau
@@ -140,6 +144,7 @@ recettes:
           - Beurrer et fariner un moule
           - Verser le contenu des deux bols dans le moule en alternant vanille/chocolat
       - label: Cuisson
+        emoji: 🔥
         details:
           - Cuire une heure à 150°C
           - Démouler à l'envers sur une grille

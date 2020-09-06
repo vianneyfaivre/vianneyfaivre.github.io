@@ -5,7 +5,6 @@
 variantesButtons = document.getElementsByClassName "variantes-btn"
 variantesIngredients = document.getElementsByClassName "variante-ingredients"
 variantesEtapes = document.getElementsByClassName "variante-etapes"
-variantesCuisson = document.getElementsByClassName "variante-cuisson"
 variantesPictures = document.getElementsByClassName "variante-pictures"
 variantesPreconditions = document.getElementsByClassName "variante-preconditions"
 
@@ -39,7 +38,6 @@ onVarianteButtonClick = (btn) ->
   varianteId = btn.innerHTML
   ingredientsId = varianteId + "-ingredients"
   etapesId = varianteId + "-etapes"
-  cuissonId = varianteId + "-cuisson"
   picturesId = varianteId + "-pictures"
   preconditionsId = varianteId + "-preconditions"
 
@@ -57,7 +55,6 @@ onVarianteButtonClick = (btn) ->
   # Hide all variantes
   hideElements variantesIngredients
   hideElements variantesEtapes
-  hideElements variantesCuisson
   hideElements variantesPictures
   hideElements variantesPreconditions
 
@@ -67,9 +64,6 @@ onVarianteButtonClick = (btn) ->
     
   varianteEtapes = document.getElementById etapesId
   changeDisplay varianteEtapes, 'block'
-
-  varianteCuisson = document.getElementById cuissonId
-  changeDisplay varianteCuisson, 'block'
 
   variantePrecondition = document.getElementById preconditionsId
   changeDisplay variantePrecondition, 'block'

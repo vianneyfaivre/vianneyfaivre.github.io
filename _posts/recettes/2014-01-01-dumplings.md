@@ -46,11 +46,13 @@ recettes:
           - Ajouter les épices et les herbes
           - Ajouter les légumes, les champignons, l'ail et le gingembre
           - Saler et poivrer
-    cuisson: 
-      - Faire chauffer un peu d'huile dans une poêle
-      - Faire dorer les dumplings
-      - Mettre 100 mL d'eau et couvrir jusqu'à ce que l'eau soit évaporée
-      - Remettre de l'eau si ils ne sont pas assez cuits
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Faire chauffer un peu d'huile dans une poêle
+          - Faire dorer les dumplings
+          - Mettre 100 mL d'eau et couvrir jusqu'à ce que l'eau soit évaporée
+          - Remettre de l'eau si ils ne sont pas assez cuits
 notes:
   - La farce doit être composée de 2/3 de viande
   - Le mélange ail/gingembre doit être composé de 3/4 d'ail et d'1/4 de gingembre  

@@ -36,6 +36,8 @@ recettes:
           - Ajouter la farine
           - Répartir dans un moule à muffins
           - Ajouter un carré de chocolat au milieu de chaque fondant
-cuisson: 
-  - Cuire 10-13 minutes à 180°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 10-13 minutes à 180°C
 ---

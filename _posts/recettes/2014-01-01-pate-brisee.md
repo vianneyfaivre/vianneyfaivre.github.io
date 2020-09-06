@@ -43,6 +43,8 @@ recettes:
         details:
           - Former une boule (la pâte doit etre bien lisse à ce stade)
           - Réserver au frais au moins une heure
-    cuisson:
-      - "À blanc : 170°C pour 15 à 20 minutes"
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
 ---

@@ -56,10 +56,12 @@ recettes:
         details: 
           - Verser le mélange sur la croûte
           - Lisser avec une spatule coudée
-    cuisson: 
-      - Cuire 45 minutes à 160°C
-      - Ce n'est pas grave si le centre du cheesecake n'est pas très ferme, une fois mis au frais quelques heures cela solidifiera
-      - Réserver au frais pendant 4 heures minimum
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 45 minutes à 160°C
+          - Ce n'est pas grave si le centre du cheesecake n'est pas très ferme, une fois mis au frais quelques heures cela solidifiera
+          - Réserver au frais pendant 4 heures minimum
   
   Fromage Blanc:
     ingredients: 
@@ -104,9 +106,11 @@ recettes:
         details: 
           - Foncer la pâte brisée dans un moule à tarte
           - Verser le mélange sur la pâte
-    cuisson:  
-      - Cuire 30 minutes à 150°C
-      - Cuire 20 minutes à 180°C
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 30 minutes à 150°C
+          - Cuire 20 minutes à 180°C
 
   Sans Cuisson:
     ingredients: 
@@ -191,9 +195,11 @@ recettes:
          - Ajouter les oeufs un à un. Mélanger au fouet
          - Ajouter 150 grammes de crème fleurette et la vanille. Mélanger au fouet
          - Ajouter le mélanger farine-crème. Mélanger au fouet
-    cuisson:  
-      - Cuire 45 minutes à 200°C
-      - Cuire 15 minutes à 180°C
-      - Se déguste à température ambiante
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+        - Cuire 45 minutes à 200°C
+        - Cuire 15 minutes à 180°C
+        - Se déguste à température ambiante
 
 ---

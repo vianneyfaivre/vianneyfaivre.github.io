@@ -44,6 +44,11 @@ recettes:
           - Bien pincer les bords
           - Badigeonner avec un jaune d'oeuf (sauf le long du bord)
           - Faire un dessin avec la pointe d'un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 30-35 minutes à 180°C (chaleur tournante, à placer quasiment en bas du four)
+          - Cuire 15 minutes à 150°C
   Frangipane:
     ingredients: 
       - nom: pâte feuilletée 
@@ -89,9 +94,11 @@ recettes:
           - Bien pincer les bords
           - Badigeonner avec un jaune d'oeuf (sauf le long du bord)
           - Faire un dessin avec la pointe d'un couteau
-cuisson: 
-  - Cuire 30-35 minutes à 180°C (chaleur tournante, à placer quasiment en bas du four)
-  - Cuire 15 minutes à 150°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 30-35 minutes à 180°C (chaleur tournante, à placer quasiment en bas du four)
+          - Cuire 15 minutes à 150°C
 notes:
   - Utiliser le dos d'une cuillère et la pointe d'un couteau pour faire les bords
   - Il ne faut pas badigeonner le long du bord car le jaune d'oeuf va empêcher la pâte de gonfler à la cuisson

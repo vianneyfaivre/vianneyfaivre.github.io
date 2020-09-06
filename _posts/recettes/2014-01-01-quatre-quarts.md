@@ -31,10 +31,12 @@ recettes:
         - Incorporer à l'aide d'une spatule silicone
         - Beurrer et fariner un moule
         - Verser la préparation dans le moule
-    cuisson: 
-      - Réserver la préparation au frais le temps que le four chauffe
-      - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
-      - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Amandes: 
     ingredients:
       - nom: oeufs 
@@ -60,10 +62,12 @@ recettes:
         - Incorporer à l'aide d'une spatule silicone
         - Beurrer et fariner un moule
         - Verser la préparation dans le moule
-    cuisson: 
-      - Réserver la préparation au frais le temps que le four chauffe
-      - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
-      - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Citron Pavot: 
     ingredients:
       - nom: oeufs 
@@ -95,10 +99,12 @@ recettes:
         - Incorporer à l'aide d'une spatule silicone
         - Beurrer et fariner un moule
         - Verser la préparation dans le moule
-    cuisson: 
-      - Réserver la préparation au frais le temps que le four chauffe
-      - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
-      - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Citron Framboise: 
     ingredients:
       - nom: oeufs 
@@ -133,10 +139,12 @@ recettes:
         - Verser la moitié de la préparation dans le moule
         - Parsemer de framboises
         - Verser l'autre moitié de la préparation
-    cuisson: 
-      - Réserver la préparation au frais le temps que le four chauffe
-      - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
-      - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Ananas: 
     ingredients:
       - nom: oeufs 
@@ -166,10 +174,12 @@ recettes:
         - Placer des rondelles d'ananas au fond du moule
         - Verser la préparation dans le moule
         - Garder le jus de l'ananas pour imbiber le gâteau après cuisson
-    cuisson: 
-      - Réserver la préparation au frais le temps que le four chauffe
-      - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
-      - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+        - Réserver la préparation au frais le temps que le four chauffe
+        - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+        - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Tiramisu:
     ingredients: 
       - nom: oeufs 
@@ -200,7 +210,7 @@ recettes:
     etapes:
       - label: Préparation du quatre-quarts
         details:
-          - Voir l'onglet "Nature" 
+          - Voir l'onglet "Nature"
       - label: Préparation de la chantilly
         details:
           - label: Voir ici

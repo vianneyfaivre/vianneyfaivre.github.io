@@ -37,11 +37,13 @@ recettes:
           - Sortir la boule et pétrir sur le plan de travail avec la paume de la main
           - Former une boule qui doit être bien lisse
           - Remettre dans le saladier, couvrir et laisser reposer 2 heures à 25°C
-    cuisson: 
-      - Préchauffer le four à 240°C 
-      - Sortir la boule (elle a du beaucoup lever), dégazer puis l'étaler au rouleau
-      - Garnir
-      - Cuire 18 minutes à 240°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Préchauffer le four à 240°C 
+          - Sortir la boule (elle a du beaucoup lever), dégazer puis l'étaler au rouleau
+          - Garnir
+          - Cuire 18 minutes à 240°C
     notes:
       - label: Comment pétrir
         link: https://www.youtube.com/watch?v=SF2F1xKTrdE 

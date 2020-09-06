@@ -43,6 +43,11 @@ recettes:
           - Sur le plan de travail, fraiser la boule une/deux fois
           - Former une boule et l'applatir un peu
           - Réserver minimum 30 minutes au frais
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
+
   Au Robot:
     ingredients: 
       - nom: farine blanche
@@ -80,9 +85,10 @@ recettes:
           - Aplatir légèrement la boule
           - Filmer
           - Réserver minimum 2 heures au frais
-
-cuisson:
-  - "À blanc : 170°C pour 15 à 20 minutes"
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
 notes:
   - Ne pas trop travailler la pâte sinon elle va durcir a la cuisson
   - Fraiser une nouvelle fois la pâte si elle est trop friable

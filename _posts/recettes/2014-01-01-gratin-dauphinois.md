@@ -43,10 +43,12 @@ recettes:
           - Battre les oeufs dans un saladier
           - Ajouter le fromage rapé
           - Déposer ce mélange sur le plat à gratin
-    cuisson: 
-      - 30 minutes à 200°C
-      - Le dessus doit être bien gratiné
-      - Vérifier la cuisson des pommes de terre avec un couteau
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - 30 minutes à 200°C
+          - Le dessus doit être bien gratiné
+          - Vérifier la cuisson des pommes de terre avec un couteau
 variantes:
   - label: Utiliser du Comté
     todo: false

@@ -54,10 +54,12 @@ recettes:
         details:
           - Façonner en petits pains ronds
           - Laisser reposer 30 minutes à 25°C
-    cuisson: 
-      - Battre un oeuf avec une pincée de sel
-      - Badigeonner les pains avec l'oeuf battu
-      - Parsemer les pains de graines de sésame
-      - Cuire 15 minutes à 200°C 
-      - Les laisser ressuer sur une grille 10 minutes
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Battre un oeuf avec une pincée de sel
+          - Badigeonner les pains avec l'oeuf battu
+          - Parsemer les pains de graines de sésame
+          - Cuire 15 minutes à 200°C 
+          - Les laisser ressuer sur une grille 10 minutes
 ---

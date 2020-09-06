@@ -35,7 +35,9 @@ recettes:
           - Ajouter le beurre fondu et mélanger
           - Ajouter la poudre d'amandes, la cannelle et les zestes
           - Mélanger et verser dans un moule rond
-    cuisson: 
-      - Cuire 30 minutes à 180°C
-      - Au moment de servir, saupoudrer de sucre glace
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 30 minutes à 180°C
+          - Au moment de servir, saupoudrer de sucre glace
 ---

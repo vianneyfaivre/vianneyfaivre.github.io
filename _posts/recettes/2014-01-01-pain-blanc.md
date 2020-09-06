@@ -49,8 +49,10 @@ recettes:
           - Façonner en petits pains
           - Laisser reposer 1 heure à 25°C
           - Grigner
-    cuisson: 
-      - Placer un verre d'eau bouillante dans le four
-      - Cuire 15 à 18 minutes à 250°C 
-      - Les laisser ressuer sur une grille 10 minutes
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Placer un verre d'eau bouillante dans le four
+          - Cuire 15 à 18 minutes à 250°C 
+          - Les laisser ressuer sur une grille 10 minutes
 ---

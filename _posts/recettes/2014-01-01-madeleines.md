@@ -68,12 +68,14 @@ recettes:
           - Beurrer le moule
           - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts)
 
-    cuisson: 
-      - Préchauffer le four à 190°C, chaleur par le haut uniquement
-      - Enfourner pour 9-13 minutes
-      - Démouler légèrement en les laissant sur leur côté. Les laisser 5 minutes
-      - Laisser refroidir 10 minutes sur une grille
-      - Mettre dans une boite hermétique et patienter 2 heures avant la dégustation
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Préchauffer le four à 190°C, chaleur par le haut uniquement
+          - Enfourner pour 9-13 minutes
+          - Démouler légèrement en les laissant sur leur côté. Les laisser 5 minutes
+          - Laisser refroidir 10 minutes sur une grille
+          - Mettre dans une boite hermétique et patienter 2 heures avant la dégustation
 notes:
   - La différence de température à la cuisson va aider les madeleines à bien gonfler afin d'obtenir une belle bosse
   - Bien surveiller la cuisson, ça dépendra beaucoup du four

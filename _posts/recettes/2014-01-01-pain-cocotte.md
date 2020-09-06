@@ -39,9 +39,11 @@ recettes:
           - Humidifier le dessus du pâton
           - Saupoudrer de farine
           - Placer la cocotte fermée dans le four froid
-    cuisson: 
-      - Cuire 1h à 240°C 
-      - Sortir le pain de la cocotte
-      - Le laisser ressuer sur une grille
-      - Le conserver enveloppé dans un linge propre
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 1h à 240°C 
+          - Sortir le pain de la cocotte
+          - Le laisser ressuer sur une grille
+          - Le conserver enveloppé dans un linge propre
 ---

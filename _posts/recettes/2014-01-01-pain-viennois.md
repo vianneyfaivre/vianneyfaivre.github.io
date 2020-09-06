@@ -55,8 +55,10 @@ recettes:
           - Façonner en petits pains
           - Laisser reposer 45 minutes à 25°C
           - Grigner
-    cuisson: 
-      - Cuire 15 à 18 minutes à 200°C
-      - Badigeonner avec du beurre fondu
-      - Les laisser ressuer sur une grille 10 minutes
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 15 à 18 minutes à 200°C
+          - Badigeonner avec du beurre fondu
+          - Les laisser ressuer sur une grille 10 minutes
 ---

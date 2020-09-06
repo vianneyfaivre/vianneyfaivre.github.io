@@ -40,8 +40,10 @@ recettes:
           - Placer une feuille de papier cuisson dans une plaque de cuisson 
           - Étaler la pâte avec un rouleau à pâtisserie
           - Précouper les biscuits avec une roulette à pizza
-    cuisson:
-      - Cuire 20 minutes à 180°C
-      - Placer les biscuits sur une grille
-      - Laver la plaque entre deux fournées afin qu'elle soit froide
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 20 minutes à 180°C
+          - Placer les biscuits sur une grille
+          - Laver la plaque entre deux fournées afin qu'elle soit froide
 ---

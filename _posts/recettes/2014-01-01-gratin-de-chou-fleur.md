@@ -30,9 +30,11 @@ recettes:
           - Y ajouter les bouts de chou fleur tête en bas
           - Couvrir de béchamel
           - Couvrir de fromage rapé
-    cuisson: 
-      - Cuire 30 minutes à 200°C
-      - Le dessus doit être bien gratiné
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 30 minutes à 200°C
+          - Le dessus doit être bien gratiné
 variantes:
  - label: Utiliser du comté
    todo: false

@@ -67,7 +67,9 @@ recettes:
           - Retourner et placer dans le moule
           - Couvrir avec un linge
           - Laisser reposer deux heures à 25°C
-        cuisson: 
+      - label: Cuisson
+        emoji: 🔥
+        details:
           - Cuire 50 minutes à 190ºC
           - Démouler
           - Laisser le pain ressuer sur une grille pendant 1h30
@@ -117,8 +119,10 @@ recettes:
           - Retourner et placer dans le moule
           - Couvrir avec un linge
           - Laisser reposer 1h15 à 25°C
-    cuisson: 
-      - Cuire 45 minutes à 180ºC
-      - Démouler
-      - Laisser le pain ressuer sur une grille pendant 1h30
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 45 minutes à 180ºC
+          - Démouler
+          - Laisser le pain ressuer sur une grille pendant 1h30
 ---
