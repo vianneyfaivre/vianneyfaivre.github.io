@@ -170,9 +170,10 @@ EVENTS = [
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
     new Event(2018, 6, EventType.SOCCER, "Fifa World Cup Champion ⭐⭐", null),
     
-    new Event(2020, 2, EventType.COVID19, "COVID-19 Lockdown", null),
-    new Event(2020, 3, EventType.COVID19, "COVID-19 Lockdown", null),
-    new Event(2020, 4, EventType.COVID19, "COVID-19 Lockdown", null),
+    new Event(2020, 2, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
+    new Event(2020, 3, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
+    new Event(2020, 4, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
+    new Event(2020, 7, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
 ]
 
 main = () ->
