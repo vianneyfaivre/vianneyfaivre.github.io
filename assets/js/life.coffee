@@ -20,6 +20,7 @@ EventType =
   DRIVE: '🚘'
   MOTORCYCLE: '🛵'
   COVID19: '😷' 
+  SPORT: '🏃'
 
 State = 
   NOT_BORN: 0
@@ -129,6 +130,7 @@ EVENTS = [
     new Event(2019, 7, EventType.TRAVEL, "four days", "Wellington, New Zealand 🥝🇳🇿"),
     new Event(2019, 9, EventType.TRAVEL, "three days", "Northland, New Zealand 🥝🇳🇿"),
     new Event(2019, 11, EventType.TRAVEL, "three weeks", "South Island, New Zealand 🥝🇳🇿"),
+    new Event(2020, 8, EventType.TRAVEL, "one week", "Coromandel area, New Zealand 🥝🇳🇿"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
@@ -169,6 +171,7 @@ EVENTS = [
 
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
     new Event(2018, 6, EventType.SOCCER, "Fifa World Cup Champion ⭐⭐", null),
+    new Event(2020, 2, EventType.SPORT, "Started doing yoga", null),
     
     new Event(2020, 2, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
     new Event(2020, 3, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
