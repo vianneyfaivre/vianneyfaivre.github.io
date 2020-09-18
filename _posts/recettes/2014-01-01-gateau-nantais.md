@@ -17,6 +17,7 @@ recettes:
         unite: gr
       - nom: oeufs 
         qte: 3
+        variable: true
       - nom: poudre d'amandes
         qte: 125
         unite: gr

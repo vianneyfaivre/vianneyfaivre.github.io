@@ -28,22 +28,29 @@ customCss: assets/css/recette.css
 
 				<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
 				{% for ingredient in recette[1].ingredients %}
-					
+
+					{% assign ingredientClass = "" %}
+					{% if ingredient.variable == true %}
+						{% assign ingredientClass = "variable" %}
+					{% endif %}
+
+					<li class="{{ ingredientClass }}">
 					{% if ingredient.qte %}
 
 						{% if ingredient.lien %}
-							<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+							<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}
 						{% else %}
-							<li>{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}</li>
+							{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}
 						{% endif %}
 					{% else %}
 						
 						{% if ingredient.lien %}
-							<li><a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a></li>
+							<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a>
 						{% else %}
-							<li>{{ ingredient.nom }}</li>
+							{{ ingredient.nom }}
 						{% endif %}
 					{% endif %}
+					</li>
 
 				{% endfor %}
 				</ul>

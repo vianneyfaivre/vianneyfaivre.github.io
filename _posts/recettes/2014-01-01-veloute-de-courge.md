@@ -16,14 +16,22 @@ recettes:
       - nom: muscade
       - nom: paprika doux
     etapes:
-      - label: "Préparation"
+      - label: Préparation 1/2
         details:
+          - Peler la courge
           - Couper la courge en gros dés
           - Faire cuire la courge dans de l'eau bouillante
-          - Faire revenir l’oignon dans de l’huile d’olive
-          - Ajouter l’ail et les épices, mettre à feu doux pendant quelques minutes
-          - Mettre de coté
-          - Quand la courge est cuite (vérifier avec une fourchette), essorer
-          - Tout verser dans un saladier et mixer 
-          - Ajouter la crème fraîche et saler
+          - Égoutter quand la courge est cuite
+      - label: Préparation 2/2
+        details:   
+          - Faire revenir l’oignon
+          - Ajouter l’ail et les épices
+          - Cuire à feu doux pendant quelques minutes
+          - Réserver
+      - label: Assemblage
+        details:
+          - Tout verser dans un saladier
+          - Mixer 
+          - Ajouter la crème fraîche
+          - Saler et poivrer
 ---
