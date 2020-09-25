@@ -6,13 +6,15 @@ lang: fr
 sitemap: false
 title: Patates au Four
 type: sel
-pour: pour 2 personnes
 recettes:
   En Quartiers:
+    yield: 2
+    yieldType: personnes
     ingredients: 
       - nom: pommes de terre
         qte: 300
         unite: gr
+        variable: true
       - nom: eau
         qte: 2
         unite: L

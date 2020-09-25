@@ -13,6 +13,7 @@ recettes:
       - nom: farine blanche
         qte: 380
         unite: gr
+        variable: true
       - nom: sel
         qte: 6
         unite: gr

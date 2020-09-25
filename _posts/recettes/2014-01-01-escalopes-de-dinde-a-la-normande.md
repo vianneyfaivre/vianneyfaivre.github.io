@@ -6,12 +6,15 @@ lang: fr
 sitemap: false
 title: Escalopes de Dinde à la Normande
 type: sel
-pour: pour 2 personnes
 recettes:
   Classique:
+    yield: 2
+    yieldType: personnes
     ingredients: 
       - nom: escalopes de dinde
-        qte: 2
+        qte: 400
+        unite: gr
+        variable: true
       - nom: champignons
         qte: 200
         unite: gr

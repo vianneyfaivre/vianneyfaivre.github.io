@@ -21,26 +21,48 @@ customCss: assets/css/recette.css
 	<div class="main-panel">
 	
 		<div class="ingredients-panel">
-
-			<h4>🛒 Ingrédients {{ page.pour }}</h4>
 		
 			{% for recette in page.recettes %}
+
+				<h4 id="{{recette[0]}}-title" class="variante-title">
+					🛒 Ingrédients 
+
+					{% if recette[1].yield %}
+						pour 
+						<span id="{{recette[0]}}-yield" data-originalValue="{{ recette[1].yield }}">{{ recette[1].yield }}</span>
+						{{recette[1].yieldType}}
+					{% endif %}
+				</h4>
 
 				<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
 				{% for ingredient in recette[1].ingredients %}
 
-					{% assign ingredientClass = "" %}
+					{% capture ingredientQte %}
+						<span class="ingredient-qte-fixed"
+							  data-originalValue="{{ingredient.qte}}">
+							{{ingredient.qte}}
+						</span>
+					{% endcapture %}
+
 					{% if ingredient.variable == true %}
-						{% assign ingredientClass = "variable" %}
+						{% capture ingredientQte %}
+							<input class="ingredient-qte-variable" 
+								   type="number" 
+								   data-varianteId="{{recette[0]}}"
+								   data-originalValue="{{ ingredient.qte }}"
+								   value="{{ingredient.qte}}"
+								   min="1"
+							/>
+						{% endcapture %}
 					{% endif %}
 
-					<li class="{{ ingredientClass }}">
+					<li>
 					{% if ingredient.qte %}
 
 						{% if ingredient.lien %}
-							<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredient.qte }} {{ ingredient.unite }}
+							<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredientQte }} {{ ingredient.unite }}
 						{% else %}
-							{{ ingredient.nom }} : {{ ingredient.qte }} {{ ingredient.unite }}
+							{{ ingredient.nom }} : {{ ingredientQte }} {{ ingredient.unite }}
 						{% endif %}
 					{% else %}
 						

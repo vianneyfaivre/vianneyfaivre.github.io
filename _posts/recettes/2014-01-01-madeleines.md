@@ -6,12 +6,13 @@ lang: fr
 sitemap: false
 title: Madeleines
 type: sucre
-pour: pour 12 madeleines
 recettes:
   Classique:
+    yield: 12
     ingredients: 
       - nom: oeuf
         qte: 1
+        variable: true
       - nom: jaune d'oeuf
         qte: 1
       - nom: sucre

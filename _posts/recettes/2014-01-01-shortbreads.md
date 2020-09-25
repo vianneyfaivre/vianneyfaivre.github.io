@@ -6,13 +6,14 @@ lang: fr
 sitemap: false
 title: Shortbreads
 type: sucre
-pour: pour 12 biscuits
 recettes:
   Classique:
+    yield: 12
     ingredients:
       - nom: farine
         qte: 300
         unite: gr
+        variable: true
       - nom: beurre
         qte: 200
         unite: gr

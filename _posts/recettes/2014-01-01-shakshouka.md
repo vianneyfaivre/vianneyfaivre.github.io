@@ -6,9 +6,10 @@ lang: fr
 sitemap: false
 title: Shakshouka
 type: sel
-pour: pour 6 personnes
 recettes:
   Classique:
+    yield: 6
+    yieldType: personnes
     ingredients: 
       - nom: tomates
         qte: 1
@@ -25,6 +26,7 @@ recettes:
         unite: boîte
       - nom: oeufs
         qte: 6
+        variable: true
       - nom: persil
       - nom: cumin
         qte: 1

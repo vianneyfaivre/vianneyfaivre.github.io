@@ -12,6 +12,7 @@ recettes:
       - nom: farine T55
         qte: 310
         unite: gr
+        variable: true
       - nom: levure sèche
         qte: 3
         unite: gr

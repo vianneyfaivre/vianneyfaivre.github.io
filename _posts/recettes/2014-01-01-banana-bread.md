@@ -11,6 +11,7 @@ recettes:
     ingredients: 
       - nom: oeufs 
         qte: 2
+        variable: true
       - nom: sucre glace
         qte: 150
         unite: gr

@@ -6,9 +6,9 @@ lang: fr
 sitemap: false
 title: Fondants au Chocolat
 type: sucre
-pour: pour 4
 recettes:
   Classique:
+    yield: 4
     ingredients: 
       - nom: chocolat noir 70% 
         qte: 75
@@ -21,6 +21,7 @@ recettes:
         unite: gr
       - nom: oeufs 
         qte: 2
+        variable: true
       - nom: farine
         qte: 10
         unite: gr  

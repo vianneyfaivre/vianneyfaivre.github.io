@@ -12,6 +12,7 @@ recettes:
       - nom: farine blanche
         qte: 200
         unite: gr
+        variable: true
       - nom: beurre
         qte: 140
         unite: gr
@@ -53,6 +54,7 @@ recettes:
       - nom: farine blanche
         qte: 265
         unite: gr
+        variable: true
       - nom: beurre
         qte: 210
         unite: gr

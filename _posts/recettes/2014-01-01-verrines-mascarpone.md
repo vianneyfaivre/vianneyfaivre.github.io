@@ -6,9 +6,10 @@ lang: fr
 sitemap: false
 title: Verrines Mascarpone
 type: sucre
-pour: pour 4 verrines
 recettes:
   Tiramisu:
+    yield: 4
+    yieldType: verrines
     ingredients: 
       - nom: Génoise pour 4 oeufs
         lien: /recettes/genoise
@@ -60,9 +61,12 @@ recettes:
           - Réserver au frais au moins trois heures 
           - Saupoudrer de cacao au moment de servir
   Framboise:
+    yield: 4
+    yieldType: verrines
     ingredients: 
       - nom: oeufs 
         qte: 2
+        variable: true
       - nom: sucre
         qte: 30
         unite: gr
@@ -95,9 +99,12 @@ recettes:
           - Ajouter le reste de la préparation au mascarpone
           - Réserver au frais au moins trois heures
   Speculoos:
+    yield: 4
+    yieldType: verrines
     ingredients: 
       - nom: oeufs 
         qte: 4
+        variable: true
       - nom: sucre
         qte: 50
         unite: gr

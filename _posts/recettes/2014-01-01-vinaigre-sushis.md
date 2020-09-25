@@ -12,6 +12,7 @@ recettes:
       - nom: vinaigre de riz
         qte: 200
         unite: gr
+        variable: true
       - nom: sucre brun
         qte: 75
         unite: gr

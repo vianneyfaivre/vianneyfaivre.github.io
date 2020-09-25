@@ -10,8 +10,9 @@ recettes:
   Classique:
     ingredients: 
       - nom: cubes de boeuf
-        qte: 1
-        unite: kg 
+        qte: 1000
+        unite: gr
+        variable: true
       - nom: bicarbonate de soude
         qte: 2
         unite: cuillères à café

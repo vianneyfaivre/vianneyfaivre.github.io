@@ -21,6 +21,7 @@ recettes:
       - nom: cream cheese
         qte: 500
         unite: gr
+        variable: true
       - nom: crème fraîche
         qte: 250
         unite: gr
@@ -71,6 +72,7 @@ recettes:
       - nom: fromage blanc
         qte: 500
         unite: gr
+        variable: true
       - nom: oeufs
         qte: 5
       - nom: farine
@@ -126,6 +128,7 @@ recettes:
       - nom: cream cheese
         qte: 600
         unite: gr
+        variable: true
       - nom: sucre
         qte: 150
         unite: gr
@@ -175,6 +178,7 @@ recettes:
       - nom: cream cheese
         qte: 450
         unite: gr
+        variable: true
       - nom: sucre glace
         qte: 120
         unite: gr

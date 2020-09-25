@@ -12,6 +12,7 @@ recettes:
       - nom: sardines
         qte: 200
         unite: gr
+        variable: true
       - nom: cream cheese
         qte: 150
         unite: gr

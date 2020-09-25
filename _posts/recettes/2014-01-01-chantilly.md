@@ -12,11 +12,12 @@ recettes:
       - nom: crème fleurette 
         qte: 500
         unite: mL
+        variable: true
       - nom: sucre glace
         qte: 50
         unite: gr
       - nom: vanille liquide
-        qte: 1/2
+        qte: 0.5
         unite: cuillère à café
     preconditions:
       - "Tout doit être froid, donc mettre au congélateur pendant 10 minutes : la crème, le saladier, les fouets du batteur"

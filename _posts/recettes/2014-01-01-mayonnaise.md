@@ -12,6 +12,7 @@ recettes:
       - nom: huile de tournesol
         qte: 150
         unite: mL
+        variable: true
       - nom: jaune d'oeuf
         qte: 1
       - nom: moutarde de Dijon
@@ -37,6 +38,7 @@ recettes:
       - nom: huile de tournesol
         qte: 150
         unite: mL
+        variable: true
       - nom: oeuf
         qte: 1
       - nom: moutarde de Dijon

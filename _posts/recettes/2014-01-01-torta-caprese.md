@@ -23,6 +23,7 @@ recettes:
         unite: gr
       - nom: oeufs
         qte: 3
+        variable: true
       - nom: poudre d'amandes
         qte: 70
         unite: gr
@@ -63,6 +64,7 @@ recettes:
         unite: gr
       - nom: oeufs 
         qte: 5
+        variable: true
       - nom: sucre blanc
         qte: 40
         unite: gr

@@ -7,7 +7,6 @@ sitemap: false
 title: Pain Viennois
 type: boulangerie
 withYeast: true
-pour: pour 10 petits pains
 recettes:
   Classique:
     ingredients: 
@@ -22,6 +21,7 @@ recettes:
       - nom: farine T55
         qte: 450
         unite: gr
+        variable: true
       - nom: sucre blanc
         qte: 10
         unite: gr

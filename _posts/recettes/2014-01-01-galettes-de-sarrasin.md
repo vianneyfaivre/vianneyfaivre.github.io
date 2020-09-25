@@ -6,13 +6,14 @@ lang: fr
 sitemap: false
 title: Galettes de Sarrasin
 type: sel
-pour: pour 12 galettes
 recettes:
   Classique:
+    yield: 12
     ingredients: 
       - nom: farine de sarrasin 
         qte: 500
         unite: gr
+        variable: true
       - nom: oeufs
         qte: 1
       - nom: eau

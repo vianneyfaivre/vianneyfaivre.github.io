@@ -6,9 +6,10 @@ lang: fr
 sitemap: false
 title: Panna Cotta
 type: sucre
-pour: pour 4 ramequins
 recettes:
   Gélatine en Poudre:
+    yield: 4
+    yieldType: ramequins
     ingredients: 
       - nom: gélatine en poudre
         qte: 1.5
@@ -19,6 +20,7 @@ recettes:
       - nom: crème fleurette
         qte: 300
         unite: gr
+        variable: true
       - nom: sucre
         qte: 30
         unite: gr
@@ -43,6 +45,8 @@ recettes:
           - Verser dans les ramequins
           - Laisser prendre au moins 4 heures au réfrigérateur
   Gélatine en Feuilles:
+    yield: 4
+    yieldType: ramequins
     ingredients: 
       - nom: gélatine en feuilles
         qte: 2.5
@@ -50,6 +54,7 @@ recettes:
       - nom: crème fleurette
         qte: 300
         unite: gr
+        variable: true
       - nom: sucre
         qte: 30
         unite: gr

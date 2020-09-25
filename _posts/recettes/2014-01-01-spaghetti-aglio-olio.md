@@ -6,13 +6,15 @@ lang: fr
 sitemap: false
 title: Spaghetti Aglio e Olio
 type: sel
-pour: pour 2 personnes
 recettes:
   Classique:
+    yield: 2
+    yieldType: personnes
     ingredients: 
       - nom: spaghetti
         qte: 200
         unite: gr
+        variable: true
       - nom: ail
         qte: 8
         unite: gousses

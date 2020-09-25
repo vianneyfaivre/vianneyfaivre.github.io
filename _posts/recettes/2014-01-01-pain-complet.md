@@ -12,6 +12,7 @@ recettes:
       - nom: farine complète
         qte: 525
         unite: gr
+        variable: true
       - nom: levure sèche
         qte: 4
         unite: gr
@@ -78,6 +79,7 @@ recettes:
       - nom: farine complète
         qte: 425
         unite: gr
+        variable: true
       - nom: eau froide
         qte: 320
         unite: gr

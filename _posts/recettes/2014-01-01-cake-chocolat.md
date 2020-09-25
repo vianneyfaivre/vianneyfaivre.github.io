@@ -17,6 +17,7 @@ recettes:
         unite: gr
       - nom: oeufs 
         qte: 4
+        variable: true
       - nom: sucre glace
         qte: 100
         unite: gr
@@ -55,6 +56,7 @@ recettes:
         unite: gr
       - nom: oeufs 
         qte: 4
+        variable: true
       - nom: miel
         qte: 60 
         unite: gr
@@ -100,6 +102,7 @@ recettes:
     ingredients:
     - nom: oeufs 
       qte: 2
+      variable: true
     - nom: sucre
       qte: 200
       unite: gr

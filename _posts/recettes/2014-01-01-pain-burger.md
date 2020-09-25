@@ -7,9 +7,9 @@ sitemap: false
 title: Pain à Burger
 type: boulangerie
 withYeast: true
-pour: pour 6 pains
 recettes:
   Classique:
+    yield: 6
     ingredients: 
       - nom: eau
         qte: 100
@@ -25,6 +25,7 @@ recettes:
       - nom: farine T55
         qte: 250
         unite: gr
+        variable: true
       - nom: sel
         qte: 4
         unite: gr

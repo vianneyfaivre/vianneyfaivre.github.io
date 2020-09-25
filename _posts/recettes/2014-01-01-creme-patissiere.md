@@ -12,6 +12,7 @@ recettes:
       - nom: lait
         qte: 500
         unite: mL
+        variable: true
       - nom: sucre
         qte: 125
         unite: gr

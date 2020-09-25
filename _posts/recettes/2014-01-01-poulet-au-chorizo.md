@@ -6,12 +6,15 @@ lang: fr
 sitemap: false
 title: Poulet au Chorizo
 type: sel
-pour: pour 2 personnes
 recettes:
   Classique:
+    yield: 2
+    yieldType: personnes
     ingredients: 
       - nom: filets de poulet
-        qte: 2
+        qte: 400
+        unite: gr
+        variable: true
       - nom: chorizo
         qte: 1
       - nom: poivrons rouges

@@ -12,6 +12,7 @@ recettes:
       - nom: beurre de cacahuète
         qte: 200
         unite: gr
+        variable: true
       - nom: flocons d'avoine
         qte: 50
         unite: gr

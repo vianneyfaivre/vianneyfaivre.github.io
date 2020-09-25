@@ -5,14 +5,15 @@ hidden: true
 lang: fr
 sitemap: false
 title: Dumplings
-pour: pour environ 40 dumplings
 type: sel
 recettes:
   Classique:
+    yield: 40
     ingredients: 
       - nom: viande (boeuf, porc)
         qte: 400
         unite: gr
+        variable: true
       - nom: légumes (carottes, choux, bok choy, poireaux, oignons, etc.)
       - nom: ail
         qte: 6 

@@ -14,6 +14,7 @@ recettes:
       - nom: tomates
         qte: 400
         unite: gr
+        variable: true
       - nom: oignon
         qte: 1
       - nom: ail

@@ -12,6 +12,7 @@ recettes:
       - nom: farine blanche
         qte: 200
         unite: gr
+        variable: true
       - nom: jaune d'oeuf
         qte: 1
       - nom: eau

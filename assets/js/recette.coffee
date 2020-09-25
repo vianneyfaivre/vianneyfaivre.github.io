@@ -7,6 +7,7 @@ variantesIngredients = document.getElementsByClassName "variante-ingredients"
 variantesEtapes = document.getElementsByClassName "variante-etapes"
 variantesPictures = document.getElementsByClassName "variante-pictures"
 variantesPreconditions = document.getElementsByClassName "variante-preconditions"
+variantesTitles = document.getElementsByClassName "variante-title"
 
 # Pictures
 pictures = document.getElementsByClassName "recipe-picture"
@@ -34,12 +35,30 @@ main = () ->
   if foundRecipe == false
     variantesButtons[0].click()
 
+  #
+  # Attach change events to the variable ingredients of each variante
+  #
+  for varianteIngredients in variantesIngredients
+    
+    # Handle Variable Ingredients (if enabled)
+    ingredientsInputs = varianteIngredients.getElementsByClassName "ingredient-qte-variable"
+
+    if ingredientsInputs && ingredientsInputs[0] 
+      
+      # There should be only one variable ingredient
+      ingredientsInput = ingredientsInputs[0] 
+
+      console.debug "Found variable ingredient. Setting up onChange listener"
+
+      ingredientsInput.addEventListener 'input', (e) -> onQuantityChange(e.target, e.target.getAttribute("data-varianteId"))
+
 onVarianteButtonClick = (btn) ->
   varianteId = btn.innerHTML
   ingredientsId = varianteId + "-ingredients"
   etapesId = varianteId + "-etapes"
   picturesId = varianteId + "-pictures"
   preconditionsId = varianteId + "-preconditions"
+  titleId = varianteId + "-title"
 
   # Update URL hash
   if variantesButtons.length > 1 
@@ -57,6 +76,7 @@ onVarianteButtonClick = (btn) ->
   hideElements variantesEtapes
   hideElements variantesPictures
   hideElements variantesPreconditions
+  hideElements variantesTitles
 
   # Display the right variante
   varianteIngredients = document.getElementById ingredientsId
@@ -68,6 +88,9 @@ onVarianteButtonClick = (btn) ->
   variantePrecondition = document.getElementById preconditionsId
   changeDisplay variantePrecondition, 'block'
 
+  varianteTitle = document.getElementById titleId
+  changeDisplay varianteTitle, 'block'
+
   variantePictures = document.getElementById picturesId
   if variantePictures
 
@@ -77,6 +100,37 @@ onVarianteButtonClick = (btn) ->
       variantePictures.classList.remove "hidden"
       changeDisplay variantePictures, 'block'
       displayElements variantePictures 
+
+onQuantityChange = (input, varianteId) ->
+
+  ingredients = document.getElementById("#{varianteId}-ingredients");
+  if !ingredients
+    return 
+
+  ingredientsQuantityElements =  ingredients.getElementsByClassName("ingredient-qte-fixed")
+  if !ingredientsQuantityElements
+    return
+
+  variableOriginalValue = input.getAttribute("data-originalValue")
+  variableNewValue = +input.value
+
+  console.debug "Variable ingredient value changed to #{variableNewValue}. Updating #{ingredientsQuantityElements.length} ingredients"
+  
+  # Update ingredients quantity
+  for ingredientsQuantityElement in ingredientsQuantityElements
+    ingredientOldValue = +ingredientsQuantityElement.getAttribute("data-originalValue")
+    ingredientNewValue = ((ingredientOldValue * variableNewValue) / variableOriginalValue).toFixed(2)
+    if !isNaN(ingredientNewValue)
+      ingredientsQuantityElement.innerHTML = ingredientNewValue
+
+  # Update recipe yield
+  recipeYield = document.getElementById("#{varianteId}-yield")
+  if recipeYield
+    oldYield = +recipeYield.getAttribute("data-originalValue")
+    newYield = ((oldYield * variableNewValue) / variableOriginalValue).toFixed(2)
+    if !isNaN(newYield)
+      recipeYield.innerHTML = newYield
+    
 
 changeDisplay = (element, mode) ->
   if element

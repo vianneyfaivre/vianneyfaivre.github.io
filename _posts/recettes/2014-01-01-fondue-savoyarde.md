@@ -6,13 +6,15 @@ lang: fr
 sitemap: false
 title: Fondue Savoyarde
 type: sel
-pour: pour 4 personnes
 recettes:
   Classique:
+    yield: 4
+    yieldType: personnes
     ingredients: 
       - nom: fromage
         qte: 900
         unite: gr
+        variable: true
       - nom: ail
         qte: 1
         unite: gousse

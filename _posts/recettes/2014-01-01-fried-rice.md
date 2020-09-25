@@ -6,9 +6,10 @@ lang: fr
 sitemap: false
 title: Fried Rice
 type: sel
-pour: pour 2 personnes
 recettes:
   Classique:
+    yield: 2
+    yieldType: personnes
     ingredients: 
       - nom: sauce soja
         qte: 8
@@ -25,6 +26,7 @@ recettes:
       - nom: gingembre
       - nom: oeufs
         qte: 3
+        variable: true
       - nom: viande
       - nom: oignon
         qte: 1

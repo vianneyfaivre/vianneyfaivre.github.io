@@ -12,6 +12,7 @@ recettes:
       - nom: tomates
         qte: 700
         unite: gr
+        variable: true
       - nom: oignon
         qte: 1
       - nom: ail
@@ -43,4 +44,7 @@ recettes:
           - Retirer la feuille de laurier
           - Goûter, ajuster si besoin
           - Servir
+notes:
+  - En fonction de la consistance souhaitée, couvrir (ou pas) pendant la cuisson
+  - Ne pas trop abuser sur les herbes
 ---

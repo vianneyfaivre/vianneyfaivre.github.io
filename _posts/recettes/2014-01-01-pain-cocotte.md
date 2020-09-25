@@ -19,6 +19,7 @@ recettes:
       - nom: farine T55
         qte: 510
         unite: gr
+        variable: true
       - nom: sel
         qte: 13
         unite: gr

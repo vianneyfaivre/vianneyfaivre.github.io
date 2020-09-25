@@ -6,13 +6,15 @@ lang: fr
 sitemap: false
 title: Gratin Dauphinois
 type: sel
-pour: pour 2 personnes
 recettes:
   Classique:
+    yield: 2
+    yieldType: personnes
     ingredients: 
       - nom: pommes de terre
         qte: 300
         unite: gr
+        variable: true
       - nom: lait
         qte: 1
         unite: L
