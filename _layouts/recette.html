@@ -129,11 +129,13 @@ customCss: assets/css/recette.css
 						<ol>
 						{% for detail in etape.details %}
 							
-							{% if detail.link %}
-								<li><a href="{{ detail.link }}">{{ detail.label }}</a></li>
-							{% else %}
-								<li>{{ detail }}</li>
-							{% endif %}
+							<li>
+								{% if detail.link %}
+									<a href="{{ detail.link }}">{{ detail.label }}</a>
+								{% else %}
+									{{ detail }}
+								{% endif %}
+							</li>
 							
 						{% endfor %}
 						</ol>
