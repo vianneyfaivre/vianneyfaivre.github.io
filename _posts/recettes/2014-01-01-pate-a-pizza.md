@@ -29,22 +29,25 @@ recettes:
     etapes:
       - label: "Préparation"
         details:
-          - Dans un saladier, verser la farine et le sel
-          - Ajouter la moitié du mélange eau-levure dans le saladier de farine
+          - Verser la farine et le sel dans un grand saladier
+          - Ajouter la moitié du mélange eau-levure
           - Ajouter l'huile d'olive
-          - Pétrir
-          - Ajouter le reste du liquide
-          - Pétrir jusqu'à ce que ça arrête de coller au saladier
-          - Sortir la boule et pétrir sur le plan de travail avec la paume de la main
-          - Former une boule qui doit être bien lisse
-          - Remettre dans le saladier, couvrir et laisser reposer 2 heures à 25°C
+          - Pétrir à la main
+          - Ajouter le reste du mélange eau-levure
+          - Pétrir à la main jusqu'à ce que ça arrête de coller au saladier
+          - Sortir le pâton sur le plan de travail
+          - Pétrir à la main
+          - Bouler
+          - Laisser reposer 2 heures à 25°C
       - label: Cuisson
         emoji: 🔥
         details:
           - Préchauffer le four à 240°C 
-          - Sortir la boule (elle a du beaucoup lever), dégazer puis l'étaler au rouleau
+          - Fleurer le plan de travail
+          - Déverser le pâton sur le plan de travail
+          - Étaler au rouleau
           - Garnir
-          - Cuire 18 minutes à 240°C
+          - Cuire 18-20 min minutes à 240°C
     notes:
       - label: Comment pétrir
         link: https://www.youtube.com/watch?v=SF2F1xKTrdE 
