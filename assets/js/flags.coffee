@@ -322,6 +322,7 @@ getDots = (actualDots) -> if actualDots.length == 3 then "" else actualDots + ".
 _toggleDisplayFlags = curry (loadingContainer, flagsContainer, interval) ->
   hide loadingContainer
   show flagsContainer
+  window.animations.fadeIn(flagsContainer)
   inanimateLoadingMessage(interval)
 
 insertFlags = (flags) -> insertFlag flag for flag in flags

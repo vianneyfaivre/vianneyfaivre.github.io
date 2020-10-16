@@ -9,14 +9,21 @@ customCss: assets/css/cooking-gallery.css
 
 <h1>Cooking Gallery</h1>
 
-<div class="recipe-pictures">
+<div>
 
-  {% assign pictures = site.static_files | where: "isRecipePic", true %}
-  
-  {% for picture in pictures %}
+  <div id="loading-container" class="loading">Loading<span id="dots"></span></div>
+
+  <div id="pictures-container" class="recipe-pictures" style="visibility: hidden;">
+    
+    {% assign pictures = site.static_files | where: "isRecipePic", true %}
+    
+    {% for picture in pictures %}
     {% assign name = picture.name | split: '.' %}
     <img src="{{ picture.path }}" width="100" class="recipe-picture" alt="{{ name[0] }}" title="{{ name[0] }}" /> 
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
 
+<script src="/assets/js/animations.js"></script>
+<script src="/assets/js/cooking-gallery.js"></script>
 <script src="/assets/js/recipe-pictures.js"></script>
