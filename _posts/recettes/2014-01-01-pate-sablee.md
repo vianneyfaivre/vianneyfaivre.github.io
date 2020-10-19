@@ -43,6 +43,7 @@ recettes:
           - Former une boule
           - Sur le plan de travail, fraiser la boule une/deux fois
           - Former une boule et l'applatir un peu
+          - Filmer
           - Réserver minimum 30 minutes au frais
       - label: Cuisson
         emoji: 🔥
@@ -59,7 +60,7 @@ recettes:
         qte: 210
         unite: gr
       - nom: sucre glace
-        qte: 20
+        qte: 25
         unite: gr
       - nom: sel
         qte: 3
@@ -68,12 +69,11 @@ recettes:
         qte: 60
         unite: mL
     preconditions:
-      - Mélanger l'eau et le jus de citron, réserver au frais
       - Le beurre doit être froid
     etapes:
       - label: Préparation
         details:
-          - Verser 175 grammes de farine, le sucre et le sel dans le bol du robot
+          - Verser 2/3 de la farine, le sucre et le sel dans le bol du robot
           - Mixer deux fois 
           - Couper le beurre en petits dés
           - Ajouter le beurre 
