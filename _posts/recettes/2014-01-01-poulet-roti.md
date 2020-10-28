@@ -51,7 +51,7 @@ recettes:
       - label: Cuisson
         emoji: 🔥
         details: 
-          - Cuire entre 1h et 1h15 à 200°C en arrosant de jus toutes les 15 minutes
+          - Cuire entre 1h30 et 2h à 200°C en arrosant de jus toutes les 15 minutes
           - Placer le poulet sur une grille
           - Laisser ressuer 30 min  
 notes:
