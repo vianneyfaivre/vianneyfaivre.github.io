@@ -11,7 +11,7 @@ recettes:
   Viennois:
     ingredients:
       - nom: lait
-        qte: 110
+        qte: 120
         unite: mL
       - nom: levure sèche
         qte: 3
