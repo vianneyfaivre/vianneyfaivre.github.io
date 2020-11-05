@@ -51,7 +51,7 @@ recettes:
           - label: Façonner (se fait à froid)
             link: /cuisine/faconnage-baguette
           - Badigeonner avec un jaune d'oeuf
-          - Grigner
+          - Grigner (assez profondément)
           - Laisser reposer 1 heure à 25°C
       - label: Cuisson
         emoji: 🔥

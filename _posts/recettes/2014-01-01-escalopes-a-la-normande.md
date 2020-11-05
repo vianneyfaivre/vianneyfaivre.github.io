@@ -4,14 +4,14 @@ categories: [recettes]
 hidden: true
 lang: fr
 sitemap: false
-title: Escalopes de Dinde à la Normande
+title: Escalopes à la Normande
 type: sel
 recettes:
   Classique:
     yield: 2
     yieldType: personnes
     ingredients: 
-      - nom: escalopes de dinde
+      - nom: escalopes
         qte: 400
         unite: gr
         variable: true
@@ -20,24 +20,28 @@ recettes:
         unite: gr
       - nom: oignon
         qte: 1
+      - nom: ail
+        qte: 4
+        unite: gousses
       - nom: vin blanc sec
         qte: 150
         unite: mL
+      - nom: moutarde
+        qte: 1
+        unite: cuillère à café
       - nom: crème fraîche
         qte: 125
         unite: gr
     etapes:
       - label: Préparation
         details:
-          - Trancher des lamelles de viande
-          - Émincer les champignons
-          - Chauffer une poêle et y mettre un morceau de beurre
-          - Faire dorer les morceaux de dinde puis les réserver dans une assiette
-          - Faire revenir les oignons
-          - Ajouter le verre de vin et attendre qu'il s'évapore quasi totalement
-          - Ajouter les champignons
-          - Ajouter la crème fraîche
-          - Ajouter les morceaux de dinde
+          - Détailler les escalopes en large lamelles
+          - Émincer les champignons, l'oignon et l'ail
+          - Faire dorer les morceaux de viande. Réserver
+          - Faire revenir les oignons dans la même poêle
+          - Déglacer avec le vin
+          - Ajouter les champignons quand le vin est quasiment évaporé
+          - Ajouter la moutarde, la crème fraîche et la viande
           - Saler et poivrer
           - Laisser mijoter à semi-couvert à feu doux une quinzaine de minutes
 notes:

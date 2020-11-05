@@ -98,6 +98,52 @@ recettes:
           - Ajouter une couche de framboises
           - Ajouter le reste de la préparation au mascarpone
           - Réserver au frais au moins trois heures
+  Fraise:
+    yield: 6
+    yieldType: verrines
+    ingredients: 
+      - nom: fraises
+        qte: 250
+        unite: gr
+      - nom: sucre
+        qte: 20
+        unite: gr
+      - nom: mascarpone
+        qte: 150
+        unite: gr
+        variable: true
+      - nom: vanille liquide
+        qte: 1
+        unite: cuillère à café
+      - nom: chantilly avec 150 mL de crème
+        lien: /recettes/chantilly 
+    etapes:
+      - label: Fraises
+        details:
+          - Détailler les fraises
+          - Déverser les fraises dans un saladier
+          - Saupoudrer avec la moitié du sucre
+          - Mélanger
+          - Réserver au frais 
+      - label: Mascarpone
+        details:
+          - Détendre le mascarpone dans un saladier à l'aide d'une spatule silicone
+          - Ajouter le reste de sucre et la vanille liquide
+          - Mélanger
+          - Réserver au frais
+      - label: Mascarpone + Chantilly
+        details:
+          - Verser la moitié de la chantilly sur le mascarpone
+          - Mélanger
+          - Incorporer le reste de la chantilly délicatement
+      - label: Assemblage
+        details:
+          - Placer quelques morceaux de fraises dans chaque verrine
+          - Ajouter de la crème mascarpone-chantilly
+          - Remettre une couche de fraises
+          - Ajouter de la crème mascarpone-chantilly
+          - Placer les quelques fraises restantes sur le dessus
+          - Réserver au frais au moins trois heures
   Speculoos:
     yield: 4
     yieldType: verrines
