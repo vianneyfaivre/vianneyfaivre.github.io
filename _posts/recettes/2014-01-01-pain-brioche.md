@@ -48,8 +48,17 @@ recettes:
         details:
           - Déverser le pâton sur le plan de travail
           - Dégazer
-          - label: Façonner (se fait à froid)
-            link: /cuisine/faconnage-baguette
+          - Diviser 
+          - Replier chaque pâton en son milieu sur la longueur deux fois (dans le même sens)
+          - Laisser une détente de 10 minutes au réfrigérateur
+          - Placer une feuille de papier sulfurisé dans le moule à baguettes
+          - Dégazer chaque pâton
+          - Replier chaque pâton en son milieu sur la longueur. Tourner le pâton à 180 degrés. Répéter trois fois
+          - Laisser une détente de 5 minutes
+          - Allonger 1/2
+          - Laisser une détente de 5 minutes
+          - Allonger 2/2
+          - Placer chaque pâton dans le moule à baguettes
           - Badigeonner avec un jaune d'oeuf
           - Grigner (assez profondément)
           - Laisser reposer 1 heure à 25°C
