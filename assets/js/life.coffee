@@ -131,6 +131,7 @@ EVENTS = [
     new Event(2019, 9, EventType.TRAVEL, "three days", "Northland, New Zealand 🥝🇳🇿"),
     new Event(2019, 11, EventType.TRAVEL, "three weeks", "South Island, New Zealand 🥝🇳🇿"),
     new Event(2020, 8, EventType.TRAVEL, "one week", "Coromandel area, New Zealand 🥝🇳🇿"),
+    new Event(2020, 10, EventType.TRAVEL, "two weeks", "South of the North Island, New Zealand 🥝🇳🇿"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),

@@ -28,7 +28,6 @@ recettes:
       - nom: Mélange d'épices
         lien: /recettes/epices-speculoos 
     preconditions:
-      - Préchauffer le four à 180°C
       - Le beurre doit être pommade
     etapes:
       - label: Préparation
