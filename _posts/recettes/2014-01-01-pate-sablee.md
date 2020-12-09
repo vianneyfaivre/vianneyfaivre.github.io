@@ -7,50 +7,7 @@ sitemap: false
 title: Pâte Sablée
 type: boulangerie
 recettes:
-  À la main:
-    ingredients: 
-      - nom: farine blanche
-        qte: 200
-        unite: gr
-        variable: true
-      - nom: beurre
-        qte: 140
-        unite: gr
-      - nom: sucre
-        qte: 50
-        unite: gr
-      - nom: sel
-        qte: 3
-        unite: gr
-      - nom: eau froide
-        qte: 37
-        unite: mL
-      - nom: jus de citron
-        qte: 3
-        unite: mL
-    preconditions:
-      - Mélanger l'eau et le jus de citron, réserver au frais
-      - Le beurre doit être froid
-    etapes:
-      - label: Préparation
-        details:
-          - Dans un saladier verser la farine, le sucre et le sel
-          - Couper le beurre en petits dés
-          - Ajouter le beurre sur la farine
-          - Écraser les dés de beurre du bout des doigts
-          - Frotter la pâte entre les mains jusqu'à l'obtention de petits bouts
-          - Ajouter l'eau froide et le jus de citron
-          - Former une boule
-          - Sur le plan de travail, fraiser la boule une/deux fois
-          - Former une boule et l'applatir un peu
-          - Filmer
-          - Réserver minimum 30 minutes au frais
-      - label: Cuisson
-        emoji: 🔥
-        details:
-          - "À blanc : 170°C pour 15 à 20 minutes"
-
-  Au Robot:
+  Classique:
     ingredients: 
       - nom: farine blanche
         qte: 265
@@ -84,9 +41,13 @@ recettes:
           - Déverser la pâte dans un saladier
           - Ajouter l'eau et mélanger à la main
           - Former une boule
+          - Fraser
+          - Reformer une boule
           - Aplatir légèrement la boule
           - Filmer
-          - Réserver minimum 2 heures au frais
+          - Réserver minimum 2 heures au frais, maximum 3 jours
+          - Abaisser
+          - Réserver 20 minutes au frais
       - label: Cuisson
         emoji: 🔥
         details:
