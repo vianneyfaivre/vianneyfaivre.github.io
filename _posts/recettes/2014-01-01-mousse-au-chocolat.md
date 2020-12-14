@@ -28,9 +28,11 @@ recettes:
     etapes:
       - label: Préparation
         details:
-          - Faire fondre le beurre avec le chocolat
+          - Faire fondre le beurre avec le chocolat. Laisser tiédir
           - Mélanger les jaunes d'oeuf avec le mélange beurre-chocolat
           - Monter les blancs en neige (pas trop fermes) avec le sucre glace
           - Incorporer les blancs en deux fois
           - Réserver au frais au moins deux heures 
+notes:
+  - Possibilité de faire cette même recette sans les jaunes d'oeufs
 ---
