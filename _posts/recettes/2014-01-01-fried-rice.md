@@ -34,6 +34,8 @@ recettes:
       - nom: pois
       - nom: champignons
       - nom: riz cuit
+        qte: 150
+        unite: gr
     etapes:
       - label: Préparation de la sauce
         details:
@@ -48,9 +50,9 @@ recettes:
       - label: Préparation
         details:
           - Dans une poêle, faire dorer la viande sur feu fort
-          - Ajouter les légumes. Cuire 7 minutes 
-          - Ajouter les champignons et les pois. Cuire 5 minutes
-          - Ajouter le riz et la sauce. Cuire 5 minutes
+          - Ajouter les légumes. Cuire quelques minutes 
+          - Ajouter les champignons et les pois. Cuire quelques minutes
+          - Ajouter le riz et la sauce. Cuire quelques minutes
           - Ajouter les oeufs
           - Servir
 notes:

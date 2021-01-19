@@ -35,4 +35,5 @@ recettes:
           - Réserver au frais au moins deux heures 
 notes:
   - Possibilité de faire cette même recette sans les jaunes d'oeufs
+  - Se congèle très bien (peut se manger congelé)
 ---
