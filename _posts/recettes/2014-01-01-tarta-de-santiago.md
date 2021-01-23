@@ -12,8 +12,8 @@ recettes:
       - nom: oeufs 
         qte: 4
         variable: true
-      - nom: sucre glace
-        qte: 200
+      - nom: sucre
+        qte: 100
         unite: gr
       - nom: poudre d'amandes
         qte: 200
@@ -24,6 +24,12 @@ recettes:
       - nom: cannelle
         qte: 0.5
         unite: cuillère à café
+      - nom: gingembre
+        qte: 0.5
+        unite: cuillère à café
+      - nom: cardamome
+        qte: 0.25
+        unite: cuillère à café
       - nom: zestes de citron
       - nom: zestes d'orange
     preconditions:
@@ -32,13 +38,16 @@ recettes:
       - label: Préparation
         details:
           - Faire fondre le beurre
-          - Mélanger les oeufs avec le sucre tamisé
+          - Battre les oeufs avec le sucre
           - Ajouter le beurre fondu et mélanger
-          - Ajouter la poudre d'amandes, la cannelle et les zestes
-          - Mélanger et verser dans un moule rond
+          - Ajouter la poudre d'amandes, les épices et les zestes
+          - Mélanger
+          - Verser dans un moule
       - label: Cuisson
         emoji: 🔥
         details: 
           - Cuire 30 minutes à 180°C
-          - Au moment de servir, saupoudrer de sucre glace
+          - Laisser refroidir le gâteau à température ambiante
+          - Démouler
+          - Saupoudrer de sucre glace (au moment de servir)
 ---
