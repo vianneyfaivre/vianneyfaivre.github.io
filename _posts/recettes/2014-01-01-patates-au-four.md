@@ -12,7 +12,7 @@ recettes:
     yieldType: personnes
     ingredients: 
       - nom: pommes de terre
-        qte: 300
+        qte: 500
         unite: gr
         variable: true
       - nom: eau
