@@ -1,9 +1,9 @@
 ---
 layout: recette
 categories: [recettes]
-hidden: true
+hidden: false
 lang: fr
-sitemap: false
+sitemap: true
 title: Pâte à Pizza
 type: boulangerie
 withYeast: true

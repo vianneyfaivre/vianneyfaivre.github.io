@@ -1,9 +1,9 @@
 ---
 layout: epice
 categories: [recettes]
-hidden: true
+hidden: false
 lang: fr
-sitemap: false
+sitemap: true
 title: Mélange Speculoos
 type: condiment
 ingredients: 

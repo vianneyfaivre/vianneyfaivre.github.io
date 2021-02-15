@@ -3,7 +3,7 @@ layout: default
 title: Ad Block Plus - Custom Filters
 description: Custom filters for Ad Block Plus to remove some annoying content on the Internet
 categories: [things]
-hidden: true
+hidden: false
 ---
 
 # Ad Block Plus - Custom Filters
