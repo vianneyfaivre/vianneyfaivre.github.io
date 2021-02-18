@@ -1,7 +1,7 @@
 ---
 layout: epice
 categories: [recettes]
-hidden: false
+hidden: true
 lang: fr
 sitemap: true
 title: Mélange Speculoos
