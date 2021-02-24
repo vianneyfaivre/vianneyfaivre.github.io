@@ -19,9 +19,6 @@ recettes:
         unite: gr
       - nom: oeuf
         qte: 1
-      - nom: lait
-        qte: 30
-        unite: gr
       - nom: farine T55
         qte: 250
         unite: gr
@@ -33,14 +30,10 @@ recettes:
         qte: 15
         unite: gr
     etapes:
-      - label: Autres Ingrédients Liquides
-        details:
-          - Battre l'oeuf dans un bol
-          - Ajouter du lait pour atteindre 70 grammes
       - label: Pétrissage et Pointage
         details:
           - Dans le récipient de la machine à pain, verser le mélange eau-levure
-          - Ajouter le mélange oeuf-lait
+          - Ajouter l'oeuf battu
           - Ajouter la farine
           - Ajouter le sel
           - Ajouter le beurre
@@ -48,7 +41,7 @@ recettes:
       - label: Division, Boulage et Détente
         details:
           - Dégazer
-          - Diviser en 6 pâtons de poids égal
+          - Diviser pâtons de poids égal
           - Bouler
           - Laisser une détente de 5 minutes
       - label: Façonnage
