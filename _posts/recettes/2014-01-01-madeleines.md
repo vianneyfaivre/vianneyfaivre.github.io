@@ -36,14 +36,21 @@ recettes:
       - nom: arômes
       - nom: zestes
     etapes:
+
+      - label: Ingrédients Secs 
+        details:
+          - Tamiser la farine dans un saladier
+          - Tamiser la levure
+          - Mélanger au fouet
+          
       - label: Ingrédients Liquides 1/3
         details:
-          - Dans un bol, faire fondre le beurre
+          - Faire fondre le beurre dans un bol
           - Réserver au frais
 
       - label: Ingrédients Liquides 2/3
         details:
-          - Dans un bol, verser l'huile
+          - Verser l'huile dans un bol
           - Ajouter le miel
           - (Optionnel) Ajouter les arômes et les zestes
           - Mélanger
@@ -56,10 +63,11 @@ recettes:
 
       - label: Préparation 1/2
         details:
-          - Tamiser la farine avec la levure chimique sur les ingrédients liquides
+          - Verser la farine
           - Mélanger à la spatule silicone jusqu'à incorporation
           - Ajouter le beurre fondu
           - Mélanger à la spatule silicone jusqu'à incorporation
+          - Préchauffer le four à 190°C, chaleur par le haut uniquement
           - Réserver la pâte 15 minutes (minimum) au réfrigérateur
 
       - label: Préparation 2/2
@@ -72,13 +80,12 @@ recettes:
       - label: Cuisson
         emoji: 🔥
         details:
-          - Préchauffer le four à 190°C, chaleur par le haut uniquement
-          - Enfourner pour 9-13 minutes
+          - Cuire de 9 à 13 minutes
           - Démouler légèrement en les laissant sur leur côté. Les laisser 5 minutes
           - Laisser refroidir 10 minutes sur une grille
           - Mettre dans une boite hermétique et patienter 2 heures avant la dégustation
 notes:
-  - La différence de température à la cuisson va aider les madeleines à bien gonfler afin d'obtenir une belle bosse
+  - La différence de température (réfrigérateur vs four) va permettre d'obtenir une belle bosse
   - Bien surveiller la cuisson, ça dépendra beaucoup du four
   - Entre deux fournées, laver le moule afin qu'il soit propre et froid 
 variantes:
