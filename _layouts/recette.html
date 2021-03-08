@@ -89,6 +89,7 @@ utensils:
 					<ul>
 						{% for utensil in recette[1].utensils %}
 						<li>
+							
 							{% if layout.utensils[utensil] %}
 							<a href="{{ layout.utensils[utensil].url }}" target="_blank">
 								{{layout.utensils[utensil].title}} 🛒 
