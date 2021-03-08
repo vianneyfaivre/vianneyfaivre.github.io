@@ -8,6 +8,7 @@ variantesEtapes = document.getElementsByClassName "variante-etapes"
 variantesPictures = document.getElementsByClassName "variante-pictures"
 variantesPreconditions = document.getElementsByClassName "variante-preconditions"
 variantesTitles = document.getElementsByClassName "variante-title"
+variantesUtensils = document.getElementsByClassName "variante-utensils"
 
 # Pictures
 pictures = document.getElementsByClassName "recipe-picture"
@@ -59,6 +60,7 @@ onVarianteButtonClick = (btn) ->
   picturesId = varianteId + "-pictures"
   preconditionsId = varianteId + "-preconditions"
   titleId = varianteId + "-title"
+  utensilsId = varianteId + "-utensils"
 
   # Update URL hash
   if variantesButtons.length > 1 
@@ -77,6 +79,7 @@ onVarianteButtonClick = (btn) ->
   hideElements variantesPictures
   hideElements variantesPreconditions
   hideElements variantesTitles
+  hideElements variantesUtensils
 
   # Display the right variante
   varianteIngredients = document.getElementById ingredientsId
@@ -90,6 +93,9 @@ onVarianteButtonClick = (btn) ->
 
   varianteTitle = document.getElementById titleId
   changeDisplay varianteTitle, 'block'
+
+  varianteUtensils = document.getElementById utensilsId
+  changeDisplay varianteUtensils, 'block'
 
   variantePictures = document.getElementById picturesId
   if variantePictures

@@ -1,6 +1,10 @@
 ---
 layout: default
 customCss: assets/css/recette.css
+utensils:
+  # saladier: 
+    # title: Saladier
+    # url: https://vianneyfaivre.com/saladier
 ---
 <article class="post h-entry recette">
 
@@ -25,7 +29,7 @@ customCss: assets/css/recette.css
 			{% for recette in page.recettes %}
 
 				<h4 id="{{recette[0]}}-title" class="variante-title">
-					🛒 Ingrédients 
+					🥕 Ingrédients 
 
 					{% if recette[1].yield %}
 						pour 
@@ -76,6 +80,27 @@ customCss: assets/css/recette.css
 
 				{% endfor %}
 				</ul>
+
+				{% if recette[1].utensils %}
+				<div id="{{recette[0]}}-utensils" class="variante-utensils">
+
+					<h4>🛍️ Matériel</h4>
+
+					<ul>
+						{% for utensil in recette[1].utensils %}
+						<li>
+							{% if layout.utensils[utensil] %}
+							<a href="{{ layout.utensils[utensil].url }}" target="_blank">
+								{{layout.utensils[utensil].title}} 🛒 
+							</a>
+							{% else %}
+								{{ utensil }}
+							{% endif %}
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
 
 			{% endfor %}
 
