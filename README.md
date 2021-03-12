@@ -18,3 +18,9 @@ My Personal Blog
 `bundle update github-pages`
 
 `gem update`
+
+# Technical details
+
+- This site uses Structured Data 
+  - `BlogPosting` in `post.html`
+  - `BreadcrumbList` in `breadcrumb.html`
