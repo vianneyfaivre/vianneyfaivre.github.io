@@ -6,6 +6,8 @@ lang: fr
 sitemap: true
 title: Bliss Balls
 type: sucre
+utensils:
+  - saladier
 recettes:
   Classique:
     ingredients: 

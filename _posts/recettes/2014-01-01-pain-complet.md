@@ -8,6 +8,15 @@ title: Pain Complet
 type: boulangerie
 recettes:
   Machine à Pain:
+    utensils:
+      - saladier
+      - spatule-bois
+      - machine-pain
+      - pain-lame
+      - corne
+      - coupe-pate
+      - saladier
+      - grille
     ingredients: 
       - nom: farine complète
         qte: 525
@@ -73,8 +82,17 @@ recettes:
         details:
           - Cuire 50 minutes à 190ºC
           - Démouler
-          - Laisser le pain ressuer sur une grille pendant 1h30
+          - Laisser ressuer sur une grille pendant 1h30
   Robot:
+    utensils:
+      - saladier
+      - spatule-bois
+      - robot
+      - pain-lame
+      - corne
+      - coupe-pate
+      - saladier
+      - grille
     ingredients: 
       - nom: farine complète
         qte: 425
@@ -121,10 +139,11 @@ recettes:
           - Retourner et placer dans le moule
           - Couvrir avec un linge
           - Laisser reposer 1h15 à 25°C
+          - Grigner légèrement
       - label: Cuisson
         emoji: 🔥
         details:
           - Cuire 45 minutes à 180ºC
           - Démouler
-          - Laisser le pain ressuer sur une grille pendant 1h30
+          - Laisser ressuer sur une grille pendant 1h30
 ---

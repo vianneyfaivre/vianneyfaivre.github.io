@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Gratin de Chou Fleur
 type: sel
+utensils:
+  - casserole
+  - fouet
+  - couteau
+  - plat-gratin
 recettes:
   Classique:
     ingredients: 

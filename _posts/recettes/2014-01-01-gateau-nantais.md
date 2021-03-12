@@ -6,6 +6,14 @@ lang: fr
 sitemap: true
 title: Gâteau Nantais
 type: sucre
+utensils:
+  - saladier
+  - batteur-elec
+  - spatule-silicone
+  - moule-brownie
+  - grille
+  - pinceau
+  - microplane
 recettes:
   Classique:
     ingredients: 

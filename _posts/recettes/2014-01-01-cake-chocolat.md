@@ -6,6 +6,13 @@ lang: fr
 sitemap: true
 title: Cake au Chocolat
 type: sucre
+utensils:
+  - casserole
+  - batteur-elec
+  - tamis
+  - spatule-silicone
+  - saladier
+  - moule-cake
 recettes:
   Chocolat I: 
     ingredients:
@@ -99,6 +106,8 @@ recettes:
         - Cuire 45 minutes à 160°C en chaleur tournante
         - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Marbré:
+    utensils: 
+      - grille
     ingredients:
     - nom: oeufs 
       qte: 2
@@ -133,10 +142,10 @@ recettes:
           - Incorporer progressivement la crème fleurette à vitesse très lente
           - Tamiser la farine et la levure sur la préparation
           - Incorporer à l'aide d'une spatule silicone
-          - Déverser la préparation dans deux bols distincts
+          - Déverser la préparation dans deux saladiers distincts
       - label: Partie Chocolat
         details:
-          - Incorporer le cacao en poudre non sucré dans un des bols
+          - Incorporer le cacao en poudre non sucré dans un des saladiers
           - Réserver
       - label: Partie Vanille
         details: 
@@ -145,13 +154,13 @@ recettes:
       - label: Assemblage
         details:         
           - Beurrer et fariner un moule
-          - Verser le contenu des deux bols dans le moule en alternant vanille/chocolat
+          - Verser le contenu des deux saladiers dans le moule en alternant vanille/chocolat
       - label: Cuisson
         emoji: 🔥
         details:
           - Cuire une heure à 150°C
           - Démouler à l'envers sur une grille
-          - Laisser ressuer une heure
+          - Laisser ressuer sur une grille une heure
       - label: Glaçage Rocher
         details:
           - label: Voir ici

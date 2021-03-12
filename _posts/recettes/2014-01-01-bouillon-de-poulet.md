@@ -6,6 +6,9 @@ lang: fr
 sitemap: true
 title: Bouillon de Poulet
 type: condiment
+utensils:
+  - cocotte
+  - chinois
 recettes:
   Classique:
     ingredients: 
@@ -39,7 +42,7 @@ recettes:
           - Laisser mijoter (ne pas couvrir) pendant une heure minimum 
       - label: Embouteillage
         details:
-          - Passer le tout dans une passoire
+          - Passer le tout dans un chinois
           - Embouteiller le bouillon
           - Manger les légumes
 notes:

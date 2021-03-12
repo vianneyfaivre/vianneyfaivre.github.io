@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Dumplings
 type: sel
+utensils:
+  - couteau
+  - saladier
+  - poele
 recettes:
   Classique:
     yield: 40
@@ -38,7 +42,7 @@ recettes:
     etapes:
       - label: Préparation des ingrédients
         details:
-          - Émincer très très finement l'ail et le gingembre
+          - Émincer très finement l'ail et le gingembre
           - Hacher les herbes
           - Émincer très finement les légumes
       - label: Préparation de la farce

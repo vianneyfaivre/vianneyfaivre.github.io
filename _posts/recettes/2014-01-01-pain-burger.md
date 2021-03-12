@@ -7,6 +7,15 @@ sitemap: true
 title: Pain à Burger
 type: boulangerie
 withYeast: true
+utensils:
+  - machine-pain
+  - saladier
+  - pain-lame
+  - corne
+  - coupe-pate
+  - saladier
+  - grille
+  - pinceau
 recettes:
   Classique:
     yield: 6

@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Panna Cotta
 type: sucre
+utensils:
+  - saladier
+  - casserole
+  - tamis
+  - ramequins
 recettes:
   Gélatine en Poudre:
     yield: 4

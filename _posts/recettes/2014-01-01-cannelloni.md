@@ -6,6 +6,13 @@ lang: fr
 sitemap: true
 title: Cannelloni
 type: sel
+utensils:
+  - couteau
+  - poele
+  - saladier
+  - spatule-silicone
+  - poche-douille
+  - plat-gratin
 recettes:
   Ricotta Épinards:
     yield: 6

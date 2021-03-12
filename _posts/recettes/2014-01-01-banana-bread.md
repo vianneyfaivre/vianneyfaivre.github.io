@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Banana Bread
 type: sucre
+utensils:
+  - moule-cake
+  - tamis
+  - saladier
 recettes:
   Classique:
     ingredients: 

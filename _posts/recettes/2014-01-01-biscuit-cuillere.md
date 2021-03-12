@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Biscuit à la Cuillère
 type: sucre
+utensils:
+ - batteur-elec
+ - spatule-coude
+ - plaque-cuisson
 recettes:
   Classique:
     ingredients: 

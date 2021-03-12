@@ -6,6 +6,13 @@ lang: fr
 sitemap: true
 title: Velouté de Courge
 type: sel
+utensils:
+  - econome
+  - couteau
+  - casserole
+  - passoire
+  - poele
+  - mixeur-droit
 recettes:
   Classique:
     ingredients: 

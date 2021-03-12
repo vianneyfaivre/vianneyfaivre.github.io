@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Pâte Sablée
 type: boulangerie
+utensils:
+  - robot
+  - couteau
+  - spatule-silicone
+  - rouleau
 recettes:
   Classique:
     ingredients: 

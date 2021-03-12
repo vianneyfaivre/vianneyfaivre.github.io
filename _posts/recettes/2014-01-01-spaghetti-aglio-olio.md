@@ -6,6 +6,14 @@ lang: fr
 sitemap: true
 title: Spaghetti Aglio e Olio
 type: sel
+utensils:
+  - casserole
+  - passoire
+  - couteau
+  - poele
+  - microplane
+  - spatule-bois
+  - pince
 recettes:
   Classique:
     yield: 2
@@ -39,7 +47,7 @@ recettes:
         - Ajouter les chili flakes
         - Mettre un peu de l'eau de cuisson des pâtes
         - Verser les pâtes dans la poêle
-        - Ajouter un peu de parmesan
+        - Ajouter un peu de parmesan finement rapé
         - Mélanger
       - label: Présentation
         details:

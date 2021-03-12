@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Chapelure
 type: condiment
+utensils:
+  - couteau
+  - plaque-cuisson
+  - robot
+  - bocal
 recettes:
   Classique:
     ingredients: 
@@ -19,6 +24,7 @@ recettes:
           - Placer le pain dans le bol du robot
           - Broyer le pain
           - Ajouter le sel
+          - Mettre en bocal
   Italienne:
     ingredients: 
       - nom: pain
@@ -32,4 +38,5 @@ recettes:
           - Placer le pain dans le bol du robot
           - Broyer le pain
           - Ajouter les herbes et le sel
+          - Mettre en bocal
 ---

@@ -6,6 +6,12 @@ lang: fr
 sitemap: true
 title: Quatre-Quarts
 type: sucre
+utensils:
+  - saladier
+  - batteur-elec
+  - tamis
+  - spatule-silicone
+  - moule-cake
 recettes:
   Nature: 
     ingredients:
@@ -69,6 +75,8 @@ recettes:
           - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
           - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Citron Pavot: 
+    utensils:
+      - microplane
     ingredients:
       - nom: oeufs 
         qte: 3
@@ -106,6 +114,8 @@ recettes:
           - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
           - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Citron Framboise: 
+    utensils:
+      - microplane
     ingredients:
       - nom: oeufs 
         qte: 3
@@ -181,6 +191,11 @@ recettes:
         - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
         - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Tiramisu:
+    utensils:
+      - cuillere-bois
+      - casserole
+      - spatule-coude
+      - tamis
     ingredients: 
       - nom: oeufs 
         qte: 2
@@ -223,7 +238,8 @@ recettes:
           - Faire 12 trous dans le quatre-quarts avec le manche d'une cuillère en bois
           - Imbiber le quatre-quarts de ce mélange
           - Laisser refroidir
-          - Étaler la chantilly sur le gâteau
+          - Déverser la chantilly sur le gâteau
+          - Égaliser à l'aide d'une spatule coudée
           - Réserver au frais pour 4 heures
           - Au moment de servir, saupoudrer de cacao en poudre 
 variantes:

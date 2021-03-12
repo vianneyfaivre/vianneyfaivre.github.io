@@ -7,6 +7,10 @@ sitemap: true
 title: Pâte à Pizza
 type: boulangerie
 withYeast: true
+utensils:
+  - saladier
+  - corne
+  - rouleau
 recettes:
   Classique:
     ingredients: 

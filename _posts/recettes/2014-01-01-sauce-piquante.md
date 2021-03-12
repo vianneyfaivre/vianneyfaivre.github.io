@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Sauce Piquante
 type: condiment
+utensils:
+  - couteau 
+  - poele
+  - mixeur-droit
 recettes:
   Jalapeños:
     ingredients: 
@@ -29,6 +33,7 @@ recettes:
     etapes:
       - label: "Préparation"
         details:
+          - Émincer l'oignon
           - Faire revenir les oignons dans un filet d'huile d'olive
           - Émincer l'ail
           - L'ajouter aux oignons et le faire cuire quelques minutes
@@ -39,7 +44,7 @@ recettes:
           - Ajouter l'eau
           - Mijoter 20 minutes
           - Goûter, ajuster si besoin
-          - Verser la préparation dans un blender
+          - Verser la préparation dans un saladier
           - Mixer jusqu'à ce que la préparation soit bien lisse
           - Embouteiller
 notes:

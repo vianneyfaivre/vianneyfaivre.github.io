@@ -6,6 +6,9 @@ lang: fr
 sitemap: true
 title: Vinaigre pour Sushis
 type: condiment
+utensils:
+  - casserole
+  - bocal
 recettes:
   Classique:
     ingredients: 

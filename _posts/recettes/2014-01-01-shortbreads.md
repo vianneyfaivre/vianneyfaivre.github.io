@@ -6,6 +6,12 @@ lang: fr
 sitemap: true
 title: Shortbreads
 type: sucre
+utensils:
+  - batteur-elec
+  - tamis
+  - plaque-cuisson
+  - roulette
+  - grille
 recettes:
   Classique:
     yield: 12
@@ -25,7 +31,7 @@ recettes:
       - label: Préparation
         details:
           - Blanchir le beurre avec le sucre et la vanille au batteur électrique
-          - Incorporer la farine à l'aide d'une spatule silicone
+          - Incorporer la farine tamisée à l'aide d'une spatule silicone
           - Placer une feuille de papier sulfurisé sur une plaque de cuisson
           - Étaler à la main sur la plaque
           - Précouper les biscuits avec une roulette à pizza

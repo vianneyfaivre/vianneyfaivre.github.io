@@ -6,6 +6,13 @@ lang: fr
 sitemap: true
 title: Madeleines
 type: sucre
+utensils:
+  - tamis
+  - saladier
+  - fouet
+  - spatule-silicone
+  - moule-madeleines
+  - grille
 recettes:
   Classique:
     yield: 12
@@ -45,12 +52,12 @@ recettes:
           
       - label: Ingrédients Liquides 1/3
         details:
-          - Faire fondre le beurre dans un bol
+          - Faire fondre le beurre dans un saladier
           - Réserver au frais
 
       - label: Ingrédients Liquides 2/3
         details:
-          - Verser l'huile dans un bol
+          - Verser l'huile dans un saladier
           - Ajouter le miel
           - (Optionnel) Ajouter les arômes et les zestes
           - Mélanger

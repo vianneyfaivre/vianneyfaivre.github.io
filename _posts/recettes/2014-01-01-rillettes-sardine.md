@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Rillettes de Sardines
 type: sel
+utensils:
+  - couteau
+  - presse-agrumes
+  - spatule-silicone
 recettes:
   Citron Échalote:
     ingredients: 

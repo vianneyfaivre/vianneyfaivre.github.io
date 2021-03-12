@@ -8,6 +8,9 @@ title: Pâte Brisée
 type: boulangerie
 recettes:
   À la main:
+    utensils:
+      - saladier
+      - spatule-silicone 
     ingredients: 
       - nom: farine blanche
         qte: 200
@@ -50,6 +53,10 @@ recettes:
         details:
           - "À blanc : 170°C pour 15 à 20 minutes"
   Au Robot:
+    utensils:
+      - robot
+      - couteau
+      - spatule-silicone 
     ingredients: 
       - nom: farine blanche
         qte: 175

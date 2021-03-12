@@ -6,6 +6,14 @@ lang: fr
 sitemap: true
 title: Cheesecake
 type: sucre
+utensils:
+  - casserole
+  - spatule-bois
+  - moule-cheesecake
+  - saladier
+  - fouet
+  - spatule-coude
+  - tamis
 recettes:
   Classique:
     ingredients: 
@@ -49,7 +57,7 @@ recettes:
         details:
           - Mettre dans un saladier le cream cheese avec le sucre et la vanille liquide
           - Mélanger avec une spatule silicone
-          - Ajouter la crème fraîche et la farine
+          - Ajouter la crème fraîche et la farine tamisée
           - Mélanger 
           - Ajouter les oeufs un à un
           - Mélanger jusqu'à ce que la préparation soit lisse
@@ -115,6 +123,8 @@ recettes:
           - Cuire 20 minutes à 180°C
 
   Sans Cuisson:
+    utensils:
+      - batteur-elec
     ingredients: 
       - nom: beurre 
         qte: 150
@@ -194,11 +204,12 @@ recettes:
     etapes:
       - label: Préparation 
         details:
-         - Dissoudre la farine dans 100 grammes de crème fleurette
+         - Dissoudre la farine tamisée dans 100 grammes de crème fleurette
          - Mélanger le cream cheese avec le sucre à l'aide d'une spatule silicone
          - Ajouter les oeufs un à un. Mélanger au fouet
          - Ajouter 150 grammes de crème fleurette et la vanille. Mélanger au fouet
          - Ajouter le mélanger farine-crème. Mélanger au fouet
+         - Verser le mélange dans le moule
       - label: Cuisson
         emoji: 🔥
         details: 

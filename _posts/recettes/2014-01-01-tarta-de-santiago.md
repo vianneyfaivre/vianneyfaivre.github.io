@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Tarta de Santiago
 type: sucre
+utensils:
+  - saladier
+  - fouet
+  - moule-rond
+  - tamis
 recettes:
   Classique:
     ingredients: 
@@ -38,7 +43,7 @@ recettes:
       - label: Préparation
         details:
           - Faire fondre le beurre
-          - Battre les oeufs avec le sucre
+          - Fouetter les oeufs avec le sucre
           - Ajouter le beurre fondu et mélanger
           - Ajouter la poudre d'amandes, les épices et les zestes
           - Mélanger

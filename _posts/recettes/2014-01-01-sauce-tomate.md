@@ -6,6 +6,9 @@ lang: fr
 sitemap: true
 title: Sauce Tomate
 type: condiment
+utensils:
+  - couteau
+  - poele
 recettes:
   Marinara:
     ingredients: 
@@ -31,6 +34,7 @@ recettes:
     etapes:
       - label: "Préparation"
         details:
+          - Émincer l'oignon
           - Faire revenir les oignons dans un filet d'huile d'olive
           - Émincer l'ail
           - L'ajouter aux oignons et le faire cuire quelques minutes

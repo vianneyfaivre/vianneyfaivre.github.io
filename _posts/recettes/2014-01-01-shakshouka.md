@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Shakshouka
 type: sel
+utensils:
+  - couteau
+  - poele
+  - cuillere-bois
 recettes:
   Classique:
     yield: 6
@@ -37,6 +41,7 @@ recettes:
     etapes:
       - label: "Préparation"
         details:
+          - Émincer l'oignon et le poivron
           - Faire revenir l’oignon dans de l’huile d’olive
           - Ajouter les poivrons et les faire ramollir à feu doux
           - Ajouter l’ail, les épices, du sel et du poivre

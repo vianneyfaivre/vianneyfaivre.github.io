@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Poulet Rôti
 type: sel
+utensils:
+  - couteau
+  - saladier
+  - plat-gratin
+  - grille
 recettes:
   Classique:
     ingredients: 
@@ -53,7 +58,7 @@ recettes:
         details: 
           - Cuire entre 1h30 et 2h à 200°C en arrosant de jus toutes les 15 minutes
           - Placer le poulet sur une grille
-          - Laisser ressuer 30 min  
+          - Laisser ressuer sur une grille 30 min  
 notes:
   - label: Comment ficeler un poulet
     link: https://youtu.be/bJeUb8ToRIw?t=144

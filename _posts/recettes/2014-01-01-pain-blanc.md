@@ -6,6 +6,14 @@ lang: fr
 sitemap: true
 title: Pain Blanc
 type: boulangerie
+utensils:
+  - machine-pain
+  - saladier
+  - pain-lame
+  - corne
+  - coupe-pate
+  - saladier
+  - grille
 recettes:
   Classique:
     ingredients: 
@@ -54,5 +62,5 @@ recettes:
         details:
           - Placer un verre d'eau bouillante dans le four
           - Cuire 15 à 18 minutes à 250°C 
-          - Les laisser ressuer sur une grille 10 minutes
+          - Laisser ressuer sur une grille 10 minutes
 ---

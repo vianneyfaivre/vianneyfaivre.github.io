@@ -7,6 +7,14 @@ sitemap: true
 title: Pain Brioché
 type: boulangerie
 withYeast: true
+utensils:
+  - machine-pain
+  - saladier
+  - corne
+  - coupe-pate
+  - saladier
+  - grille
+  - pinceau
 recettes:
   Viennois:
     ingredients:
@@ -66,7 +74,7 @@ recettes:
         emoji: 🔥
         details:
         - Cuire 15 à 20 minutes à 160°C
-        - Laisser ressuer sur une grille 10 minutes
+        - Laisser ressuer sur une grille 30 minutes
   Parker House Rolls:
     ingredients: 
       - nom: lait
@@ -117,5 +125,5 @@ recettes:
         details:
           - Cuire 15 à 18 minutes à 200°C
           - Badigeonner avec du beurre fondu
-          - Les laisser ressuer sur une grille 10 minutes
+          - Laisser ressuer sur une grille 30 minutes
 ---

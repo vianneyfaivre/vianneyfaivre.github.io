@@ -2,9 +2,153 @@
 layout: default
 customCss: assets/css/recette.css
 utensils:
-  # saladier: 
-    # title: Saladier
-    # url: https://vianneyfaivre.com/saladier
+  batteur-elec:
+    title: Batteur électrique
+    url: https://amzn.to/3qJnqdk
+  bocal:
+    title: Bocaux
+    url: https://amzn.to/3bCuOCT
+  boule-the:
+    title: Boule à thé
+    url: https://amzn.to/3qFyb0b
+  bouteille-s:
+    title: Petite bouteille
+    url: https://amzn.to/3bEHQQD
+  caquelon:
+    title: Caquelon
+    url: https://amzn.to/30CxTwI
+  casserole:
+    title: Casserole
+    url: https://amzn.to/30y7dwW
+  chinois: 
+    title: Chinois
+    url: https://amzn.to/3bG7x34
+  cocotte:
+    title: Cocotte en fonte
+    url: https://amzn.to/3vhTicI
+  corne:  
+    title: Corne de boulangerie
+    url: https://amzn.to/3bB8726
+  coupe-pate: 
+    title: Coupe-pâte
+    url: https://amzn.to/3evPYEJ
+  couteau: 
+    title: Couteau
+    url: https://amzn.to/3lbddoJ
+  cuillere-bois: 
+    title: Cuillère en bois
+    url: https://amzn.to/3eAFeoz
+  econome:
+    title: Économe
+    url: https://amzn.to/3l7unUm
+  fouet:
+    title: Fouet
+    url: https://amzn.to/2O7nxSY
+  gaufrier:
+    title: Gaufrier
+    url: https://amzn.to/2N9vyGf
+  grille:
+    title: Grille
+    url: https://amzn.to/2OGkMYx
+  machine-pain:
+    title: Machine à pain
+    url: https://amzn.to/30EmjkF
+  microplane: 
+    title: Râpe Microplane
+    url: https://amzn.to/38P3Iab
+  mixeur-droit:
+    title: Mixeur droit
+    url: https://amzn.to/3qETVJJ
+  moule-baguettes:
+    title: Moule à baguettes
+    url: https://amzn.to/38zhY6z
+  moule-brownie:
+    title: Moule à brownie
+    url: https://amzn.to/2OMJsic
+  moule-cake:
+    title: Moule à cake
+    url: https://amzn.to/2OQex4E
+  moule-cheesecake:
+    title: Moule à cheesecake
+    url: https://amzn.to/3csywOC
+  moule-madeleines:
+    title: Moule à madeleines
+    url: https://amzn.to/3cp39Vl
+  moule-muffins:
+    title: Moule à muffins
+    url: https://amzn.to/3bCgfiW
+  moule-rond:
+    title: Moule rond
+    url: https://amzn.to/2OPmqXG
+  pain-lame:
+    title: Lame de boulangerie
+    url: https://amzn.to/2OJvGwD
+  passoire:
+    title: Passoire
+    url: https://amzn.to/2OLtUeq
+  pince:
+    title: Pince
+    url: https://amzn.to/3vf53At
+  pinceau:
+    title: Pinceau
+    url: https://amzn.to/2OsKZdf
+  plaque-cuisson:
+    title: Plaque de cuisson
+    url: https://amzn.to/3rKabdU
+  plat-gratin:
+    title: Plat à gratin
+    url: https://amzn.to/30CAvuw
+  poche-douille:
+    title: Poche à douille
+    url: https://amzn.to/2N9NT66
+  poele:
+    title: Poêle
+    url: https://amzn.to/3rHLpeb
+  poele-crepes:
+    title: Poêle à crêpes
+    url: https://amzn.to/38x7CEo
+  presse-agrumes:
+    title: Presse agrumes
+    url: https://amzn.to/3bEKd5Z
+  presse-biscuits:
+    title: Presse à biscuits
+    url: https://amzn.to/3evwkIY
+  presse-puree:
+    title: Presse purée
+    url: https://amzn.to/3rHkPC7
+  ramequins:
+    title: Ramequins
+    url: https://amzn.to/3l6H4im
+  rape:
+    title: Rape
+    url: https://amzn.to/2OQgaPO
+  robot:
+    title: Robot de cuisine
+    url: https://amzn.to/3qLOQiY
+  rouleau:
+    title: Rouleau à pâtisserie
+    url: https://amzn.to/3l9Xk2b
+  roulette:
+    title: Roulette à pizza
+    url: https://amzn.to/3ldfu2P
+  saladier:
+    title: Saladier
+    url: https://amzn.to/3sZG9Ty
+  spatule-bois:
+    title: Spatule en bois
+    url: https://amzn.to/3rBYsxM
+  spatule-coude:
+    title: Spatule coudée
+    url: https://amzn.to/3cDNQZd
+  spatule-plate:
+    title: Spatule plate
+    url: https://amzn.to/2OLu1GS
+  spatule-silicone:
+    title: Spatule en silicone
+    url: https://amzn.to/3rHD8H5
+  tamis: 
+    title: Tamis
+    url: https://amzn.to/3rAL1OF
 ---
 <article class="post h-entry recette">
 
@@ -81,12 +225,25 @@ utensils:
 				{% endfor %}
 				</ul>
 
-				{% if recette[1].utensils %}
+				{% if recette[1].utensils or page.utensils %}
 				<div id="{{recette[0]}}-utensils" class="variante-utensils">
 
 					<h4>🛍️ Matériel</h4>
 
 					<ul>
+						{% for utensil in page.utensils %}
+						<li>
+							
+							{% if layout.utensils[utensil] %}
+							<a href="{{ layout.utensils[utensil].url }}" target="_blank">
+								{{layout.utensils[utensil].title}} 🛒 
+							</a>
+							{% else %}
+								{{ utensil }}
+							{% endif %}
+						</li>
+						{% endfor %}
+
 						{% for utensil in recette[1].utensils %}
 						<li>
 							

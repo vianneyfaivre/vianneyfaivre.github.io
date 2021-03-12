@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Flammekueche
 type: sel
+utensils:
+  - saladier
+  - couteau
+  - rouleau
+  - plaque-cuisson
 recettes:
   Classique:
     ingredients: 

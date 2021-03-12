@@ -6,6 +6,9 @@ lang: fr
 sitemap: true
 title: Fried Rice
 type: sel
+utensils:
+  - couteau
+  - poele
 recettes:
   Classique:
     yield: 2

@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Pâte Sucrée
 type: boulangerie
+utensils: 
+  - saladier
+  - fouet
+  - corne
+  - coupe-pate
 recettes:
   À la main:
     ingredients: 

@@ -6,6 +6,9 @@ lang: fr
 sitemap: true
 title: Poulet au Chorizo
 type: sel
+utensils:
+  - couteau
+  - poele
 recettes:
   Classique:
     yield: 2

@@ -6,6 +6,13 @@ lang: fr
 sitemap: true
 title: Speculoos
 type: sucre
+utensils:
+  - tamis
+  - saladier
+  - plaque-cuisson
+  - rouleau
+  - roulette
+  - grille
 recettes:
   Classique:
     ingredients: 
@@ -32,7 +39,7 @@ recettes:
     etapes:
       - label: Préparation
         details:
-          - Dans un saladier, verser la farine, la levure, les épices et le sucre
+          - Tamiser la farine, la levure, les épices et le sucre dans un saladier
           - Ajouter le beurre et le lait
           - Mélanger à la main jusqu'à obtention d'une pâte lisse
           - Former une boule

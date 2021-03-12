@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Galette des Rois
 type: sucre
+utensils:
+  - saladier
+  - fouet
+  - spatule-silicone
+  - plaque-cuisson
 preconditions:
   - La pâte feuilletée, le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 200°C

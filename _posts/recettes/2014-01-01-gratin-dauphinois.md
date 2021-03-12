@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Gratin Dauphinois
 type: sel
+utensils:
+  - couteau
+  - plat-gratin
+  - casserole
+  - saladier
 recettes:
   Classique:
     yield: 2
@@ -37,7 +42,7 @@ recettes:
       - label: Préparation
         details:
           - Mettre les pommes de terre dans le plat à gratin
-          - Faire bouillir le lait avec la crème dans la marmite
+          - Faire bouillir le lait avec la crème dans une casserole
           - Y ajouter les pommes de terre et l'ail
           - Saler et poivrer
           - Cuire 10 minutes à feu doux

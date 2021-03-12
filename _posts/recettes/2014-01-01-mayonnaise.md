@@ -8,6 +8,9 @@ title: Mayonnaise
 type: condiment
 recettes:
   À la Main: 
+    utensils:
+      - saladier
+      - fouet
     ingredients: 
       - nom: huile de tournesol
         qte: 150
@@ -34,6 +37,9 @@ recettes:
           - Saler et poivrer
           - Ajouter le vinaigre et mélanger
   Au Mixeur:
+    utensils:
+      - saladier
+      - mixeur-droit
     ingredients: 
       - nom: huile de tournesol
         qte: 150

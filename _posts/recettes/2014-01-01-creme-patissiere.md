@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Crème Pâtissière
 type: sucre
+utensils: 
+  - casserole
+  - fouet
+  - spatule-silicone
+  - chinois
 recettes:
   Classique:
     ingredients: 

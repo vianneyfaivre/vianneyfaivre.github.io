@@ -6,6 +6,12 @@ lang: fr
 sitemap: true
 title: Muffins Salés
 type: sel
+utensils:
+  - tamis
+  - saladier
+  - fouet
+  - spatule-silicone
+  - moule-muffins
 recettes:
   Nature:
     yield: 12
@@ -31,8 +37,8 @@ recettes:
     etapes:
       - label: Préparation
         details:
-        - Verser la farine, la levure et le sel dans un saladier
-        - Verser les oeufs, l'huile et le buttermilk dans un autre saladier. Mélanger
+        - Tamiser la farine, la levure et le sel dans un saladier
+        - Fouetter les oeufs, l'huile et le buttermilk dans un autre saladier
         - Tout incorporer ensemble
       - label: Cuisson
         emoji: 🔥

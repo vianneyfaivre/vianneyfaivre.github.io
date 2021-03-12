@@ -7,6 +7,15 @@ sitemap: true
 title: Pain Cocotte
 type: boulangerie
 withYeast: true
+utensils:
+  - machine-pain
+  - saladier
+  - pain-lame
+  - corne
+  - coupe-pate
+  - saladier
+  - cocotte
+  - grille
 recettes:
   Classique:
     ingredients: 
@@ -45,6 +54,6 @@ recettes:
         details:
           - Cuire 1h à 240°C 
           - Sortir le pain de la cocotte
-          - Le laisser ressuer sur une grille
+          - Laisser ressuer sur une grille 30 minutes
           - Le conserver enveloppé dans un linge propre
 ---

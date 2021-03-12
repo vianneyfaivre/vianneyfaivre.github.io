@@ -6,6 +6,13 @@ lang: fr
 sitemap: true
 title: Verrines Mascarpone
 type: sucre
+utensils:
+  - couteau
+  - pinceau
+  - batteur-elec
+  - spatule-silicone
+  - ramequins
+  - tamis
 recettes:
   Tiramisu:
     yield: 4

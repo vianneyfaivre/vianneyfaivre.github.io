@@ -6,6 +6,11 @@ lang: fr
 sitemap: true
 title: Torta Caprese
 type: sucre
+utensils:
+  - saladier
+  - batteur-elec
+  - spatule-silicone
+  - moule-rond
 recettes:
   Chocolat Noir:
     ingredients:
@@ -44,6 +49,9 @@ recettes:
         details:
         - Cuire 35 à 40 minutes à 180°C
   Chocolat Blanc: 
+    utensils:
+      - microplane
+      - rape
     ingredients:
       - nom: huile neutre
         qte: 80

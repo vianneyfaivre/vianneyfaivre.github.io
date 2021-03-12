@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Fondants au Chocolat
 type: sucre
+utensils: 
+  - casserole
+  - fouet
+  - moule-muffins
 recettes:
   Classique:
     yield: 4
@@ -31,10 +35,10 @@ recettes:
     etapes:
       - label: Préparation
         details:
-          - Faire fondre le chocolat avec le beurre
-          - Ajouter le sucre
-          - Ajouter les oeufs un à un
-          - Ajouter la farine
+          - Faire fondre le chocolat avec le beurre dans une casserole
+          - Incorporer le sucre
+          - Incorporer les oeufs un à un
+          - Incorporer la farine
           - Répartir dans un moule à muffins
           - Ajouter un carré de chocolat au milieu de chaque fondant
       - label: Cuisson

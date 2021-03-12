@@ -6,6 +6,12 @@ lang: fr
 sitemap: true
 title: Mousse au Chocolat
 type: sucre
+utensils:
+  - casserole
+  - saladier
+  - spatule-silicone
+  - batteur-elec
+  - ramequins
 recettes:
   Classique:
     yield: 6
@@ -32,6 +38,8 @@ recettes:
           - Mélanger les jaunes d'oeuf avec le mélange beurre-chocolat
           - Monter les blancs en neige (pas trop fermes) avec le sucre glace
           - Incorporer les blancs en deux fois
+          - Déverser la préparation dans des ramequins
+          - Couvrir
           - Réserver au frais au moins deux heures 
 notes:
   - Possibilité de faire cette même recette sans les jaunes d'oeufs

@@ -6,6 +6,12 @@ lang: fr
 sitemap: true
 title: Boeuf Bourguignon
 type: sel
+utensils:
+  - couteau
+  - cocotte
+  - boule-the
+  - pince
+  - saladier
 recettes:
   Classique:
     ingredients: 
@@ -42,7 +48,8 @@ recettes:
         details:
           - Placer la viande dans un grand saladier
           - Saupoudrer de bicarbonate de soude
-          - Ajouter le laurier, le romarin, le thym et un peu de sel
+          - Ajouter le laurier, le romarin, le thym et un peu de sel dans une boule à thé
+          - Placer la boule à thé dans le saladier
           - Couvrir de vin rouge
           - Laisser mariner au moins deux heures
       - label: Préparation

@@ -6,6 +6,14 @@ lang: fr
 sitemap: true
 title: Fondue Savoyarde
 type: sel
+utensils:
+  - couteau
+  - pince
+  - rape
+  - casserole
+  - saladier
+  - spatule-bois
+  - caquelon
 recettes:
   Classique:
     yield: 4
@@ -40,9 +48,9 @@ recettes:
         details:
           - Raper les fromages
           - Verser de l'eau dans une casserole
-          - Placer un cul de poule dessus (bain marie)
-          - Peler l'ail et frotter le cul de poule avec
-          - Verser la moitié du vin blanc dans le cul de poule
+          - Placer un saladier dessus (bain marie)
+          - Peler l'ail et frotter le saladier avec
+          - Verser la moitié du vin blanc dans le saladier
           - Dans un verre, diluer la fécule de maïs avec le reste du vin blanc 
           - Porter à ébullition
           - Baisser un peu le feu et ajouter un tiers du fromage

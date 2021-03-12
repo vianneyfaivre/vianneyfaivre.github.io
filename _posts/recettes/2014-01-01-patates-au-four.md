@@ -6,6 +6,10 @@ lang: fr
 sitemap: true
 title: Patates au Four
 type: sel
+utensils:
+  - casserole
+  - couteau
+  - plaque-cuisson
 recettes:
   En Quartiers:
     yield: 2

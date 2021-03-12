@@ -6,6 +6,9 @@ lang: fr
 sitemap: true
 title: Escalopes à la Normande
 type: sel
+utensils:
+  - couteau
+  - poele
 recettes:
   Classique:
     yield: 2
