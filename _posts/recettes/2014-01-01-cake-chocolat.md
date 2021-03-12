@@ -149,7 +149,7 @@ recettes:
           - Réserver
       - label: Partie Vanille
         details: 
-          - Incorporer la vanille liquide dans l'autre bol
+          - Incorporer la vanille liquide dans l'autre saladier
           - Réserver
       - label: Assemblage
         details:         

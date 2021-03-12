@@ -63,7 +63,7 @@ recettes:
       - label: "Préparation"
         details:
           - Hacher l'ail
-          - Mettre tous les ingrédients dans un bol
+          - Mettre tous les ingrédients dans un saladier
           - Saler et poivrer
           - Mixer jusqu'à ce que ça prenne, en commençant par le fond
 ---

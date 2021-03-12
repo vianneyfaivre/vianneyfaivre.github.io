@@ -29,6 +29,6 @@ recettes:
         details:
           - Hacher l'échalote
           - Presser le demi citron
-          - Mélanger tous les ingrédients dans un bol
+          - Mélanger tous les ingrédients dans un saladier
           - Saler et poivrer
 ---

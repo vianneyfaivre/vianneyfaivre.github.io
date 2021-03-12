@@ -41,32 +41,32 @@ recettes:
         qte: 17
         unite: gr
     etapes:
-      - label: Pré-Fermentation - Bol A
+      - label: Pré-Fermentation - Saladier A
         details:
-          - Dans un bol, verser 150 grammes de farine
+          - Dans un saladier, verser 150 grammes de farine
           - Ajouter l'eau bouillante et le miel
           - Mélanger vigoureursement jusqu'à ce que le mélange soit lisse
           - Couvrir avec un film plastique
-          - Faire bouillir de l'eau dans un bol 
+          - Faire bouillir de l'eau dans un saladier 
           - Placer les deux récipients dans un four éteint pendant 15 minutes
-          - Refaire bouillir le bol d'eau 
+          - Refaire bouillir le saladier d'eau 
           - Le remettre dans le four pour 30 minutes
-          - Refaire bouillir le bol d'eau 
+          - Refaire bouillir le saladier d'eau 
           - Le remettre dans le four pour au moins 6h (max 18h)
-      - label: Pré-Fermentation - Bol B
+      - label: Pré-Fermentation - Saladier B
         details:
-          - Dans un bol, verser 300 grammes de farine complète avec le sel et la levure
-          - Dans un autre bol, mélanger l'eau froide et l'huile
+          - Dans un saladier, verser 300 grammes de farine complète avec le sel et la levure
+          - Dans un autre saladier, mélanger l'eau froide et l'huile
           - Verser le mélange eau-huile sur la farine
           - Mélanger avec une main et pétrir légèrement jusqu'à ce que le mélange soit lisse
           - Former une boule 
-          - Huiler le bol et placer la boule dedans
+          - Huiler le saladier et placer la boule dedans
           - Couvrir et laisser reposer pour au moins 12h (max 18h)
       - label: Pétrissage et Fermentation
         details:
-          - Mélanger vigoureusement le Bol A
-          - Ajouter les 75 grammes de farine restantes dans le Bol A et mélanger
-          - Dans le récipient de la machine à pain, verser le Bol B puis le Bol A
+          - Mélanger vigoureusement le Saladier A
+          - Ajouter les 75 grammes de farine restantes dans le Saladier A et mélanger
+          - Dans le récipient de la machine à pain, verser le Saladier B puis le Saladier A
           - Lancer le programme "pétrissage seulement" (sans cuisson, 1h30 avec levée)
           - Relancer un programme si besoin
       - label: Boulage et Façonnage
@@ -119,7 +119,7 @@ recettes:
     etapes:
       - label: Pré-Fermentation
         details:
-          - Dans un bol, verser la farine et les 320 grammes d'eau
+          - Dans un saladier, verser la farine et les 320 grammes d'eau
           - Mélanger vigoureursement jusqu'à ce que le mélange soit lisse
           - Laisser reposer 2h30 à 25°C
       - label: Pétrissage et Fermentation

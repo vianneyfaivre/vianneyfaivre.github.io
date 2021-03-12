@@ -35,7 +35,7 @@ recettes:
     etapes:
       - label: Hydratation de la Gélatine
         details:
-          - Verser l'eau dans un bol
+          - Verser l'eau dans un saladier
           - Saupoudrer la gélatine dessus
       - label: Préparation
         details:
@@ -69,7 +69,7 @@ recettes:
     etapes:
       - label: Hydratation de la Gélatine
         details:
-          - Verser de l'eau dans un bol
+          - Verser de l'eau dans un saladier
           - Mettre quelques glaçons
           - Ajouter les feuilles de gélatine
           - Patienter 10 minutes

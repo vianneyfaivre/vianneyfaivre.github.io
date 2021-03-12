@@ -40,7 +40,7 @@ recettes:
     etapes:
       - label: Préparation des bananes
         details:
-          - Écraser les bananes dans un bol
+          - Écraser les bananes dans un saladier
           - Ajouter le lait et le beurre
           - Mélanger à l'aide d'une fourchette
       - label: Préparation
