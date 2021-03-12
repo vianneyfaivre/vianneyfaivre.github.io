@@ -8,6 +8,7 @@ variantesEtapes = document.getElementsByClassName "variante-etapes"
 variantesPictures = document.getElementsByClassName "variante-pictures"
 variantesPreconditions = document.getElementsByClassName "variante-preconditions"
 variantesTitles = document.getElementsByClassName "variante-title"
+variantesSubtitles = document.getElementsByClassName "variante-subtitles"
 variantesUtensils = document.getElementsByClassName "variante-utensils"
 
 # Pictures
@@ -60,6 +61,7 @@ onVarianteButtonClick = (btn) ->
   picturesId = varianteId + "-pictures"
   preconditionsId = varianteId + "-preconditions"
   titleId = varianteId + "-title"
+  subtitleId = varianteId + "-subtitle"
   utensilsId = varianteId + "-utensils"
 
   # Update URL hash
@@ -79,6 +81,7 @@ onVarianteButtonClick = (btn) ->
   hideElements variantesPictures
   hideElements variantesPreconditions
   hideElements variantesTitles
+  hideElements variantesSubtitles
   hideElements variantesUtensils
 
   # Display the right variante
@@ -93,6 +96,9 @@ onVarianteButtonClick = (btn) ->
 
   varianteTitle = document.getElementById titleId
   changeDisplay varianteTitle, 'block'
+
+  varianteSubtitle = document.getElementById subtitleId
+  changeDisplay varianteSubtitle, 'block'
 
   varianteUtensils = document.getElementById utensilsId
   changeDisplay varianteUtensils, 'block'

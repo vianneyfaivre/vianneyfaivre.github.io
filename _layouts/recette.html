@@ -265,6 +265,16 @@ utensils:
 		</div>
 		
 		<div class="etapes-panel">
+
+			<div>
+		
+				{% for recette in page.recettes %}
+					<h3 class="variante-subtitles" id="{{recette[0]}}-subtitle">
+						🎺 {{ page.title | escape }} - {{ recette[0] }} 🎺
+					</h3>
+				{% endfor %}
+		
+			</div>
 		
 			{% if page.preconditions or page.withYeast %}
 				<h4>📜 Préambule</h4>

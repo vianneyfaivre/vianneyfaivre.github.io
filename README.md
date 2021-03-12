@@ -22,5 +22,5 @@ My Personal Blog
 # Technical details
 
 - This site uses Structured Data 
-  - `BlogPosting` in `post.html`
-  - `BreadcrumbList` in `breadcrumb.html`
+  - `BlogPosting` in `post.html` with Microdata
+  - `BreadcrumbList` in `breadcrumb.html` with JSON-LD
