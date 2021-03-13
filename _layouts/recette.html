@@ -167,25 +167,25 @@ utensils:
         </div>
     
 		{% for recette in page.recettes %}
-        	<div id="{{recette[0]}}-variante" class="variante-whole hidden">
+		<div id="{{recette[0]}}-variante" class="variante-whole hidden" itemscope itemtype="https://schema.org/Recipe">
 
-				<div id="{{recette[0]}}-whole" class="recette-whole"> 
+			<div id="{{recette[0]}}-whole" class="recette-whole"> 
 
-					<div class="ingredients-panel">
-						{%- include recette/ingredients.html -%}
-					</div>
-
-					<div class="etapes-panel">
-						{%- include recette/steps.html -%}
-					</div>
-
+				<div class="ingredients-panel">
+					{%- include recette/ingredients.html -%}
 				</div>
-			
-				<div class="bottom-panel">
-					{%- include recette/bottom.html -%}
+
+				<div class="etapes-panel">
+					{%- include recette/steps.html -%}
 				</div>
-				
+
 			</div>
+		
+			<div class="bottom-panel">
+				{%- include recette/bottom.html -%}
+			</div>
+			
+		</div>
 		{% endfor %}
 
     </div>

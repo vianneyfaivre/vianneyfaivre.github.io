@@ -37,6 +37,7 @@
     <div class="recipe-pictures">
 
         {% assign pictures = site.static_files | where: "isRecipePic", true %}
+
         {% for picture in pictures %}
 
             {% assign name = picture.name | split: '.' %}
@@ -49,7 +50,14 @@
             {% endif %}
 
             {% if picture.path contains page.title and nameMatches == true %}
-                <img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
+            
+                <img 
+                    src="{{ picture.path }}" 
+                    itemprop='image'
+                    class="recipe-picture" 
+                    width="100" 
+                    alt="{{ name[0] }}" 
+                    title="{{ name[0] }}" />
             {% endif %}
     
         {% endfor %}

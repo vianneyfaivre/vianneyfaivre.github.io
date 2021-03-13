@@ -4,8 +4,10 @@
 
     {% if recette[1].yield %}
         pour 
-        <span id="{{recette[0]}}-yield" data-originalValue="{{ recette[1].yield }}">{{ recette[1].yield }}</span>
-        {{recette[1].yieldType}}
+        <span itemprop="recipeYield">
+            <span id="{{recette[0]}}-yield" data-originalValue="{{ recette[1].yield }}">{{ recette[1].yield }}</span>
+            {{recette[1].yieldType}}
+        </span>
     {% endif %}
 </h4>
 
@@ -13,8 +15,7 @@
 {% for ingredient in recette[1].ingredients %}
 
     {% capture ingredientQte %}
-        <span class="ingredient-qte-fixed"
-                data-originalValue="{{ingredient.qte}}">
+        <span class="ingredient-qte-fixed" data-originalValue="{{ingredient.qte}}">
             {{ingredient.qte}}
         </span>
     {% endcapture %}
@@ -31,7 +32,7 @@
         {% endcapture %}
     {% endif %}
 
-    <li>
+    <li itemprop="recipeIngredient">
     {% if ingredient.qte %}
 
         {% if ingredient.lien %}

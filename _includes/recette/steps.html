@@ -1,5 +1,5 @@
 
-<h3 class="variante-subtitles" id="{{recette[0]}}-subtitle">
+<h3 class="variante-subtitles" id="{{recette[0]}}-subtitle" itemprop="name"> 
     🎺 {{ page.title | escape }} - {{ recette[0] }} 🎺
 </h3>
 
@@ -27,7 +27,7 @@
     <ul>
         
         {% for precondition in recette[1].preconditions %}
-        <li>{{ precondition }}</li>
+        <li itemprop="recipeInstructions">{{ precondition }}</li>
         {% endfor %}
         
     </ul>
@@ -47,7 +47,7 @@
         <ol>
         {% for detail in etape.details %}
             
-            <li>
+            <li itemprop="recipeInstructions">
                 {% if detail.link %}
                     <a href="{{ detail.link }}">{{ detail.label }}</a>
                 {% else %}
