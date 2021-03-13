@@ -2,17 +2,9 @@
 ---
 
 # Variantes
+variantes = document.getElementsByClassName "variante-whole"
 variantesButtons = document.getElementsByClassName "variantes-btn"
 variantesIngredients = document.getElementsByClassName "variante-ingredients"
-variantesEtapes = document.getElementsByClassName "variante-etapes"
-variantesPictures = document.getElementsByClassName "variante-pictures"
-variantesPreconditions = document.getElementsByClassName "variante-preconditions"
-variantesTitles = document.getElementsByClassName "variante-title"
-variantesSubtitles = document.getElementsByClassName "variante-subtitles"
-variantesUtensils = document.getElementsByClassName "variante-utensils"
-
-# Pictures
-pictures = document.getElementsByClassName "recipe-picture"
 
 main = () ->
 
@@ -56,13 +48,6 @@ main = () ->
 
 onVarianteButtonClick = (btn) ->
   varianteId = btn.innerHTML
-  ingredientsId = varianteId + "-ingredients"
-  etapesId = varianteId + "-etapes"
-  picturesId = varianteId + "-pictures"
-  preconditionsId = varianteId + "-preconditions"
-  titleId = varianteId + "-title"
-  subtitleId = varianteId + "-subtitle"
-  utensilsId = varianteId + "-utensils"
 
   # Update URL hash
   if variantesButtons.length > 1 
@@ -76,42 +61,20 @@ onVarianteButtonClick = (btn) ->
   btn.classList.add "active"
 
   # Hide all variantes
-  hideElements variantesIngredients
-  hideElements variantesEtapes
-  hideElements variantesPictures
-  hideElements variantesPreconditions
-  hideElements variantesTitles
-  hideElements variantesSubtitles
-  hideElements variantesUtensils
+  hideElements variantes
 
   # Display the right variante
-  varianteIngredients = document.getElementById ingredientsId
-  changeDisplay varianteIngredients, 'block'
-    
-  varianteEtapes = document.getElementById etapesId
-  changeDisplay varianteEtapes, 'block'
+  variante = document.getElementById varianteId+"-variante"
+  changeDisplay variante, 'block'
 
-  variantePrecondition = document.getElementById preconditionsId
-  changeDisplay variantePrecondition, 'block'
-
-  varianteTitle = document.getElementById titleId
-  changeDisplay varianteTitle, 'block'
-
-  varianteSubtitle = document.getElementById subtitleId
-  changeDisplay varianteSubtitle, 'block'
-
-  varianteUtensils = document.getElementById utensilsId
-  changeDisplay varianteUtensils, 'block'
-
-  variantePictures = document.getElementById picturesId
+  # Hide pictures title when there are none for the selected variante
+  variantePictures = document.getElementById varianteId + "-pictures"
   if variantePictures
 
     hasPictures = variantePictures.getElementsByClassName("recipe-picture").length > 0
     
-    if hasPictures
-      variantePictures.classList.remove "hidden"
-      changeDisplay variantePictures, 'block'
-      displayElements variantePictures 
+    if !hasPictures
+      changeDisplay variantePictures, 'none'
 
 onQuantityChange = (input, varianteId) ->
 

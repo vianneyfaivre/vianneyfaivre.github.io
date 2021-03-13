@@ -17,7 +17,7 @@
 		text-align: center;
 	}
 
-	.main-panel {
+	.recette-whole {
 		border-bottom: 1px solid #e8e8e8; 
 		padding-bottom: 15px; 
 		margin-bottom: 15px;
@@ -97,17 +97,13 @@
 		background-color: #e8e8e8;
 	}
 	
-	.variante-ingredients {
-		display: none;
-	} 
-
 	.ingredient-qte-variable {
 		width: 4em;
 	}
 	
 	/* Mobile view */ 
 	@media all and (max-width: 700px) {
-	  .main-panel {
+	  .recette-whole {
 		flex-direction: column;
 	  }
 	  

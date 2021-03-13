@@ -152,261 +152,262 @@ utensils:
 ---
 <article class="post h-entry recette">
 
-  <header>
-    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
-  </header>
+    <header>
+        <h1 class="post-title p-name">{{ page.title | escape }}</h1>
+    </header>
 
-  <div class="post-content e-content">
+    <div class="post-content e-content">
 
-	<div class="variantes-tabs">
+        <div class="variantes-tabs">
 		
+            {% for recette in page.recettes %}
+                <button class="variantes-btn">{{ recette[0] }}</button>
+            {% endfor %}
+    
+        </div>
+    
 		{% for recette in page.recettes %}
-			<button class="variantes-btn">{{ recette[0] }}</button>
+        	<div id="{{recette[0]}}-variante" class="variante-whole hidden">
+
+				<div id="{{recette[0]}}-whole" class="recette-whole"> 
+
+					{% comment %}
+					LEFT SIDE - ingredients, utensils
+					{% endcomment %}
+					<div class="ingredients-panel">
+
+						<h4 id="{{recette[0]}}-title" class="variante-title">
+							🥕 Ingrédients 
+
+							{% if recette[1].yield %}
+								pour 
+								<span id="{{recette[0]}}-yield" data-originalValue="{{ recette[1].yield }}">{{ recette[1].yield }}</span>
+								{{recette[1].yieldType}}
+							{% endif %}
+						</h4>
+
+						<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
+						{% for ingredient in recette[1].ingredients %}
+
+							{% capture ingredientQte %}
+								<span class="ingredient-qte-fixed"
+										data-originalValue="{{ingredient.qte}}">
+									{{ingredient.qte}}
+								</span>
+							{% endcapture %}
+
+							{% if ingredient.variable == true %}
+								{% capture ingredientQte %}
+									<input class="ingredient-qte-variable" 
+											type="number" 
+											data-varianteId="{{recette[0]}}"
+											data-originalValue="{{ ingredient.qte }}"
+											value="{{ingredient.qte}}"
+											min="1"
+									/>
+								{% endcapture %}
+							{% endif %}
+
+							<li>
+							{% if ingredient.qte %}
+
+								{% if ingredient.lien %}
+									<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredientQte }} {{ ingredient.unite }}
+								{% else %}
+									{{ ingredient.nom }} : {{ ingredientQte }} {{ ingredient.unite }}
+								{% endif %}
+							{% else %}
+								
+								{% if ingredient.lien %}
+									<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a>
+								{% else %}
+									{{ ingredient.nom }}
+								{% endif %}
+							{% endif %}
+							</li>
+
+						{% endfor %}
+						</ul>
+
+						{% if recette[1].utensils or page.utensils %}
+						<div id="{{recette[0]}}-utensils" class="variante-utensils">
+
+							<h4>🛍️ Matériel</h4>
+
+							<ul>
+								{% for utensil in page.utensils %}
+								<li>
+									
+									{% if layout.utensils[utensil] %}
+									<a href="{{ layout.utensils[utensil].url }}" target="_blank">
+										{{layout.utensils[utensil].title}} 🛒 
+									</a>
+									{% else %}
+										{{ utensil }}
+									{% endif %}
+								</li>
+								{% endfor %}
+
+								{% for utensil in recette[1].utensils %}
+								<li>
+									
+									{% if layout.utensils[utensil] %}
+									<a href="{{ layout.utensils[utensil].url }}" target="_blank">
+										{{layout.utensils[utensil].title}} 🛒 
+									</a>
+									{% else %}
+										{{ utensil }}
+									{% endif %}
+								</li>
+								{% endfor %}
+							</ul>
+						</div>
+
+					</div>
+					{% endif %}
+
+					{% comment %}
+					RIGHT SIDE - steps
+					{% endcomment %}
+					<div class="etapes-panel">
+
+						<h3 class="variante-subtitles" id="{{recette[0]}}-subtitle">
+							🎺 {{ page.title | escape }} - {{ recette[0] }} 🎺
+						</h3>
+					
+						{% if page.preconditions or page.withYeast %}
+							<h4>📜 Préambule</h4>
+							
+							<ul>
+							
+							{% for precondition in page.preconditions %}
+								<li>{{ precondition }}</li>
+							{% endfor %}
+								
+							{% if page.withYeast %}
+								<li><a href="/cuisine/levure">Activer la levure</a></li>
+							{% endif %}
+			
+							</ul>
+						{% endif %}
+									
+						{% if recette[1].preconditions %}
+						<div id="{{recette[0]}}-preconditions" class="variante-preconditions">
+		
+							<h4>📜 Préambule</h4>
+							
+							<ul>
+								
+								{% for precondition in recette[1].preconditions %}
+								<li>{{ precondition }}</li>
+								{% endfor %}
+								
+							</ul>
+						</div>
+						{% endif %}
+			
+						<div id="{{recette[0]}}-etapes" class="variante-etapes">
+		
+							{% for etape in recette[1].etapes %}
+		
+								{% assign etapeEmoji = '📜' %}
+								{% if etape.emoji %}
+									{% assign etapeEmoji = etape.emoji %}
+								{% endif %}
+		
+								<h4>{{etapeEmoji}} {{etape.label}}</h4>
+								<ol>
+								{% for detail in etape.details %}
+									
+									<li>
+										{% if detail.link %}
+											<a href="{{ detail.link }}">{{ detail.label }}</a>
+										{% else %}
+											{{ detail }}
+										{% endif %}
+									</li>
+									
+								{% endfor %}
+								</ol>
+							{% endfor %}
+						</div>
+			
+					</div>
+
+				</div>
+			
+				{% comment %}
+				BOTTOM - notes, variantes, photos
+				{% endcomment %}
+				<div class="bottom-panel">
+		
+					{% if page.notes %}
+						<h4>📝 Notes</h4>
+						<ul>
+						{% for note in page.notes %}
+			
+							{% if note.link %}
+								<li><a href="{{ note.link }}">{{ note.label }}</a></li>
+							{% else %}
+								<li>{{ note }}</li>
+							{% endif %}
+						{% endfor %}
+						</ul>
+					{% endif %}
+				
+					{% if page.variantes %}
+						<h4>💡 Variantes</h4>
+						<ul class="no-dots">
+						{% for variante in page.variantes %}
+							<li>
+								{% if variante.todo %}
+									<input type="checkbox" />
+								{% else %}
+									<input type="checkbox" checked="checked" />
+								{% endif %}
+								
+								{{ variante.label }}
+							</li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+
+					<div id="{{recette[0]}}-pictures" class="variante-pictures">
+
+						<h4>📷 Photos</h4>
+			
+						<div class="recipe-pictures">
+			
+							{% assign pictures = site.static_files | where: "isRecipePic", true %}
+							{% for picture in pictures %}
+			
+								{% assign name = picture.name | split: '.' %}
+			
+								{% assign nameMatches = false %}
+								{% if recette[0] == 'Classique' %}
+									{% assign nameMatches = true %}
+								{% elsif name[0] contains recette[0] %}
+									{% assign nameMatches = true %}
+								{% endif %}
+			
+								{% if picture.path contains page.title and nameMatches == true %}
+									<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
+								{% endif %}
+						
+							{% endfor %}
+			
+						</div>
+			
+					</div>
+					
+				</div>
+				
+			</div>
 		{% endfor %}
 
-	</div>
+    </div>
 
-	<div class="main-panel">
-	
-		<div class="ingredients-panel">
-		
-			{% for recette in page.recettes %}
-
-				<h4 id="{{recette[0]}}-title" class="variante-title">
-					🥕 Ingrédients 
-
-					{% if recette[1].yield %}
-						pour 
-						<span id="{{recette[0]}}-yield" data-originalValue="{{ recette[1].yield }}">{{ recette[1].yield }}</span>
-						{{recette[1].yieldType}}
-					{% endif %}
-				</h4>
-
-				<ul id="{{recette[0]}}-ingredients" class="variante-ingredients">
-				{% for ingredient in recette[1].ingredients %}
-
-					{% capture ingredientQte %}
-						<span class="ingredient-qte-fixed"
-							  data-originalValue="{{ingredient.qte}}">
-							{{ingredient.qte}}
-						</span>
-					{% endcapture %}
-
-					{% if ingredient.variable == true %}
-						{% capture ingredientQte %}
-							<input class="ingredient-qte-variable" 
-								   type="number" 
-								   data-varianteId="{{recette[0]}}"
-								   data-originalValue="{{ ingredient.qte }}"
-								   value="{{ingredient.qte}}"
-								   min="1"
-							/>
-						{% endcapture %}
-					{% endif %}
-
-					<li>
-					{% if ingredient.qte %}
-
-						{% if ingredient.lien %}
-							<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a> : {{ ingredientQte }} {{ ingredient.unite }}
-						{% else %}
-							{{ ingredient.nom }} : {{ ingredientQte }} {{ ingredient.unite }}
-						{% endif %}
-					{% else %}
-						
-						{% if ingredient.lien %}
-							<a href="{{ ingredient.lien }}">{{ ingredient.nom }}</a>
-						{% else %}
-							{{ ingredient.nom }}
-						{% endif %}
-					{% endif %}
-					</li>
-
-				{% endfor %}
-				</ul>
-
-				{% if recette[1].utensils or page.utensils %}
-				<div id="{{recette[0]}}-utensils" class="variante-utensils">
-
-					<h4>🛍️ Matériel</h4>
-
-					<ul>
-						{% for utensil in page.utensils %}
-						<li>
-							
-							{% if layout.utensils[utensil] %}
-							<a href="{{ layout.utensils[utensil].url }}" target="_blank">
-								{{layout.utensils[utensil].title}} 🛒 
-							</a>
-							{% else %}
-								{{ utensil }}
-							{% endif %}
-						</li>
-						{% endfor %}
-
-						{% for utensil in recette[1].utensils %}
-						<li>
-							
-							{% if layout.utensils[utensil] %}
-							<a href="{{ layout.utensils[utensil].url }}" target="_blank">
-								{{layout.utensils[utensil].title}} 🛒 
-							</a>
-							{% else %}
-								{{ utensil }}
-							{% endif %}
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-				{% endif %}
-
-			{% endfor %}
-
-		</div>
-		
-		<div class="etapes-panel">
-
-			<div>
-		
-				{% for recette in page.recettes %}
-					<h3 class="variante-subtitles" id="{{recette[0]}}-subtitle">
-						🎺 {{ page.title | escape }} - {{ recette[0] }} 🎺
-					</h3>
-				{% endfor %}
-		
-			</div>
-		
-			{% if page.preconditions or page.withYeast %}
-				<h4>📜 Préambule</h4>
-				
-				<ul>
-				
-				{% for precondition in page.preconditions %}
-					<li>{{ precondition }}</li>
-				{% endfor %}
-					
-				{% if page.withYeast %}
-					<li><a href="/cuisine/levure">Activer la levure</a></li>
-				{% endif %}
-
-				</ul>
-			{% endif %}
-						
-			{% for recette in page.recettes %}
-
-				{% if recette[1].preconditions %}
-				<div id="{{recette[0]}}-preconditions" class="variante-preconditions">
-
-					<h4>📜 Préambule</h4>
-					
-					<ul>
-						
-						{% for precondition in recette[1].preconditions %}
-						<li>{{ precondition }}</li>
-						{% endfor %}
-						
-					</ul>
-				</div>
-				{% endif %}
-
-				<div id="{{recette[0]}}-etapes" class="variante-etapes">
-
-					{% for etape in recette[1].etapes %}
-
-						{% assign etapeEmoji = '📜' %}
-						{% if etape.emoji %}
-							{% assign etapeEmoji = etape.emoji %}
-						{% endif %}
-
-						<h4>{{etapeEmoji}} {{etape.label}}</h4>
-						<ol>
-						{% for detail in etape.details %}
-							
-							<li>
-								{% if detail.link %}
-									<a href="{{ detail.link }}">{{ detail.label }}</a>
-								{% else %}
-									{{ detail }}
-								{% endif %}
-							</li>
-							
-						{% endfor %}
-						</ol>
-					{% endfor %}
-				</div>
-
-			{% endfor %}
-		</div>
-	</div>
-	
-	<div>
-		
-		{% if page.notes %}
-			<h4>📝 Notes</h4>
-			<ul>
-			{% for note in page.notes %}
-
-				{% if note.link %}
-					<li><a href="{{ note.link }}">{{ note.label }}</a></li>
-				{% else %}
-					<li>{{ note }}</li>
-				{% endif %}
-			{% endfor %}
-			</ul>
-		{% endif %}
-	
-		{% if page.variantes %}
-			<h4>💡 Variantes</h4>
-			<ul class="no-dots">
-			{% for variante in page.variantes %}
-				<li>
-					{% if variante.todo %}
-					  <input type="checkbox" />
-					{% else %}
-					  <input type="checkbox" checked="checked" />
-					{% endif %}
-					
-					{{ variante.label }}
-				</li>
-			{% endfor %}
-			</ul>
-		{% endif %}
-		
-	</div>
-
-	{% for recette in page.recettes %}
-		<div id="{{recette[0]}}-pictures" class="hidden variante-pictures">
-
-			<h4>📷 Photos</h4>
-
-			<div class="recipe-pictures">
-
-				{% assign pictures = site.static_files | where: "isRecipePic", true %}
-				{% for picture in pictures %}
-
-					{% assign name = picture.name | split: '.' %}
-
-					{% assign nameMatches = false %}
-					{% if recette[0] == 'Classique' %}
-						{% assign nameMatches = true %}
-					{% elsif name[0] contains recette[0] %}
-						{% assign nameMatches = true %}
-					{% endif %}
-
-					{% if picture.path contains page.title and nameMatches == true %}
-						<img src="{{ picture.path }}" class="recipe-picture" width="100" alt="{{ name[0] }}" title="{{ name[0] }}" />
-					{% endif %}
-			
-				{% endfor %}
-
-			</div>
-
-		</div>
-	{% endfor %}
-
-  </div>  
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
 <script src="/assets/js/recette.js"></script>
