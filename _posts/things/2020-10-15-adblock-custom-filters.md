@@ -13,8 +13,7 @@ I'm using those custom filters to avoid getting distracted too much.
 | Website | Purpose | Query |
 | --- | --- | --- |
 | YouTube | Hide "Up next" suggestions | `youtube.com##div#related` |
-| YouTube | Hide Home page suggestions | `youtube.com##ytd-rich-item-renderer` |
-| Facebook | Hide Home page feed | `facebook.com##div[role="feed"]` |
-| Facebook | Hide Stories | `facebook.com##div[data-pagelet="Stories"]` |
+| YouTube | Hide Home page videos suggestions | `youtube.com##ytd-rich-item-renderer` |
+| YouTube | Hide Home page topics suggestions | `youtube.com###chips-wrapper` |
 | Reddit | Hide Promoted Posts | `reddit.com##div[role="promotedlink"]` |
 | Serious Eats | Hide Videos suggestions | `seriouseats.com##div#video-sidebar-player` |
