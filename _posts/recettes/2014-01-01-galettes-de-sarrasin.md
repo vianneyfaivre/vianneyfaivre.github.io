@@ -25,7 +25,7 @@ recettes:
         qte: 700
         unite: mL
       - nom: sel
-        qte: 25
+        qte: 15
         unite: gr
     etapes:
       - label: Préparation
@@ -34,7 +34,7 @@ recettes:
           - Faire un trou au milieu
           - Mettre l'oeuf dans le trou
           - Ajouter l'eau au fur et à mesure en mélangeant au fouet
-          - Couvrir et laisser reposer 1h
+          - Couvrir et laisser reposer 1h au réfrigérateur 
       - label: Cuisson
         emoji: 🔥
         details:
