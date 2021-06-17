@@ -15,4 +15,4 @@ logging.level.org.springframework.transaction=TRACE
 logging.level.org.hibernate.type.descriptor.sql=TRACE
 {% endhighlight %}
 
-Tested with Spring Boot `2.4.4` (Hibernate version is `5.4.29.Final`)
+Tested with Spring Boot `2.4.4` (Hibernate version: `5.4.29.Final`)
