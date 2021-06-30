@@ -24,7 +24,7 @@ recettes:
         qte: 1
         unite: L
       - nom: ail
-        qte: 2
+        qte: 4
         unite: gousses
       - nom: oeufs
         qte: 2
@@ -36,24 +36,28 @@ recettes:
         unite: gr
     preconditions:
       - Préchauffer le four à 200°C
-      - Peler les pommes de terre et les couper en petits bouts / rondelles fines
-      - Émincer l'ail
     etapes:
-      - label: Préparation
+      - label: Préparation des pommes de terre
+        emoji: 🥔
         details:
-          - Mettre les pommes de terre dans le plat à gratin
-          - Faire bouillir le lait avec la crème dans une casserole
-          - Y ajouter les pommes de terre et l'ail
-          - Saler et poivrer
-          - Cuire 10 minutes à feu doux
-          - Mettre les pommes de terre et une partie du lait (pour que ça arrive aux trois quarts du plat) dans le plat à gratin
+          - Faire bouillir le lait et la crème dans une marmite
+          - Laver et peler les pommes de terre
+          - Détailler en fines rondelles
+          - Émincer l'ail
+          - Déverser les pommes de terre et l'ail dans la marmite
+          - Cuire 15 minutes à feu doux/moyen
+      - label: Préparation du gratin
+        details:
+          - Égoutter les pommes de terre et conserver le lait dans un saladier
+          - Déverser les pommes de terre dans le plat à gratin
+          - Verser le lait jusqu'à la moitié du plat à gratin
           - Battre les oeufs dans un saladier
-          - Ajouter le fromage rapé
-          - Déposer ce mélange sur le plat à gratin
+          - Ajouter le fromage rapé aux oeufs
+          - Déverser ce mélange sur les pommes de terre
       - label: Cuisson
         emoji: 🔥
         details:
-          - 30 minutes à 200°C
+          - Faire cuire 35 minutes à 200°C
           - Le dessus doit être bien gratiné
           - Vérifier la cuisson des pommes de terre avec un couteau
 variantes:
