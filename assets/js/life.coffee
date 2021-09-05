@@ -134,6 +134,7 @@ EVENTS = [
     new Event(2020, 8, EventType.TRAVEL, "one week", "Coromandel area, New Zealand 🥝🇳🇿"),
     new Event(2020, 10, EventType.TRAVEL, "two weeks", "South of the North Island, New Zealand 🥝🇳🇿"),
     new Event(2020, 11, EventType.TRAVEL, "one month", "South Island, New Zealand 🥝🇳🇿"),
+    new Event(2021, 5, EventType.TRAVEL, "three months", "everywhere, France 🇫🇷"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
@@ -143,6 +144,7 @@ EVENTS = [
     new Event(2015, 2, EventType.WORK, "Orange Business Services", "Nantes, France"),
     new Event(2016, 10, EventType.WORK, "Cogeco", "Montréal, Canada"),
     new Event(2019, 3, EventType.WORK, "University of Auckland", "Auckland, New Zealand"),
+    new Event(2021, 7, EventType.WORK, "Disneyland Paris", "Remote, France"),
 
     new Event(MY_BIRTHDATE.getFullYear(), MY_BIRTHDATE.getMonth(), EventType.BIRTH, "Birth", null)
     new Event(2013 + 40, 0, EventType.RETIREMENT, "Retirement", null),

@@ -22,7 +22,7 @@ recettes:
       - nom: oeufs
         qte: 1
       - nom: eau
-        qte: 700
+        qte: 900
         unite: mL
       - nom: sel
         qte: 15
