@@ -36,7 +36,7 @@ recettes:
       - label: Préparation
         details:
           - Rincer la casserole avec de l'eau (pour éviter que le lait accroche)
-          - Porter le lait et la moitié de la vanille à ébullition (environ 80°C)
+          - Porter le lait et la vanille à ébullition (environ 80°C)
           - Fouetter les jaunes d'oeufs avec le sucre
           - Incorporer la fécule de maïs
           - Verser la moitié du lait sur le mélange tout en fouettant
