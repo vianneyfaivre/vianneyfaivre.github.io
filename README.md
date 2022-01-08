@@ -5,9 +5,7 @@ My Personal Blog
 # Installation
 
 1. Follow instructions on https://jekyllrb.com/docs/
-2. Install CoffeeScript for Jekyll:
-  - `apt-get install nodejs`
-  - `gem install jekyll-coffeescript`
+2. Install CoffeeScript for Jekyll: `gem install jekyll-coffeescript`
 
 # Run
 
