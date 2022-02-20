@@ -1,0 +1,336 @@
+title: Brioche
+withYeast: true
+utensils:
+  - corne
+  - coupe-pate
+  - saladier 
+  - machine-pain
+  - grille
+  - pinceau
+recipes:
+  Standard:
+    yield: 10
+    yieldType: parts
+    pictures: 6
+    utensils:
+      - moule-cake
+    ingredients: 
+      - label: lait
+        qty: 30
+        unit: gr
+      - label: levure sèche 
+        qty: 4
+        unit: gr 
+      - label: oeufs
+        qty: 3
+      - label: farine blanche
+        qty: 250
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 30
+        unit: gr
+      - label: sel
+        qty: 6
+        unit: gr 
+      - label: beurre
+        qty: 130
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage (la veille - soir)
+        details:
+        - Couper le beurre en tout petits dés
+        - Dans le récipient de la machine à pain, verser le mélange lait-levure
+        - Ajouter les oeufs battus
+        - Ajouter la farine
+        - Ajouter le sel
+        - Ajouter le sucre
+        - Ajouter le beurre
+        - Lancer le programme "pétrissage seulement"
+        - Fleurer le plan de travail
+        - Déverser le pâton sur le plan de travail
+        - Dégazer
+        - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+        - Dégazer
+        - Replier en son milieu sur la longueur. Répéter trois fois.
+        - Laisser une détente de 5 minutes
+        - Diviser en neuf pâtons de poids égal
+        - Bouler chaque pâton
+        - Beurrer le moule
+        - Placer dans un moule
+        - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Badigeonner avec un jaune d'oeuf
+        - Saupoudrer de sucre en grains
+        - Cuire 25 minutes à 180°C
+        - Cuire 15 minutes à 150°C
+        - Laisser ressuer 30 minutes sur une grille
+  Gâche:
+    pictures: 0
+    yield: 10
+    yieldType: parts
+    utensils:
+      - moule-cake
+    ingredients: 
+      - label: lait
+        qty: 100
+        unit: gr
+        variable: true
+      - label: levure sèche 
+        qty: 7
+        unit: gr 
+      - label: oeufs
+        qty: 2
+      - label: crème liquide
+        qty: 80
+        unit: gr
+      - label: farine T55
+        qty: 400
+        unit: gr
+      - label: sel
+        qty: 5
+        unit: gr 
+      - label: sucre blanc
+        qty: 60
+        unit: gr
+      - label: beurre
+        qty: 40
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage (la veille - soir)
+        details:
+        - Couper le beurre en tout petits dés
+        - Dans le récipient de la machine à pain, verser le mélange lait-levure
+        - Ajouter les oeufs battus
+        - Ajouter la crème liquide
+        - Ajouter la farine
+        - Ajouter le sel
+        - Ajouter le sucre
+        - Ajouter le beurre
+        - Lancer le programme "pétrissage seulement"
+        - Fleurer le plan de travail
+        - Déverser le pâton sur le plan de travail
+        - Dégazer
+        - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+        - Dégazer
+        - Replier en son milieu sur la longueur. Répéter trois fois.
+        - Laisser une détente de 5 minutes
+        - Diviser en trois pâtons de poids égal
+        - Bouler chaque pâton
+        - Laisser une détente de 5 minutes
+        - Beurrer le moule
+        - Abaisser chaque pâton
+        - Rouler chaque pâton sur lui même
+        - Placer les pâtons dans un moule à cake
+        - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Badigeonner avec un jaune d'oeuf
+        - Saupoudrer de sucre en grains
+        - Cuire 35 minutes à 150°C
+        - Laisser ressuer 30 minutes sur une grille
+  Vendéenne:
+    yield: 10
+    yieldType: parts
+    pictures: 3
+    utensils:
+      - moule-cake
+    ingredients: 
+      - label: lait
+        qty: 75
+        unit: gr
+      - label: levure sèche 
+        qty: 6
+        unit: gr 
+      - label: oeufs
+        qty: 2
+      - label: crème liquide
+        qty: 20
+        unit: gr
+      - label: vanille liquide
+        qty: 2
+        unit: gr
+      - label: eau de fleur d'oranger
+        qty: 10
+        unit: gr
+      - label: farine blanche
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 50
+        unit: gr
+      - label: sel
+        qty: 5
+        unit: gr 
+      - label: beurre
+        qty: 60
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage (la veille - soir)
+        details:
+        - Couper le beurre en tout petits dés
+        - Dans le récipient de la machine à pain, verser le mélange lait-levure
+        - Ajouter les oeufs battus
+        - Ajouter la crème liquide
+        - Ajouter la vanille liquide
+        - Ajouter l'eau de fleur d'oranger
+        - Ajouter la farine
+        - Ajouter le sel
+        - Ajouter le sucre
+        - Ajouter le beurre
+        - Lancer le programme "pétrissage seulement"
+        - Fleurer le plan de travail
+        - Déverser le pâton sur le plan de travail
+        - Dégazer
+        - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+        - Dégazer
+        - Replier en son milieu sur la longueur. Répéter trois fois.
+        - Laisser une détente de 5 minutes
+        - Diviser en trois pâtons de poids égal
+        - Bouler chaque pâton
+        - Laisser une détente de 5 minutes
+        - Façonner chaque pâton en tresse un peu plus longue que le moule
+        - Beurrer le moule
+        - Tresser
+        - Placer dans un moule à cake
+        - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Badigeonner avec un jaune d'oeuf
+        - Saupoudrer de sucre en grains
+        - Cuire 25 minutes à 180°C
+        - Cuire 15 min à 150°C
+        - Laisser ressuer 30 minutes sur une grille
+  Stollen:
+    yield: 10
+    yieldType: parts
+    pictures: 2
+    utensils:
+      - plaque-cuisson
+    ingredients: 
+      - label: lait
+        qty: 150
+        unit: gr
+      - label: levure sèche 
+        qty: 6
+        unit: gr 
+      - label: oeufs
+        qty: 2
+      - label: farine T55
+        qty: 400
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 50
+        unit: gr
+      - label: sel
+        qty: 2
+        unit: gr 
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: fruits secs
+        qty: 150
+        unit: gr
+      - label: noix
+        qty: 125
+        unit: gr
+    steps:
+      - label: Pétrissage, Pointage et Façonnage
+        details:
+        - Couper le beurre en tout petits dés
+        - Dans le récipient de la machine à pain, verser le mélange lait-levure
+        - Ajouter les oeufs battus
+        - Ajouter la farine
+        - Ajouter le sel
+        - Ajouter le sucre
+        - Ajouter le beurre
+        - Lancer le programme "pétrissage seulement"
+        - Après 10 minutes, ajouter les fruits secs et les noix
+        - Fleurer le plan de travail
+        - Déverser le pâton sur le plan de travail
+        - Replier le pâton sur lui même cinq fois 
+        - Allonger le pâton un peu
+        - Placer le pâton sur une plaque de cuisson
+        - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 30 minutes à 180°C
+        - Badigeonner de beurre fondu
+        - Saupoudrer de sucre glace
+        - Laisser ressuer 30 minutes sur une grille
+  Pulla:
+    yield: 10
+    yieldType: parts
+    pictures: 2
+    utensils:
+      - moule-cake
+    ingredients: 
+      - label: lait
+        qty: 250
+        unit: gr
+      - label: levure sèche 
+        qty: 7
+        unit: gr 
+      - label: farine T55
+        qty: 350
+        unit: gr
+        variable: true
+      - label: cardamome
+        qty: 8
+        unit: gr
+      - label: sucre blanc
+        qty: 60
+        unit: gr
+      - label: sel
+        qty: 4
+        unit: gr 
+      - label: beurre
+        qty: 75
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage  (la veille - soir)
+        details:
+        - Couper le beurre en tout petits dés
+        - Dans le récipient de la machine à pain, verser le mélange lait-levure
+        - Ajouter la farine et le cardamome
+        - Ajouter le sucre
+        - Ajouter le sel
+        - Ajouter le beurre
+        - Lancer le programme "pétrissage seulement"
+        - Fleurer le plan de travail
+        - Déverser le pâton sur le plan de travail
+        - Dégazer
+        - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+        - Dégazer
+        - Replier en son milieu sur la longueur. Répéter trois fois.
+        - Laisser une détente de 5 minutes
+        - Diviser en trois pâtons de poids égal
+        - Bouler chaque pâton
+        - Laisser une détente de 5 minutes
+        - Façonner chaque pâton en tresse un peu plus longue que le moule
+        - Beurrer le moule
+        - Tresser
+        - Placer dans un moule à cake
+        - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Badigeonner avec un jaune d'oeuf
+        - Saupoudrer de sucre en grains
+        - Cuire 30 minutes à 180°C
+        - Laisser ressuer 30 minutes sur une grille
