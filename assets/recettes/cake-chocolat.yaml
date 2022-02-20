@@ -1,0 +1,162 @@
+title: Cake au Chocolat
+utensils:
+  - casserole
+  - batteur-elec
+  - tamis
+  - spatule-silicone
+  - saladier
+  - moule-cake
+recipes:
+  Chocolat I: 
+    ingredients:
+      - label: chocolat noir 70%
+        qty: 200
+        unit: gr
+      - label: beurre
+        qty: 80
+        unit: gr
+      - label: oeufs 
+        qty: 4
+        variable: true
+      - label: sucre glace
+        qty: 100
+        unit: gr
+      - label: farine blanche
+        qty: 60
+        unit: gr
+      - label: levure chimique
+        qty: 5
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 10
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le chocolat avec le beurre
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Tamiser la farine, le chocolat en poudre et la levure sur la préparation
+        - Incorporer à l'aide d'une spatule silicone
+        - Incorporer le mélange beurre-chocolat
+        - Beurrer et fariner un moule
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Réserver la préparation au frais le temps que le four chauffe
+        - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+        - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Chocolat II: 
+    ingredients:
+      - label: chocolat noir 70%
+        qty: 40
+        unit: gr
+      - label: beurre
+        qty: 75
+        unit: gr
+      - label: oeufs 
+        qty: 4
+        variable: true
+      - label: miel
+        qty: 60 
+        unit: gr
+      - label: sucre
+        qty: 100
+        unit: gr
+      - label: poudre d'amandes
+        qty: 60
+        unit: gr
+      - label: farine blanche
+        qty: 90
+        unit: gr
+      - label: levure chimique
+        qty: 6
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 20
+        unit: gr
+      - label: crème fleurette
+        qty: 100
+        unit: gr
+      - label: rhum brun
+        qty: 15
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le chocolat avec le beurre
+        - Mélanger les oeufs, le miel et le sucre au fouet
+        - Tamiser la farine, la poudre d'amandes, le chocolat en poudre et la levure sur la préparation
+        - Incorporer à l'aide d'une spatule silicone
+        - Incorporer la crème entière et le rhum
+        - Incorporer le mélange beurre-chocolat
+        - Beurrer et fariner un moule
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Réserver au frais au moins une heure avant cuisson
+        - Cuire 45 minutes à 160°C en chaleur tournante
+        - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Marbré:
+    utensils: 
+      - grille
+    ingredients:
+    - label: oeufs 
+      qty: 2
+      variable: true
+    - label: sucre
+      qty: 200
+      unit: gr
+    - label: beurre
+      qty: 125
+      unit: gr
+    - label: crème fleurette
+      qty:  175
+      unit: gr
+    - label: farine
+      qty: 175
+      unit: gr
+    - label: levure chimique
+      qty: 6
+      unit: gr
+    - label: cacao en poudre non sucré
+      qty: 25
+      unit: gr
+    - label: vanille liquide
+    - label: glaçage rocher
+      link: /recettes/glacage#Rocher
+    steps:
+      - label: Préparation
+        details:
+          - Faire fondre le beurre 
+          - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+          - Incorporer progressivement le beurre fondu à vitesse lente
+          - Incorporer progressivement la crème fleurette à vitesse très lente
+          - Tamiser la farine et la levure sur la préparation
+          - Incorporer à l'aide d'une spatule silicone
+          - Déverser la préparation dans deux saladiers distincts
+      - label: Partie Chocolat
+        details:
+          - Incorporer le cacao en poudre non sucré dans un des saladiers
+          - Réserver
+      - label: Partie Vanille
+        details: 
+          - Incorporer la vanille liquide dans l'autre saladier
+          - Réserver
+      - label: Assemblage
+        details:         
+          - Beurrer et fariner un moule
+          - Verser le contenu des deux saladiers dans le moule en alternant vanille/chocolat
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire une heure à 150°C
+          - Démouler à l'envers sur une grille
+          - Laisser ressuer sur une grille une heure
+      - label: Glaçage Rocher
+        details:
+          - label: Voir ici
+            link: /recettes/glacage#Rocher
+          - Napper le gâteau avec le glaçage
+          - Laisser le glaçage prendre (environ 2 heures à température ambiante)
