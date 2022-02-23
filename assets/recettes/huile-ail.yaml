@@ -1,0 +1,43 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Huile à l'ail
+type: condiment
+utensils:
+  - couteau
+  - bouteille-s
+recipes:
+  Classique:
+    ingredients: 
+      - label: ail
+        qty: 3
+        unit: gousses
+      - label: huile
+        qty: 250
+        unit: mL
+        variable: true
+      - label: poivre
+        qty: 1
+        unit: cuillère à café
+      - label: romarin
+      - label: thym
+
+    steps:
+      - label: Préparation de l'ail
+        details:
+          - Hacher l'ail
+          - Verser l'huile dans une casserole
+          - Le faire revenir 5 minutes à feu doux
+          - Réserver
+      - label: Assemblage
+        details: 
+          - Concasser le poivre
+          - Ajouter le poivre et les herbes dans la casserole
+          - Embouteiller
+
+notes:
+  - Se conserve au frais
+---

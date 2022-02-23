@@ -1,0 +1,65 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Fried Rice
+type: sel
+utensils:
+  - couteau
+  - poele
+recipes:
+  Classique:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: sauce soja
+        qty: 8
+        unit: cuillères à soupe
+      - label: huile de sésame
+        qty: 2
+        unit: cuillères à soupe
+      - label: sucre blanc
+        qty: 1
+        unit: cuillères à soupe
+      - label: ail
+        qty: 5
+        unit: gousses
+      - label: gingembre
+      - label: oeufs
+        qty: 3
+        variable: true
+      - label: viande
+      - label: oignon
+        qty: 1
+      - label: légumes
+      - label: pois
+      - label: champignons
+      - label: riz cuit
+        qty: 150
+        unit: gr
+    steps:
+      - label: Préparation de la sauce
+        details:
+          - Émincer l'ail
+          - Émincer le gingembre (en mettre deux fois moins que d'ail)
+          - Mélanger la sauce soja, l'huile de sésame, le sucre, l'ail et le gingembre
+          - Réserver
+      - label: Préparation des oeufs
+        details:
+          - Faire des oeufs brouillés
+          - Réserver
+      - label: Préparation
+        details:
+          - Dans une poêle, faire dorer la viande sur feu fort
+          - Ajouter les légumes. Cuire quelques minutes 
+          - Ajouter les champignons et les pois. Cuire quelques minutes
+          - Ajouter le riz et la sauce. Cuire quelques minutes
+          - Ajouter les oeufs
+          - Servir
+notes:
+ - "Viande : boeuf, porc, poulet, chorizo, ..."
+ - "Légumes : carottes, haricots verts, poivrons, brocolis, ..."
+ - "Pois : Haricots rouges, edamame, ..."
+---

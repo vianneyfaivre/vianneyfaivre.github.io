@@ -1,0 +1,218 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Rolls
+type: boulangerie
+withYeast: true
+utensils:
+  - couteau
+  - machine-pain
+  - rouleau
+  - coupe-pate
+recipes:
+  Cinnamon Rolls:
+    utensils:
+      - moule-brownie
+    ingredients: 
+      - label: lait 
+        qty: 175
+        unit: gr
+      - label: levure sèche
+        qty: 3
+        unit: gr
+      - label: farine T55
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 50
+        unit: gr
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: sel
+        qty: 1
+        unit: gr
+      - label: vergeoise
+        qty: 50
+        unit: gr
+      - label: cannelle en poudre
+        qty: 2
+        unit: cuillères à café
+    preconditions:
+      - Détailler 45 grammes de beurre en dés
+      - Réserver les 55 grammes de beurre restants à température ambiante
+    steps:
+      - label: Pétrissage et Pointage
+        details:
+          - Dans le récipient de la machine à pain, verser le mélange lait-levure
+          - Ajouter la farine
+          - Ajouter le sucre
+          - Ajouter le sel
+          - Ajouter les 45 grammes de beurre en dés
+          - Lancer le programme "pétrissage seulement"
+      - label: Garniture
+        details: 
+          - Mélanger la vergeoise avec les 55 grammes de beurre pommade
+          - Ajouter la canelle et mélanger
+      - label: Façonnage
+        details: 
+          - Déposer la pâte sur le plan de travail
+          - Abaisser grossièrement la pâte avec les doigts de façon à obtenir un rectangle
+          - Utiliser un rouleau à pâtisserie pour obtenir un rectangle d'un centimètre d'épaisseur environ (bien faire les coins)
+          - Étaler la garniture sur la pâte
+          - Rouler la pâte sans trop la serrer
+          - Couper en 6 rolls de taille égale
+          - Beurrer un moule rectangle
+          - Placer les rolls dans le plat en les espaçant bien
+          - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Battre un oeuf et y ajouter une pincée de sel
+          - Badigeonner les rolls 
+          - Préchauffer le four à 180°C
+          - Cuire pendant 25 minutes 
+  Babka:
+    utensils:
+      - moule-cake
+    ingredients: 
+      - label: lait 
+        qty: 175
+        unit: gr
+      - label: levure sèche
+        qty: 3
+        unit: gr
+      - label: farine T55
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 50
+        unit: gr
+      - label: beurre
+        qty: 105
+        unit: gr
+      - label: sel
+        qty: 1
+        unit: gr
+      - label: chocolat noir 70%
+        qty: 35
+        unit: gr
+      - label: chocolat au lait
+        qty: 30
+        unit: gr
+      - label: sucre glace
+        qty: 25
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 15
+        unit: gr
+    preconditions:
+      - Détailler 45 grammes de beurre en dés
+      - Réserver les 60 grammes de beurre restants à température ambiante
+    steps:
+      - label: Pétrissage et Pointage
+        details:
+          - Dans le récipient de la machine à pain, verser le mélange lait-levure
+          - Ajouter la farine
+          - Ajouter le sucre
+          - Ajouter le sel
+          - Ajouter les 45 grammes de beurre en dés
+          - Lancer le programme "pétrissage seulement"
+      - label: Garniture
+        details:
+          - Faire fondre les chocolats avec les 60 grammes de beurre
+          - Mélanger jusqu'à ce que le mélange soit lisse
+          - Ajouter le chocolat en poudre et le sucre glace
+          - Mélanger jusqu'à incorporation
+          - Réserver au frais au moins 20 minutes
+      - label: Façonnage
+        details: 
+          - Déposer la pâte sur le plan de travail
+          - Abaisser grossièrement la pâte avec les doigts de façon à obtenir un rectangle
+          - Utiliser un rouleau à pâtisserie pour obtenir un rectangle d'un centimètre d'épaisseur environ (bien faire les coins)
+          - Remuer la garniture avec une cuillère pour qu'elle soit plus facile à étaler
+          - Étaler la garniture sur la pâte
+          - Rouler la pâte sans trop la serrer
+          - Couper la pâte en deux en sa longueur
+          - Tresser 
+          - Beurrer un moule à cake
+          - Placer la brioche dans le moule
+          - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Préchauffer le four à 180°C
+          - Cuire pendant 30 à 35 minutes 
+          - Porter 20 gr d'eau et 30 gr de sucre à ébullition
+          - Badigeonner la brioche avec le sirop de sucre
+          - Laisser la brioche 10 minutes dans son moule
+          - La sortir et la laisser refroidir sur une grille pour 15 minutes
+  Chinois:
+    utensils:
+      - moule-rond
+    ingredients: 
+      - label: lait 
+        qty: 175
+        unit: gr
+      - label: levure sèche
+        qty: 3
+        unit: gr
+      - label: farine T55
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 50
+        unit: gr
+      - label: beurre
+        qty: 45
+        unit: gr
+      - label: sel
+        qty: 1
+        unit: gr
+      - label: crème pâtissière
+        link: /recettes/creme-patissiere
+        qty: 300
+        unit: gr
+    preconditions:
+      - Détailler 45 grammes de beurre en dés
+    steps:
+      - label: Pétrissage et Pointage
+        details:
+          - Dans le récipient de la machine à pain, verser le mélange lait-levure
+          - Ajouter la farine
+          - Ajouter le sucre
+          - Ajouter le sel
+          - Ajouter les 45 grammes de beurre en dés
+          - Lancer le programme "pétrissage seulement"
+      - label: Garniture
+        details:
+          - label: Faire la crème pâtissière
+            link: /recettes/creme-patissiere
+          - Réserver au frais
+      - label: Façonnage
+        details: 
+          - Déposer la pâte sur le plan de travail
+          - Abaisser grossièrement la pâte avec les doigts de façon à obtenir un rectangle
+          - Utiliser un rouleau à pâtisserie pour obtenir un rectangle d'un centimètre d'épaisseur environ (bien faire les coins)
+          - Étaler la garniture sur la pâte
+          - Rouler la pâte sans trop la serrer
+          - Couper en 8 rolls de taille égale
+          - Beurrer un moule rectangle
+          - Placer les rolls dans le plat en les espaçant bien
+          - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Battre un oeuf et y ajouter une pincée de sel
+          - Badigeonner les rolls 
+          - Préchauffer le four à 180°C
+          - Cuire pendant 25 minutes 
+notes:
+  - Si la pâte est trop chaude, la garniture va fondre ou mal s'étaler. Dans ce cas, la laisser reposer 10 minutes avant de continuer.
+---

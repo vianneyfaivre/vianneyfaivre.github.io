@@ -1,0 +1,44 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Velouté de Courge
+type: sel
+utensils:
+  - econome
+  - couteau
+  - casserole
+  - passoire
+  - poele
+  - mixeur-droit
+recipes:
+  Classique:
+    ingredients: 
+      - label: courge
+      - label: oignon
+      - label: ail
+      - label: crème fraîche
+      - label: muscade
+      - label: paprika doux
+    steps:
+      - label: Préparation 1/2
+        details:
+          - Peler la courge
+          - Couper la courge en gros dés
+          - Faire cuire la courge dans de l'eau bouillante
+          - Égoutter quand la courge est cuite
+      - label: Préparation 2/2
+        details:   
+          - Faire revenir l’oignon
+          - Ajouter l’ail et les épices
+          - Cuire à feu doux pendant quelques minutes
+          - Réserver
+      - label: Assemblage
+        details:
+          - Tout verser dans un saladier
+          - Mixer 
+          - Ajouter la crème fraîche
+          - Saler et poivrer
+---

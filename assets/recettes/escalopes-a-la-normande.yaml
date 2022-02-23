@@ -1,0 +1,52 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Escalopes à la Normande
+type: sel
+utensils:
+  - couteau
+  - poele
+recipes:
+  Classique:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: escalopes
+        qty: 400
+        unit: gr
+        variable: true
+      - label: champignons
+        qty: 200
+        unit: gr
+      - label: oignon
+        qty: 1
+      - label: ail
+        qty: 4
+        unit: gousses
+      - label: vin blanc sec
+        qty: 150
+        unit: mL
+      - label: moutarde
+        qty: 1
+        unit: cuillère à café
+      - label: crème fraîche
+        qty: 125
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - Détailler les escalopes en large lamelles
+          - Émincer les champignons, l'oignon et l'ail
+          - Faire dorer les morceaux de viande. Réserver
+          - Faire revenir les oignons dans la même poêle
+          - Déglacer avec le vin
+          - Ajouter les champignons quand le vin est quasiment évaporé
+          - Ajouter la moutarde, la crème fraîche et la viande
+          - Saler et poivrer
+          - Laisser mijoter à semi-couvert à feu doux une quinzaine de minutes
+notes:
+  - Plus la crème est grasse meilleur le plat sera
+---

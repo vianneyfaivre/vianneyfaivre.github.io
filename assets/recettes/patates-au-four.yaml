@@ -1,0 +1,46 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Patates au Four
+type: sel
+utensils:
+  - casserole
+  - couteau
+  - plaque-cuisson
+recipes:
+  En Quartiers:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: pommes de terre
+        qty: 500
+        unit: gr
+        variable: true
+      - label: eau
+        qty: 2
+        unit: L
+      - label: sel
+        qty: 25 
+        unit: gr
+      - label: bicarbonate de soude
+        qty: 4
+        unit: gr
+    steps:
+      - label: Pré-Cuisson
+        details:
+          - Faire bouillir l'eau avec le sel et le bicarbonate de soude
+          - Couper les patates en quartiers
+          - Cuire les patates 10 minutes
+          - Égoutter
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Badigeonner les patates d'huile
+          - Ajouter des herbes / épices
+          - Cuire à 200°C pendant 20 minutes
+          - Retourner les patates
+          - Continuer la cuisson pour 20 minutes
+---

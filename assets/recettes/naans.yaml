@@ -1,0 +1,64 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Naans
+type: boulangerie
+withYeast: true
+utensils:
+  - machine-pain
+  - saladier
+  - corne
+  - coupe-pate
+  - rouleau
+  - poele
+recipes:
+  Classique:
+    yield: 12
+    ingredients: 
+      - label: eau
+        qty: 120
+        unit: gr
+      - label: levure sèche
+        qty: 3
+        unit: gr
+      - label: yaourt
+        qty: 60
+        unit: gr
+      - label: huile d'olive
+        qty: 15
+        unit: gr
+      - label: farine T55
+        qty: 250
+        unit: gr
+        variable: true
+      - label: sel
+        qty: 4
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage
+        details:
+          - Dans le récipient de la machine à pain, verser le mélange eau-levure
+          - Ajouter le yaourt
+          - Ajouter l'huile d'olive
+          - Ajouter la farine
+          - Ajouter le sel
+          - Lancer le programme "pétrissage seulement"
+      - label: Division, Boulage et Détente
+        details:
+          - Dégazer
+          - Diviser en pâtons de 60 grammes chaque
+          - Bouler
+          - Laisser une détente de 5 minutes
+      - label: Façonnage
+        details:
+          - Abaisser en disques très fins
+          - (Optionnel) Tartiner de cream cheese et reformer une boule. Laisser une détente de 5 minutes et abaisser une nouvelle fois
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Faire chauffer une poêle sur feu moyen/vif
+          - Cuire chaque naan 2 à 3 minutes de chaque coté
+---

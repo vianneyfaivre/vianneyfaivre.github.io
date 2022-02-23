@@ -1,0 +1,52 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Gaufres
+type: sucre
+utensils:
+  - tamis
+  - saladier
+  - fouet
+  - batteur-elec
+  - gaufrier
+recipes:
+  Classique:
+    yield: 12
+    ingredients: 
+      - label: oeufs 
+        qty: 6
+      - label: farine
+        qty: 500
+        unit: gr
+      - label: sucre
+        qty: 50
+        unit: gr
+      - label: beurre mou
+        qty: 150
+        unit: gr
+      - label: lait
+        qty: 750
+        unit: mL
+        variable: true
+      - label: vanille liquide
+    preconditions:
+      - Le beurre, le lait et les oeufs doivent être à température ambiante
+      - Séparer les blancs des jaunes
+    steps:
+      - label: Préparation
+        details:
+          - Faire un puits de farine tamisée
+          - Mettre au centre le sucre, une pincée de sel, le beurre mou, les jaunes d'oeufs
+          - Ajouter le lait et petit à petit, fouetter jusqu'à obtenir une pâte bien liquide et sans grumaux
+          - Ajouter la vanille liquide
+          - Battre les blancs en neige
+          - Les incorporer en deux fois
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - L'appareil à gaufres doit être bien chaud
+          - Faire cuire les gaufres sans attendre
+---

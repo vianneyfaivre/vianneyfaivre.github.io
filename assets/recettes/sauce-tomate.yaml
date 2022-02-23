@@ -1,0 +1,54 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Sauce Tomate
+type: condiment
+utensils:
+  - couteau
+  - poele
+recipes:
+  Marinara:
+    ingredients: 
+      - label: tomates
+        qty: 700
+        unit: gr
+        variable: true
+      - label: oignon
+        qty: 1
+      - label: ail
+        qty: 6
+        unit: gousses
+      - label: vin rouge
+        qty: 100
+        unit: mL
+      - label: vinaigre balsamique
+      - label: miel
+        qty: 1
+        unit: cuillère à café
+      - label: herbes
+      - label: sel
+      - label: laurier
+    steps:
+      - label: "Préparation"
+        details:
+          - Émincer l'oignon
+          - Faire revenir les oignons dans un filet d'huile d'olive
+          - Émincer l'ail
+          - L'ajouter aux oignons et le faire cuire quelques minutes
+          - Ajouter les tomates concassées et la feuille de laurier
+          - Mijoter 15 minutes
+          - Ajouter le vin rouge, le miel, les herbes et le sel
+          - Mijoter 10 minutes
+          - Goûter, ajuster si besoin
+          - Mijoter 10 minutes
+          - Ajouter une cuillère à soupe de vinaigre balsamique
+          - Retirer la feuille de laurier
+          - Goûter, ajuster si besoin
+          - Servir
+notes:
+  - En fonction de la consistance souhaitée, couvrir (ou pas) pendant la cuisson
+  - Ne pas trop abuser sur les herbes
+---

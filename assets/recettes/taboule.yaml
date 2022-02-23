@@ -1,0 +1,52 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Taboulé
+type: sel
+utensils:
+  - presse-agrumes
+  - saladier
+  - couteau
+recipes:
+  Classique:
+    yield: 2.5
+    yieldType: kg
+    ingredients: 
+      - label: semoule 
+        qty: 400
+        unit: gr
+        variable: true
+      - label: citrons
+        qty: 4
+      - label: tomates
+        qty: 5
+      - label: concombre
+        qty: 1
+      - label: oignon
+        qty: 1
+      - label: pois chiches
+        qty: 1
+        unit: boîte
+      - label: raisins secs
+        qty: 125
+        unit: gr
+      - label: persil
+      - label: menthe
+      - label: huile d'olive
+
+    steps:
+      - label: Préparation
+        details:
+          - Presser les citrons
+          - Verser la semoule dans un saladier
+          - Hacher le persil et la menthe
+          - Ajouter le jus de citron, l'huile d'olive (beaucoup) et les herbes puis mélanger
+          - Couper en dés les tomates, le concombre et l'oignon
+          - Tout ajouter sur la semoule
+          - Ajouter les pois chiches et les raisins
+          - Mélanger
+          - Réserver au frais pendant une heure
+---

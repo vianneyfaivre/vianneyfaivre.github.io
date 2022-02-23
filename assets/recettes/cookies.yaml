@@ -1,0 +1,76 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Cookies
+type: sucre
+utensils:
+  - batteur-elec
+  - saladier
+  - spatule-silicone
+  - tamis
+  - plaque-cuisson
+  - grille
+recipes:
+  Tahini:
+    yield: 18
+    yieldType: cookies
+    ingredients: 
+      - label: beurre 
+        qty: 115
+        unit: gr
+      - label: sucre blanc
+        qty: 90
+        unit: gr
+      - label: sucre brun
+        qty: 90
+        unit: gr
+      - label: vanille liquide
+        qty: 1
+        unit: cuillère à soupe
+      - label: tahini
+        qty: 120
+        unit: mL
+      - label: oeufs
+        qty: 1
+      - label: farine
+        qty: 150
+        unit: gr
+        variable: true
+      - label: bicarbonate de soude
+        qty: 3
+        unit: gr
+      - label: sel
+        qty: 4
+        unit: gr
+      - label: chocolat
+        qty: 250
+        unit: gr
+    steps:
+      - label: Ingrédients liquides
+        details:
+          - Blanchir le beurre avec les sucres et la vanille au batteur électrique
+          - Ajouter le tahini et continuer de battre
+          - Incorporer les oeufs à la spatule silicone
+      - label: Ingrédients solides
+        details:
+          - Tamiser la farine, le bicarbonate de soude et le sel dans un autre saladier
+          - Mélanger
+      - label: Mixage
+        details:
+          - Incorporer les ingrédients liquides et solides ensemble à la spatule silicone
+          - Détailler grossièrement le chocolat
+          - Mélanger le chocolat à la pâte
+          - Laisser reposer au réfrigérateur de 7 heures à 2 jours
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Préchauffer le four à 160°C
+          - Former six petites boules
+          - Placer les boules sur une plaque de cuisson
+          - Faire cuire les cookies de 12 à 16 minutes
+          - Laisser ressuer sur une grille 10 minutes
+          - Répéter jusqu'à ce qu'il n'y ait plus de préparation
+---

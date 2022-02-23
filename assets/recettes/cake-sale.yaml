@@ -1,0 +1,63 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Cake Salé
+type: sel
+utensils:
+  - couteau
+  - tamis
+  - saladier
+  - spatule-silicone
+  - moule-cake
+recipes:
+  Base:
+    ingredients: 
+      - label: farine T55
+        qty: 200
+        unit: gr
+      - label: levure chimique
+        qty: 12
+        unit: gr
+      - label: oeufs 
+        qty: 4
+        variable: true
+      - label: beurre
+        qty: 60
+        unit: gr
+      - label: huile neutre
+        qty: 60
+        unit: gr
+      - label: lait
+        qty: 160
+        unit: gr
+      - label: sel
+        qty: 4
+        unit: gr
+      - label: graines
+        qty: 60
+        unit: gr
+      - label: fromage rapé
+        qty: 120
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le beurre
+        - Tamiser la farine, la levure et le sel dans un saladier
+        - Incorporer les oeufs
+        - Incorporer le beurre
+        - Incorporer l'huile et le lait
+        - Incorporer les graines et le fromage rapé
+        - Beurrer et fariner un moule à cake
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 50 minutes à 150°C
+        - Vérifier que le cake est cuit avec la pointe d'un couteau
+notes:
+  - "Garnitures: saumon brocolis, poivron chorizo, thon feta olives, ..."
+---

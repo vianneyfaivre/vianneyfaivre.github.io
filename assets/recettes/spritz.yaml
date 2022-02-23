@@ -1,0 +1,59 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Spritz
+type: sucre
+utensils:
+  - batteur-elec
+  - spatule-silicone
+  - tamis
+  - presse-biscuits
+  - plaque-cuisson
+  - grille
+recipes:
+  Classique:
+    yield: 12
+    yieldType: personnes
+    ingredients: 
+      - label: beurre
+        qty: 95
+        unit: gr
+      - label: sucre glace
+        qty: 35
+        unit: gr
+      - label: blancs d'oeufs
+        qty: 15
+        unit: gr
+      - label: farine T55
+        qty: 110
+        unit: gr
+        variable: true
+      - label: vanille liquide
+        qty: 1
+        unit: cuillère à café
+    preconditions:
+      - Préchauffer le four à 170°C
+      - Le beurre doit être pommade
+    steps:
+      - label: Préparation
+        details:
+          - Blanchir le beurre avec le sucre au batteur électrique
+          - Ajouter les blancs d'oeufs et mélanger à l'aide d'une spatule silicone
+          - Incorporer la farine tamisée
+          - Faire les biscuits à l'aide d'une presse à biscuits
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 13-15 minutes à 170°C
+          - Placer les biscuits sur une grille
+          - Laver la plaque entre deux fournées afin qu'elle soit froide
+variations: 
+  - label: Tremper dans du chocolat (60 gr de chocolat + 8 gr d'huile de pépins de raisins)
+    todo: false
+notes:
+  - Lors de l'ajout des blancs, il ne sera pas possible de les incorporer totalement, c'est normal
+  - Ne pas utiliser de papier sulfurisé afin que les biscuits accrochent à la plaque de cuisson
+---

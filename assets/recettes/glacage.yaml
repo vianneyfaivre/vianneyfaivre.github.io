@@ -1,0 +1,72 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Glaçage
+type: sucre
+utensils:
+  - fouet
+  - spatule-silicone
+  - saladier
+recipes:
+   Cream Cheese:
+    ingredients: 
+      - label: cream cheese
+        qty: 150
+        unit: gr
+        variable: true
+      - label: sucre glace
+        qty: 60
+        unit: gr
+      - label: beurre
+        qty: 50
+        unit: gr
+      - label: vanille liquide
+    preconditions:
+      - Le cream cheese et le beurre doivent être à température ambiante
+    steps:
+      - label: Préparation
+        details:
+          - Mélanger le beurre et le cream cheese au fouet
+          - Ajouter la moitié du sucre glace
+          - Battre jusqu'à incorporation du sucre
+          - Répéter avec le sucre restant
+   Rhum:
+    ingredients: 
+      - label: rhum brun
+        qty: 10
+        unit: gr
+      - label: sucre glace
+        qty: 50
+        unit: gr
+        variable: true
+    steps:
+     - label: Préparation
+       details:
+        - Verser le sucre glace dans un saladier
+        - Ajouter le rhum
+        - Mélanger
+        - Ajouter un peu d'eau si le mélange est trop dense
+   Rocher:
+    ingredients: 
+      - label: noisettes
+        qty: 75
+        unit: gr
+      - label: chocolat noir
+        qty: 170
+        unit: gr
+        variable: true
+      - label: huile de pépins de raisin
+        qty: 20
+        unit: gr
+    steps:
+     - label: Préparation
+       details:
+        - Concasser les noisettes
+        - Torrefier 10 min 170°C
+        - Faire fondre le chocolat
+        - Incorporer l'huile
+        - Ajouter les noisettes
+---

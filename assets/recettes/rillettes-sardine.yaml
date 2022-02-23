@@ -1,0 +1,34 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Rillettes de Sardines
+type: sel
+utensils:
+  - couteau
+  - presse-agrumes
+  - spatule-silicone
+recipes:
+  Citron Échalote:
+    ingredients: 
+      - label: sardines
+        qty: 200
+        unit: gr
+        variable: true
+      - label: cream cheese
+        qty: 150
+        unit: gr
+      - label: citron
+        qty: 1
+      - label: échalote
+        qty: 1
+    steps:
+      - label: "Préparation"
+        details:
+          - Hacher l'échalote
+          - Presser le demi citron
+          - Mélanger tous les ingrédients dans un saladier
+          - Saler et poivrer
+---

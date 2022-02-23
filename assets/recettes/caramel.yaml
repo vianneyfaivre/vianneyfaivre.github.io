@@ -1,0 +1,46 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Caramel
+type: condiment
+utensils:
+  - couteau
+  - casserole
+  - fouet
+  - tamis
+  - saladier
+  - bocal
+recipes:
+  À Tartiner:
+    ingredients: 
+      - label: sucre blanc
+        qty: 180
+        unit: gr
+        variable: true
+      - label: beurre
+        qty: 80
+        unit: gr
+      - label: fleur de sel
+        qty: 2
+        unit: pincées
+      - label: crème fleurette
+        qty: 100
+        unit: mL
+    steps:
+      - label: "Préparation"
+        details:
+          - Couper le beurre en dés et le réserver au frais
+          - Verser le sucre dans une casserole
+          - Faire le caramel à sec à feu moyen/fort
+          - Ajouter le beurre et mélanger continuellement au fouet
+          - Ajouter la fleur de sel
+          - Ajouter la crème liquide et mélanger continuellement au fouet
+          - Tamiser pour retirer les eventuels cristaux de sucre restants
+          - Mettre en bocal
+notes:
+  - label: Technique en vidéo
+    link: https://www.youtube.com/watch?v=n2w-82m2X7w
+---

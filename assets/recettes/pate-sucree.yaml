@@ -1,0 +1,53 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Pâte Sucrée
+type: boulangerie
+utensils: 
+  - saladier
+  - fouet
+  - corne
+  - coupe-pate
+recipes:
+  À la main:
+    ingredients: 
+      - label: beurre
+        qty: 125
+        unit: gr
+      - label: sucre glace
+        qty: 100
+        unit: gr
+      - label: poudre d'amandes
+        qty: 30
+        unit: gr
+      - label: sel
+        qty: 1
+        unit: gr
+      - label: oeuf
+        qty: 1
+      - label: farine blanche
+        qty: 250
+        unit: gr
+        variable: true
+    preconditions:
+      - Le beurre doit être pommade
+    steps:
+      - label: Préparation
+        details:
+          - Verser le beurre dans un saladier
+          - Incorporer le sucre glace au fouet
+          - Incorporer la poudre d'amandes, le sel et l'oeuf au fouet
+          - Déverser la farine sur le plan de travail
+          - Déverser le contenu du saladier sur la farine
+          - Incorporer au coupe-pâte
+          - Former une boule et l'applatir un peu
+          - Filmer
+          - Réserver minimum 1 heure au frais
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
+---

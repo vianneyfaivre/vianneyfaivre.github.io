@@ -1,0 +1,32 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Chantilly
+type: condiment
+utensils:
+  - batteur-elec
+  - saladier
+recipes:
+  Classique:
+    ingredients: 
+      - label: crème fleurette 
+        qty: 500
+        unit: mL
+        variable: true
+      - label: sucre glace
+        qty: 50
+        unit: gr
+      - label: vanille liquide
+        qty: 0.5
+        unit: cuillère à café
+    preconditions:
+      - "Tout doit être froid, donc mettre au congélateur pendant 10 minutes : la crème, le saladier, les fouets du batteur"
+    steps:
+      - label: Préparation
+        details:
+          - Mélanger la crème avec le sucre glace et la vanille liquide
+          - Battre la crème au batteur électrique jusqu'à obtention de la consistence voulue
+---

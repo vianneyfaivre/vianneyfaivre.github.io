@@ -1,0 +1,63 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Gâteau Nantais
+type: sucre
+utensils:
+  - saladier
+  - batteur-elec
+  - spatule-silicone
+  - moule-brownie
+  - grille
+  - pinceau
+  - microplane
+recipes:
+  Classique:
+    ingredients: 
+      - label: beurre
+        qty: 125
+        unit: gr
+      - label: sucre blanc
+        qty: 125
+        unit: gr
+      - label: oeufs 
+        qty: 3
+        variable: true
+      - label: poudre d'amandes
+        qty: 125
+        unit: gr
+      - label: farine
+        qty: 40
+        unit: gr
+      - label: rhum brun
+        qty: 30
+        unit: gr
+      - label: glaçage rhum
+        link: /recettes/glacage#Rhum
+      - label: zestes de citron vert
+    steps:
+      - label: Préparation
+        details:
+          - Battre le beurre avec le sucre à vitesse lente. Arrêter quand le mélange a blanchi et est aérien
+          - Ajouter les oeufs un à un, battre à vitesse lente
+          - Ajouter 15 grammes de rhum brun et la poudre d'amandes, battre à vitesse moyenne
+          - Ajouter la farine
+          - Incorporer à la spatule silicone
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 40 minutes à 170°C
+          - Démouler à l'envers sur une grille
+          - Imbiber de 15 grammes de rhum brun à l'aide d'un pinceau
+          - Laisser refroidir le gâteau
+      - label: Glaçage
+        details:
+          - label: Voir ici
+            link: /recettes/glacage#Rhum
+          - Verser le glaçage et l'étaler à l'aide d'une spatule coudée
+          - Réserver au frais
+          - Ajouter les zestes de citron vert
+---

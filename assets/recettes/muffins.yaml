@@ -1,0 +1,139 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Muffins
+type: sucre
+recipes:
+  Nature:
+    utensils:
+      - tamis
+      - saladier
+      - fouet
+      - spatule-silicone
+      - moule-muffins
+    yield: 6
+    ingredients: 
+      - label: farine blanche
+        qty: 150
+        unit: gr
+      - label: levure chimique
+        qty: 4
+        unit: gr
+      - label: sucre glace
+        qty: 120
+        unit: gr
+      - label: sel
+        qty: 2
+        unit: gr
+      - label: oeufs 
+        qty: 2
+        variable: true
+      - label: huile neutre
+        qty: 120
+        unit: gr
+      - label: lait
+        qty: 50
+        unit: gr
+      - label: vanille liquide
+    preconditions:
+      - Préchauffer le four à 160°C
+    steps:
+      - label: Préparation
+        details:
+        - Tamiser la farine, la levure, le sucre et le sel dans un saladier
+        - Fouetter les oeufs, le lait, l'huile et l'extrait de vanille dans un autre saladier
+        - Tout incorporer ensemble
+        - Verser la préparation dans le moule à muffins
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 35 minutes à 160°C
+  Chocolat:
+    utensils:
+      - casserole
+      - saladier
+      - spatule-silicone
+      - batteur-elec
+      - moule-muffins
+    yield: 6 
+    ingredients: 
+    - label: oeufs 
+      qty: 2
+      variable: true
+    - label: poudre d'amandes
+      qty: 55
+      unit: gr
+    - label: beurre
+      qty: 55
+      unit: gr
+    - label: sucre glace
+      qty: 40
+      unit: gr
+    - label: chocolat noir
+      qty: 100
+      unit: gr
+    - label: amaretto
+      qty: 10
+      unit: gr
+    preconditions:
+      - Préchauffer le four à 180°C
+      - Séparer les blancs des jaunes
+    steps:
+      - label: Préparation
+        details:
+          - Faire fondre le chocolat et le beurre
+          - Réserver 10 minutes afin que le mélange ne soit pas trop chaud
+          - Incorporer la moitié du sucre
+          - Incorporer les jaunes
+          - Incorporer la poudre d'amandes et l'amaretto
+          - Battre les blancs en neige tout en ajoutant l'autre moitié du sucre
+          - Incorporer les blancs 
+          - Verser la préparation dans le moule à muffins
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 20 minutes à 180°C
+  Citron:
+    utensils:
+      - spatule-silicone
+      - saladier
+      - fouet
+      - moule-muffins
+    yield: 6
+    ingredients: 
+      - label: oeufs 
+        qty: 2
+        variable: true
+      - label: farine blanche
+        qty: 100
+        unit: gr
+      - label: beurre
+        qty: 110
+        unit: gr
+      - label: sucre glace
+        qty: 120
+        unit: gr
+      - label: zestes de citron
+        qty: 1
+        unit: cuillère à café
+      - label: jus de citron
+        qty: 20
+        unit: gr
+    preconditions:
+      - Préchauffer le four à 180°C
+    steps:
+      - label: Préparation
+        details:
+          - Mélanger le sucre glace, le beurre fondu et les zestes de citron à l'aide d'une spatule silicone
+          - Incorporer la farine en deux fois
+          - Dans un autre saladier fouetter les oeufs et le jus de citron
+          - Tout mélanger au fouet
+          - Verser la préparation dans le moule à muffins
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 20 minutes à 180°C
+---

@@ -1,0 +1,31 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Vinaigre pour Sushis
+type: condiment
+utensils:
+  - casserole
+  - bocal
+recipes:
+  Classique:
+    ingredients: 
+      - label: vinaigre de riz
+        qty: 200
+        unit: gr
+        variable: true
+      - label: sucre brun
+        qty: 75
+        unit: gr
+      - label: sel
+        qty: 20
+        unit: gr
+    steps:
+      - label: Préparation
+        details: 
+          - Tout mettre dans une casserole
+          - Cuire à feu doux juste le temps de dissoudre tout le sucre
+          - Embouteiller
+---

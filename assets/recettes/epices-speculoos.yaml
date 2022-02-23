@@ -1,0 +1,33 @@
+---
+layout: epice
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Mélange Speculoos
+type: condiment
+ingredients: 
+  - label: cannelle
+    qty: 4
+    unit: cuillères à café
+  - label: clous de girofle
+    qty: 2
+  - label: sel
+    qty: 0.5
+    unit: cuillère à café
+  - label: gingembre
+    qty: 0.5
+    unit: cuillère à café
+  - label: muscade
+    qty: 0.5
+    unit: cuillère à café
+  - label: cardamome
+    qty: 0.5
+    unit: cuillères à café
+  - label: poivre noir
+    qty: 0.25
+    unit: cuillère à café
+utilisations:
+  - Biscuits Speculoos
+  - Pâte sablée
+---

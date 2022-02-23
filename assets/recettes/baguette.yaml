@@ -1,0 +1,69 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Baguette
+type: boulangerie
+utensils:
+  - moule-baguettes
+  - pain-lame
+  - corne
+  - coupe-pate
+  - saladier
+  - grille
+recipes:
+  Classique:
+    ingredients: 
+      - label: farine T55
+        qty: 260
+        unit: gr
+        variable: true
+      - label: levure sèche
+        qty: 2
+        unit: gr
+      - label: eau
+        qty: 195
+        unit: gr
+      - label: sel
+        qty: 5
+        unit: gr
+      - label: sucre
+        qty: 5
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - label: Activer la levure sèche avec l'eau
+            link: /cuisine/levure
+          - Mélanger la farine avec le sel et le sucre
+          - Ajouter le mélange eau-levure
+          - Pétrir jusqu'à incorporation
+          - Laisser reposer 30 minutes
+          - Étirer et plier x10 
+          - Laisser reposer 1 heure
+          - Étirer et plier x10
+          - Laisser reposer 30 minutes
+          - label: Façonner
+            link: /cuisine/faconnage-baguette
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Allumer le four au maximum
+          - Laisser le four chauffer pendant 20 minutes
+          - Placer un récipient avec de l'eau bouillante dans le four tout en bas
+          - Vaporiser de l'eau sur les baguettes
+          - Grigner
+          - Saupoudrer de farine ou de graines (sésame, pavot, ...)
+          - Cuire les baguettes 5 à 10 minutes
+          - Couvrir d'alumninium
+          - Continuer la cuisson pour 10 à 15 minutes
+          - Éteindre le four
+          - Ouvrir partiellement la porte du four
+          - Laisser ressuer une heure sur une grille
+notes:
+  - Possibilité de laisser reposer le pâton au réfrigérateur de 6 heures à 3 jours
+  - Ramener le pâton à température ambiante en le laissant 30 minutes à température ambiante (minimum)
+  - Pour aider à la dernière levée, placer un bol d'eau bouillante et les pâtons dans le four éteint pendant 30 minutes
+---

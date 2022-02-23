@@ -1,0 +1,47 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Galettes de Sarrasin
+type: sel
+utensils:
+  - tamis
+  - saladier
+  - fouet
+  - poele-crepes
+recipes:
+  Classique:
+    yield: 12
+    ingredients: 
+      - label: farine de sarrasin 
+        qty: 500
+        unit: gr
+        variable: true
+      - label: oeufs
+        qty: 1
+      - label: eau
+        qty: 900
+        unit: mL
+      - label: sel
+        qty: 15
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - Tamiser la farine et le sel dans un saladier
+          - Faire un trou au milieu
+          - Mettre l'oeuf dans le trou
+          - Ajouter l'eau au fur et à mesure en mélangeant au fouet
+          - Couvrir et laisser reposer 1h au réfrigérateur 
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Bien chauffer une poêle à crêpes
+          - L'essuyer avec un bout de sopalin imbibé d'huile neutre
+          - Verser de la pâte sur la poêle
+          - Garnir
+          - Cuire pendant une à deux minutes
+          - Continuer !
+---

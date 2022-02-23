@@ -1,0 +1,35 @@
+---
+layout: epice
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Mélange pain d'épices
+type: condiment
+ingredients: 
+  - label: cannelle
+    qty: 2
+    unit: cuillères à café
+  - label: gingembre 
+    qty: 1
+    unit: cuillère à café
+  - label: cardamome
+    qty: 1
+    unit: cuillère à café
+  - label: muscade
+    qty: 0.5
+    unit: cuillère à café
+  - label: anis
+    qty: 0.5
+    unit: cuillère à café
+  - label: clous de girofle
+    qty: 4
+  - label: coriandre
+    qty: 0.5
+    unit: cuillère à café
+  - label: sel
+    qty: 0.5
+    unit: cuillères à café
+utilisations:
+  - Pain d'épices
+---

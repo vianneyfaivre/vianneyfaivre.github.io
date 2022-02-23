@@ -1,0 +1,42 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Chapelure
+type: condiment
+utensils:
+  - couteau
+  - plaque-cuisson
+  - robot
+  - bocal
+recipes:
+  Classique:
+    ingredients: 
+      - label: pain
+      - label: sel
+    steps:
+      - label: Préparation
+        details:
+          - Couper le pain en petits bouts
+          - Le dessécher au four 15 minutes à 100°C 
+          - Placer le pain dans le bol du robot
+          - Broyer le pain
+          - Ajouter le sel
+          - Mettre en bocal
+  Italienne:
+    ingredients: 
+      - label: pain
+      - label: herbes
+      - label: sel
+    steps:
+      - label: Préparation
+        details:
+          - Couper le pain en petits bouts
+          - Le dessécher au four 15 minutes à 100°C 
+          - Placer le pain dans le bol du robot
+          - Broyer le pain
+          - Ajouter les herbes et le sel
+          - Mettre en bocal
+---

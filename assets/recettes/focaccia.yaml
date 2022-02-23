@@ -1,0 +1,75 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Focaccia
+type: boulangerie
+withYeast: true
+utensils:
+  - machine-pain
+  - plaque-cuisson
+  - grille
+recipes:
+  Classique:
+    ingredients: 
+      - label: eau
+        qty: 200
+        unit: mL
+      - label: levure sèche
+        qty: 7
+        unit: gr
+      - label: huile d'olive
+        qty: 15
+        unit: gr
+      - label: farine T55
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sel
+        qty: 4
+        unit: gr
+      - label: fleur de sel
+    steps:
+      - label: Pétrissage et Pointage
+        details:
+          - Dans le récipient de la machine à pain, verser le mélange eau-levure
+          - Ajouter l'huile
+          - Ajouter la farine
+          - Ajouter le sel
+          - (Optionnel) Ajouter des herbes aromatiques
+          - Lancer le programme "pétrissage seulement"
+      - label: Façonnage
+        details:
+          - Saupoudrer de la semoule fine sur une plaque de cuisson
+          - Déposer le pâton sur la plaque
+          - L'aplatir un peu et verser un peu d'huile d'olive
+          - Avec les doigts, partir du centre et étaler petit à petit la pâte
+          - Verser un peu d'huile dans les trous 
+          - (Optionnel) Ajouter des ingrédients (olives, tomates séchées, chorizo, ...)
+          - Laisser reposer 45 minutes à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Saupoudrer de fleur de sel
+          - Cuire 20 minutes à 200°C
+          - Laisser refroidir sur une grille 10 minutes
+variations:
+  - label: beurre d'ail à brosser à la sortie du four
+    todo: false
+  - label: pesto et proscuitto
+    todo: false
+  - label: olives et herbes
+    todo: false
+  - label: feta et herbes
+    todo: false
+  - label: olives et ail
+    todo: false
+  - label: tomates cerises et olives
+    todo: false
+  - label: fromage de chèvre et herbes
+    todo: false
+  - label: mozzarella et basilic
+    todo: false
+---

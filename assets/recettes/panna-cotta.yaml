@@ -1,0 +1,91 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Panna Cotta
+type: sucre
+utensils:
+  - saladier
+  - casserole
+  - tamis
+  - ramequins
+recipes:
+  Gélatine en Poudre:
+    yield: 4
+    yieldType: ramequins
+    ingredients: 
+      - label: gélatine en poudre
+        qty: 1.5
+        unit: gr
+      - label: eau froide
+        qty: 7.5
+        unit: mL
+      - label: crème fleurette
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sucre
+        qty: 30
+        unit: gr
+      - label: vanille liquide
+        qty: 1
+        unit: cuillère à café
+    steps:
+      - label: Hydratation de la Gélatine
+        details:
+          - Verser l'eau dans un saladier
+          - Saupoudrer la gélatine dessus
+      - label: Préparation
+        details:
+          - Mouiller une casserole
+          - Verser la crème, la vanille liquide et le sucre dans la casserole
+          - Arrêter avant l'ébullition
+          - Transvaser dans un récipient au travers d'un tamis
+          - Attendre que le mélange soit environ à 65°C 
+          - Écumer
+          - Ajouter la gélatine
+          - Mélanger jusqu'à ce que tout soit dissous
+          - Verser dans les ramequins
+          - Laisser prendre au moins 4 heures au réfrigérateur
+  Gélatine en Feuilles:
+    yield: 4
+    yieldType: ramequins
+    ingredients: 
+      - label: gélatine en feuilles
+        qty: 2.5
+        unit: gr
+      - label: crème fleurette
+        qty: 300
+        unit: gr
+        variable: true
+      - label: sucre
+        qty: 30
+        unit: gr
+      - label: vanille liquide
+        qty: 1
+        unit: cuillère à café
+    steps:
+      - label: Hydratation de la Gélatine
+        details:
+          - Verser de l'eau dans un saladier
+          - Mettre quelques glaçons
+          - Ajouter les feuilles de gélatine
+          - Patienter 10 minutes
+      - label: Préparation
+        details:
+          - Mouiller une casserole
+          - Verser la crème, la vanille liquide et le sucre dans la casserole
+          - Arrêter avant l'ébullition
+          - Transvaser dans un récipient au travers d'un tamis 
+          - Attendre que le mélange soit environ à 65°C 
+          - Écumer
+          - Essorer la gélatine
+          - Ajouter la gélatine
+          - Mélanger jusqu'à ce que tout soit dissous
+          - Verser dans les ramequins
+          - Laisser prendre au moins 4 heures au réfrigérateur
+notes:
+  - "Gélatine en poudre utilisée : Mc Kenzie (Platinum Grade)"
+---

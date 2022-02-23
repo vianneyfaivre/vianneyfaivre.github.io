@@ -1,0 +1,100 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Pâte Brisée
+type: boulangerie
+recipes:
+  À la main:
+    utensils:
+      - saladier
+      - spatule-silicone 
+    ingredients: 
+      - label: farine blanche
+        qty: 200
+        unit: gr
+        variable: true
+      - label: jaune d'oeuf
+        qty: 1
+      - label: eau froide
+        qty: 40
+        unit: mL
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: sel
+        qty: 3
+        unit: gr
+    preconditions:
+      - Le beurre doit être coupés en dés et pommade
+    steps:
+      - label: Préparation
+        details:
+          - Verser la farine et le sel sur le plan de travail
+          - Faire un puits
+          - Y mettre le jaune d'oeuf et l'eau
+          - Mélanger avec les doigts
+          - Ajouter le beurre au centre
+      - label: Pétrissage
+        details:
+          - Saupoudrer d'un peu de farine (juste pour recouvrir)
+          - Prendre la pâte dans la main
+          - Fermer la main
+          - Répéter ces étapes jusqu'a ce qu'il ne reste plus de farine
+      - label: Boulage
+        details:
+          - Former une boule (la pâte doit etre bien lisse à ce stade)
+          - Filmer
+          - Réserver au frais au moins une heure
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
+  Au Robot:
+    utensils:
+      - robot
+      - couteau
+      - spatule-silicone 
+    ingredients: 
+      - label: farine blanche
+        qty: 175
+        unit: gr
+        variable: true
+      - label: beurre
+        qty: 140
+        unit: gr
+      - label: sucre 
+        qty: 5
+        unit: gr
+      - label: sel
+        qty: 3
+        unit: gr
+      - label: eau froide
+        qty: 40
+        unit: mL
+    preconditions:
+      - Le beurre doit être froid
+    steps:
+      - label: Préparation
+        details:
+          - Verser 2/3 de la farine, le sucre et le sel dans le bol du robot
+          - Mixer deux fois 
+          - Couper le beurre en petits dés
+          - Ajouter le beurre 
+          - Mixer jusqu'à incorporation (environ 25 coups)
+          - Bien racler les bords
+          - Ajouter la farine restante
+          - Mixer jusqu'à incorporation (environ 5 coups)
+          - Déverser la pâte dans un saladier
+          - Ajouter l'eau et mélanger à la main
+          - Former une boule
+          - Aplatir légèrement la boule
+          - Filmer
+          - Réserver minimum 2 heures au frais
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
+---

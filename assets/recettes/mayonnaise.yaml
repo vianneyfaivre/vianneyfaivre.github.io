@@ -1,0 +1,69 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Mayonnaise
+type: condiment
+recipes:
+  À la Main: 
+    utensils:
+      - saladier
+      - fouet
+    ingredients: 
+      - label: huile de tournesol
+        qty: 150
+        unit: mL
+        variable: true
+      - label: jaune d'oeuf
+        qty: 1
+      - label: moutarde de Dijon
+        qty: 1
+        unit: cuillère à soupe
+      - label: vinaigre de vin rouge
+        qty: 1
+        unit: cuillère à café
+    preconditions:
+      - Tous les ingrédients doivent être à température ambiante
+    steps:
+      - label: "Préparation"
+        details:
+          - Verser le jaune d'oeuf et la moutarde dans un saladier
+          - Mélanger au fouet
+          - Ajouter un tout petit peu d'huile
+          - Mélanger au fouet jusqu'à ce que ça commence à changer de texture
+          - Émulsifier la préparation en versant progressivement l'huile tout en fouettant
+          - Saler et poivrer
+          - Ajouter le vinaigre et mélanger
+  Au Mixeur:
+    utensils:
+      - saladier
+      - mixeur-droit
+    ingredients: 
+      - label: huile de tournesol
+        qty: 150
+        unit: mL
+        variable: true
+      - label: oeuf
+        qty: 1
+      - label: moutarde de Dijon
+        qty: 1
+        unit: cuillère à soupe
+      - label: vinaigre de vin rouge
+        qty: 1
+        unit: cuillère à soupe
+      - label: ail
+        qty: 1
+        unit: gousse
+    preconditions:
+      - Tous les ingrédients doivent être à température ambiante
+      - L'ail est optionnel
+    steps:
+      - label: "Préparation"
+        details:
+          - Hacher l'ail
+          - Mettre tous les ingrédients dans un saladier
+          - Saler et poivrer
+          - Mixer jusqu'à ce que ça prenne, en commençant par le fond
+---

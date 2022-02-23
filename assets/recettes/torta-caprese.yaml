@@ -1,0 +1,98 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Torta Caprese
+type: sucre
+utensils:
+  - saladier
+  - batteur-elec
+  - spatule-silicone
+  - moule-rond
+recipes:
+  Chocolat Noir:
+    ingredients:
+      - label: beurre
+        qty: 85
+        unit: gr
+      - label: chocolat noir 70%
+        qty: 110
+        unit: gr
+      - label: sucre glace
+        qty: 80
+        unit: gr
+      - label: sucre brun
+        qty: 50
+        unit: gr
+      - label: oeufs
+        qty: 3
+        variable: true
+      - label: poudre d'amandes
+        qty: 70
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 15
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le beurre et le chocolat
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Incorporer la poudre d'amandes avec le cacao en poudre non sucré à l'aide d'une spatule silicone
+        - Incorporer le mélange beurre-chocolat à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule rond
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 35 à 40 minutes à 180°C
+  Chocolat Blanc: 
+    utensils:
+      - microplane
+      - rape
+    ingredients:
+      - label: huile neutre
+        qty: 80
+        unit: gr
+      - label: citron
+        qty: 1
+      - label: chocolat blanc
+        qty: 120
+        unit: gr
+      - label: poudre d'amandes
+        qty: 200
+        unit: gr
+      - label: fécule de maïs
+        qty: 60
+        unit: gr
+      - label: sucre glace
+        qty: 100
+        unit: gr
+      - label: oeufs 
+        qty: 5
+        variable: true
+      - label: sucre blanc
+        qty: 40
+        unit: gr
+    steps:
+      - label: Préparation des ingrédients
+        details:
+        - Verser l'huile dans un récipient 
+        - Zester le citron
+        - Ajouter les zestes avec l'huile
+        - Raper le chocolat blanc
+        - Verser la poudre d'amandes, la fécule de maïs, le sucre glace et le chocolat blanc dans un saladier
+      - label: Préparation du gâteau
+        details:
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Incorporer progressivement l'huile à vitesse lente
+        - Incorporer le reste des ingrédients à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule rond
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 30 minutes à 160°C
+---

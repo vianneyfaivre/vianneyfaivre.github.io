@@ -1,0 +1,51 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Crème Pâtissière
+type: sucre
+utensils: 
+  - casserole
+  - fouet
+  - spatule-silicone
+  - chinois
+recipes:
+  Classique:
+    ingredients: 
+      - label: lait
+        qty: 350
+        unit: mL
+        variable: true
+      - label: sucre
+        qty: 80
+        unit: gr
+      - label: fécule de maïs
+        qty: 30
+        unit: gr
+      - label: jaunes d'oeufs
+        qty: 4
+      - label: vanille liquide
+        qty: 2
+        unit: cuillères à café
+      - label: beurre
+        qty: 40
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - Rincer la casserole avec de l'eau (pour éviter que le lait accroche)
+          - Porter le lait et la vanille à ébullition (environ 80°C)
+          - Fouetter les jaunes d'oeufs avec le sucre
+          - Incorporer la fécule de maïs
+          - Verser la moitié du lait sur le mélange tout en fouettant
+          - Reverser le tout dans la casserole
+          - À feu doux/moyen, mélanger au fouet jusqu'à épaicissement
+          - Passer la crème au chinois
+          - Mélanger le beurre à l'aide d'une spatule silicone
+          - Réserver au frais
+notes:
+  - Se conserve environ 3 jours
+  - La recette pour 350 mL de lait pourra convenir pour remplir 4 tartelettes
+---

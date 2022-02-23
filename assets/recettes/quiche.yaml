@@ -1,0 +1,137 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Quiche
+type: sel
+utensils: 
+  - rape
+  - saladier
+  - fouet
+  - rouleau
+  - moule-rond
+recipes:
+  Base:
+    ingredients:
+      - label: pâte brisée
+        link: /recettes/pate-brisee 
+        qty: 1
+      - label: légumes
+      - label: viande
+      - label: fromages
+      - label: oeufs 
+        qty: 5
+        variable: true
+      - label: crème fleurette
+        qty: 150
+        unit: mL
+      - label: lait
+        qty: 150
+        unit: mL
+      - label: fromage rapé
+        qty: 200
+        unit: gr
+      - label: muscade
+    steps:
+      - label: Préparation des ingrédients
+        details:
+          - Faire cuire la viande
+          - Faire cuire les légumes
+          - Raper ou faire des cubes de fromage
+      - label: Appareil à quiche
+        details:
+          - Casser les oeufs dans un saladier
+          - Ajouter la crème et le lait. Mélanger
+          - Saler, poivrer et ajouter la muscade
+      - label: Cuisson à blanc
+        details:
+          - Abaisser la pâte brisée dans le moule et la piquer
+          - Cuire à blanc le fond de quiche 15 minutes à 170°C
+      - label: Assemblage
+        details:
+          - Répartir la viande et les légumes sur la pâte
+          - Verser l'appareil à quiche
+          - Parsemer de fromage rapé
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 40 minutes à 180°C
+  À l'ail:
+    utensils:
+      - casserole
+    ingredients:
+      - label: pâte brisée
+        link: /recettes/pate-brisee 
+        qty: 1
+      - label: ail
+        qty: 15
+        unit: gousses
+      - label: huile d'olive
+      - label: eau
+        qty: 220
+        unit: gr
+      - label: vinaigre balsamique
+        qty: 1
+        unit: cuillère à soupe
+      - label: sucre blanc
+        qty: 1
+        unit: cuillère à soupe
+      - label: romarin
+      - label: thym
+      - label: feta
+        qty: 200
+        unit: gr
+      - label: oeufs 
+        qty: 3
+        variable: true
+      - label: crème fleurette
+        qty: 90
+        unit: mL
+      - label: lait
+        qty: 90
+        unit: mL
+      - label: fromage rapé
+        qty: 50
+        unit: gr
+    steps:
+      - label: Cuisson à blanc
+        details:
+          - Abaisser la pâte brisée dans le moule et la piquer
+          - Cuire à blanc le fond de quiche 15 minutes à 170°C
+      - label: Cuisson de l'ail
+        details:
+          - Peler toutes les gousses d'ail
+          - Placer les gousses d'ail dans une casserole avec de l'eau 
+          - Porter à ébullition pour 3 minutes
+          - Égoutter
+          - Essuyer la casserole
+          - Ajouter un filet d'huile d'olive dans la casserole
+          - Faire revenir les gousses d'ail à feu moyen-fort pour 3-5 minutes en remuant constamment
+          - Ajouter les 220 grammes d'eau et le vinaigre balsamique
+          - Cuire sur feu moyen pendant 10 minutes
+          - Ajouter le sucre, le romarin, le thym et une bonne pincée de sel
+          - Cuire jusqu'à ce que l'eau soit évaporée
+          - Réserver
+      - label: Appareil à quiche
+        details:
+          - Casser les oeufs dans un saladier
+          - Ajouter la crème et le lait. Mélanger
+          - Saler et poivrer
+      - label: Assemblage
+        details: 
+          - Répartir la feta dans le fond de tarte
+          - Répartir l'ail
+          - Verser l'appareil à quiche
+          - Parsemer de fromage rapé
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 35-40 minutes à 180°C
+notes:
+  - Légumes - Brocoli, Choux de Bruxelles, Haricots, Oignons, ...
+  - Viandes - Chorizo, Jambon, Poulet, Bacon, ...
+  - Fromages - Chèvre, Feta, Comté, Camembert, ...
+  - Autres - Champignons, Herbes, Épices, Ail, ...
+---

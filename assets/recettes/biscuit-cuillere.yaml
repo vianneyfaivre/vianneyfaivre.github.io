@@ -1,0 +1,51 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Biscuit à la Cuillère
+type: sucre
+utensils:
+ - batteur-elec
+ - spatule-coude
+ - plaque-cuisson
+recipes:
+  Classique:
+    ingredients: 
+      - label: blanc d'oeuf
+        qty: 90
+        unit: gr
+      - label: sucre
+        qty: 75
+        unit: gr
+      - label: jaune d'oeuf
+        qty: 60
+        unit: gr
+        variable: true
+      - label: farine blanche
+        qty: 30
+        unit: gr
+      - label: fécule de maïs
+        qty: 30
+        unit: gr
+    preconditions:
+      - Préchauffer le four à 180°C
+    steps:
+      - label: Préparation des blancs
+        details:
+          - Monter les blancs en neige. Arrêter juste avant qu'ils soient trop fermes
+          - Tout en battant, ajouter la moitié du sucre peu à peu
+      - label: Préparation des jaunes
+        details:
+          - Battre les jaunes avec l'autre moitié du sucre à vitesse maximum
+          - Incorporer la farine et la fécule à l'aide d'une spatule silicone
+      - label: Assemblage
+        details:
+          - Incorporer en plusieurs fois la préparation de jaunes d'oeufs dans les blancs
+          - Étaler la préparation sur une plaque de cuisson à l'aide d'une spatule coudée
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 12 minutes à 180°C
+---

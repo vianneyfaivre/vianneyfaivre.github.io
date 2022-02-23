@@ -1,0 +1,56 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Risotto
+type: sel
+utensils:
+  - couteau
+  - poele
+  - microplane
+recipes:
+  Champignons-Pancetta:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: champignons
+      - label: ail
+        qty: 2
+        unit: gousses
+      - label: oignon
+        qty: 1
+      - label: pancetta
+      - label: riz arborio
+        qty: 130
+        unit: gr
+      - label: vin blanc
+        qty: 50
+        unit: mL
+      - label: bouillon
+        qty: 500
+        unit: mL
+        variable: true
+      - label: crème fraîche
+        qty: 2
+        unit: cuillères à café
+      - label: parmesan
+    steps:
+      - label: Préparation
+        details:
+          - Émincer finement les champignons, l'ail et l'oignon
+          - Détailler la pancetta
+          - Raper finement du parmesan
+          - Faire revenir la pancetta. Réserver
+          - Faire revenir l'oignon
+          - Ajouter le riz. Cuire quelques minutes 
+          - Déglacer avec le vin blanc
+          - Remettre la pancetta dans la poêle
+          - Ajouter les champignons et l'ail. Cuire quelques minutes 
+          - Verser un peu de bouillon. En remettre progressivement dès lors qu'il en reste peu
+          - Ajouter la crème fraîche. Cuire quelques minutes
+          - Ajouter le parmesan hors du feu
+          - Mélanger
+          - Servir
+---

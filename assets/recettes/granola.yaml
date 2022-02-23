@@ -1,0 +1,80 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Granola
+type: sucre
+utensils:
+  - saladier
+  - plaque-cuisson
+  - spatule-bois
+  - bocal
+recipes:
+  Classique:
+    ingredients: 
+      - label: beurre
+        qty: 60
+        unit: gr
+      - label: flocons d'avoine 
+        qty: 200
+        unit: gr
+        variable: true
+      - label: buttermilk
+        qty: 125
+        unit: mL
+      - label: sucre
+        qty: 50
+        unit: gr
+      - label: noix
+        qty: 100
+        unit: gr
+      - label: huile de coco
+        qty: 20
+        unit: gr
+      - label: graines
+        qty: 50
+        unit: gr
+      - label: fruits secs
+        qty: 50
+        unit: gr
+      - label: sel
+    steps:
+      - label: Préparation des flocons d'avoine
+        details:
+          - Faire fondre le beurre
+          - Verser les flocons d'avoine, le beurre et le buttermilk dans un saladier
+          - Mélanger
+          - Laisser reposer 15 minutes
+          - Ajouter le sucre et une pincée de sel
+          - Mélanger
+          - Laisser reposer 15 minutes
+          - Étaler les flocons d'avoine sur une plaque de cuisson
+          - Cuire entre 1h et 1h30 à 150°C en remuant toutes les 20 minutes
+          - Réserver
+      - label: Préparation des noix
+        details:
+          - Hacher grossièrement les noix
+          - Verser les noix sur une plaque de cuisson
+          - Torréfier 10 minutes à 180°C
+          - Verser dans un saladier
+          - Ajouter l'huile de coco et une pincée de sel
+          - Mélanger
+          - Réserver
+      - label: Préparation des fruits secs
+        details:
+          - Hacher grossièrement les fruits secs
+          - Réserver
+      - label: Assemblage
+        details:
+          - Verser les flocons d'avoine, les noix, les graines, les fruits secs dans un grand saladier
+          - Mélanger
+          - Déverser sur une plaque de cuisson
+          - Laisse refroidir 45 minutes
+          - Conserver dans un bocal hermétique
+notes:
+  - "Noix : amandes, noisettes, noix de grenoble, cacahuètes, ..."
+  - "Graines : sésame, lin, tournesol, courge, pavot, ..."
+  - "Fruits Secs : abricots, raisins, cerises, kiwis, figues, ..."
+---

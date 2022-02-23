@@ -1,0 +1,55 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Génoise
+type: sucre
+utensils:
+  - tamis
+  - saladier
+  - plaque-cuisson
+  - batteur-elec
+  - spatule-silicone
+  - spatule-coude
+recipes:
+  Classique:
+    ingredients: 
+      - label: farine blanche
+        qty: 125
+        unit: gr
+        variable: true
+      - label: levure chimique
+        qty: 4
+        unit: gr
+      - label: sucre
+        qty: 125
+        unit: gr
+      - label: oeufs 
+        qty: 4
+      - label: vanille liquide
+    preconditions:
+      - Préchauffer le four à 180°C
+    steps:
+      - label: Préparation 1/2
+        details:
+          - Tamiser la farine et la levure dans un saladier
+          - Verser le sucre dans un autre saladier
+          - Séparer les blancs des jaunes
+          - Ajouter la vanille liquide avec les jaunes. Mélanger brièvement
+      - label: Préparation 2/2
+        details: 
+          - Monter les blancs en neige. Arrêter juste avant qu'ils soient trop fermes
+          - Tout en battant, ajouter le sucre peu à peu
+          - Tout en battant, ajouter les jaunes d'oeufs
+          - Incorporer la farine et la levure à l'aide d'une spatule silicone
+          - Étaler la préparation sur une plaque de cuisson à l'aide d'une spatule coudée
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 20 minutes à 180°C
+    notes:
+      - Tout faire le plus rapidement possible
+      - Une fois étalée, la hauteur de la pâte doit être environ d'un centimètre
+---

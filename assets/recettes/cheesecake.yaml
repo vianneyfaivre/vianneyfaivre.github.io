@@ -1,0 +1,220 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Cheesecake
+type: sucre
+utensils:
+  - casserole
+  - spatule-bois
+  - moule-cheesecake
+  - saladier
+  - fouet
+  - spatule-coude
+  - tamis
+recipes:
+  Classique:
+    ingredients: 
+      - label: beurre 
+        qty: 100
+        unit: gr
+      - label: biscuits secs
+        qty: 200
+        unit: gr
+      - label: flocons d'avoine
+        qty: 50
+        unit: gr
+      - label: cream cheese
+        qty: 500
+        unit: gr
+        variable: true
+      - label: crème fraîche
+        qty: 250
+        unit: gr
+      - label: oeufs
+        qty: 3
+      - label: sucre
+        qty: 100
+        unit: gr
+      - label: farine
+        qty: 40
+        unit: gr
+      - label: vanille liquide
+    preconditions:
+      - Le cream cheese et la crème fraîche doivent être à température ambiante
+      - Émietter les biscuits secs en petits morceaux
+    steps:
+      - label: Préparation de la croûte
+        details:
+          - Torréfier les flocons d'avoine pendant 10 minutes à feu doux dans une casserole
+          - Ajouter le beurre et les biscuits secs
+          - Mélanger jusqu'à ce que la préparation soit homogène
+          - Verser dans le moule
+          - Presser la croûte avec une spatule coudée afin qu'elle soit compacte et plane
+      - label: Préparation du cream cheese
+        details:
+          - Mettre dans un saladier le cream cheese avec le sucre et la vanille liquide
+          - Mélanger avec une spatule silicone
+          - Ajouter la crème fraîche et la farine tamisée
+          - Mélanger 
+          - Ajouter les oeufs un à un
+          - Mélanger jusqu'à ce que la préparation soit lisse
+      - label: Assemblage
+        details: 
+          - Verser le mélange sur la croûte
+          - Lisser avec une spatule coudée
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 45 minutes à 160°C
+          - Ce n'est pas grave si le centre du cheesecake n'est pas très ferme, une fois mis au frais quelques heures cela solidifiera
+          - Réserver au frais pendant 4 heures minimum
+  
+  Fromage Blanc:
+    ingredients: 
+      - label: pâte brisée 
+        link: /recettes/pate-brisee 
+        qty: 1
+      - label: fromage blanc
+        qty: 500
+        unit: gr
+        variable: true
+      - label: oeufs
+        qty: 5
+      - label: farine
+        qty: 50
+        unit: gr
+      - label: crème fraîche
+        qty: 30
+        unit: gr
+      - label: levure chimique
+        qty: 4
+        unit: gr
+      - label: sucre
+        qty: 125
+        unit: gr
+    preconditions:
+      - Le fromage blanc, la crème fraîche et les oeufs doivent être à température ambiante
+      - Préchauffer le four à 150°C
+    steps:
+      - label: Préparation 1/2
+        details:
+          - Verser le fromage blanc dans un saladier
+          - Ajouter la crème fraîche
+          - "(Optionnel) : Ajouter les zestes et le jus de citron" 
+          - Mélanger au fouet jusqu'à ce que tout soit lisse
+      - label: Préparation 2/2
+        details:
+          - Casser les oeufs dans un autre saladier
+          - Blanchir les oeufs avec le sucre
+          - Ajouter le mélange de fromage blanc et de crème fraîche
+          - Tamiser la farine et la levure sur le mélange
+          - Mélanger au fouet jusqu'à ce que tout soit lisse
+      - label: Assemblage
+        details: 
+          - Foncer la pâte brisée dans un moule à tarte
+          - Verser le mélange sur la pâte
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 30 minutes à 150°C
+          - Cuire 20 minutes à 180°C
+
+  Sans Cuisson:
+    utensils:
+      - batteur-elec
+    ingredients: 
+      - label: beurre 
+        qty: 150
+        unit: gr
+      - label: biscuits secs
+        qty: 250
+        unit: gr
+      - label: flocons d'avoine
+        qty: 50
+        unit: gr
+      - label: cream cheese
+        qty: 600
+        unit: gr
+        variable: true
+      - label: sucre
+        qty: 150
+        unit: gr
+      - label: crème fleurette
+        qty: 400
+        unit: mL
+      - label: vanille liquide
+    preconditions:
+      - "Pour la chantilly tout doit être froid, donc mettre au congélateur pendant 15 minutes : la crème, le saladier, les fouets du batteur"
+      - Le cream cheese doit être à température ambiante
+      - Émietter les biscuits secs en petits morceaux
+      - Mettre du papier sulfurisé au fond du moule
+    steps:
+      - label: Préparation de la croûte
+        details:
+          - Torréfier les flocons d'avoine pendant 10 minutes à feu doux dans une casserole 
+          - Ajouter le beurre et les biscuits secs
+          - Mélanger jusqu'à ce que la préparation soit homogène
+          - Verser dans le moule
+          - Presser la croûte avec une spatule coudée afin qu'elle soit compacte et plane
+          - Réserver au frais
+      - label: Préparation du cream cheese
+        details:
+          - Mettre dans un saladier le cream cheese avec le sucre et l'arôme vanille
+          - Mélanger au fouet jusqu'à ce que la préparation soit lisse
+      - label: Préparation de la chantilly
+        details:
+          - label: Voir ici
+            link: /recettes/chantilly
+          - Réserver au frais
+      - label: Mélange du cream cheese avec la chantilly
+        details:
+          - Prendre la moitié de la chantilly et l'incorporer délicatement avec le cream cheese
+          - Répéter avec le reste de la chantilly
+      - label: Assemblage
+        details: 
+          - Sortir le moule du réfrigérateur
+          - Verser le mélange dans le moule
+          - Lisser avec une spatule coudée
+          - Réserver au frais pour 6h
+
+  Basque Burnt:
+    preconditions:
+      - Le cream cheese doit être à température ambiante
+      - Mettre trois couches de papier sulfurisé dans le moule à cheesecake
+    ingredients: 
+      - label: cream cheese
+        qty: 450
+        unit: gr
+        variable: true
+      - label: sucre glace
+        qty: 120
+        unit: gr
+      - label: oeufs 
+        qty: 3
+      - label: crème fleurette
+        qty: 250
+        unit: gr
+      - label: farine blanche
+        qty: 20
+        unit: gr
+      - label: vanille liquide
+    steps:
+      - label: Préparation 
+        details:
+         - Dissoudre la farine tamisée dans 100 grammes de crème fleurette
+         - Mélanger le cream cheese avec le sucre à l'aide d'une spatule silicone
+         - Ajouter les oeufs un à un. Mélanger au fouet
+         - Ajouter 150 grammes de crème fleurette et la vanille. Mélanger au fouet
+         - Ajouter le mélanger farine-crème. Mélanger au fouet
+         - Verser le mélange dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+        - Cuire 45 minutes à 200°C
+        - Cuire 15 minutes à 180°C
+        - Se déguste à température ambiante
+
+---

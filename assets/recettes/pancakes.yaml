@@ -1,0 +1,57 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Pancakes
+type: sucre
+utensils:
+  - saladier
+  - fouet
+  - poele-crepes
+  - spatule-plate
+recipes:
+  Classique:
+    yield: 16
+    ingredients: 
+        - label: farine blanche
+          qty: 125
+          unit: gr
+        - label: sucre
+          qty: 15
+          unit: gr
+        - label: levure chimique
+          qty: 8
+          unit: gr
+        - label: bicarbonate de soude
+          qty: 1
+          unit: gr
+        - label: sel
+          qty: 2
+          unit: gr
+        - label: oeuf 
+          qty: 1
+        - label: huile neutre
+          qty: 30
+          unit: mL
+        - label: lait
+          qty: 190
+          unit: mL
+          variable: true
+        - label: vanille liquide
+          qty: au goût
+    steps:
+        - label: Préparation
+          details:
+            - Fouetter l'oeuf, l'huile et le lait
+            - Dans un saladier, ajouter la farine, le sucre, la levure, le bicarbonate et le sel
+            - Mélanger sans insister
+            - Laisser reposer 10 minutes
+        - label: Cuisson
+          emoji: 🔥
+          details: 
+            - Faire chauffer une poêle à crêpes
+            - Tester que la poêle est chaude en faisant un mini pancake
+            - Cuire chaque pancake, 2-3 minutes par côté
+---

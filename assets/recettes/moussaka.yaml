@@ -1,0 +1,82 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Moussaka
+type: sel
+utensils:
+  - couteau
+  - plaque-cuisson
+  - plat-gratin
+recipes:
+  Classique:
+    yield: 4
+    yieldType: personnes
+    ingredients: 
+      - label: aubergines
+        qty: 2
+      - label: boeuf haché
+        qty: 400
+        unit: gr
+        variable: true
+      - label: ail
+        qty: 4
+        unit: gousses
+      - label: oignon
+        qty: 1
+      - label: tomates en conserve
+        qty: 400
+        unit: gr
+      - label: fromage rapé
+        qty: au goût
+      - label: farine
+        qty: 75
+        unit: gr
+      - label: beurre
+        qty: 75
+        unit: gr
+      - label: lait
+        qty: 750
+        unit: mL
+      - label: persil plat
+        qty: au goût
+      - label: paprika
+        qty: au goût
+    preconditions:
+      - Préchauffer le four à 180°C
+      - Couper les aubergines en rondelles d'épaisseur égale
+    steps:
+      - label: "Préparation 1/4 : Aubergines"
+        details:
+          - Saler les rondelles d'aubergine et les laisser dégorger 15 minutes
+          - Les huiler 
+          - Les faire cuire au four à 180°C pendant 20 minutes 
+      - label: "Préparation 2/4 : Autres Ingrédients"
+        details:
+          - Faire revenir l'oignon avec le boeuf haché
+          - Ajouter le paprika, les tomates et l'ail
+          - Mijoter pendant 15 minutes
+          - Ajouter le persil
+      - label: "Préparation 3/4 : Béchamel"
+        details:
+          - label: Faire la béchamel
+            link: /recettes/bechamel
+      - label: "Préparation 4/4 : Assemblage"
+        details:
+          - Frotter le plat avec une gousse d'ail
+          - Ajouter la viande
+          - Ajouter un peu de béchamel
+          - Ajouter les rondelles d'aubergines
+          - Ajouter le reste de la béchamel
+          - Parsemer de fromage rapé
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 15 minutes à 210°C
+          - Cuire 30 minutes à 150°C
+          - Le dessus doit être bien gratiné
+    notes:
+      - La quantité d'aubergines dépend de la taille du plat
+---

@@ -1,0 +1,56 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Speculoos
+type: sucre
+utensils:
+  - tamis
+  - saladier
+  - plaque-cuisson
+  - rouleau
+  - roulette
+  - grille
+recipes:
+  Classique:
+    ingredients: 
+      - label: farine blanche
+        qty: 125
+        unit: gr
+        variable: true
+      - label: levure chimique
+        qty: 2
+        unit: gr
+      - label: sucre brun
+        qty: 75
+        unit: gr
+      - label: beurre
+        qty: 75
+        unit: gr
+      - label: lait
+        qty: 20
+        unit: gr
+      - label: Mélange d'épices
+        link: /recettes/epices-speculoos 
+    preconditions:
+      - Le beurre doit être pommade
+    steps:
+      - label: Préparation
+        details:
+          - Tamiser la farine, la levure, les épices et le sucre dans un saladier
+          - Ajouter le beurre et le lait
+          - Mélanger à la main jusqu'à obtention d'une pâte lisse
+          - Former une boule
+          - Réserver au frais 30 minutes
+          - Placer une feuille de papier cuisson dans une plaque de cuisson 
+          - Étaler la pâte avec un rouleau à pâtisserie
+          - Précouper les biscuits avec une roulette à pizza
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 20 minutes à 180°C
+          - Placer les biscuits sur une grille
+          - Laver la plaque entre deux fournées afin qu'elle soit froide
+---

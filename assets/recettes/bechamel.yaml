@@ -1,0 +1,41 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Béchamel
+type: condiment
+utensils:
+  - casserole
+  - fouet
+recipes:
+  Classique:
+    ingredients: 
+      - label: farine
+        qty: 100
+        unit: gr
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: lait
+        qty: 1000
+        unit: mL
+        variable: true
+      - label: muscade
+        qty: au goût
+      - label: sel
+        qty: au goût
+    steps:
+      - label: Préparation
+        details:
+          - Faire fondre le beurre dans une casserole
+          - Hors du feu, ajouter la farine et mélanger
+          - Ajouter le lait et mélanger
+          - Ajouter du sel et de la muscade au goût
+          - Porter à ébullition (aux alentours de 75°C) puis réduire le feu
+          - Fouetter continuellement jusqu'à ce que ça épaississe
+          - Goûter et ajuster
+notes:
+  - Toujours mélanger la béchamel pour éviter qu'elle brûle / colle au fond de la casserole 
+---

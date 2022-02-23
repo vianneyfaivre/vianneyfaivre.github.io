@@ -1,0 +1,48 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Fondants au Chocolat
+type: sucre
+utensils: 
+  - casserole
+  - fouet
+  - moule-muffins
+recipes:
+  Classique:
+    yield: 4
+    ingredients: 
+      - label: chocolat noir 70% 
+        qty: 75
+        unit: gr
+      - label: beurre
+        qty: 50
+        unit: gr
+      - label: sucre glace
+        qty: 50
+        unit: gr
+      - label: oeufs 
+        qty: 2
+        variable: true
+      - label: farine
+        qty: 10
+        unit: gr  
+      - label: chocolat
+        qty: 4
+        unit: carreaux
+    steps:
+      - label: Préparation
+        details:
+          - Faire fondre le chocolat avec le beurre dans une casserole
+          - Incorporer le sucre
+          - Incorporer les oeufs un à un
+          - Incorporer la farine
+          - Répartir dans un moule à muffins
+          - Ajouter un carré de chocolat au milieu de chaque fondant
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 10-13 minutes à 180°C
+---

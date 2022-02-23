@@ -1,0 +1,52 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Sauce Piquante
+type: condiment
+utensils:
+  - couteau 
+  - poele
+  - mixeur-droit
+recipes:
+  Jalapeños:
+    ingredients: 
+      - label: jalapeños
+        qty: 3
+      - label: tomates
+        qty: 400
+        unit: gr
+        variable: true
+      - label: oignon
+        qty: 1
+      - label: ail
+        qty: 3
+        unit: gousses
+      - label: vinaigre de vin rouge
+        qty: 20
+        unit: mL
+      - label: eau
+        qty: 250
+        unit: mL
+    steps:
+      - label: "Préparation"
+        details:
+          - Émincer l'oignon
+          - Faire revenir les oignons dans un filet d'huile d'olive
+          - Émincer l'ail
+          - L'ajouter aux oignons et le faire cuire quelques minutes
+          - Ajouter les tomates concassées
+          - Mijoter 10 minutes
+          - Ajouter le vinaigre, le miel et du sel
+          - Mijoter 10 minutes
+          - Ajouter l'eau
+          - Mijoter 20 minutes
+          - Goûter, ajuster si besoin
+          - Verser la préparation dans un saladier
+          - Mixer jusqu'à ce que la préparation soit bien lisse
+          - Embouteiller
+notes:
+  - Se conserve un mois au réfrigérateur
+---

@@ -1,0 +1,48 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Muffins Salés
+type: sel
+utensils:
+  - tamis
+  - saladier
+  - fouet
+  - spatule-silicone
+  - moule-muffins
+recipes:
+  Nature:
+    yield: 12
+    ingredients: 
+      - label: farine blanche
+        qty: 280
+        unit: gr
+      - label: levure chimique
+        qty: 6
+        unit: gr
+      - label: sel
+        qty: 3
+        unit: gr
+      - label: oeufs 
+        qty: 2
+        variable: true
+      - label: huile neutre
+        qty: 85
+        unit: gr
+      - label: buttermilk
+        qty: 250
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+        - Tamiser la farine, la levure et le sel dans un saladier
+        - Fouetter les oeufs, l'huile et le buttermilk dans un autre saladier
+        - Tout incorporer ensemble
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Verser la préparation dans les moules
+          - Cuire 20 minutes à 180°C
+---

@@ -1,0 +1,77 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Cannelloni
+type: sel
+utensils:
+  - couteau
+  - poele
+  - saladier
+  - spatule-silicone
+  - poche-douille
+  - plat-gratin
+recipes:
+  Ricotta Épinards:
+    yield: 6
+    yieldType: personnes
+    ingredients: 
+      - label: cannelloni
+        qty: 250
+        unit: gr
+      - label: sauce tomate pour 400 grammes de tomates
+        link: /recettes/sauce-tomate 
+      - label: épinards
+        qty: 750
+        unit: gr
+      - label: ricotta
+        qty: 500
+        unit: gr
+      - label: crème fraîche
+        qty: 100
+        unit: gr
+      - label: parmesan
+        qty: 50
+        unit: gr
+      - label: chapelure
+        qty: 100
+        unit: gr
+      - label: jaunes d'oeufs
+        qty: 2
+      - label: muscade
+      - label: fromage rapé
+        qty: 100
+        unit: gr
+    steps:
+      - label: "Préparation 1/3 : Sauce Tomate"
+        details:
+          - label: Faire la sauce tomate
+            link: /recettes/sauce-tomate 
+          - Réserver
+      - label: "Préparation 2/3 : Épinards"
+        details:
+          - Faire fondre une noisette de beurre dans une grande poêle
+          - Cuire les épinards 
+          - Déverser les épinards sur une planche à découper
+          - Hacher les épinards
+          - Réserver
+      - label: "Préparation 3/3 : Garniture"
+        details:
+          - Mélanger les épinards, la ricotta, la crème fraîche, le parmesan, la chapelure, les jaunes d'oeufs et la muscade dans un saladier
+          - Saler et poivrer
+          - Remplir la poche à douille de cette préparation
+      - label: "Assemblage"
+        details:
+        - Mettre une couche de sauce tomate dans le plat à gratin
+        - Fourrer les cannelloni
+        - Placer les cannelloni couchés dans le plat
+        - Couvrir de sauce tomate
+        - Couvrir de fromage rapé
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 35 minutes à 190°C
+        - Le dessus doit être bien gratiné
+---

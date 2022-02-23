@@ -1,0 +1,75 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Stir Fry - Sauces
+type: sel
+utensils:
+  - saladier
+  - fouet
+recipes:
+  Soja-Sésame:
+    yield: 4
+    yieldType: personnes
+    ingredients: 
+      - label: sauce soja
+        qty: 8
+        unit: cuillères à soupe
+        variable: true
+      - label: eau
+        qty: 8
+        unit: cuillères à soupe
+      - label: huile de sésame
+        qty: 2
+        unit: cuillères à soupe
+      - label: miel
+        qty: 2
+        unit: cuillères à soupe
+      - label: concentré de tomates
+        qty: 2
+        unit: cuillères à soupe
+      - label: fécule de maïs
+        qty: 4
+        unit: cuillères à café
+    steps:
+      - label: Préparation de la sauce
+        details:
+          - Dissoudre la fécule de maïs dans l'eau
+          - Mélanger tous les ingrédients dans un saladier
+          - Ajouter la sauce vers la fin de la cuisson des autres ingrédients sur feu assez vif pour la faire épaissir
+  Peanut Butter:
+    yield: 4
+    yieldType: personnes
+    ingredients: 
+      - label: sauce soja
+        qty: 4
+        unit: cuillères à soupe
+        variable: true
+      - label: eau
+        qty: 240
+        unit: mL
+      - label: huile de sésame
+        qty: 2
+        unit: cuillères à soupe
+      - label: miel
+        qty: 2
+        unit: cuillères à café
+      - label: peanut butter
+        qty: 2
+        unit: cuillères à soupe
+      - label: fécule de maïs
+        qty: 2
+        unit: cuillères à café
+    steps:
+      - label: Préparation de la sauce
+        details:
+          - Dissoudre la fécule de maïs dans l'eau
+          - Mélanger tous les ingrédients dans un saladier
+          - Ajouter la sauce vers la fin de la cuisson des autres ingrédients sur feu assez vif pour la faire épaissir
+notes:
+  - "Légumes : carottes, haricots verts, poivrons, brocolis, ..."
+  - "Protéines : Boeuf, Poulet, Tofu, .."
+  - Accompagner avec des nouilles ou du riz
+---

@@ -1,0 +1,71 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Brownie
+type: sucre
+utensils:
+  - saladier
+  - casserole
+  - batteur-elec
+  - spatule-silicone
+  - moule-brownie
+recipes:
+  Classique:
+    ingredients: 
+      - label: chocolat noir 70%
+        qty: 75
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 30
+        unit: gr
+      - label: café instantané
+        qty: 1
+        unit: cuillère à café
+      - label: beurre
+        qty: 90
+        unit: gr
+      - label: oeufs 
+        qty: 2
+        variable: true
+      - label: sucre blanc
+        qty: 130
+        unit: gr
+      - label: sucre brun
+        qty: 35
+        unit: gr
+      - label: sel 
+        qty: 0.5
+        unit: cuillère à café
+      - label: farine blanche
+        qty: 40
+        unit: gr
+      - label: fleur de sel
+    steps:
+      - label: Préparation 1/3
+        details:
+          - Dans un saladier, mettre le chocolat avec la moitié du cacao en poudre et le café instantané
+          - Dans une casserole, faire fondre le beurre et le porter à ébullition
+          - Le verser dans le saladier et mélanger jusqu'à ce que tout ait fondu
+      - label: Préparation 2/3
+        details: 
+          - Dans un autre saladier, casser les oeufs
+          - Ajouter les sucres et le sel
+          - Blanchir au batteur électrique pendant 2 minutes
+          - Tout en battant, ajouter le mélange chocolat-beurre
+      - label: Préparation 3/3
+        details:     
+          - Tamiser la farine et l'autre moitié du cacao en poudre sur le mélange
+          - Incorporer la farine délicatement avec une spatule
+          - Beurrer et fariner le moule
+          - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 13 min à 180°C
+          - Sortir du four et laisser le plat tomber de haut plusieurs fois afin de briser la surface du brownie
+          - Parsemer de fleur de sel
+          - Cuire 7 min à 180°C 
+---

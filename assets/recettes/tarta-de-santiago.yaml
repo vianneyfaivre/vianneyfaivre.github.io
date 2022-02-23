@@ -1,0 +1,58 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Tarta de Santiago
+type: sucre
+utensils:
+  - saladier
+  - fouet
+  - moule-rond
+  - tamis
+recipes:
+  Classique:
+    ingredients: 
+      - label: oeufs 
+        qty: 4
+        variable: true
+      - label: sucre
+        qty: 100
+        unit: gr
+      - label: poudre d'amandes
+        qty: 200
+        unit: gr
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: cannelle
+        qty: 0.5
+        unit: cuillère à café
+      - label: gingembre
+        qty: 0.5
+        unit: cuillère à café
+      - label: cardamome
+        qty: 0.25
+        unit: cuillère à café
+      - label: zestes de citron
+      - label: zestes d'orange
+    preconditions:
+      - Préchauffer le four à 180°C
+    steps:
+      - label: Préparation
+        details:
+          - Faire fondre le beurre
+          - Fouetter les oeufs avec le sucre
+          - Ajouter le beurre fondu et mélanger
+          - Ajouter la poudre d'amandes, les épices et les zestes
+          - Mélanger
+          - Verser dans un moule
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Cuire 30 minutes à 180°C
+          - Laisser refroidir le gâteau à température ambiante
+          - Démouler
+          - Saupoudrer de sucre glace (au moment de servir)
+---

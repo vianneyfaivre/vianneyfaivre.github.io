@@ -1,0 +1,53 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Shakshouka
+type: sel
+utensils:
+  - couteau
+  - poele
+  - cuillere-bois
+recipes:
+  Classique:
+    yield: 6
+    yieldType: personnes
+    ingredients: 
+      - label: tomates
+        qty: 1
+        unit: kg
+      - label: oignon
+        qty: 1
+      - label: poivron 
+        qty: 1
+      - label: ail
+        qty: 4
+        unit: gousses
+      - label: pois chiches
+        qty: 1
+        unit: boîte
+      - label: oeufs
+        qty: 6
+        variable: true
+      - label: persil
+      - label: cumin
+        qty: 1
+        unit: cuillère à café
+      - label: paprika doux
+        qty: 4
+        unit: cuillères à café
+    steps:
+      - label: "Préparation"
+        details:
+          - Émincer l'oignon et le poivron
+          - Faire revenir l’oignon dans de l’huile d’olive
+          - Ajouter les poivrons et les faire ramollir à feu doux
+          - Ajouter l’ail, les épices, du sel et du poivre
+          - Mélanger et cuire à feu doux 2 minutes
+          - Ajouter les tomates et les pois chiches
+          - Faire des petits trous à l'aide d'une cuillère en bois
+          - Casser les oeufs directement dans les trous
+          - Servir quand les blancs sont cuits mais pas les jaunes
+---

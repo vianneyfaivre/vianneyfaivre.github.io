@@ -1,0 +1,39 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Bliss Balls
+type: sucre
+utensils:
+  - saladier
+recipes:
+  Classique:
+    ingredients: 
+      - label: beurre de cacahuète
+        qty: 200
+        unit: gr
+        variable: true
+      - label: flocons d'avoine
+        qty: 50
+        unit: gr
+      - label: noix de coco rapée
+        qty: 15
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 10
+        unit: gr
+      - label: graines
+        qty: 10
+        unit: gr
+      - label: miel
+        qty: 20
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - Mélanger tous les ingrédients
+          - Former des petites boules
+          - Réserver au frais
+---

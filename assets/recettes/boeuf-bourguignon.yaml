@@ -1,0 +1,74 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Boeuf Bourguignon
+type: sel
+utensils:
+  - couteau
+  - cocotte
+  - boule-the
+  - pince
+  - saladier
+recipes:
+  Classique:
+    ingredients: 
+      - label: cubes de boeuf
+        qty: 1000
+        unit: gr
+        variable: true
+      - label: bicarbonate de soude
+        qty: 2
+        unit: cuillères à café
+      - label: vin rouge
+      - label: laurier
+        qty: 2 
+        unit: feuilles
+      - label: romarin
+      - label: thym
+      - label: petits oignons
+        qty: 5
+      - label: carottes
+        qty: 2
+      - label: sucre blanc
+        qty: 2
+        unit: cuillères à café
+      - label: ail 
+        qty: 6
+        unit: gousses 
+      - label: farine
+        qty: 2
+        unit: cuillères à soupe
+      - label: petits champignons
+        qty: 15
+    steps:
+      - label: Marinade
+        details:
+          - Placer la viande dans un grand saladier
+          - Saupoudrer de bicarbonate de soude
+          - Ajouter le laurier, le romarin, le thym et un peu de sel dans une boule à thé
+          - Placer la boule à thé dans le saladier
+          - Couvrir de vin rouge
+          - Laisser mariner au moins deux heures
+      - label: Préparation
+        details:
+          - Égoutter la marinade, la conserver
+          - Faire chauffer une cocotte avec un filet d'huile sur feu vif
+          - Faire brunir les cubes de boeuf
+          - Réserver le boeuf
+          - Remettre de l'huile dans la cocotte
+          - Faire revenir les oignons avec les carottes et le sucre sur feu vif
+          - Réduire le feu et ajouter l'ail
+          - Remettre le boeuf
+          - Saupoudrer avec la farine et remuer le tout
+          - Déverser la marinade
+          - Mijoter une heure
+          - Goûter, ajuster si besoin
+          - Mijoter une heure
+          - Goûter, ajuster si besoin
+          - Ajouter les champignons
+          - Mijoter 15 minutes
+          - Servir
+---

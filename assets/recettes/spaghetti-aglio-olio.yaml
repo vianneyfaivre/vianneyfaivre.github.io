@@ -1,0 +1,58 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Spaghetti Aglio e Olio
+type: sel
+utensils:
+  - casserole
+  - passoire
+  - couteau
+  - poele
+  - microplane
+  - spatule-bois
+  - pince
+recipes:
+  Classique:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: spaghetti
+        qty: 200
+        unit: gr
+        variable: true
+      - label: ail
+        qty: 8
+        unit: gousses
+      - label: huile d'olive
+      - label: chili flakes
+        qty: 0.25
+        unit: cuillère à café
+      - label: parmesan
+      - label: persil plat
+    steps:
+      - label: Cuisson des pâtes
+        details:
+        - Cuire les pâtes al dente
+        - Mettre de côté un peu d'eau de cuisson
+        - Égoutter 
+        - Réserver
+      - label: Préparation
+        details:
+        - Émincer l'ail
+        - Verser une bonne dose d'huile d'olive dans une poêle
+        - Faire cuire l'ail à feu doux 3-5 minutes
+        - Ajouter les chili flakes
+        - Mettre un peu de l'eau de cuisson des pâtes
+        - Verser les pâtes dans la poêle
+        - Ajouter un peu de parmesan finement rapé
+        - Mélanger
+      - label: Présentation
+        details:
+        - Servir les pâtes
+        - Parsemer de parmesan
+        - Ajouter un peu de persil
+        - Saler et poivrer
+---

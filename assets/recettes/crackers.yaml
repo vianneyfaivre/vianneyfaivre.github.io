@@ -1,0 +1,56 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Crackers
+type: sel
+utensils:
+  - saladier
+  - rouleau
+  - roulette
+  - plaque-cuisson
+recipes:
+  Complets:
+    ingredients: 
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: flocons d'avoine
+        qty: 75
+        unit: gr
+        variable: true
+      - label: farine complète
+        qty: 30
+        unit: gr
+      - label: sel
+        qty: 0.5
+        unit: cuillère à café
+      - label: herbes
+        qty: 1
+        unit: cuillère à café
+      - label: graines
+        qty: 50
+        unit: gr
+      - label: oeuf
+        qty: 1
+    preconditions:
+      - Préchauffer le four à 200°C
+      - Le beurre doit être pommade
+    steps:
+      - label: Préparation
+        details:
+          - Verser le beurre et les flocons d'avoine dans un saladier. Mélanger à la main
+          - Ajouter les ingrédients restants. Mélanger à la main
+          - Placer une feuille de papier cuisson dans une plaque de cuisson 
+          - Déverser la préparation dessus
+          - Placer une autre feuille de papier cuisson par dessus 
+          - Étaler avec un rouleau à pâtisserie
+          - Retirer la seconde feuille de cuisson 
+          - Précouper les biscuits avec une roulette à pizza
+      - label: Cuisson
+        emoji: 🔥
+        details:
+         - Cuire 20 minutes à 200°C
+---

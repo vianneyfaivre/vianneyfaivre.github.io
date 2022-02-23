@@ -1,0 +1,61 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Banana Bread
+type: sucre
+utensils:
+  - moule-cake
+  - tamis
+  - saladier
+recipes:
+  Classique:
+    ingredients: 
+      - label: oeufs 
+        qty: 2
+        variable: true
+      - label: sucre glace
+        qty: 150
+        unit: gr
+      - label: farine
+        qty: 250
+        unit: gr
+      - label: levure chimique
+        qty: 8
+        unit: gr
+      - label: bananes mûres
+        qty: 200
+        unit: gr
+      - label: beurre mou
+        qty: 80
+        unit: gr
+      - label: lait
+        qty: 40
+        unit: mL
+    preconditions:
+      - Le beurre doit être pommade
+      - Préchauffer le four à 160°C
+    steps:
+      - label: Préparation des bananes
+        details:
+          - Écraser les bananes dans un saladier
+          - Ajouter le lait et le beurre
+          - Mélanger à l'aide d'une fourchette
+      - label: Préparation
+        details:
+          - Dans un saladier, tamiser 150 gr de farine avec la levure et le sucre
+          - Ajouter les bananes, le beurre et le lait
+          - Mélanger les oeufs un à un
+          - Mélanger avec les 100 derniers grammes de farine
+          - Beurrer et fariner le moule
+          - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 60 minutes à 160°C
+          - Vérifier que le cake est cuit avec la pointe d'un couteau
+notes:
+  - Plus les bananes sont mûres plus le gâteau aura le goût de banane
+---

@@ -1,0 +1,65 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Lasagnes
+type: sel
+utensils:
+  - casserole
+  - couteau
+  - plat-gratin
+recipes:
+  Boeuf:
+    yield: 6
+    yieldType: personnes
+    ingredients: 
+      - label: pâtes à lasagnes
+      - label: sauce tomate pour 800 grammes de tomates
+        link: /recettes/sauce-tomate 
+      - label: béchamel pour 700 mL de lait
+        link: /recettes/bechamel 
+      - label: boeuf haché
+        qty: 400
+        unit: gr
+      - label: oignon
+        qty: 1
+      - label: carotte
+        qty: 1
+      - label: ail
+        qty: 3
+        unit: gousses
+      - label: fromage rapé
+    steps:
+      - label: "Préparation 1/3 : Sauce Tomate"
+        details:
+          - label: Faire la sauce tomate
+            link: /recettes/sauce-tomate 
+          - Réserver
+      - label: "Préparation 2/3 : Béchamel"
+        details:
+        - label: Faire la béchamel
+          link: /recettes/bechamel
+      - label: "Préparation 3/3 : Viande"
+        details:
+          - Faire revenir la viande avec l'oignon et la carotte 
+          - Ajouter l'ail émincé
+          - Ajouter la sauce tomate
+          - Mijoter 15 minutes
+      - label: "Assemblage"
+        details:
+        - Beurrer le moule
+        - Ajouter une couche de pâtes
+        - Ajouter une couche de viande
+        - Ajouter une couche de béchamel
+        - Ajouter une couche de pâtes
+        - Ajouter une couche de viande
+        - Ajouter une couche de béchamel
+        - Couvrir de fromage rapé
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 20 minutes à 200°C
+        - Le dessus doit être bien gratiné
+---

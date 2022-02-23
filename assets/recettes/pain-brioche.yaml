@@ -1,0 +1,129 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Pain Brioché
+type: boulangerie
+withYeast: true
+utensils:
+  - machine-pain
+  - saladier
+  - corne
+  - coupe-pate
+  - saladier
+  - grille
+  - pinceau
+recipes:
+  Viennois:
+    ingredients:
+      - label: lait
+        qty: 120
+        unit: mL
+      - label: levure sèche
+        qty: 3
+        unit: gr
+      - label: oeuf
+        qty: 1
+      - label: farine blanche
+        qty: 240
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 15
+        unit: gr
+      - label: sel
+        qty: 4
+        unit: gr
+      - label: beurre
+        qty: 20
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage (la veille - soir)
+        details:
+          - Couper le beurre en tout petits dés
+          - Dans le récipient de la machine à pain, verser le mélange lait-levure
+          - Ajouter l'oeuf battu
+          - Ajouter la farine
+          - Ajouter le sucre
+          - Ajouter le sel
+          - Ajouter le beurre
+          - Lancer le programme "pétrissage seulement"
+          - Dégazer
+          - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+          - Déverser le pâton sur le plan de travail
+          - Dégazer
+          - Diviser 
+          - Replier chaque pâton en son milieu sur la longueur deux fois (dans le même sens)
+          - Laisser une détente de 10 minutes au réfrigérateur
+          - Placer une feuille de papier sulfurisé dans le moule à baguettes
+          - Dégazer chaque pâton
+          - Replier chaque pâton en son milieu sur la longueur. Tourner le pâton à 180 degrés. Répéter trois fois
+          - Laisser une détente de 5 minutes
+          - Allonger 1/2
+          - Laisser une détente de 5 minutes
+          - Allonger 2/2
+          - Placer chaque pâton dans le moule à baguettes
+          - Badigeonner avec un jaune d'oeuf
+          - Grigner (assez profondément)
+          - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 15 à 20 minutes à 160°C
+        - Laisser ressuer sur une grille 30 minutes
+  Parker House Rolls:
+    ingredients: 
+      - label: lait
+        qty: 180
+        unit: mL
+      - label: levure sèche
+        qty: 3
+        unit: gr
+      - label: oeuf
+        qty: 1
+      - label: farine T55
+        qty: 450
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 10
+        unit: gr
+      - label: sel
+        qty: 6
+        unit: gr
+      - label: beurre
+        qty: 75
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage
+        details:
+          - Couper le beurre en tout petits dés
+          - Dans le récipient de la machine à pain, verser le mélange lait-levure
+          - Ajouter l'oeuf battu
+          - Ajouter la farine
+          - Ajouter le sucre
+          - Ajouter le sel
+          - Ajouter le beurre
+          - Lancer le programme "pétrissage seulement"
+      - label: Division, Boulage et Détente
+        details:
+          - Dégazer
+          - Diviser en pâtons de poids égal
+          - Bouler
+          - Détente de 5 minutes
+      - label: Façonnage
+        details:
+          - Façonner en petits pains
+          - Laisser reposer 45 minutes à 25°C
+          - Grigner
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 15 à 18 minutes à 200°C
+          - Badigeonner avec du beurre fondu
+          - Laisser ressuer sur une grille 30 minutes
+---

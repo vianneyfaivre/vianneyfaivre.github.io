@@ -1,0 +1,72 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Falafels
+type: sel
+utensils:
+  - saladier
+  - passoire
+  - couteau
+  - robot
+  - spatule-bois
+  - poele
+recipes:
+  Classique:
+    ingredients: 
+      - label: pois chiches secs
+        qty: 250
+        unit: gr
+        variable: true
+      - label: oignon
+        qty: 0.5
+      - label: ail
+        qty: 4
+        unit: gousses
+      - label: herbes
+      - label: épices
+      - label: farine blanche
+        qty: 60
+        unit: gr
+      - label: eau
+        qty: 150
+        unit: gr
+      - label: levure chimique
+        qty: 7
+        unit: gr
+    steps:
+      - label: Pois Chiches
+        details:
+          - Verser les pois chiches dans un saladier
+          - Couvrir d'eau
+          - Saler
+          - Laisser au moins 12 heures
+      - label: Mixage
+        details:
+          - Égoutter les pois chiches
+          - Hacher grossièrement l'oignon et l'ail
+          - Verser les pois chiches, l'oignon, l'ail, les herbes et les épices dans le bol du robot
+          - Mixer plusieurs fois. Ne pas trop réduire la préparation en miettes
+          - Réserver dans un saladier
+      - label: Liant
+        details: 
+          - Mélanger l'eau avec la farine
+          - Faire cuire au micro-ondes 15 secondes plusieurs fois. La préparation doit changer de texture et devenir un peu pâteuse/dense
+      - label: Assemblage
+        details: 
+          - Mélanger la levure chimique avec le liant
+          - Mélanger les pois chiches avec le liant
+          - Former des petites boules
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Verser de l'huile dans une poêle à fond épais
+          - Faire chauffer la poêle sur feu fort
+          - Placer les falafels dans la poêle
+          - Faire frire chaque coté 3-5 minutes
+notes:
+  - "Herbes : coriandre, persil"
+  - "Épices : coriandre, cumin, paprika, sel, poivre, ..."
+---

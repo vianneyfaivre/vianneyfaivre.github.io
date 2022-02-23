@@ -1,0 +1,73 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Dumplings
+type: sel
+utensils:
+  - couteau
+  - saladier
+  - poele
+recipes:
+  Classique:
+    yield: 40
+    ingredients: 
+      - label: viande (boeuf, porc)
+        qty: 400
+        unit: gr
+        variable: true
+      - label: légumes (carottes, choux, bok choy, poireaux, oignons, etc.)
+      - label: ail
+        qty: 6 
+        unit: gousses
+      - label: gingembre
+      - label: fécule de maïs
+        qty: 1
+        unit: cuillère à soupe
+      - label: huile de sésame
+        qty: 1
+        unit: cuillère à café
+      - label: eau
+        qty: 2
+        unit: cuillères à soupe
+      - label: sauce soja
+        qty: 1
+        unit: cuillère à soupe
+      - label: champignons
+      - label: herbes (coriandre, fleur d'ail, persil, etc.)
+      - label: épices (paprika, curry, etc.)
+
+    steps:
+      - label: Préparation des ingrédients
+        details:
+          - Émincer très finement l'ail et le gingembre
+          - Hacher les herbes
+          - Émincer très finement les légumes
+      - label: Préparation de la farce
+        details: 
+          - Mélanger la viande avec la fécule de maïs, l'eau, l'huile de sésame et la sauce soja
+          - Ajouter les épices et les herbes
+          - Ajouter les légumes, les champignons, l'ail et le gingembre
+          - Saler et poivrer
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Faire chauffer un peu d'huile dans une poêle
+          - Faire dorer les dumplings
+          - Mettre 100 mL d'eau et couvrir jusqu'à ce que l'eau soit évaporée
+          - Remettre de l'eau si ils ne sont pas assez cuits
+notes:
+  - La farce doit être composée de 2/3 de viande
+  - Le mélange ail/gingembre doit être composé de 3/4 d'ail et d'1/4 de gingembre  
+  - Les dumplings se congèlent très facilement. Les décongeler un peu au micro ondes pour les séparer les uns des autres au préalable.
+  - label: Recette
+    link: https://www.youtube.com/watch?v=qWkvFssMz24
+  - label: Recette
+    link: https://www.youtube.com/watch?v=4u7bBMSIhQ0
+  - label: Pliage
+    link: https://www.youtube.com/watch?v=YAcMQWqVln0
+  - label: Pliage
+    link: https://www.youtube.com/watch?v=84-QPpmIleA
+---

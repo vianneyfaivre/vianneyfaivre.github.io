@@ -1,0 +1,252 @@
+---
+layout: recette
+categories: [recettes]
+hidden: true
+lang: fr
+sitemap: true
+title: Quatre-Quarts
+type: sucre
+utensils:
+  - saladier
+  - batteur-elec
+  - tamis
+  - spatule-silicone
+  - moule-cake
+recipes:
+  Nature: 
+    ingredients:
+      - label: oeufs 
+        qty: 3
+      - label: farine blanche
+        qty: poids des oeufs
+      - label: beurre
+        qty: poids des oeufs
+      - label: sucre glace
+        qty: poids des oeufs
+      - label: levure chimique
+        qty: 4
+        unit: "% de la farine"
+      - label: vanille liquide
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le beurre 
+        - Blanchir les oeufs, le sucre et la vanille au batteur électrique à vitesse maximale
+        - Incorporer progressivement le beurre fondu à vitesse lente
+        - Tamiser la farine et la levure sur la préparation
+        - Incorporer à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Amandes: 
+    ingredients:
+      - label: oeufs 
+        qty: 3
+      - label: farine blanche
+        qty: 40% du poids des oeufs
+      - label: poudre d'amandes
+        qty: 60% du poids des oeufs
+      - label: beurre
+        qty: poids des oeufs
+      - label: sucre glace
+        qty: poids des oeufs
+      - label: levure chimique
+        qty: 4
+        unit: "% de la farine"
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le beurre 
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Incorporer progressivement le beurre fondu à vitesse lente
+        - Tamiser la farine, la poudre d'amandes et la levure sur la préparation
+        - Incorporer à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Citron Pavot: 
+    utensils:
+      - microplane
+    ingredients:
+      - label: oeufs 
+        qty: 3
+      - label: farine blanche
+        qty: poids des oeufs
+      - label: beurre
+        qty: poids des oeufs
+      - label: sucre glace
+        qty: poids des oeufs
+      - label: levure chimique
+        qty: 4
+        unit: "% de la farine"
+      - label: graines de pavot
+        qty: une cuillère à soupe
+      - label: citron
+        qty: 1
+    steps:
+      - label: Préparation
+        details:
+        - Zester le citron
+        - Presser la moitié du citron
+        - Faire fondre le beurre 
+        - Mélanger le jus de citron avec le beurre
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Incorporer progressivement le beurre fondu à vitesse lente
+        - Tamiser la farine et la levure sur la préparation
+        - Ajouter les graines de pavot et les zestes du citron
+        - Incorporer à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule
+        - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Citron Framboise: 
+    utensils:
+      - microplane
+    ingredients:
+      - label: oeufs 
+        qty: 3
+      - label: farine blanche
+        qty: poids des oeufs
+      - label: beurre
+        qty: poids des oeufs
+      - label: sucre glace
+        qty: poids des oeufs
+      - label: levure chimique
+        qty: 4
+        unit: "% de la farine"
+      - label: framboises
+        qty: 150
+        unit: gr
+      - label: citron
+        qty: 1
+    steps:
+      - label: Préparation
+        details:
+        - Zester le citron
+        - Presser la moitié du citron
+        - Faire fondre le beurre 
+        - Mélanger le jus de citron avec le beurre
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Incorporer progressivement le beurre fondu à vitesse lente
+        - Tamiser la farine et la levure sur la préparation
+        - Ajouter les zestes du citron
+        - Incorporer à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule
+        - Verser la moitié de la préparation dans le moule
+        - Parsemer de framboises
+        - Verser l'autre moitié de la préparation
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Réserver la préparation au frais le temps que le four chauffe
+          - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+          - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Ananas: 
+    ingredients:
+      - label: oeufs 
+        qty: 3
+      - label: farine blanche
+        qty: poids des oeufs
+      - label: beurre
+        qty: poids des oeufs
+      - label: sucre glace
+        qty: poids des oeufs
+      - label: levure chimique
+        qty: 4
+        unit: "% de la farine"
+      - label: Rondelles d'ananas
+        qty: 3
+      - label: Jus d'ananas
+        qty: au goût
+    steps:
+      - label: Préparation
+        details:
+        - Faire fondre le beurre 
+        - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
+        - Incorporer progressivement le beurre fondu à vitesse lente
+        - Tamiser la farine et la levure sur la préparation
+        - Incorporer à l'aide d'une spatule silicone
+        - Beurrer et fariner un moule
+        - Placer des rondelles d'ananas au fond du moule
+        - Verser la préparation dans le moule
+        - Garder le jus de l'ananas pour imbiber le gâteau après cuisson
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+        - Réserver la préparation au frais le temps que le four chauffe
+        - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+        - Vérifier que le gâteau est cuit avec la pointe d'un couteau
+  Tiramisu:
+    utensils:
+      - cuillere-bois
+      - casserole
+      - spatule-coude
+      - tamis
+    ingredients: 
+      - label: oeufs 
+        qty: 2
+      - label: farine blanche
+        qty: poids des oeufs
+      - label: beurre
+        qty: poids des oeufs
+      - label: sucre glace
+        qty: poids des oeufs
+      - label: levure chimique
+        qty: 4
+        unit: "% de la farine"
+      - label: vanille liquide
+        unit: "% de la farine"
+      - label: chantilly avec 200 mL de crème
+        link: /recettes/chantilly 
+      - label: Baileys
+        qty: 50
+        unit: mL
+      - label: chocolat noir 70%
+        qty: 50
+        unit: gr
+      - label: crème fleurette
+        qty: 100
+        unit: mL
+      - label: cacao en poudre non sucré
+    steps:
+      - label: Préparation du quatre-quarts
+        details:
+          - Voir l'onglet "Nature"
+      - label: Préparation de la chantilly
+        details:
+          - label: Voir ici
+            link: /recettes/chantilly
+          - Réserver au frais
+      - label: Assemblage
+        details:
+          - Dans une casserole, faire fondre le chocolat noir avec la crème
+          - Hors du feu, ajouter le Baileys au mélange chocolat-crème
+          - Faire 12 trous dans le quatre-quarts avec le manche d'une cuillère en bois
+          - Imbiber le quatre-quarts de ce mélange
+          - Laisser refroidir
+          - Déverser la chantilly sur le gâteau
+          - Égaliser à l'aide d'une spatule coudée
+          - Réserver au frais pour 4 heures
+          - Au moment de servir, saupoudrer de cacao en poudre 
+variations:
+  - label: Avec des pommes
+    todo: true
+  - label: Imbibé à l'orange
+    todo: true
+  - label: Marbré Chocolat
+    todo: true
+---
