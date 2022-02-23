@@ -1,5 +1,5 @@
 ---
-layout: recette
+layout: recette-v2
 categories: [recettes]
 hidden: true
 lang: fr

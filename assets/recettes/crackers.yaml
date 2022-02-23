@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -53,4 +53,3 @@ recipes:
         emoji: 🔥
         details:
          - Cuire 20 minutes à 200°C
----

@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -95,4 +95,3 @@ recipes:
         emoji: 🔥
         details:
         - Cuire 30 minutes à 160°C
----

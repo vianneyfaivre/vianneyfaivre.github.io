@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -68,4 +68,3 @@ variations:
     todo: true
   - label: Avec des graines de pavot
     todo: true
----

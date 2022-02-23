@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -48,4 +48,3 @@ recipes:
         emoji: 🔥
         details:
           - Cuire 12 minutes à 180°C
----

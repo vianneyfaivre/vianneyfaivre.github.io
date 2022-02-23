@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -62,4 +62,3 @@ recipes:
       - label: Explications
         link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
       - La pâte peut être conservée au frais pendant une semaine, la fermentation continuera lentement
----

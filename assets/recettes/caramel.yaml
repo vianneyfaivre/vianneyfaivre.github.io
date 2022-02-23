@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -43,4 +43,3 @@ recipes:
 notes:
   - label: Technique en vidéo
     link: https://www.youtube.com/watch?v=n2w-82m2X7w
----

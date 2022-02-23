@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -64,4 +64,3 @@ notes:
     link: https://youtu.be/bJeUb8ToRIw?t=144
   - label: Garder tous les déchets (viande et légumes) pour faire un bouillon de poulet
     link: /recettes/bouillon-de-poulet
----

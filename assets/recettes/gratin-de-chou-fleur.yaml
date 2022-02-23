@@ -1,4 +1,4 @@
----
+
 layout: recette
 categories: [recettes]
 hidden: true
@@ -43,4 +43,3 @@ recipes:
 variations:
  - label: Utiliser du comté
    todo: false
----
