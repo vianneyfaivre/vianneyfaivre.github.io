@@ -12,6 +12,7 @@ utensils:
   - poele
 recipes:
   Classique:
+    pictures: 1
     yield: 40
     ingredients: 
       - label: viande (boeuf, porc)

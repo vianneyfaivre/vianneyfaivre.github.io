@@ -14,6 +14,7 @@ utensils:
   - moule-brownie
 recipes:
   Classique:
+    pictures: 1
     ingredients: 
       - label: chocolat noir 70%
         qty: 75

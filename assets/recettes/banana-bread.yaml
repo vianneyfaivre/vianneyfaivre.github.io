@@ -12,6 +12,7 @@ utensils:
   - saladier
 recipes:
   Classique:
+    pictures: 1
     ingredients: 
       - label: oeufs 
         qty: 2

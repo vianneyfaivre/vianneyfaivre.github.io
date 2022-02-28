@@ -15,6 +15,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    pictures: 4
     yield: 12
     ingredients: 
       - label: oeuf

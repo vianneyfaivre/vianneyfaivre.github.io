@@ -13,6 +13,7 @@ utensils:
   - plaque-cuisson
 recipes:
   Classique:
+    pictures: 1
     ingredients: 
       - label: farine blanche
         qty: 150

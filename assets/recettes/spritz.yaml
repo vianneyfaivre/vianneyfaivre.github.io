@@ -15,6 +15,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    pictures: 2
     yield: 12
     yieldType: personnes
     ingredients: 

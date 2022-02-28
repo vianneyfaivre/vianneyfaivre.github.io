@@ -13,6 +13,7 @@ utensils:
   - chinois
 recipes:
   Classique:
+    pictures: 1
     ingredients: 
       - label: lait
         qty: 350

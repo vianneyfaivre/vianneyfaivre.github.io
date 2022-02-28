@@ -16,6 +16,7 @@ utensils:
   - microplane
 recipes:
   Classique:
+    pictures: 1
     ingredients: 
       - label: beurre
         qty: 125

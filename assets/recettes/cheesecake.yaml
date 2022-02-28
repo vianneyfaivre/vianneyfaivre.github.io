@@ -73,6 +73,7 @@ recipes:
           - Réserver au frais pendant 4 heures minimum
   
   Fromage Blanc:
+    pictures: 1
     ingredients: 
       - label: pâte brisée 
         link: /recettes/pate-brisee 
