@@ -12,6 +12,7 @@ utensils:
   - couteau
 recipes:
   Classique:
+    pictures: 1
     yield: 2.5
     yieldType: kg
     ingredients: 

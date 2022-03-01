@@ -13,6 +13,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    pictures: 4
     ingredients: 
       - label: poulet
       - label: légumes

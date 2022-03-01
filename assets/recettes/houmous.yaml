@@ -14,6 +14,7 @@ utensils:
   - robot
 recipes:
   Classique:
+    pictures: 1
     ingredients: 
       - label: pois chiches cuits
         qty: 240
