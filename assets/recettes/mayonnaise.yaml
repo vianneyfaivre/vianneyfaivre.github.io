@@ -8,6 +8,7 @@ title: Mayonnaise
 type: condiment
 recipes:
   À la Main: 
+    pictures: 1
     utensils:
       - saladier
       - fouet

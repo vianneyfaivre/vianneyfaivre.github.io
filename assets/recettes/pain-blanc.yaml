@@ -16,6 +16,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    pictures: 2
     ingredients: 
       - label: farine T55
         qty: 310

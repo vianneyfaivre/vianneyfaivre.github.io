@@ -18,6 +18,7 @@ utensils:
   - pinceau
 recipes:
   Classique:
+    pictures: 1
     yield: 6
     ingredients: 
       - label: eau

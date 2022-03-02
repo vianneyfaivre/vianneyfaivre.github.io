@@ -18,6 +18,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    pictures: 2
     ingredients: 
       - label: eau
         qty: 300

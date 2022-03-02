@@ -14,6 +14,7 @@ utensils:
   - coupe-pate
 recipes:
   Cinnamon Rolls:
+    pictures: 3
     utensils:
       - moule-brownie
     ingredients: 
@@ -77,6 +78,7 @@ recipes:
           - Préchauffer le four à 180°C
           - Cuire pendant 25 minutes 
   Babka:
+    pictures: 1
     utensils:
       - moule-cake
     ingredients: 
@@ -153,6 +155,7 @@ recipes:
           - Laisser la brioche 10 minutes dans son moule
           - La sortir et la laisser refroidir sur une grille pour 15 minutes
   Chinois:
+    pictures: 1
     utensils:
       - moule-rond
     ingredients: 

@@ -13,6 +13,7 @@ utensils:
   - rouleau
 recipes:
   Classique:
+    pictures: 2
     ingredients: 
       - label: farine blanche
         qty: 380

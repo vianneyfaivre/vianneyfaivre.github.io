@@ -76,6 +76,7 @@ recipes:
         - Cuire 15 à 20 minutes à 160°C
         - Laisser ressuer sur une grille 30 minutes
   Parker House Rolls:
+    pictures: 1
     ingredients: 
       - label: lait
         qty: 180
