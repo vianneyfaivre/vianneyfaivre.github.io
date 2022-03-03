@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Boeuf Bourguignon
-type: sel
 utensils:
   - couteau
   - cocotte

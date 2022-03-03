@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Tarta de Santiago
-type: sucre
 utensils:
   - saladier
   - fouet

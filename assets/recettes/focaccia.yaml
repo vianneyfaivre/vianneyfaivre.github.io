@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Focaccia
-type: boulangerie
 withYeast: true
 utensils:
   - machine-pain

@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Gratin Dauphinois
-type: sel
 utensils:
   - couteau
   - plat-gratin

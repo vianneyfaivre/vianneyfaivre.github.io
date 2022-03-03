@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Pain à Burger
-type: boulangerie
 withYeast: true
 utensils:
   - machine-pain

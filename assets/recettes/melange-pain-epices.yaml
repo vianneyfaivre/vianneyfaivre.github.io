@@ -1,11 +1,7 @@
 
-layout: epice
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Mélange pain d'épices
-type: condiment
 ingredients: 
   - label: cannelle
     qty: 2

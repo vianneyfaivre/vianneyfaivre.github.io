@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Dumplings
-type: sel
 utensils:
   - couteau
   - saladier
@@ -39,7 +35,6 @@ recipes:
       - label: champignons
       - label: herbes (coriandre, fleur d'ail, persil, etc.)
       - label: épices (paprika, curry, etc.)
-
     steps:
       - label: Préparation des ingrédients
         details:

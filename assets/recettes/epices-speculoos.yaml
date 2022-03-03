@@ -1,11 +1,7 @@
 
-layout: epice
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Mélange Speculoos
-type: condiment
 ingredients: 
   - label: cannelle
     qty: 4

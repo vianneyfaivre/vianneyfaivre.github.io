@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Madeleines
-type: sucre
 utensils:
   - tamis
   - saladier
@@ -44,7 +40,6 @@ recipes:
       - label: arômes
       - label: zestes
     steps:
-
       - label: Ingrédients Secs 
         details:
           - Tamiser la farine dans un saladier
@@ -55,7 +50,6 @@ recipes:
         details:
           - Faire fondre le beurre dans un saladier
           - Réserver au frais
-
       - label: Ingrédients Liquides 2/3
         details:
           - Verser l'huile dans un saladier
@@ -68,7 +62,6 @@ recipes:
           - Blanchir les oeufs et les jaunes d'oeufs avec le sucre
           - Ajouter le mélange huile-miel
           - Mélanger au fouet
-
       - label: Préparation 1/2
         details:
           - Verser la farine
@@ -77,14 +70,12 @@ recipes:
           - Mélanger à la spatule silicone jusqu'à incorporation
           - Préchauffer le four à 190°C, chaleur par le haut uniquement
           - Réserver la pâte 15 minutes (minimum) au réfrigérateur
-
       - label: Préparation 2/2
         details:
           - Mélanger la pâte à la spatule silicone afin de casser les bulles qui se sont formées
           - (Optionnel) Ajouter des fruits confits / pépites de chocolat
           - Beurrer le moule
           - Verser la pâte dans le moule (remplir chaque madeleine à trois quarts)
-
       - label: Cuisson
         emoji: 🔥
         details:

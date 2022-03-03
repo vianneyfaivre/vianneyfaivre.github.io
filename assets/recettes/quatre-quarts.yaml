@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Quatre-Quarts
-type: sucre
 utensils:
   - saladier
   - batteur-elec

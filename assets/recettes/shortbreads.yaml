@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Shortbreads
-type: sucre
 utensils:
   - batteur-elec
   - tamis

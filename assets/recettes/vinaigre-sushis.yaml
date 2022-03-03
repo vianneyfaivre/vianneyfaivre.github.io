@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Vinaigre pour Sushis
-type: condiment
 utensils:
   - casserole
   - bocal

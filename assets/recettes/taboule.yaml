@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Taboulé
-type: sel
 utensils:
   - presse-agrumes
   - saladier
@@ -37,7 +33,6 @@ recipes:
       - label: persil
       - label: menthe
       - label: huile d'olive
-
     steps:
       - label: Préparation
         details:

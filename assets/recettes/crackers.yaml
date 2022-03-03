@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Crackers
-type: sel
 utensils:
   - saladier
   - rouleau

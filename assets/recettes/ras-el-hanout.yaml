@@ -1,11 +1,7 @@
 
-layout: epice
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Ras el hanout
-type: condiment
 ingredients: 
   - label: cumin
     qty: 2

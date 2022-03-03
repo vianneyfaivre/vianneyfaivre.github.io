@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Chapelure
-type: condiment
 utensils:
   - couteau
   - plaque-cuisson

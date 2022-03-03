@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Panna Cotta
-type: sucre
 utensils:
   - saladier
   - casserole

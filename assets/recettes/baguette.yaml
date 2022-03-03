@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Baguette
-type: boulangerie
 utensils:
   - moule-baguettes
   - pain-lame

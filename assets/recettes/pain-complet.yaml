@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Pain Complet
-type: boulangerie
 recipes:
   Machine à Pain:
     utensils:

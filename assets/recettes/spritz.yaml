@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Spritz
-type: sucre
 utensils:
   - batteur-elec
   - spatule-silicone

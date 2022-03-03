@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Cheesecake
-type: sucre
 utensils:
   - casserole
   - spatule-bois
@@ -122,7 +118,6 @@ recipes:
         details: 
           - Cuire 30 minutes à 150°C
           - Cuire 20 minutes à 180°C
-
   Sans Cuisson:
     utensils:
       - batteur-elec
@@ -180,7 +175,6 @@ recipes:
           - Verser le mélange dans le moule
           - Lisser avec une spatule coudée
           - Réserver au frais pour 6h
-
   Basque Burnt:
     preconditions:
       - Le cream cheese doit être à température ambiante
@@ -217,4 +211,3 @@ recipes:
         - Cuire 45 minutes à 200°C
         - Cuire 15 minutes à 180°C
         - Se déguste à température ambiante
-

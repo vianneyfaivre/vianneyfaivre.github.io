@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Stir Fry - Sauces
-type: sel
 utensils:
   - saladier
   - fouet

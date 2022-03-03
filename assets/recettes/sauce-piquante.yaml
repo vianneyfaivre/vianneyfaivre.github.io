@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Sauce Piquante
-type: condiment
 utensils:
   - couteau 
   - poele

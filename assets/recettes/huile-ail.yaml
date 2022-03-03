@@ -1,11 +1,7 @@
 
-layout: recette
-categories: [recettes]
-hidden: true
-lang: fr
-sitemap: true
+
+
 title: Huile à l'ail
-type: condiment
 utensils:
   - couteau
   - bouteille-s
@@ -24,7 +20,6 @@ recipes:
         unit: cuillère à café
       - label: romarin
       - label: thym
-
     steps:
       - label: Préparation de l'ail
         details:
@@ -37,6 +32,5 @@ recipes:
           - Concasser le poivre
           - Ajouter le poivre et les herbes dans la casserole
           - Embouteiller
-
 notes:
   - Se conserve au frais
