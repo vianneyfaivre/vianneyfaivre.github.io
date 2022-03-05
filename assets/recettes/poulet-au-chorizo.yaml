@@ -23,7 +23,7 @@ recipes:
       - label: ail
         qty: 2
         unit: gousses
-      - label: crème liquide
+      - label: crème fleurette
         qty: 200
         unit: mL
       - label: paprika
@@ -40,7 +40,7 @@ recipes:
           - Faire revenir les oignons avec les poivrons
           - Ajouter l'ail 
           - Ajouter le poulet et le chorizo
-          - Ajouter la crème liquide
+          - Ajouter la crème
           - Goûter, ajuster si besoin (sel, piment, citron)
           - Laisser mijoter à semi-couvert à feu doux une dizaine de minutes
 notes:

@@ -67,7 +67,7 @@ recipes:
       - label: poudre d'amandes
         qty: 150
         unit: gr
-      - label: rhum
+      - label: amaretto
         qty: 40
         unit: mL
     steps:

@@ -1,5 +1,6 @@
 title: Brioche
 withYeast: true
+hydrationRatioEnabled: true
 utensils:
   - corne
   - coupe-pate
@@ -16,25 +17,25 @@ recipes:
       - moule-cake
     ingredients: 
       - label: lait
-        qty: 30
+        qty: 70
         unit: gr
       - label: levure sèche 
-        qty: 4
+        qty: 5
         unit: gr 
       - label: oeufs
-        qty: 3
+        qty: 2
       - label: farine blanche
-        qty: 250
+        qty: 300
         unit: gr
         variable: true
       - label: sucre blanc
         qty: 30
         unit: gr
       - label: sel
-        qty: 6
+        qty: 5
         unit: gr 
       - label: beurre
-        qty: 130
+        qty: 100
         unit: gr
     steps:
       - label: Pétrissage et Pointage (la veille - soir)
@@ -85,7 +86,7 @@ recipes:
         unit: gr 
       - label: oeufs
         qty: 2
-      - label: crème liquide
+      - label: crème fleurette
         qty: 80
         unit: gr
       - label: farine T55
@@ -106,7 +107,7 @@ recipes:
         - Couper le beurre en tout petits dés
         - Dans le récipient de la machine à pain, verser le mélange lait-levure
         - Ajouter les oeufs battus
-        - Ajouter la crème liquide
+        - Ajouter la crème
         - Ajouter la farine
         - Ajouter le sel
         - Ajouter le sucre
@@ -151,7 +152,7 @@ recipes:
         unit: gr 
       - label: oeufs
         qty: 2
-      - label: crème liquide
+      - label: crème fleurette
         qty: 20
         unit: gr
       - label: vanille liquide
@@ -179,7 +180,7 @@ recipes:
         - Couper le beurre en tout petits dés
         - Dans le récipient de la machine à pain, verser le mélange lait-levure
         - Ajouter les oeufs battus
-        - Ajouter la crème liquide
+        - Ajouter la crème
         - Ajouter la vanille liquide
         - Ajouter l'eau de fleur d'oranger
         - Ajouter la farine

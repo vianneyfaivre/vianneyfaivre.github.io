@@ -1,31 +1,34 @@
-
-
-
 title: Ras el hanout
-ingredients: 
-  - label: cumin
-    qty: 2
-    unit: cuillères à café
-  - label: coriandre 
-    qty: 1
-    unit: cuillère à café
-  - label: cannelle
-    qty: 0.5
-    unit: cuillère à café
-  - label: muscade
-    qty: 1
-    unit: cuillère à café
-  - label: gingembre
-    qty: 1
-    unit: cuillère à café
-  - label: paprika
-    qty: 2
-    unit: cuillères à café
-  - label: curcuma
-    qty: 1
-    unit: cuillère à café
-  - label: sel
-    qty: 2
-    unit: cuillères à café
-utilisations:
-  - Couscous
+recipes:
+  Classique:
+    ingredients: 
+    - label: cumin
+      qty: 2
+      unit: cuillères à café
+    - label: coriandre 
+      qty: 1
+      unit: cuillère à café
+    - label: cannelle
+      qty: 0.5
+      unit: cuillère à café
+    - label: muscade
+      qty: 1
+      unit: cuillère à café
+    - label: gingembre
+      qty: 1
+      unit: cuillère à café
+    - label: paprika
+      qty: 2
+      unit: cuillères à café
+    - label: curcuma
+      qty: 1
+      unit: cuillère à café
+    - label: sel
+      qty: 2
+      unit: cuillères à café
+    steps:
+      - label: Utilisations
+        emoji: 💡
+        details:
+          - Couscous
+     

@@ -16,7 +16,7 @@ recipes:
         qty: 420
         unit: gr
         variable: true
-      - label: crème liquide
+      - label: crème fleurette
         qty: 80
         unit: gr
       - label: oeuf
