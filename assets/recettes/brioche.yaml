@@ -25,7 +25,7 @@ recipes:
       - label: oeufs
         qty: 2
       - label: farine blanche
-        qty: 300
+        qty: 275
         unit: gr
         variable: true
       - label: sucre blanc
@@ -214,7 +214,7 @@ recipes:
         - Cuire 15 min à 150°C
         - Laisser ressuer 30 minutes sur une grille
   Stollen:
-    yield: 10
+    yield: 20
     yieldType: parts
     pictures: 2
     utensils:
