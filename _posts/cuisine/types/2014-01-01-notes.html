@@ -1,0 +1,23 @@
+---
+layout: default
+hidden: true
+lang: fr
+sitemap: true
+title: "Notes"
+categories: [recettes]
+type: meta
+metatype: notes
+description: "Recettes de cuisine - notes"
+---
+
+{% assign notes = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
+ 
+<h1 class="page-heading">Notes</h1>
+
+<ul>
+    {% for post in notes %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

@@ -21,18 +21,3 @@ customCss: assets/css/recettes.css
     {% endfor %}
 
 </div>
-
-
-<div class="notes">
-
-	{% assign cuisine = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
-
-	<h1>Notes</h1>
-	<ul>
-		{% for post in cuisine %}
-		<li>
-			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-	</ul>
-</div>
