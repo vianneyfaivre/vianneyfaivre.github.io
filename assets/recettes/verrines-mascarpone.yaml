@@ -11,7 +11,7 @@ utensils:
   - tamis
 recipes:
   Tiramisu:
-    yield: 4
+    yield: 6
     yieldType: verrines
     ingredients: 
       - label: Génoise pour 4 oeufs
@@ -64,7 +64,7 @@ recipes:
           - Réserver au frais au moins trois heures 
           - Saupoudrer de cacao au moment de servir
   Framboise:
-    yield: 4
+    yield: 6
     yieldType: verrines
     ingredients: 
       - label: oeufs 
@@ -148,7 +148,7 @@ recipes:
           - Placer les quelques fraises restantes sur le dessus
           - Réserver au frais au moins trois heures
   Speculoos:
-    yield: 4
+    yield: 6
     yieldType: verrines
     ingredients: 
       - label: oeufs 

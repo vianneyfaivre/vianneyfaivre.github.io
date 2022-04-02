@@ -14,6 +14,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    options: YEAST, HYDRATION
     pictures: 2
     ingredients: 
       - label: eau

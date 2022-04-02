@@ -1,6 +1,4 @@
 title: Brioche
-withYeast: true
-hydrationRatioEnabled: true
 utensils:
   - corne
   - coupe-pate
@@ -12,6 +10,7 @@ recipes:
   Standard:
     yield: 10
     yieldType: parts
+    options: YEAST, HYDRATION
     pictures: 6
     utensils:
       - moule-cake
@@ -25,7 +24,7 @@ recipes:
       - label: oeufs
         qty: 2
       - label: farine blanche
-        qty: 275
+        qty: 300
         unit: gr
         variable: true
       - label: sucre blanc
@@ -74,6 +73,7 @@ recipes:
     pictures: 0
     yield: 10
     yieldType: parts
+    options: YEAST, HYDRATION
     utensils:
       - moule-cake
     ingredients: 
@@ -140,6 +140,7 @@ recipes:
   Vendéenne:
     yield: 10
     yieldType: parts
+    options: YEAST, HYDRATION
     pictures: 3
     utensils:
       - moule-cake
@@ -216,6 +217,7 @@ recipes:
   Stollen:
     yield: 20
     yieldType: parts
+    options: YEAST, HYDRATION
     pictures: 2
     utensils:
       - plaque-cuisson
@@ -275,6 +277,7 @@ recipes:
   Pulla:
     yield: 10
     yieldType: parts
+    options: YEAST, HYDRATION
     pictures: 2
     utensils:
       - moule-cake

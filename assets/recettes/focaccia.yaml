@@ -9,6 +9,7 @@ utensils:
   - grille
 recipes:
   Classique:
+    options: YEAST, HYDRATION
     ingredients: 
       - label: eau
         qty: 200

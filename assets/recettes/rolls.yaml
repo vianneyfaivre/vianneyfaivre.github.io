@@ -11,6 +11,7 @@ utensils:
 recipes:
   Cinnamon Rolls:
     pictures: 3
+    options: YEAST
     utensils:
       - moule-brownie
     ingredients: 
@@ -75,6 +76,7 @@ recipes:
           - Cuire pendant 25 minutes 
   Babka:
     pictures: 1
+    options: YEAST
     utensils:
       - moule-cake
     ingredients: 
@@ -152,6 +154,7 @@ recipes:
           - La sortir et la laisser refroidir sur une grille pour 15 minutes
   Chinois:
     pictures: 1
+    options: YEAST
     utensils:
       - moule-rond
     ingredients: 

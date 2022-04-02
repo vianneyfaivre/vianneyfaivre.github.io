@@ -15,6 +15,7 @@ utensils:
 recipes:
   Classique:
     pictures: 1
+    options: YEAST, HYDRATION
     yield: 6
     ingredients: 
       - label: eau

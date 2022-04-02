@@ -13,6 +13,7 @@ utensils:
   - pinceau
 recipes:
   Viennois:
+    options: YEAST, HYDRATION
     ingredients:
       - label: lait
         qty: 120
@@ -73,6 +74,7 @@ recipes:
         - Laisser ressuer sur une grille 30 minutes
   Parker House Rolls:
     pictures: 1
+    options: YEAST, HYDRATION
     ingredients: 
       - label: lait
         qty: 180

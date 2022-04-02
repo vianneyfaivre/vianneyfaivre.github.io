@@ -10,6 +10,7 @@ utensils:
 recipes:
   Classique:
     pictures: 2
+    options: YEAST, HYDRATION
     ingredients: 
       - label: farine blanche
         qty: 380

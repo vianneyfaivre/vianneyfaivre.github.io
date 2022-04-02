@@ -13,6 +13,7 @@ utensils:
 recipes:
   Classique:
     yield: 12
+    options: YEAST
     ingredients: 
       - label: eau
         qty: 120

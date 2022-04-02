@@ -1,6 +1,3 @@
-
-
-
 title: Galette des Rois
 utensils:
   - saladier
@@ -8,7 +5,7 @@ utensils:
   - spatule-silicone
   - plaque-cuisson
 preconditions:
-  - La pâte feuilletée, le beurre et les oeufs doivent être à température ambiante
+  - Le beurre et les oeufs doivent être à température ambiante
   - Préchauffer le four à 200°C
 recipes:
   Pithiviers:
@@ -43,8 +40,9 @@ recipes:
           - Mouiller avec son doigt le bord de la pâte sur 2 cm avec de l'eau
           - Étaler la seconde pâte feuilletée sur la première
           - Bien pincer les bords
-          - Badigeonner avec un jaune d'oeuf (sauf le long du bord)
+          - Badigeonner avec un jaune d'oeuf
           - Faire un dessin avec la pointe d'un couteau
+          - Faire une petit trou au milieu à l'aide d'un couteau
       - label: Cuisson
         emoji: 🔥
         details:
@@ -93,8 +91,9 @@ recipes:
           - Mouiller avec son doigt le bord de la pâte sur 2 cm avec de l'eau
           - Étaler la seconde pâte feuilletée sur la première
           - Bien pincer les bords
-          - Badigeonner avec un jaune d'oeuf (sauf le long du bord)
+          - Badigeonner avec un jaune d'oeuf
           - Faire un dessin avec la pointe d'un couteau
+          - Faire une petit trou au milieu à l'aide d'un couteau
       - label: Cuisson
         emoji: 🔥
         details:
@@ -102,6 +101,5 @@ recipes:
           - Cuire 15 minutes à 150°C
 notes:
   - Utiliser le dos d'une cuillère et la pointe d'un couteau pour faire les bords
-  - Il ne faut pas badigeonner le long du bord car le jaune d'oeuf va empêcher la pâte de gonfler à la cuisson
   - Le rhum peut être remplacé par de l'Amaretto
   - Cette recette convient pour une galette de 25x25 cm. Veiller à ne pas trop surcharger de garniture
