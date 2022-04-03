@@ -1,0 +1,23 @@
+---
+layout: default
+hidden: true
+lang: fr
+sitemap: true
+title: "Boissons"
+categories: [recettes]
+type: meta
+metatype: boissons
+description: "Recettes de cuisine - boissons"
+---
+
+{% assign recettes = site.categories.recettes | where:"type","boisson" | sort: 'title'  %}
+ 
+<h1 class="page-heading">Boissons</h1>
+
+<ul>
+    {% for post in recettes %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

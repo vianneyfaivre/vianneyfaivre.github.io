@@ -1,0 +1,46 @@
+title: Apéritif à la Framboise
+recipes:
+  Classique:
+    yield: 75
+    yieldType: cL
+    ingredients:
+      - label: vin rouge
+        qty: 55
+        unit: cL
+        variable: true
+      - label: sucre
+        qty: 75
+        unit: gr
+      - label: framboises
+        qty: 225
+        unit: gr
+      - label: rhum
+        qty: 8
+        unit: cL
+    steps:
+      - label: Préparation 1/2
+        details:
+          - Déverser le vin et le sucre dans un bocal hermétique
+          - Dissoudre le sucre
+          - Ajouter les framboises
+          - Placer le bocal dans un endroit frais
+      - label: Patience
+        emoji: 😴
+        details:
+          - Attendre 7 jours
+          - Remuer le bocal une fois par jour
+      - label: Préparation 2/2
+        details:
+          - Déverser le contenu du bocal dans un pichet à travers une passoire fine
+          - Ajouter le rhum
+          - Embouteiller
+          - Placer la bouteille dans un endroit frais
+      - label: Patience
+        emoji: 😴
+        details:
+          - Attendre 7 jours
+      - label: Conservation & Dégustation
+        emoji: 🍷
+        details:
+          - Se conserve à température ambiante plusieurs mois
+          - À déguster pur avec un glaçon 
