@@ -14,10 +14,11 @@ customCss: assets/css/recettes.css
 <div class="cards">
 
     {% for type in types %}
-	<div class="card" onClick="window.open('/recettes/{{ type.metatype }}')">
+
+	<a class="card" href="/recettes/{{ type.metatype }}">
 		<img src="/assets/images/cooking/placeholders/{{ type.metatype }}.jpg" />
 		<span class="card-title">{{ type.metatype }}</span>
-	</div>
+	</a>
     {% endfor %}
 
 </div>
