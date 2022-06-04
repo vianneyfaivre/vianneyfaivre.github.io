@@ -9,10 +9,10 @@ recipes:
   Classique:
     ingredients: 
       - label: ail
-        qty: 3
+        qty: 2
         unit: gousses
       - label: huile
-        qty: 250
+        qty: 125
         unit: mL
         variable: true
       - label: poivre
@@ -33,4 +33,4 @@ recipes:
           - Ajouter le poivre et les herbes dans la casserole
           - Embouteiller
 notes:
-  - Se conserve au frais
+  - Se conserve au frais un mois

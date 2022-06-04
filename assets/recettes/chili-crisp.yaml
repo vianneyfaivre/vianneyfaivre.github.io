@@ -1,0 +1,85 @@
+title: Chili Crisp
+recipes:
+  Classique:
+    yield: 1
+    yieldType: pot de confiture
+    ingredients: 
+      - label: cacahuètes
+        qty: 20
+        unit: gr
+      - label: graines de sésame
+        qty: 15
+        unit: gr
+      - label: piment séché
+        qty: 15
+        unit: gr
+      - label: cardamome noire
+        qty: 1
+        unit: cosse
+      - label: anis étoilé
+        qty: 1
+        unit: étoile
+      - label: cannelle
+        qty: 1
+        unit: baton
+      - label: laurier
+        qty: 1
+        unit: feuille
+      - label: paprika fumé
+        qty: 1
+        unit: cuillère à café
+      - label: piment d'espelette
+        qty: 1
+        unit: cuillère à café
+      - label: poivre de Sichuan
+        qty: 5
+        unit: gr
+      - label: huile de tournesol
+        qty: 100
+        unit: mL
+        variable: true
+      - label: oignon rouge
+        qty: 1
+      - label: gingembre
+        qty: 15
+        unit: gr
+      - label: ail
+        qty: 5
+        unit: gousses
+      - label: sel 
+        qty: 0.5
+        unit: cuillère à café
+      - label: huile de sésame
+        qty: 3
+        unit: cuillères à soupe
+    steps:
+      - label: Préparation des cacahuètes
+        emoji: 🥜
+        details:
+          - Torréfier les cacahuètes au four 15 minutes à 180°C
+          - Laisser refroidir
+          - Mixer les cacahuètes avec les graines de sésame et le piment séché 
+      - label: Torréfaction des épices
+        emoji: 🌶️
+        details: 
+          - Préchauffer le wok sur feu fort avec un tout petit peu d'huile
+          - Écraser la cosse de cardamome
+          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le paprika fumé, le piment d'espelette et le poivre de Sichuan
+      - label: Cuisson
+        emoji: 🔥
+        details: 
+          - Émincer l'oignon, le gingembre et l'ail
+          - Préchauffer le wok sur feu fort
+          - Déverser toute l'huile
+          - Faire frire l'oignon, le gingembre et l'ail
+      - label: Finalisation
+        emoji: 🥃
+        details: 
+          - Tout rassembler dans un saladier
+          - Ajouter le sel
+          - Ajouter l'huile de sésame
+          - Mélanger
+          - Déverser dans le pot à confiture
+notes:
+  - Se conserve au frais deux mois
+  - S'utilise absolument partout
