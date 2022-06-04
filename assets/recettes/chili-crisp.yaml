@@ -13,6 +13,9 @@ recipes:
       - label: piment séché
         qty: 15
         unit: gr
+      - label: sel 
+        qty: 0.5
+        unit: cuillère à café
       - label: cardamome noire
         qty: 1
         unit: cosse
@@ -46,9 +49,6 @@ recipes:
       - label: ail
         qty: 5
         unit: gousses
-      - label: sel 
-        qty: 0.5
-        unit: cuillère à café
       - label: huile de sésame
         qty: 3
         unit: cuillères à soupe
@@ -59,24 +59,28 @@ recipes:
           - Torréfier les cacahuètes au four 15 minutes à 180°C
           - Laisser refroidir
           - Mixer les cacahuètes avec les graines de sésame et le piment séché 
+          - Ajouter le sel
       - label: Torréfaction des épices
         emoji: 🌶️
         details: 
-          - Préchauffer le wok sur feu fort avec un tout petit peu d'huile
+          - Préchauffer le wok sur feu fort sans huike
           - Écraser la cosse de cardamome
           - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le paprika fumé, le piment d'espelette et le poivre de Sichuan
+          - Torréfier les épices 5 minutes
+          - Déverser toute l'huile
+          - Faire infuser 25 minutes sur feu moyen
+          - Passer au chinois (conserver l'huile)
       - label: Cuisson
         emoji: 🔥
         details: 
           - Émincer l'oignon, le gingembre et l'ail
           - Préchauffer le wok sur feu fort
-          - Déverser toute l'huile
+          - Déverser l'huile infusée
           - Faire frire l'oignon, le gingembre et l'ail
       - label: Finalisation
         emoji: 🥃
         details: 
           - Tout rassembler dans un saladier
-          - Ajouter le sel
           - Ajouter l'huile de sésame
           - Mélanger
           - Déverser dans le pot à confiture
