@@ -23,17 +23,23 @@ recipes:
         unit: gr
       - label: jaunes d'oeufs
         qty: 4
-      - label: vanille liquide
-        qty: 2
-        unit: cuillères à café
+      - label: vanille
+        qty: 1
+        unit: gousses
       - label: beurre
         qty: 40
         unit: gr
     steps:
-      - label: Préparation
+      - label: Cuisson du lait
+        emoji: 🥛
         details:
           - Rincer la casserole avec de l'eau (pour éviter que le lait accroche)
-          - Porter le lait et la vanille à ébullition (environ 80°C)
+          - Déverser le lait dans la casserole
+          - Préparer la gousse de vanille. Déverser la gousse et les graines dans la casserole
+          - Porter le lait à ébullition (environ 80°C)
+      - label: Préparation de la crème
+        emoji: 🔥
+        details:
           - Fouetter les jaunes d'oeufs avec le sucre
           - Incorporer la fécule de maïs
           - Verser la moitié du lait sur le mélange tout en fouettant

@@ -22,13 +22,13 @@ recipes:
       - label: riz arborio
         qty: 130
         unit: gr
+        variable: true
       - label: vin blanc
         qty: 50
         unit: mL
       - label: bouillon
         qty: 500
         unit: mL
-        variable: true
       - label: crème fraîche
         qty: 1
         unit: cuillères à café
@@ -54,7 +54,7 @@ recipes:
           - Déverser le riz. Cuire 3 minutes 
           - Déglacer avec le vin blanc
           - Ajouter les champignons
-          - Verser du bouillon louche après louche
+          - Verser du bouillon louche après louche jusqu'à ce que le riz soit cuit
       - label: Finalisation
         emoji: 🍽️
         details:
