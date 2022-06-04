@@ -1,23 +1,24 @@
-
-
-
 title: Risotto
 utensils:
   - couteau
   - poele
   - microplane
 recipes:
-  Champignons-Pancetta:
+  Classique:
     yield: 2
     yieldType: personnes
     ingredients: 
-      - label: champignons
+      - label: oignon
+        qty: 1
+      - label: carotte
+        qty: 1
+      - label: échalote
+        qty: 1
       - label: ail
         qty: 2
         unit: gousses
-      - label: oignon
-        qty: 1
-      - label: pancetta
+      - label: champignons
+      - label: parmesan
       - label: riz arborio
         qty: 130
         unit: gr
@@ -29,23 +30,37 @@ recipes:
         unit: mL
         variable: true
       - label: crème fraîche
-        qty: 2
+        qty: 1
         unit: cuillères à café
-      - label: parmesan
     steps:
-      - label: Préparation
+      - label: Découpe
+        emoji: 🔪
         details:
-          - Émincer finement les champignons, l'ail et l'oignon
-          - Détailler la pancetta
-          - Raper finement du parmesan
-          - Faire revenir la pancetta. Réserver
-          - Faire revenir l'oignon
-          - Ajouter le riz. Cuire quelques minutes 
+          - Émincer les oignons
+          - Émincer les carottes
+          - Émincer les échalotes
+          - Émincer l'ail
+          - Émincer très finement les champignons
+          - Raper du parmesan
+      - label: Préparation du soffritto
+        emoji: 🧅
+        details:
+          - Préchauffer une poêle avec du beurre
+          - Déverser les oignons, les carottes, les échalotes et l'ail
+          - Faire revenir 10 minutes
+      - label: Préparation du risotto
+        emoji: 🔥
+        details:
+          - Déverser le riz. Cuire 3 minutes 
           - Déglacer avec le vin blanc
-          - Remettre la pancetta dans la poêle
-          - Ajouter les champignons et l'ail. Cuire quelques minutes 
-          - Verser un peu de bouillon. En remettre progressivement dès lors qu'il en reste peu
-          - Ajouter la crème fraîche. Cuire quelques minutes
-          - Ajouter le parmesan hors du feu
+          - Ajouter les champignons
+          - Verser du bouillon louche après louche
+      - label: Finalisation
+        emoji: 🍽️
+        details:
+          - Ajouter la crème fraîche et une noisette de beurre
+          - Ajouter le parmesan
           - Mélanger
           - Servir
+notes:
+  - "Bouillon : végétarien, aux épices, boeuf, porc, poulet, ..."
