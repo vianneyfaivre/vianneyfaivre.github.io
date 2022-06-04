@@ -1,60 +1,68 @@
-
-
-
 title: Fried Rice
 utensils:
   - couteau
-  - poele
+  - wok
 recipes:
   Classique:
     yield: 2
     yieldType: personnes
     ingredients: 
-      - label: sauce soja
-        qty: 8
-        unit: cuillères à soupe
-      - label: huile de sésame
-        qty: 2
-        unit: cuillères à soupe
-      - label: sucre blanc
-        qty: 1
-        unit: cuillères à soupe
-      - label: ail
-        qty: 5
-        unit: gousses
-      - label: gingembre
-      - label: oeufs
-        qty: 3
-        variable: true
-      - label: viande
-      - label: oignon
-        qty: 1
-      - label: légumes
-      - label: pois
-      - label: champignons
-      - label: riz cuit
+      - label: riz
         qty: 150
         unit: gr
+      - label: viande
+      - label: condiments
+      - label: légumes
+      - label: légumineuses
+      - label: champignons
+      - label: sauces
+      - label: oeufs
+        qty: 2
+        variable: true
+      - label: garnitures
+      - label: sauce pimentée
     steps:
-      - label: Préparation de la sauce
+      - label: Préparation du riz
+        emoji: 🍚
         details:
-          - Émincer l'ail
-          - Émincer le gingembre (en mettre deux fois moins que d'ail)
-          - Mélanger la sauce soja, l'huile de sésame, le sucre, l'ail et le gingembre
+          - Rincez le riz plusieurs fois
+          - Faire cuire le riz
+          - Le placer au réfrigérateur au moins 30 minutes
+      - label: Cuisson 1/4
+        emoji: 🥩
+        details:
+          - Préchauffer le wok sur feu fort avec un fond d'huile
+          - Faire dorer la viande
           - Réserver
-      - label: Préparation des oeufs
+      - label: Cuisson 2/4
+        emoji: 🥬
         details:
+          - Remettre un peu d'huile
+          - Faire revenir les condiments
+          - Ajouter les légumes, les champignons et les légumineuses. Les cuire quelques minutes (les légumes ne doivent pas trop cuire)
+          - Ajouter le riz et les sauces puis tout mélanger
+          - Réserver
+      - label: Cuisson 3/4
+        emoji: 🍳
+        details: 
           - Faire des oeufs brouillés
           - Réserver
-      - label: Préparation
+      - label: Cuisson 4/4
+        emoji: 🥘
         details:
-          - Dans une poêle, faire dorer la viande sur feu fort
-          - Ajouter les légumes. Cuire quelques minutes 
-          - Ajouter les champignons et les pois. Cuire quelques minutes
-          - Ajouter le riz et la sauce. Cuire quelques minutes
-          - Ajouter les oeufs
-          - Servir
+          - Tout rassembler
+          - Mélanger
+      - label: Dressage
+        emoji: 🍽️
+        details:
+          - Servir dans un bol large
+          - Ajouter un peu de garnitures sur le dessus
+          - Servir de la sauce pimentée dans un récipient annexe
+      
 notes:
  - "Viande : boeuf, porc, poulet, chorizo, ..."
+ - "Condiments : ail, gingembre, échalote, oignon, ..."
+ - "Sauces : sauce soja, huile de sésame, mirin, sauce d'huître, nuoc mam, miel, ..."
  - "Légumes : carottes, haricots verts, poivrons, brocolis, ..."
- - "Pois : Haricots rouges, edamame, ..."
+ - "Légumineuses : Haricots rouges, edamame, pois chiches, ..."
+ - "Garnitures : graines de sésame, oignons verts, échalotes frites, oignons frits, ..."
