@@ -21,6 +21,7 @@ EventType =
   MOTORCYCLE: '🛵'
   COVID19: '😷' 
   SPORT: '🏃'
+  BREAD: '🥖'
 
 State = 
   NOT_BORN: 0
@@ -179,6 +180,7 @@ EVENTS = [
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
     new Event(2018, 6, EventType.SOCCER, "Fifa World Cup Champion ⭐⭐", null),
     new Event(2020, 2, EventType.SPORT, "Started doing yoga", null),
+    new Event(2019, 8, EventType.BREAD, "Started making bread", null),
     
     new Event(2020, 2, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
     new Event(2020, 3, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
