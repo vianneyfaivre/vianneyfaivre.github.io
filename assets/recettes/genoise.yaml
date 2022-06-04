@@ -45,6 +45,6 @@ recipes:
         emoji: 🔥
         details:
           - Cuire 20 minutes à 180°C
-    notes:
-      - Tout faire le plus rapidement possible
-      - Une fois étalée, la hauteur de la pâte doit être environ d'un centimètre
+notes:
+  - Tout faire le plus rapidement possible
+  - Une fois étalée, la hauteur de la pâte doit être environ d'un centimètre

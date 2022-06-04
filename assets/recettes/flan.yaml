@@ -32,19 +32,25 @@ recipes:
       - label: beurre
         qty: 30
         unit: gr
-      - label: vanille liquide
-        qty: 2
-        unit: cuillères à café
+      - label: vanille
+        qty: 1
+        unit: gousses
     preconditions:
       - Couper le beurre en petits dés
       - Préchauffer le four à 180°C
     steps:
-      - label: Préparation
+      - label: Cuisson du lait
+        emoji: 🥛
         details:
           - Rincer la casserole avec de l'eau (pour éviter que le lait accroche)
-          - Porter le lait, la crème et la moitié de la vanille à ébullition (environ 80°C)
-          - Dans un saladier, mélanger l'oeuf entier avec les jaunes, le sucre, l'autre moitié de la vanille et la fécule de maïs
-          - Quand le lait commence à bouillir, le verser en deux fois dans le saladier tout en fouettant continuellement
+          - Déverser le lait et la crème dans la casserole
+          - Préparer la gousse de vanille. Déverser la gousse et les graines dans la casserole
+          - Porter à ébullition (environ 80°C)
+      - label: Préparation de la crème
+        emoji: 🔥
+        details:
+          - Dans un saladier, mélanger l'oeuf entier avec les jaunes, le sucre et la fécule de maïs
+          - Verser le lait sur le mélange tout en fouettant
           - Reverser le tout dans la casserole
           - Mettre à feu moyen-doux et fouetter continuellement jusqu'à ce que ça commence à épaissir
           - Transvaser dans un saladier

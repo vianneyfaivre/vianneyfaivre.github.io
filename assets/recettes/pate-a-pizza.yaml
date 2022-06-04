@@ -1,14 +1,10 @@
-
-
-
 title: Pâte à Pizza
-withYeast: true
 utensils:
   - saladier
   - corne
   - rouleau
 recipes:
-  Classique:
+  Levure Sèche:
     pictures: 2
     options: YEAST, HYDRATION
     ingredients: 
@@ -50,13 +46,47 @@ recipes:
           - Étaler au rouleau
           - Garnir
           - Cuire 18-20 min minutes à 240°C
-    notes:
-      - label: Comment pétrir
-        link: https://www.youtube.com/watch?v=SF2F1xKTrdE 
-      - label: Comment étaler
-        link: https://youtu.be/FZDoI20pTHw?t=265
-      - label: Comment étaler 2
-        link: https://www.youtube.com/watch?v=oopnT_wGGHE
-      - label: Explications
-        link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
-      - La pâte peut être conservée au frais pendant une semaine, la fermentation continuera lentement
+  Levain:
+    options: HYDRATION
+    ingredients: 
+      - label: farine T65
+        qty: 310
+        unit: gr
+      - label: sel
+        qty: 3
+        unit: gr
+      - label: levain mûr
+        qty: 200
+        unit: gr
+        variable: true
+      - label: eau
+        qty: 150
+        unit: mL
+    steps:
+      - label: Préparation
+        details:
+          - Utiliser le robot pâtissier avec le crochet pétrisseur
+          - Déverser la farine, le sel, le levain et l'eau
+          - Pétrir pendant environ 10 minutes (la pâte doit se décoller des bords)
+          - Laisser reposer 1 heure à 25°C
+          - Bouler
+          - Laisser reposer 1 heure à 25°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Préchauffer le four à 240°C 
+          - Fleurer le plan de travail
+          - Déverser le pâton sur le plan de travail
+          - Étaler au rouleau
+          - Garnir
+          - Cuire 18-20 min minutes à 240°C
+notes:
+  - label: Comment pétrir
+    link: https://www.youtube.com/watch?v=SF2F1xKTrdE 
+  - label: Comment étaler
+    link: https://youtu.be/FZDoI20pTHw?t=265
+  - label: Comment étaler 2
+    link: https://www.youtube.com/watch?v=oopnT_wGGHE
+  - label: Explications
+    link: https://www.ricardocuisine.com/chroniques/chimie-alimentaire/509-guide-pizza-101
+  - La pâte peut être conservée au frais pendant une semaine, la fermentation continuera lentement
