@@ -1,6 +1,3 @@
-
-
-
 title: Pâte Sucrée
 utensils: 
   - saladier
@@ -42,6 +39,50 @@ recipes:
           - Former une boule et l'applatir un peu
           - Filmer
           - Réserver minimum 1 heure au frais
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - "À blanc : 170°C pour 15 à 20 minutes"
+
+  Au Robot Pâtissier:
+    ingredients: 
+      - label: beurre
+        qty: 125
+        unit: gr
+      - label: sucre glace
+        qty: 100
+        unit: gr
+      - label: poudre d'amandes
+        qty: 30
+        unit: gr
+      - label: sel
+        qty: 1
+        unit: gr
+      - label: oeuf
+        qty: 1
+      - label: farine blanche
+        qty: 250
+        unit: gr
+        variable: true
+    preconditions:
+      - Le beurre doit être pommade
+    steps:
+      - label: Préparation
+        details:
+          - Utiliser le robot pâtissier avec le batteur plat
+          - Déverser le beurre, le sucre, la poudre d'amandes et le sel dans le bol du robot
+          - Mélanger en vitesse lente jusqu'à incorporation
+          - Incorporer l'oeuf
+          - Incorporer la farine 
+      - label: Frasage
+        details:
+          - Déverser la pâte sur le plan de travail
+          - Former une boule
+          - Fraser
+          - Reformer une boule
+          - Aplatir légèrement la boule
+          - Filmer
+          - Réserver minimum 2 heures au frais, maximum 3 jours
       - label: Cuisson
         emoji: 🔥
         details:

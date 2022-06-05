@@ -15,7 +15,7 @@ customCss: assets/css/recettes.css
 
     {% for type in types %}
 
-	<a class="card" href="/recettes/{{ type.metatype }}">
+	<a class="card" href="/recettes/{{ type.metatype }}" alt="catégorie {{ type.metatype }}">
 		<img src="/assets/images/cooking/placeholders/{{ type.metatype }}.jpg" />
 		<span class="card-title">{{ type.metatype }}</span>
 	</a>
