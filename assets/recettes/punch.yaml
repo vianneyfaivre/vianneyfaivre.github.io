@@ -1,0 +1,47 @@
+title: Punch
+recipes:
+  Léger:
+    yield: 10
+    yieldType: L
+    ingredients:
+      - label: rhum
+        qty: 2
+        unit: L
+        variable: true
+      - label: jus de fruits 100%
+        qty: 7.5
+        unit: L
+      - label: sucre de canne liquide
+        qty: 0.5
+        unit: L
+      - label: fruits
+    steps:
+      - label: Préparation (1 à 7 jours avant)
+        details:
+          - Couper les fruits en quartiers
+          - Mélanger tous les ingrédients
+          - Remuer et goûter tous les jours
+  Fort:
+    yield: 10
+    yieldType: L
+    ingredients:
+      - label: rhum
+        qty: 3
+        unit: L
+        variable: true
+      - label: jus de fruits 100%
+        qty: 6.5
+        unit: L
+      - label: sucre de canne liquide
+        qty: 0.5
+        unit: L
+      - label: fruits
+    steps:
+      - label: Préparation (1 à 7 jours avant)
+        details:
+          - Couper les fruits en quartiers
+          - Mélanger tous les ingrédients
+          - Remuer et goûter tous les jours
+notes:
+  - Se conserve une semaine
+  - Peut se congeler

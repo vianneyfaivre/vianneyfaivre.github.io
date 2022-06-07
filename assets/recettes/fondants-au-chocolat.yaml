@@ -36,8 +36,9 @@ recipes:
           - Incorporer les oeufs un à un
           - Incorporer la farine
           - Répartir dans un moule à muffins
-          - Ajouter un carré de chocolat au milieu de chaque fondant
+          - Réserver au réfrigérateur au moins 30 minutes
       - label: Cuisson
         emoji: 🔥
         details:
+          - Ajouter un carré de chocolat au milieu de chaque fondant
           - Cuire 10-13 minutes à 180°C

@@ -14,7 +14,7 @@ recipes:
       - label: framboises
         qty: 225
         unit: gr
-      - label: rhum
+      - label: vodka
         qty: 8
         unit: cL
     steps:
@@ -32,7 +32,7 @@ recipes:
       - label: Préparation 2/2
         details:
           - Déverser le contenu du bocal dans un pichet à travers une passoire fine
-          - Ajouter le rhum
+          - Ajouter la vodka
           - Embouteiller
           - Placer la bouteille dans un endroit frais
       - label: Patience

@@ -26,7 +26,7 @@ recipes:
       - label: oeufs 
         qty: 2
       - label: sucre
-        qty: 35
+        qty: 50
         unit: gr
       - label: mascarpone
         qty: 250
@@ -45,13 +45,14 @@ recipes:
         details:
          - Faire bouillir l'eau
          - Diluer le café soluble avec l'eau
-         - Ajouter 10 grammes de sucre et l'amaretto
+         - Ajouter la moitié du sucre et l'amaretto
       - label: Mascarpone
         details:
           - Séparer les blancs des jaunes
-          - Monter les blancs en neige
-          - Blanchir les jaunes d'oeufs avec 25 grammes de sucre au fouet
+          - Blanchir les jaunes d'oeufs avec la moitié du sucre au fouet
           - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
+          - Monter les blancs en neige
+          - Serrer les blancs avec un peu de sucre
           - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
@@ -90,9 +91,10 @@ recipes:
         details:
           - Émietter les biscuits en petits morceaux
           - Séparer les blancs des jaunes
-          - Monter les blancs en neige
           - Blanchir les jaunes d'oeufs avec le sucre au fouet
           - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
+          - Monter les blancs en neige
+          - Serrer les blancs avec un peu de sucre
           - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
@@ -172,9 +174,10 @@ recipes:
         details:
           - Émietter les Speculoos en petits morceaux
           - Séparer les blancs des jaunes
-          - Monter les blancs en neige
           - Blanchir les jaunes d'oeufs avec le sucre au batteur électrique
           - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
+          - Monter les blancs en neige
+          - Serrer les blancs avec un peu de sucre
           - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
