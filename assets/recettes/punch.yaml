@@ -11,7 +11,7 @@ recipes:
       - label: jus de fruits 100%
         qty: 7.5
         unit: L
-      - label: sucre de canne liquide
+      - label: sucre liquide
         qty: 0.5
         unit: L
       - label: fruits
@@ -32,7 +32,7 @@ recipes:
       - label: jus de fruits 100%
         qty: 6.5
         unit: L
-      - label: sucre de canne liquide
+      - label: sucre liquide
         qty: 0.5
         unit: L
       - label: fruits
@@ -43,5 +43,9 @@ recipes:
           - Mélanger tous les ingrédients
           - Remuer et goûter tous les jours
 notes:
+  - "Jus de Fruits : orange, banane, mangue, goyave, ..."
+  - "Sucre Liquide : Sirop de sucre de canne, sirop de grenadine, sirop de fraise, ..."
+  - "Fruits : agrumes, bananes, ananas, ..."
+  - Possibilité de remplacer un peu du rhum par des liqueurs (vanille, banane, ...)
   - Se conserve une semaine
   - Peut se congeler

@@ -64,3 +64,53 @@ recipes:
           - Sortir du four et laisser le plat tomber de haut plusieurs fois afin de briser la surface du brownie
           - Parsemer de fleur de sel
           - Cuire 7 min à 180°C 
+
+  Chocolat en Poudre:
+    pictures: 0
+    yield: 1
+    yieldType: brownie 23x23 cm
+    ingredients: 
+      - label: beurre
+        qty: 190
+        unit: gr
+      - label: sucre blanc
+        qty: 250
+        unit: gr
+      - label: oeufs 
+        qty: 3
+        variable: true
+      - label: farine blanche
+        qty: 100
+        unit: gr
+      - label: cacao en poudre non sucré
+        qty: 100
+        unit: gr
+      - label: levure chimique 
+        qty: 0.5
+        unit: cuillère à café
+      - label: sel 
+        qty: 1
+        unit: cuillère à café
+      - label: café instantané
+        qty: 1
+        unit: cuillère à café
+      - label: fleur de sel
+    steps:
+      - label: Ingrédients liquides
+        details:
+          - Faire fondre le beurre
+          - Ajouter le sucre
+          - Fouetter
+          - Incorporer les oeufs un à un
+      - label: Ingrédients secs
+        details:     
+          - Tamiser la farine, le cacao en poudre, la levure chimique, le sel et le café
+      - label: Préparation
+        details:    
+          - Incorporer les ingrédients secs avec les ingrédients liquides à la spatule silicone
+          - Verser la préparation dans le moule
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 30 min à 170°C
+          - Parsemer de fleur de sel
