@@ -8,7 +8,7 @@ recipes:
     ingredients:
       - label: ail
         qty: 1
-        unit: petite gousse
+        unit: gousse
       - label: sel
         qty: 1
         unit: pincée

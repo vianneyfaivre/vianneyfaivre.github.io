@@ -71,7 +71,7 @@ recipes:
         details:
           - Utiliser le robot pâtissier avec le batteur plat
           - Déverser le beurre, le sucre, la poudre d'amandes et le sel dans le bol du robot
-          - Mélanger en vitesse lente jusqu'à incorporation
+          - Mélanger en vitesse 1 jusqu'à incorporation
           - Incorporer l'oeuf
           - Incorporer la farine 
       - label: Frasage

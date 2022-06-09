@@ -7,7 +7,68 @@ utensils:
   - grille
   - pinceau
 recipes:
-  Standard:
+  Sans Oeufs:
+    yield: 10
+    yieldType: parts
+    options: YEAST, HYDRATION
+    pictures: 2
+    utensils:
+      - moule-cake
+    ingredients: 
+      - label: lait
+        qty: 250
+        unit: gr
+        variable: true
+      - label: levure sèche 
+        qty: 8
+        unit: gr 
+      - label: farine T55
+        qty: 365
+        unit: gr
+      - label: sucre blanc
+        qty: 60
+        unit: gr
+      - label: sel
+        qty: 4
+        unit: gr 
+      - label: beurre
+        qty: 75
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage  (la veille - soir)
+        details:
+        - Couper le beurre en tout petits dés
+        - Utiliser le robot pâtissier avec le crochet pétrisseur
+        - Déverser le mélange lait-levure, la farine, le sucre, le sel
+        - Mélanger en vitesse 1 jusqu'à incorporation
+        - Pétrir en vitesse 1 pendant 5 minutes
+        - Pétrir en vitesse 2 pendant 5 minutes
+        - Incorporer le beurre petit à petit en vitesse 1
+        - Pétrir en vitesse 2 pendant 5 minutes
+        - Bouler
+        - Laisser reposer 30 minutes à 25°C
+        - Bouler
+        - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+        - Dégazer
+        - Replier en son milieu sur la longueur. Répéter trois fois.
+        - Laisser une détente de 5 minutes
+        - Diviser
+        - Bouler chaque pâton
+        - Laisser une détente de 5 minutes
+        - Façonner chaque pâton
+        - Beurrer le moule
+        - Placer dans les pâtons façonnés dans un moule
+        - Laisser reposer 45 minutes à 30°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Badigeonner avec un jaune d'oeuf
+        - Saupoudrer de sucre en grains
+        - Cuire 30 minutes à 180°C
+        - Laisser ressuer 30 minutes sur une grille
+  Avec Oeufs:
     yield: 10
     yieldType: parts
     options: YEAST, HYDRATION
@@ -273,68 +334,4 @@ recipes:
         - Cuire 30 minutes à 180°C
         - Badigeonner de beurre fondu
         - Saupoudrer de sucre glace
-        - Laisser ressuer 30 minutes sur une grille
-  Pulla:
-    yield: 10
-    yieldType: parts
-    options: YEAST, HYDRATION
-    pictures: 2
-    utensils:
-      - moule-cake
-    ingredients: 
-      - label: lait
-        qty: 250
-        unit: gr
-      - label: levure sèche 
-        qty: 7
-        unit: gr 
-      - label: farine T55
-        qty: 350
-        unit: gr
-        variable: true
-      - label: cardamome
-        qty: 8
-        unit: gr
-      - label: sucre blanc
-        qty: 60
-        unit: gr
-      - label: sel
-        qty: 4
-        unit: gr 
-      - label: beurre
-        qty: 75
-        unit: gr
-    steps:
-      - label: Pétrissage et Pointage  (la veille - soir)
-        details:
-        - Couper le beurre en tout petits dés
-        - Dans le récipient de la machine à pain, verser le mélange lait-levure
-        - Ajouter la farine et le cardamome
-        - Ajouter le sucre
-        - Ajouter le sel
-        - Ajouter le beurre
-        - Lancer le programme "pétrissage seulement"
-        - Fleurer le plan de travail
-        - Déverser le pâton sur le plan de travail
-        - Dégazer
-        - Réserver au frais pour au moins 6h
-      - label: Façonnage (le lendemain - matin)
-        details:
-        - Dégazer
-        - Replier en son milieu sur la longueur. Répéter trois fois.
-        - Laisser une détente de 5 minutes
-        - Diviser en trois pâtons de poids égal
-        - Bouler chaque pâton
-        - Laisser une détente de 5 minutes
-        - Façonner chaque pâton en tresse un peu plus longue que le moule
-        - Beurrer le moule
-        - Tresser
-        - Placer dans un moule à cake
-        - Laisser reposer 1 heure à 25°C
-      - label: Cuisson
-        emoji: 🔥
-        details:
-        - Badigeonner avec un jaune d'oeuf
-        - Saupoudrer de sucre en grains
-        - Cuire 30 minutes à 180°C
         - Laisser ressuer 30 minutes sur une grille

@@ -25,8 +25,8 @@ recipes:
       - label: oignon
         qty: 1
       - label: pois chiches
-        qty: 1
-        unit: boîte
+        qty: 150
+        unit: gr
       - label: raisins secs
         qty: 125
         unit: gr

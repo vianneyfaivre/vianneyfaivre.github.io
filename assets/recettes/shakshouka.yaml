@@ -22,8 +22,8 @@ recipes:
         qty: 4
         unit: gousses
       - label: pois chiches
-        qty: 1
-        unit: boîte
+        qty: 150
+        unit: gr
       - label: oeufs
         qty: 6
         variable: true
