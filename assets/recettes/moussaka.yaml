@@ -13,10 +13,10 @@ recipes:
     ingredients: 
       - label: aubergines
         qty: 2
+        variable: true
       - label: boeuf haché
         qty: 400
         unit: gr
-        variable: true
       - label: ail
         qty: 4
         unit: gousses
@@ -26,20 +26,12 @@ recipes:
         qty: 400
         unit: gr
       - label: fromage rapé
-        qty: au goût
-      - label: farine
-        qty: 75
-        unit: gr
-      - label: beurre
-        qty: 75
-        unit: gr
-      - label: lait
+      - label: "bechamel : avec "
         qty: 750
-        unit: mL
+        unit: mL de lait
+        link: /recettes/bechamel
       - label: persil plat
-        qty: au goût
       - label: paprika
-        qty: au goût
     preconditions:
       - Préchauffer le four à 180°C
       - Couper les aubergines en rondelles d'épaisseur égale
@@ -73,5 +65,3 @@ recipes:
           - Cuire 15 minutes à 210°C
           - Cuire 30 minutes à 150°C
           - Le dessus doit être bien gratiné
-notes:
-  - La quantité d'aubergines dépend de la taille du plat

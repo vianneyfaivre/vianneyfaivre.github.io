@@ -11,7 +11,11 @@ recipes:
   Classique:
     ingredients: 
       - label: chou fleur
-      - label: béchamel pour 1 L de lait
+        qty: 1
+        variable: true
+      - label: "béchamel : avec "
+        qty: 1
+        unit: L de lait
         link: /recettes/bechamel 
       - label: fromage rapé
       - label: muscade

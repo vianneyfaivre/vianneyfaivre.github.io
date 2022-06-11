@@ -12,15 +12,20 @@ recipes:
     yieldType: personnes
     ingredients: 
       - label: pâtes à lasagnes
-      - label: sauce tomate pour 800 grammes de tomates
+      - label: "sauce tomate : avec "
+        qty: 800
+        unit: gr de tomates
         link: /recettes/sauce-tomate 
-      - label: béchamel pour 700 mL de lait
+      - label: "béchamel : avec" 
+        qty: 700
+        unit: mL de lait
         link: /recettes/bechamel 
       - label: boeuf haché
         qty: 400
         unit: gr
       - label: oignon
         qty: 1
+        variable: true
       - label: carotte
         qty: 1
       - label: ail

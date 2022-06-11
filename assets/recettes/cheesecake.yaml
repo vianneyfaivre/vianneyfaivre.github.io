@@ -136,11 +136,12 @@ recipes:
         unit: gr
         variable: true
       - label: sucre
-        qty: 150
+        qty: 100
         unit: gr
-      - label: crème fleurette
-        qty: 400
-        unit: mL
+      - label: "chantilly : avec "
+        qty: 400 
+        unit: mL de crème
+        link: /recettes/chantilly 
       - label: vanille liquide
     preconditions:
       - "Pour la chantilly tout doit être froid, donc mettre au congélateur pendant 15 minutes : la crème, le saladier, les fouets du batteur"

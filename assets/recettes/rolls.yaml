@@ -177,7 +177,7 @@ recipes:
       - label: sel
         qty: 1
         unit: gr
-      - label: crème pâtissière
+      - label: "crème pâtissière : "
         link: /recettes/creme-patissiere
         qty: 300
         unit: gr

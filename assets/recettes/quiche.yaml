@@ -11,7 +11,7 @@ utensils:
 recipes:
   Base:
     ingredients:
-      - label: pâte brisée
+      - label: "pâte brisée : "
         link: /recettes/pate-brisee 
         qty: 1
       - label: légumes
@@ -58,7 +58,7 @@ recipes:
     utensils:
       - casserole
     ingredients:
-      - label: pâte brisée
+      - label: "pâte brisée : "
         link: /recettes/pate-brisee 
         qty: 1
       - label: ail

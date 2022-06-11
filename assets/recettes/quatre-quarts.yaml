@@ -206,7 +206,9 @@ recipes:
         unit: "% de la farine"
       - label: vanille liquide
         unit: "% de la farine"
-      - label: chantilly avec 200 mL de crème
+      - label: "chantilly : avec "
+        qty: 200 
+        unit: mL de crème
         link: /recettes/chantilly 
       - label: Baileys
         qty: 50

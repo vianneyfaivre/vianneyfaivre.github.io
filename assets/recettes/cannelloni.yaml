@@ -17,7 +17,9 @@ recipes:
       - label: cannelloni
         qty: 250
         unit: gr
-      - label: sauce tomate pour 400 grammes de tomates
+      - label: "sauce tomate pour : "
+        qty: 400 
+        unit: gr de tomates
         link: /recettes/sauce-tomate 
       - label: épinards
         qty: 750
@@ -36,6 +38,7 @@ recipes:
         unit: gr
       - label: jaunes d'oeufs
         qty: 2
+        variable: true
       - label: muscade
       - label: fromage rapé
         qty: 100

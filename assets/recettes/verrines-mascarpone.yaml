@@ -14,7 +14,9 @@ recipes:
     yield: 6
     yieldType: verrines
     ingredients: 
-      - label: Génoise pour 4 oeufs
+      - label: "génoise : avec"
+        qty: 4
+        unit: oeufs
         link: /recettes/genoise
       - label: eau
         qty: 70
@@ -25,6 +27,7 @@ recipes:
         unit: gr
       - label: oeufs 
         qty: 2
+        variable: true
       - label: sucre
         qty: 50
         unit: gr
@@ -78,8 +81,6 @@ recipes:
         qty: 250
         unit: gr
       - label: vanille liquide
-        qty: 1
-        unit: cuillère à café
       - label: framboises
         qty: 150
         unit: gr
@@ -118,10 +119,10 @@ recipes:
         unit: gr
         variable: true
       - label: vanille liquide
-        qty: 1
-        unit: cuillère à café
-      - label: chantilly avec 150 mL de crème
-        link: /recettes/chantilly 
+      - label: "chantilly : avec"
+        qty: 150
+        unit: mL de crème
+        link: /recettes/genoise
     steps:
       - label: Fraises
         details:
@@ -163,8 +164,6 @@ recipes:
         qty: 250
         unit: gr
       - label: vanille liquide
-        qty: 1
-        unit: cuillère à café
       - label: Speculoos
         qty: 250
         unit: gr

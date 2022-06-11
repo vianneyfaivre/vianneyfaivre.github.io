@@ -12,6 +12,7 @@ recipes:
     ingredients: 
       - label: pâte feuilletée 
         qty: 2
+        variable: true
       - label: sucre glace
         qty: 150
         unit: gr
@@ -52,7 +53,10 @@ recipes:
     ingredients: 
       - label: pâte feuilletée 
         qty: 2
-      - label: crème patissière pour 250 mL de lait
+        variable: true
+      - label: "crème patissière : avec "
+        qty: 250
+        unit: mL de lait
         link: /recettes/creme-patissiere
       - label: beurre mou
         qty: 100
