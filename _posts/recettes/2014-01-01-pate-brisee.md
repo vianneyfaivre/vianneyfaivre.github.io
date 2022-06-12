@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Pâte Brisée
-type: boulangerie
+type: base
 ---

@@ -71,7 +71,7 @@ recipes:
   Fromage Blanc:
     pictures: 1
     ingredients: 
-      - label: pâte brisée 
+      - label: "pâte brisée : "
         link: /recettes/pate-brisee 
         qty: 1
       - label: fromage blanc
@@ -134,7 +134,6 @@ recipes:
       - label: cream cheese
         qty: 600
         unit: gr
-        variable: true
       - label: sucre
         qty: 100
         unit: gr

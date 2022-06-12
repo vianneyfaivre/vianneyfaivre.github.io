@@ -1,0 +1,23 @@
+---
+layout: default
+hidden: true
+lang: fr
+sitemap: true
+title: "Bases"
+categories: [recettes]
+type: meta
+metatype: bases
+description: "Recettes de cuisine - bases"
+---
+
+{% assign recettes = site.categories.recettes | where:"type","base" | sort: 'title'  %}
+ 
+<h1 class="page-heading">Bases</h1>
+
+<ul>
+    {% for post in recettes %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

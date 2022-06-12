@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Crème Pâtissière
-type: sucre
+type: base
 ---

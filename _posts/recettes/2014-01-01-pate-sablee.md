@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Pâte Sablée
-type: boulangerie
+type: base
 ---

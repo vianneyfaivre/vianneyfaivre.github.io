@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Sauce Tomate
-type: condiment
+type: base
 ---

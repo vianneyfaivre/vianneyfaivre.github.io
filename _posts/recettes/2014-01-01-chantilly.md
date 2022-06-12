@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Chantilly
-type: condiment
+type: base
 ---

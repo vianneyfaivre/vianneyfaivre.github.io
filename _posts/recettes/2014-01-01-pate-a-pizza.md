@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Pâte à Pizza
-type: boulangerie
+type: base
 ---

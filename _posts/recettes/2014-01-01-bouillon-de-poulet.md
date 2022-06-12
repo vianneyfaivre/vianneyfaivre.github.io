@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Bouillon de Poulet
-type: condiment
+type: base
 ---

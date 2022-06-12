@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Pâte Sucrée
-type: boulangerie
+type: base
 ---
