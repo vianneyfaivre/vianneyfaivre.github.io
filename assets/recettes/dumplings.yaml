@@ -1,6 +1,3 @@
-
-
-
 title: Dumplings
 utensils:
   - couteau
@@ -15,7 +12,7 @@ recipes:
         qty: 400
         unit: gr
         variable: true
-      - label: légumes (carottes, choux, bok choy, poireaux, oignons, etc.)
+      - label: légumes
       - label: ail
         qty: 6 
         unit: gousses
@@ -33,8 +30,8 @@ recipes:
         qty: 1
         unit: cuillère à soupe
       - label: champignons
-      - label: herbes (coriandre, fleur d'ail, persil, etc.)
-      - label: épices (paprika, curry, etc.)
+      - label: herbes
+      - label: épices
     steps:
       - label: Préparation des ingrédients
         details:
@@ -55,6 +52,9 @@ recipes:
           - Mettre 100 mL d'eau et couvrir jusqu'à ce que l'eau soit évaporée
           - Remettre de l'eau si ils ne sont pas assez cuits
 notes:
+  - "Légumes : carottes, choux, bok choy, poireaux, oignons, ..."
+  - "Herbes : coriandre, fleur d'ail, persil, ..."
+  - "Epices : paprika, curry, ..."
   - La farce doit être composée de 2/3 de viande
   - Le mélange ail/gingembre doit être composé de 3/4 d'ail et d'1/4 de gingembre  
   - Les dumplings se congèlent très facilement. Les décongeler un peu au micro ondes pour les séparer les uns des autres au préalable.
