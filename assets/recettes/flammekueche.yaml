@@ -23,8 +23,7 @@ recipes:
       - label: huile d'olive
         qty: 1
         unit: cuillère à soupe
-      - label: oignon
-        qty: 1
+      - label: oignons
       - label: lardons
       - label: crème fraîche
         qty: 150
@@ -35,13 +34,14 @@ recipes:
         details:
           - Dans un saladier, verser la farine et le sel
           - Ajouter l'eau et l'huile d'olive
-          - Mélanger les ingrédients à la main
-          - Sortir la boule et pétrir sur le plan de travail avec la paume de la main
+          - Pétrir à la main jusqu'à incorporation 
+          - Déverser le pâton sur le plan de travail
+          - Pétrir à la main
           - Former une boule qui doit être bien lisse
           - Réserver
       - label: Garniture
         details: 
-          - Émincer l'oignon très finement
+          - Émincer les oignons très finement
           - Mélanger la crème fraîche avec la muscade, le sel et le poivre
       - label: Assemblage
         details: 
@@ -52,9 +52,7 @@ recipes:
       - label: Cuisson
         emoji: 🔥
         details:
-          - Préchauffer le four à 240°C. Chaleur statique par le bas
+          - Préchauffer le four à 240°C (chaleur statique par le bas)
           - Garnir
           - Placer la flammekueche le plus bas possible
-          - Cuire 13 minutes à 240°C
-notes:
-  - Si la pâte est trop dure à travailler, ajouter de l'eau une cuillère à soupe à la fois
+          - Cuire 13-15 minutes à 240°C
