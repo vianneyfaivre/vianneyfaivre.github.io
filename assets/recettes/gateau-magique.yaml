@@ -1,0 +1,47 @@
+title: Gâteau Magique
+recipes:
+  Vanille:
+    ingredients: 
+      - label: oeufs
+        qty: 4
+        variable: true
+      - label: sucre
+        qty: 125
+        unit: gr
+      - label: farine
+        qty: 125
+        unit: gr
+      - label: beurre
+        qty: 125
+        unit: gr
+      - label: lait entier
+        qty: 500
+        unit: gr
+      - label: vanille
+        qty: 0.5
+        unit: gousse
+    preconditions:
+      - Préchauffer le four à 160°C
+      - Faire fondre le beurre
+      - Préparer la vanille et la déverser dans le lait
+      - Séparer les blancs des jaunes
+    steps:
+      - label: Jaunes d'oeuf
+        details:
+          - Fouetter les jaunes avec le sucre
+          - Ajouter le beurre fondu
+          - Ajouter la farine et mélanger à l'aide d'une spatule silicone
+          - Verser le lait sur la préparation tout en fouettant lentement
+      - label: Blancs d'oeuf
+        details:
+          - Monter les blancs en neige (bien fermes)
+      - label: Assemblage
+        details:
+          - Incorporer grossièrement les blancs en neige avec la préparation (des morceaux doivent flotter)
+          - Verser la préparation dans un moule rond 
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 50 minutes à 160°C
+          - Placer au réfrigérateur au moins 3 heures
+      
