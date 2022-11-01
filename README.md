@@ -9,7 +9,7 @@ My Personal Blog
 
 # Run
 
-`bundle exec jekyll serve`
+See `run.sh`
 
 # Update Dependencies
 

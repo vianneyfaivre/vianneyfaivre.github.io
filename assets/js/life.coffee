@@ -139,8 +139,9 @@ EVENTS = [
     new Event(2020, 11, EventType.TRAVEL, "one month", "South Island, New Zealand 🥝🇳🇿"),
     new Event(2021, 5, EventType.TRAVEL, "three months", "everywhere, France 🇫🇷"),
     new Event(2022, 3, EventType.TRAVEL, "three days", "Amsterdam, Netherlands 🇳🇱"),
-    new Event(2022, 5, EventType.TRAVEL, "one week", "Greece 🇬🇷"),
+    new Event(2022, 5, EventType.TRAVEL, "one week", "Greece ⛵🇬🇷"),
     new Event(2022, 7, EventType.TRAVEL, "one week", "Biarritz, France 🇫🇷"),
+    new Event(2022, 8, EventType.TRAVEL, "one month", "Argentina 🇦🇷"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
@@ -183,7 +184,7 @@ EVENTS = [
     new Event(2014, 10, EventType.BLOG, "Started blogging", null),
     new Event(2018, 6, EventType.SOCCER, "Fifa World Cup Champion ⭐⭐", null),
     new Event(2020, 2, EventType.SPORT, "Started doing yoga", null),
-    new Event(2019, 8, EventType.BREAD, "Started making bread", null),
+    new Event(2019, 8, EventType.BREAD, "Started making bread & brioche", null),
     
     new Event(2020, 2, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
     new Event(2020, 3, EventType.COVID19, "COVID-19 New-Zealand Lockdown", null),
