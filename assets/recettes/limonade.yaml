@@ -1,0 +1,28 @@
+title: Limonade
+recipes:
+  Citron:
+    yield: 1
+    yieldType: L
+    ingredients:
+      - label: jus de citron
+        qty: 100
+        unit: mL
+        variable: true
+      - label: sirop de sucre
+        qty: 50
+        unit: mL
+      - label: eau
+        qty: 850
+        unit: mL
+    steps:
+      - label: Préparation
+        emoji: 🍋
+        details:
+          - Presser les citrons
+          - Mélanger le jus de citron, le sirop de sucre et l'eau ensemble
+          - Réserver au frais
+      - label: Conservation & Dégustation
+        emoji: 🍹
+        details:
+          - Se conserve au réfrigérateur une semaine
+          - À déguster bien frais
