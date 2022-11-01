@@ -101,16 +101,16 @@ recipes:
       - label: Pétrissage et Pointage (la veille - soir)
         details:
         - Couper le beurre en tout petits dés
-        - Dans le récipient de la machine à pain, verser le mélange lait-levure
-        - Ajouter les oeufs battus
-        - Ajouter la farine
-        - Ajouter le sel
-        - Ajouter le sucre
-        - Ajouter le beurre
-        - Lancer le programme "pétrissage seulement"
-        - Fleurer le plan de travail
-        - Déverser le pâton sur le plan de travail
-        - Dégazer
+        - Utiliser le robot pâtissier avec le crochet pétrisseur
+        - Déverser le mélange lait-levure, les oeufs battus, la farine, le sucre, le sel
+        - Mélanger en vitesse 1 jusqu'à incorporation
+        - Pétrir en vitesse 1 pendant 5 minutes
+        - Pétrir en vitesse 2 pendant 5 minutes
+        - Incorporer le beurre petit à petit en vitesse 1
+        - Pétrir en vitesse 2 pendant 5 minutes
+        - Bouler
+        - Laisser reposer 30 minutes à 30°C
+        - Bouler
         - Réserver au frais pour au moins 6h
       - label: Façonnage (le lendemain - matin)
         details:
