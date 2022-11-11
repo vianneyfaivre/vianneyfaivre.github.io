@@ -8,7 +8,7 @@ categories: [tech]
 
 Angular Team made it quite easy to update an Angular application from a version to another. 
 
-They have created a dedicated website for that purpose: [https://update.angular.io](update.angular.io)
+They have created [a dedicated website](https://update.angular.io) for that purpose
 
 ### Useful commands
 
