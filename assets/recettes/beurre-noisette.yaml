@@ -1,0 +1,16 @@
+title: Beurre Noisette
+recipes:
+  Classique:
+    ingredients: 
+      - label: beurre
+    steps:
+      - label: Préparation
+        emoji: 🔥
+        details: 
+          - Faire fondre le beurre sur feu moyen/fort
+          - Cuire le beurre jusqu'à ce qu'il change de couleur (marron clair)
+          - Passer au chinois 
+          - Réserver
+          - Écumer
+notes:
+  - Surveiller constamment la cuisson, ne surtout pas brûler le beurre
