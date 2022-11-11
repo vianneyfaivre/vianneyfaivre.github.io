@@ -6,7 +6,7 @@ recipes:
         qty: 4
         variable: true
       - label: sucre
-        qty: 125
+        qty: 110
         unit: gr
       - label: farine
         qty: 125
@@ -18,7 +18,7 @@ recipes:
         qty: 500
         unit: gr
       - label: vanille
-        qty: 0.5
+        qty: 1
         unit: gousse
     preconditions:
       - Préchauffer le four à 160°C
@@ -30,7 +30,7 @@ recipes:
         details:
           - Fouetter les jaunes avec le sucre
           - Ajouter le beurre fondu
-          - Ajouter la farine et mélanger à l'aide d'une spatule silicone
+          - Ajouter la farine et mélanger au fouet sans insister
           - Verser le lait sur la préparation tout en fouettant lentement
       - label: Blancs d'oeuf
         details:
@@ -38,10 +38,11 @@ recipes:
       - label: Assemblage
         details:
           - Incorporer grossièrement les blancs en neige avec la préparation (des morceaux doivent flotter)
-          - Verser la préparation dans un moule rond 
+          - Verser la préparation dans un moule
       - label: Cuisson
         emoji: 🔥
         details:
-          - Cuire 50 minutes à 160°C
+          - Cuire 45 minutes à 160°C dans un moule rond
+          - Cuire 30 minutes à 160°C dans un moule à cake
           - Placer au réfrigérateur au moins 3 heures
       
