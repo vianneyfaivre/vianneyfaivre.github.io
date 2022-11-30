@@ -1,6 +1,3 @@
-
-
-
 title: Rillettes de Sardines
 utensils:
   - couteau
@@ -17,7 +14,7 @@ recipes:
         qty: 150
         unit: gr
       - label: citron
-        qty: 1
+        qty: 0.5
       - label: échalote
         qty: 1
     steps:

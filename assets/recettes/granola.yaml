@@ -17,9 +17,12 @@ recipes:
         qty: 300
         unit: gr
         variable: true
-      - label: buttermilk
+      - label: lait
         qty: 190
         unit: mL
+      - label: vinaigre blanc
+        qty: 1
+        unit: cuillère à soupe
       - label: sucre
         qty: 75
         unit: gr
@@ -37,6 +40,10 @@ recipes:
         unit: gr
       - label: sel
     steps:
+      - label: Préparation du buttermilk
+        details:
+          - Mélanger le lait et le vinaigre blanc ensemble
+          - Laisser reposer 10 minutes
       - label: Préparation des flocons d'avoine
         details:
           - Faire fondre le beurre

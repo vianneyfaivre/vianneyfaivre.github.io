@@ -1,0 +1,29 @@
+title: Cervelle de Canut
+recipes:
+  Classique:
+    ingredients: 
+      - label: fromage blanc
+        qty: 250
+        unit: gr
+        variable: true
+      - label: crème fraîche épaisse
+        qty: 50
+        unit: gr
+      - label: ail
+        qty: 1
+        unit: gousse
+      - label: échalote
+        qty: 1
+      - label: herbes aromatiques
+      - label: huile d'olive
+        qty: 1
+        unit: cuillère à soupe
+      - label: vinaigre balsamique
+        qty: 0.5
+        unit: cuillère à café
+    steps:
+      - label: "Préparation"
+        details:
+          - Hacher l'échalote et l'ail
+          - Mélanger tous les ingrédients ensemble
+          - Saler et poivrer

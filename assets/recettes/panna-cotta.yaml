@@ -1,6 +1,3 @@
-
-
-
 title: Panna Cotta
 utensils:
   - saladier
@@ -25,9 +22,7 @@ recipes:
       - label: sucre
         qty: 30
         unit: gr
-      - label: vanille liquide
-        qty: 1
-        unit: cuillère à café
+      - label: arôme
     steps:
       - label: Hydratation de la Gélatine
         details:
@@ -36,7 +31,7 @@ recipes:
       - label: Préparation
         details:
           - Mouiller une casserole
-          - Verser la crème, la vanille liquide et le sucre dans la casserole
+          - Verser la crème, l'arôme et le sucre dans la casserole
           - Arrêter avant l'ébullition
           - Transvaser dans un récipient au travers d'un tamis
           - Attendre que le mélange soit environ à 65°C 
@@ -45,23 +40,23 @@ recipes:
           - Mélanger jusqu'à ce que tout soit dissous
           - Verser dans les ramequins
           - Laisser prendre au moins 4 heures au réfrigérateur
+    notes:
+      - "Gélatine en poudre utilisée : Mc Kenzie (Platinum Grade)"
   Gélatine en Feuilles:
     yield: 4
     yieldType: ramequins
     ingredients: 
       - label: gélatine en feuilles
-        qty: 2.5
+        qty: 4
         unit: gr
       - label: crème fleurette
-        qty: 300
+        qty: 500
         unit: gr
         variable: true
       - label: sucre
-        qty: 30
+        qty: 50
         unit: gr
-      - label: vanille liquide
-        qty: 1
-        unit: cuillère à café
+      - label: arôme
     steps:
       - label: Hydratation de la Gélatine
         details:
@@ -72,7 +67,7 @@ recipes:
       - label: Préparation
         details:
           - Mouiller une casserole
-          - Verser la crème, la vanille liquide et le sucre dans la casserole
+          - Verser la crème, l'arôme et le sucre dans la casserole
           - Arrêter avant l'ébullition
           - Transvaser dans un récipient au travers d'un tamis 
           - Attendre que le mélange soit environ à 65°C 
@@ -82,5 +77,5 @@ recipes:
           - Mélanger jusqu'à ce que tout soit dissous
           - Verser dans les ramequins
           - Laisser prendre au moins 4 heures au réfrigérateur
-notes:
-  - "Gélatine en poudre utilisée : Mc Kenzie (Platinum Grade)"
+    notes:
+      - "Gélatine en feuilles utilisée : Ancel Or 210 Bloom"

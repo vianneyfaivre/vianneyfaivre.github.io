@@ -1,6 +1,3 @@
-
-
-
 title: Pâte Brisée
 recipes:
   À la main:
@@ -48,7 +45,7 @@ recipes:
         emoji: 🔥
         details:
           - "À blanc : 170°C pour 15 à 20 minutes"
-  Au Robot:
+  Au Robot Pâtissier:
     utensils:
       - robot
       - couteau
@@ -75,16 +72,14 @@ recipes:
     steps:
       - label: Préparation
         details:
-          - Verser 2/3 de la farine, le sucre et le sel dans le bol du robot
-          - Mixer deux fois 
-          - Couper le beurre en petits dés
+          - Utiliser le robot pâtissier avec le batteur plat
+          - Verser la farine, le sucre et le sel dans le bol du robot
+          - Détailler le beurre en petits dés
           - Ajouter le beurre 
-          - Mixer jusqu'à incorporation (environ 25 coups)
-          - Bien racler les bords
-          - Ajouter la farine restante
-          - Mixer jusqu'à incorporation (environ 5 coups)
-          - Déverser la pâte dans un saladier
-          - Ajouter l'eau et mélanger à la main
+          - Mélanger en vitesse 1 jusqu'à formation de gros morceaux
+          - Ajouter l'eau
+          - Mélanger en vitesse 1 jusqu'à incorporation
+          - Déverser la pâte sur le plan de travail
           - Former une boule
           - Aplatir légèrement la boule
           - Filmer

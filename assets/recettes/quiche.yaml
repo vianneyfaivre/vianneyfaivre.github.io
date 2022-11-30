@@ -1,6 +1,3 @@
-
-
-
 title: Quiche
 utensils: 
   - rape
@@ -54,6 +51,12 @@ recipes:
         emoji: 🔥
         details: 
           - Cuire 40 minutes à 180°C
+    notes:
+      - Pour un moule à tarte de 20 cm, utiliser cette recette pour 3 oeufs
+      - Légumes - Brocoli, Choux de Bruxelles, Haricots, Oignons, ...
+      - Viandes - Chorizo, Jambon, Poulet, Bacon, ...
+      - Fromages - Chèvre, Feta, Comté, Camembert, ...
+      - Autres - Champignons, Herbes, Épices, Ail, ...
   À l'ail:
     utensils:
       - casserole
@@ -125,8 +128,3 @@ recipes:
         emoji: 🔥
         details: 
           - Cuire 35-40 minutes à 180°C
-notes:
-  - Légumes - Brocoli, Choux de Bruxelles, Haricots, Oignons, ...
-  - Viandes - Chorizo, Jambon, Poulet, Bacon, ...
-  - Fromages - Chèvre, Feta, Comté, Camembert, ...
-  - Autres - Champignons, Herbes, Épices, Ail, ...
