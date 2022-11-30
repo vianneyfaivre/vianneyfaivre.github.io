@@ -1,0 +1,27 @@
+title: Soupe Angevine
+recipes:
+  Léger:
+    ingredients:
+      - label: crémant de Loire
+        qty: 1
+        unit: bouteille
+        variable: true
+      - label: Cointreau
+        qty: 150
+        unit: mL
+      - label: sirop de sucre
+        qty: 100
+        unit: mL
+      - label: citron
+        qty: 1
+    steps:
+      - label: Préparation
+        emoji: 🍋
+        details:
+          - Presser les citrons
+          - Mélanger le jus de citron, le sirop de sucre et le Cointreau ensemble
+          - Ajouter le crémant de Loire
+      - label: Conservation & Dégustation
+        emoji: 🍹
+        details:
+          - Consommer immédiatement
