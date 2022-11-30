@@ -43,7 +43,7 @@ recipes:
     notes:
       - "Gélatine en poudre utilisée : Mc Kenzie (Platinum Grade)"
   Gélatine en Feuilles:
-    yield: 4
+    yield: 6
     yieldType: ramequins
     ingredients: 
       - label: gélatine en feuilles
