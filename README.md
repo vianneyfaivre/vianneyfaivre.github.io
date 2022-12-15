@@ -19,6 +19,6 @@ See `run.sh`
 
 # Technical details
 
-- This site uses Structured Data 
+- This website uses `Structured Data` for SEO
   - `BlogPosting` in `post.html` with Microdata
   - `BreadcrumbList` in `breadcrumb.html` with JSON-LD
