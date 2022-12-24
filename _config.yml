@@ -14,9 +14,9 @@ paginate: 15
 
 excerpt_separator: <!--more-->
 
-google_analytics: UA-139044020-1
+encoding: UTF-8
 
-# Source can be found in /<path_to_ruby>/gems/minima-<version>
+# Source can be found in /opt/homebrew/lib/ruby/gems/3.0.0/gems/minima-<version>
 theme: minima
 
 header_pages: 
