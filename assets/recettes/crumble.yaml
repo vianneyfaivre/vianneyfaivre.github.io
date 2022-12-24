@@ -1,0 +1,40 @@
+title: Crumble
+recipes:
+  Pomme:
+    ingredients: 
+      - label: pommes 
+        qty: 6
+        variable: true
+      - label: sucre
+        qty: 100
+        unit: gr
+      - label: farine
+        qty: 150
+        unit: gr
+      - label: beurre
+        qty: 125
+        unit: gr
+      - label: citron
+        qty: 1
+      - label: épices
+        qty: 1 
+        unit: cuillère à café
+    steps:
+      - label: Préparation des pommes
+        details:
+          - Peler les pommes
+          - Détailler les pommes en cubes
+          - Ajouter le jus de citron et les épices
+          - Déverser les pommes dans le moule
+      - label: Préparation du crumble
+        details:
+          - Mélanger le sucre et la farine
+          - Détailler le beurre en cubes
+          - Faire le crumble avec les mains
+          - Étaler le crumble sur les pommes
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 35 minutes à 210°C
+notes:
+  - "épices : muscade, cannelle, gingembre"

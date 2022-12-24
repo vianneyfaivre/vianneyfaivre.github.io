@@ -1,0 +1,39 @@
+title: REPLACEME
+recipes:
+  Classique:
+    yield: 4
+    yieldType: parts
+    ingredients: 
+      - label: oeufs 
+        qty: 4
+        variable: true
+      - label: sucre
+        qty: 100
+        unit: gr
+      - label: farine
+        qty: 100
+        unit: gr
+      - label: beurre
+        qty: 100
+        unit: gr
+    steps:
+      - label: Préparation 1/2
+        details:
+          - blabla
+      - label: Préparation 2/2
+        details:
+          - blabla
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 35 minutes à 210°C
+notes:
+  - Notes blabla
+  - label: Note with link
+    link: https://vianneyfaivre.com
+
+variations:
+  - label: variante 1
+    todo: false
+  - label: variante 2
+    todo: true
