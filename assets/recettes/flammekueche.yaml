@@ -11,18 +11,10 @@ recipes:
   Classique:
     pictures: 1
     ingredients: 
-      - label: farine blanche
+      - label: pâte à pizza fine pour
+        link: /recettes/pate-a-pizza?sr=Fine
         qty: 150
-        unit: gr
-      - label: sel
-        qty: 3
-        unit: gr
-      - label: eau
-        qty: 80
-        unit: mL
-      - label: huile d'olive
-        qty: 1
-        unit: cuillère à soupe
+        unit: gr de farine
       - label: oignons
       - label: lardons
       - label: crème fraîche
@@ -30,15 +22,10 @@ recipes:
         unit: gr
       - label: muscade
     steps:
-      - label: Pâte à pain
+      - label: Pâte à pizza fine
         details:
-          - Dans un saladier, verser la farine et le sel
-          - Ajouter l'eau et l'huile d'olive
-          - Pétrir à la main jusqu'à incorporation 
-          - Déverser le pâton sur le plan de travail
-          - Pétrir à la main
-          - Former une boule qui doit être bien lisse
-          - Réserver
+          - label: Voir ici
+            link: /recettes/pate-a-pizza?sr=Fine
       - label: Garniture
         details: 
           - Émincer les oignons très finement
