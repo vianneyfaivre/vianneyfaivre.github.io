@@ -42,9 +42,9 @@ recipes:
         - Déverser le mélange lait-levure, la farine, le sucre, le sel
         - Mélanger en vitesse 1 jusqu'à incorporation
         - Pétrir en vitesse 1 pendant 5 minutes
-        - Pétrir en vitesse 2 pendant 5 minutes
+        - Pétrir en vitesse 4 pendant 5 minutes
         - Incorporer le beurre petit à petit en vitesse 1
-        - Pétrir en vitesse 2 pendant 5 minutes
+        - Pétrir en vitesse 4 pendant 5 minutes
         - Bouler
         - Laisser reposer 30 minutes à 30°C
         - Bouler
@@ -105,9 +105,9 @@ recipes:
         - Déverser le mélange lait-levure, les oeufs battus, la farine, le sucre, le sel
         - Mélanger en vitesse 1 jusqu'à incorporation
         - Pétrir en vitesse 1 pendant 5 minutes
-        - Pétrir en vitesse 2 pendant 5 minutes
+        - Pétrir en vitesse 4 pendant 5 minutes
         - Incorporer le beurre petit à petit en vitesse 1
-        - Pétrir en vitesse 2 pendant 5 minutes
+        - Pétrir en vitesse 4 pendant 5 minutes
         - Bouler
         - Laisser reposer 30 minutes à 30°C
         - Bouler
@@ -220,7 +220,7 @@ recipes:
       - label: vanille liquide
         qty: 2
         unit: gr
-      - label: eau de fleur d'oranger
+      - label: fleur d'oranger
         qty: 10
         unit: gr
       - label: farine blanche
@@ -244,7 +244,7 @@ recipes:
         - Ajouter les oeufs battus
         - Ajouter la crème
         - Ajouter la vanille liquide
-        - Ajouter l'eau de fleur d'oranger
+        - Ajouter la fleur d'oranger
         - Ajouter la farine
         - Ajouter le sel
         - Ajouter le sucre
@@ -274,64 +274,4 @@ recipes:
         - Saupoudrer de sucre en grains
         - Cuire 25 minutes à 180°C
         - Cuire 15 min à 150°C
-        - Laisser ressuer 30 minutes sur une grille
-  Stollen:
-    yield: 20
-    yieldType: parts
-    options: YEAST, HYDRATION
-    pictures: 2
-    utensils:
-      - plaque-cuisson
-    ingredients: 
-      - label: lait
-        qty: 150
-        unit: gr
-      - label: levure sèche 
-        qty: 6
-        unit: gr 
-      - label: oeufs
-        qty: 2
-      - label: farine T55
-        qty: 400
-        unit: gr
-        variable: true
-      - label: sucre blanc
-        qty: 50
-        unit: gr
-      - label: sel
-        qty: 2
-        unit: gr 
-      - label: beurre
-        qty: 100
-        unit: gr
-      - label: fruits secs
-        qty: 150
-        unit: gr
-      - label: noix
-        qty: 125
-        unit: gr
-    steps:
-      - label: Pétrissage, Pointage et Façonnage
-        details:
-        - Couper le beurre en tout petits dés
-        - Dans le récipient de la machine à pain, verser le mélange lait-levure
-        - Ajouter les oeufs battus
-        - Ajouter la farine
-        - Ajouter le sel
-        - Ajouter le sucre
-        - Ajouter le beurre
-        - Lancer le programme "pétrissage seulement"
-        - Après 10 minutes, ajouter les fruits secs et les noix
-        - Fleurer le plan de travail
-        - Déverser le pâton sur le plan de travail
-        - Replier le pâton sur lui même cinq fois 
-        - Allonger le pâton un peu
-        - Placer le pâton sur une plaque de cuisson
-        - Laisser reposer 1 heure à 25°C
-      - label: Cuisson
-        emoji: 🔥
-        details:
-        - Cuire 30 minutes à 180°C
-        - Badigeonner de beurre fondu
-        - Saupoudrer de sucre glace
         - Laisser ressuer 30 minutes sur une grille

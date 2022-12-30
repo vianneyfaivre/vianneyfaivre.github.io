@@ -92,7 +92,7 @@ variations:
     todo: true
   - label: Coques en chocolat (20 gr de chocolat + 3 gr d'huile de pépins de raisins)
     todo: false
-  - label: Orange et Chocolat (1 cuillère à café d'eau de fleur d'oranger + zeste d'une demie orange + coque en chocolat noir)
+  - label: Orange et Chocolat (1 cuillère à café de fleur d'oranger + zeste d'une demie orange + coque en chocolat noir)
     todo: false
   - label: Fruits confits
     todo: false

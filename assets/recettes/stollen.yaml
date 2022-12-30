@@ -1,0 +1,80 @@
+title: Stollen
+preconditions:
+  - Couper le beurre en tout petits dés
+  - Zester le citron
+  - Mélanger le rhum et les fruits confits ensemble
+recipes:
+  Stollen:
+    yield: 2
+    yieldType: stollen
+    options: YEAST, HYDRATION
+    pictures: 2
+    ingredients: 
+      - label: lait
+        qty: 150
+        unit: gr
+      - label: levure sèche 
+        qty: 6
+        unit: gr 
+      - label: levain liquide
+        qty: 60
+        unit: gr 
+      - label: oeufs
+        qty: 2
+      - label: fleur d'oranger
+        qty: 1
+        unit: cuillère à soupe 
+      - label: farine T55
+        qty: 400
+        unit: gr
+        variable: true
+      - label: sucre blanc
+        qty: 50
+        unit: gr
+      - label: beurre
+        qty: 100
+        unit: gr
+      - label: citron
+        qty: 1
+      - label: fruits confits
+        qty: 150
+        unit: gr
+      - label: rhum
+        qty: 2
+        unit: cuillère à soupe
+      - label: amandes émondées
+        qty: 70
+        unit: gr
+    steps:
+      - label: Pétrissage et Pointage  (la veille - soir)
+        details:
+        - Utiliser le robot pâtissier avec le crochet pétrisseur
+        - Déverser le mélange lait-levure, le levain, les oeufs battus, la fleur d'oranger, la farine, le sucre
+        - Mélanger en vitesse 1 jusqu'à incorporation
+        - Pétrir en vitesse 1 pendant 5 minutes
+        - Pétrir en vitesse 4 pendant 5 minutes
+        - Incorporer le beurre petit à petit en vitesse 1
+        - Pétrir en vitesse 4 pendant 5 minutes
+        - Incorporer les zestes, les fruits confits et les amandes en vitesse 1
+        - Bouler
+        - Laisser reposer 30 minutes à 30°C
+        - Bouler
+        - Réserver au frais pour au moins 6h
+      - label: Façonnage (le lendemain - matin)
+        details:
+        - Dégazer
+        - Replier en son milieu sur la longueur. Répéter trois fois.
+        - Laisser une détente de 5 minutes
+        - Diviser
+        - Bouler chaque pâton
+        - Laisser une détente de 5 minutes
+        - Façonner chaque pâton
+        - Placer les pâtons façonnés sur une plaque de cuisson
+        - Laisser reposer 45 minutes à 30°C
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Cuire 30 minutes à 170°C
+        - Badigeonner de beurre fondu avec un peu de cannelle en poudre
+        - Saupoudrer de sucre glace
+        - Laisser ressuer 30 minutes sur une grille
