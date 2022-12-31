@@ -5,9 +5,10 @@ lang: fr
 sitemap: true
 title: "Obsolète"
 categories: [recettes]
-type: meta
+type: meta-misc
 metatype: obsolete
 description: "Recettes de cuisine - obsolète"
+order: 9
 ---
 
 {% assign recettes = site.categories.recettes | where:"type","obsolete" | sort: 'title'  %}

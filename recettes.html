@@ -7,13 +7,31 @@ description: "Recettes de cuisine"
 customCss: assets/css/recettes.css
 ---
 
-<h1 class="page-heading">Recettes</h1>
+<h1 class="page-heading">Cooking</h1>
 
-{% assign types = site.categories.recettes | where:"type","meta" | sort: 'title' | reverse %}
+<h2>Recettes</h2>
+
+{% assign types = site.categories.recettes | where:"type","meta" | sort: 'order' %}
 
 <div class="cards">
 
     {% for type in types %}
+
+	<a class="card" href="/recettes/{{ type.metatype }}" alt="catégorie {{ type.metatype }}">
+		<img src="/assets/images/cooking/placeholders/{{ type.metatype }}.jpg" />
+		<span class="card-title">{{ type.title }}</span>
+	</a>
+    {% endfor %}
+
+</div>
+
+<h2 style="margin-top: 40px;">Autres</h2>
+
+{% assign miscTypes = site.categories.recettes | where:"type","meta-misc" | sort: 'order' %}
+
+<div class="cards">
+
+    {% for type in miscTypes %}
 
 	<a class="card" href="/recettes/{{ type.metatype }}" alt="catégorie {{ type.metatype }}">
 		<img src="/assets/images/cooking/placeholders/{{ type.metatype }}.jpg" />

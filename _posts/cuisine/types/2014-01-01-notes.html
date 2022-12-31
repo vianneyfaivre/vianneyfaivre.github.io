@@ -5,9 +5,10 @@ lang: fr
 sitemap: true
 title: "Notes"
 categories: [recettes]
-type: meta
+type: meta-misc
 metatype: notes
 description: "Recettes de cuisine - notes"
+order: 8
 ---
 
 {% assign notes = site.categories.cuisine | where: "status","published" | sort: 'title'  %}
