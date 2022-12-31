@@ -3,16 +3,16 @@ layout: default
 hidden: true
 lang: fr
 sitemap: true
-title: "Salé"
+title: "Fermentation"
 categories: [recettes]
 type: meta
-metatype: salé
-description: "Recettes de cuisine - salé"
+metatype: fermentation
+description: "Recettes de cuisine - fermentation"
 ---
 
-{% assign recettes = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
+{% assign recettes = site.categories.recettes | where:"type","fermentation" | sort: 'title'  %}
  
-<h1 class="page-heading">Salé</h1>
+<h1 class="page-heading">Fermentation</h1>
 
 <ul>
     {% for post in recettes %}

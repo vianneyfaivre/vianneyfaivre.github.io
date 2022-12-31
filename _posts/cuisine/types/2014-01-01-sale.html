@@ -1,0 +1,23 @@
+---
+layout: default
+hidden: true
+lang: fr
+sitemap: true
+title: "Salé"
+categories: [recettes]
+type: meta
+metatype: sale
+description: "Recettes de cuisine - salé"
+---
+
+{% assign recettes = site.categories.recettes | where:"type","sel" | sort: 'title'  %}
+ 
+<h1 class="page-heading">Salé</h1>
+
+<ul>
+    {% for post in recettes %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

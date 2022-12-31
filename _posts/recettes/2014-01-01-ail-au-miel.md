@@ -4,6 +4,6 @@ categories: [recettes]
 hidden: true
 lang: fr
 sitemap: true
-title: Pain Complet
-type: obsolete
+title: Ail au Miel
+type: fermentation
 ---

@@ -1,0 +1,23 @@
+---
+layout: default
+hidden: true
+lang: fr
+sitemap: true
+title: "Obsolète"
+categories: [recettes]
+type: meta
+metatype: obsolete
+description: "Recettes de cuisine - obsolète"
+---
+
+{% assign recettes = site.categories.recettes | where:"type","obsolete" | sort: 'title'  %}
+ 
+<h1 class="page-heading">Obsolète</h1>
+
+<ul>
+    {% for post in recettes %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

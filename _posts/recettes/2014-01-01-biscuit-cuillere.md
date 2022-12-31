@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Biscuit à la Cuillère
-type: sucre
+type: obsolete
 ---

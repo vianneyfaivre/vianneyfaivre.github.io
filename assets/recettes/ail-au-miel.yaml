@@ -1,0 +1,31 @@
+title: Ail au Miel
+recipes:
+  Classique:
+    yield: 1
+    yieldType: bocal de 200gr
+    ingredients: 
+      - label: ail 
+        qty: 6
+        unit: gousses
+      - label: miel
+    steps:
+      - label: Préparation
+        emoji: 🧄🍯
+        details:
+          - Placer les gousses dans un bocal
+          - Remplir de miel jusqu'aux deux tiers du bocal
+      - label: Patience
+        emoji: 😴
+        details:
+          - Attendre 3 semaines
+          - Remuer le bocal une fois par jour
+      - label: Utilisations
+        emoji: 💡
+        details:
+          - Sur une pizza
+          - Avec la même quantité de sauce soja pour du stir fry
+          - Pour une vinaigrette
+          - Pour une marinade
+notes:
+  - Le miel doit être non pasteurisé
+  - Avec le temps, le miel va changer de couleur et de texture

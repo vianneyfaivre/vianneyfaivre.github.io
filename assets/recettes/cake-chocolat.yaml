@@ -30,10 +30,11 @@ recipes:
       - label: cacao en poudre non sucré
         qty: 10
         unit: gr
+    preconditions:
+      - Faire fondre le chocolat avec le beurre
     steps:
       - label: Préparation
         details:
-        - Faire fondre le chocolat avec le beurre
         - Blanchir les oeufs et le sucre au batteur électrique à vitesse maximale
         - Tamiser la farine, le chocolat en poudre et la levure sur la préparation
         - Incorporer à l'aide d'une spatule silicone
@@ -44,7 +45,7 @@ recipes:
         emoji: 🔥
         details:
         - Réserver la préparation au frais le temps que le four chauffe
-        - Cuire entre 25 et 35 minutes à 180°C en chaleur tournante
+        - Cuire entre 25 et 30 minutes à 160°C en chaleur tournante
         - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Chocolat II: 
     ingredients:
@@ -96,7 +97,7 @@ recipes:
         emoji: 🔥
         details:
         - Réserver au frais au moins une heure avant cuisson
-        - Cuire 45 minutes à 160°C en chaleur tournante
+        - Cuire 35 minutes à 160°C en chaleur tournante
         - Vérifier que le gâteau est cuit avec la pointe d'un couteau
   Marbré:
     utensils: 

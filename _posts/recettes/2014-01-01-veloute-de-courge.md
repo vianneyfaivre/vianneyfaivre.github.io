@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Velouté de Courge
-type: sel
+type: obsolete
 ---

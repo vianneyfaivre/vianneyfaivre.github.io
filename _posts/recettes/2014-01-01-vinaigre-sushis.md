@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Vinaigre pour Sushis
-type: condiment
+type: obsolete
 ---

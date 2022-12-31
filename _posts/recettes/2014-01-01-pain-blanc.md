@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Pain Blanc
-type: boulangerie
+type: obsolete
 ---

@@ -5,5 +5,5 @@ hidden: true
 lang: fr
 sitemap: true
 title: Pain Cocotte
-type: boulangerie
+type: obsolete
 ---
