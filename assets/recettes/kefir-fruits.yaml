@@ -1,0 +1,57 @@
+title: Kéfir de Fruits
+recipes:
+  Citron:
+    yield: 1
+    yieldType: litre
+    ingredients: 
+      - label: eau 
+        qty: 1
+        unit: litre
+        variable: true
+      - label: sucre
+        qty: 2
+        unit: cuillères à soupe
+      - label: grains de kéfir de fruits
+        qty: 2
+        unit: cuillères à soupe
+      - label: figue séchée
+        qty: 1
+      - label: citron
+        qty: 2
+        unit: tranches
+    steps:
+      - label: Première Fermentation
+        details:
+          - Déverser l'eau et le sucre dans un bocal à fermeture mécanique
+          - Secouer jusqu'à ce que le sucre soit dissous 
+          - Ajouter les grains de kéfir, la figue et les tranches de citron
+          - Fermer le bocal 
+          - Laisser fermenter à température ambiante pendant 24h
+      - label: Seconde Fermentation
+        details:
+          - Retirer la figue et les tranches de citron
+          - Passer la préparation au tamis et conserver les grains de kéfir
+          - Embouteiller la préparation dans des bouteilles à bouchon mécanique
+          - Fermer les bouteilles
+          - Laisser fermenter à température ambiante pendant 24h
+          - Le kéfir est prêt à être consommé. Il se conserve au frais environ une semaine
+    
+notes:
+  - label: Exemple de bocal à fermeture mécanique
+    link: https://www.leparfait.fr/bocaux-le-parfait-super
+  
+  - label: Exemple de bouteille à bouchon mécanique
+    link: https://fr.wikipedia.org/wiki/Bouchon_m%C3%A9canique
+    
+  - Pendant la première fermentation, des bulles vont apparaître à la surface. C'est normal, cela signifie que la fermentation fonctionne.
+
+  - Ne pas trop remplir les bouteilles afin d'éviter qu'elles explosent à cause de la pression causée par le gaz issu de la fermentation.
+
+  - Même au frais la fermentation continue mais sera fortement ralentie. En cas de doute il faut ouvrir la bouteille au desssus d'un évier.
+
+  - La fermentation prendra plus ou moins de temps en fonction de la température, à 18 degrés Celsius il faudra plus de temps qu'à 20 degrés Celsius.
+
+  - Les grains de kéfir issus de la fermentation doivent être placés au frais dans un petit bocal avec de l'eau et une cuillère à café de sucre. Ils peuvent être conservés plusieurs semaines de cette façon avant leur prochaine utilisation.
+
+  - label: Aide si ça ne fonctionne pas 
+    link: https://www.symbiose-kefir.fr/kefir-de-fruits-ne-petille-pas/
