@@ -16,7 +16,7 @@ recipes:
       - label: levure sèche 
         qty: 6
         unit: gr 
-      - label: levain liquide
+      - label: levain mûr
         qty: 60
         unit: gr 
       - label: oeufs

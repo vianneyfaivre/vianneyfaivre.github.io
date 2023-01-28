@@ -1,6 +1,3 @@
-
-
-
 title: Cake Salé
 utensils:
   - couteau
@@ -56,3 +53,4 @@ recipes:
         - Vérifier que le cake est cuit avec la pointe d'un couteau
 notes:
   - "Garnitures: saumon brocolis, poivron chorizo, thon feta olives, ..."
+  - Au robot pâtissier, utiliser l'outil feuille

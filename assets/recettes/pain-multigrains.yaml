@@ -1,0 +1,62 @@
+title: Pain Multigrains
+recipes:
+  Classique:
+    options: HYDRATION
+    pictures: 1
+    yield: 4
+    yieldType: pains de 200 gr
+    ingredients: 
+      - label: graines 
+        qty: 90
+        unit: gr
+      - label: farine T55
+        qty: 500
+        unit: gr
+        variable: true
+      - label: eau
+        qty: 300
+        unit: gr
+      - label: levain mûr
+        qty: 100
+        unit: gr
+      - label: levure sèche
+        qty: 2
+        unit: gr
+      - label: sel
+        qty: 10
+        unit: gr
+    steps:
+      - label: Graines
+        details:
+          - Déverser les graines dans un bol
+          - Verser de l'eau dans ce bol (moitié du poids des graines)
+      - label: Pétrissage et Pointage (le matin)
+        details:
+        - Utiliser le robot pâtissier avec le crochet pétrisseur
+        - Déverser le sel, la farine, le levain, la levure et l'eau à 20°C
+        - Mélanger en vitesse 1 jusqu'à incorporation
+        - Pétrir en vitesse 2 pendant 4 minutes
+        - Pétrir en vitesse 4 pendant 6 minutes
+        - Incorporer les graines en vitesse 1
+        - Pétrir en vitesse 1 pendant 3 minutes
+        - Bouler
+        - Laisser reposer 1h30 à température ambiante
+      - label: Façonnage (l'après midi)
+        details:
+        - Diviser le pâton en petits pâtons de poids égal
+        - Bouler chaque pâton
+        - Laisser reposer 15 minutes à température ambiante
+        - Façonner chaque pâton
+        - Placer les pâtons façonnés sur une plaque de cuisson
+        - Humidifier les pâtons 
+        - Parsemer les pâtons de graines (à souhait)
+        - Laisser reposer 2 heures minutes à température ambiante
+      - label: Cuisson
+        emoji: 🔥
+        details:
+        - Grigner profondément chaque pâton
+        - Placer un ramequin d'eau bouillante dans le four
+        - Cuire 30 minutes à 220°C (en bas du four)
+        - Laisser ressuer 30 minutes sur une grille
+notes:
+  - "Graines : lin, sésame, quinoa, pavot, ..."
