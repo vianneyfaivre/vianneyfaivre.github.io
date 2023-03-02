@@ -91,7 +91,7 @@ recipes:
       - label: Cuisson
         emoji: 🔥
         details:
-          - Cuire 20 minutes à 170°C
+          - Cuire 25 minutes à 160°C
   Citron:
     utensils:
       - spatule-silicone
