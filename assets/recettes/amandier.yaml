@@ -1,0 +1,46 @@
+title: Amandier
+recipes:
+  Classique:
+    ingredients: 
+      - label: oeufs 
+        qty: 3
+        variable: true
+      - label: sucre
+        qty: 80
+        unit: gr
+      - label: miel
+        qty: 20
+        unit: gr
+      - label: poudre d'amandes
+        qty: 150
+        unit: gr
+      - label: amande amère
+        qty: 5
+        unit: gouttes
+      - label: fleur d'oranger
+        qty: 15
+        unit: gr
+      - label: beurre
+        qty: 75
+        unit: gr
+      - label: mascarpone
+        qty: 50
+        unit: gr
+
+    steps:
+      - label: Préparation 1/3
+        details:
+          - Blanchir les oeufs avec le sucre et le miel
+          - Incorporer la poudre d'amandes, la fleur d'oranger et l'amande amère
+          - Réserver
+      - label: Préparation 2/3
+        details:
+          - Mélanger le beurre pommade avec le mascarpone
+      - label: Préparation 3/3
+        details:
+          - Incorporer les préparations ensemble au fouet
+          - Déverser la préparation dans un moule rond
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Cuire 45 minutes à 150°C en chaleur tournante

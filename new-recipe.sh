@@ -7,7 +7,7 @@ done
 
 if [ "$title" = "" ];
 then
-    echo "Usage: ./new-recipe.sh -t 'Recette 1'"
+    echo "Usage: ./new-recipe.sh -t 'replace-me-with-recipe-id'"
     exit 1;
 fi
 
