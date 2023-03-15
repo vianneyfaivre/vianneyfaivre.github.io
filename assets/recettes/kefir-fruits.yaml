@@ -1,11 +1,11 @@
 title: Kéfir de Fruits
 recipes:
   Citron:
-    yield: 1
+    yield: 1.5
     yieldType: litre
     ingredients: 
       - label: eau 
-        qty: 1
+        qty: 1.5
         unit: litre
         variable: true
       - label: sucre
