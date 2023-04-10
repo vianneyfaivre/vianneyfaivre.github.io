@@ -1,6 +1,3 @@
-
-
-
 title: Verrines Mascarpone
 utensils:
   - couteau
@@ -11,20 +8,21 @@ utensils:
   - tamis
 recipes:
   Tiramisu:
-    yield: 6
+    yield: 4
     yieldType: verrines
     ingredients: 
-      - label: "génoise : avec"
-        qty: 4
-        unit: oeufs
-        link: /recettes/genoise
+      - label: biscuits à la cuillère
+        qty: 200
+        unit: gr
       - label: eau
         qty: 70
         unit: mL
-      - label: café soluble
+      - label: café fort
+        qty: 100
+        unit: mL
       - label: amaretto
-        qty: 20
-        unit: gr
+        qty: 25
+        unit: mL
       - label: oeufs 
         qty: 2
         variable: true
@@ -37,34 +35,26 @@ recipes:
       - label: vanille liquide
       - label: cacao en poudre non sucré
     steps:
-      - label: Génoise
-        details:
-         - label: Faire la génoise
-           link: /recettes/genoise
-         - La laisser refroidir 15 minutes
-         - Détailler quatre disques de la taille des ramequins
-         - Couper chaque disque en deux en leur longueur
       - label: Sirop d'imbibage
         details:
-         - Faire bouillir l'eau
-         - Diluer le café soluble avec l'eau
-         - Ajouter la moitié du sucre et l'amaretto
+         - Faire un café très fort
+         - Mélanger le café et l'amaretto
       - label: Mascarpone
         details:
           - Séparer les blancs des jaunes
-          - Blanchir les jaunes d'oeufs avec la moitié du sucre au fouet
+          - Blanchir les jaunes d'oeufs avec le sucre
           - Incorporer le mascarpone et la vanille liquide à l'aide d'une spatule silicone
           - Monter les blancs en neige
           - Serrer les blancs avec un peu de sucre
           - Incorporer les blancs en deux fois au mélange à l'aide d'une spatule silicone
       - label: Assemblage
         details:
-          - Placer un demi disque au fond de chaque ramequin
-          - Imbiber les disques de sirop à l'aide d'un pinceau
-          - (Optionnel) Ajouter un peu de caramel mou
-          - Ajouter la moitié de la préparation au mascarpone sur les disques
-          - Placer un demi disque dans chaque ramequin
-          - Ajouter le reste de la préparation au mascarpone
+          - Couper les biscuits à la cuillère en deux
+          - Imbiber deux morceaux et les placer au fond de chaque verrine
+          - Déverser une cuillère de préparation au mascarpone
+          - Répéter
+      - label: Mise au frais
+        details:
           - Réserver au frais au moins trois heures 
           - Saupoudrer de cacao au moment de servir
   Framboise:

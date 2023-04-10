@@ -18,7 +18,7 @@ recipes:
         qty: 250
         unit: gr
       - label: "sauce tomate pour : "
-        qty: 400 
+        qty: 700 
         unit: gr de tomates
         link: /recettes/sauce-tomate 
       - label: épinards
