@@ -1,0 +1,36 @@
+title: Gnocchis
+recipes:
+  Classique:
+    yield: 4
+    yieldType: parts
+    ingredients: 
+      - label: patates
+        qty: 500
+        unit: gr
+      - label: oeuf
+        qty: 1
+        variable: true
+      - label: farine
+        qty: 200
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - Peler les patates
+          - Cuire les patates
+          - Presser les patates à l'aide d'un presse-purée
+          - Ajouter l'oeuf et mélanger à la main
+          - Incorporer la farine en deux fois
+      - label: Façonnage
+        details:
+          - Diviser en 4
+          - Façonner chaque morceau en un long et fin boudin
+          - Diviser chaque boudin en petits bouts de deux centimètres environ
+          - Passer chaque bout sur la planche à gnocchi
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Faire bouillir de l'eau
+          - Cuire les gnocchis quelques minutes
+notes:
+  - Quand les gnocchis sont cuits, ils remontent à la surface
