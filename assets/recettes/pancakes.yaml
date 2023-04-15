@@ -40,13 +40,32 @@ recipes:
     steps:
         - label: Préparation
           details:
-            - Fouetter l'oeuf, l'huile et le lait
-            - Dans un saladier, ajouter la farine, le sucre, la levure, le bicarbonate et le sel
-            - Mélanger sans insister
+            - Mélanger l'oeuf, l'huile et le lait
+            - Mélanger la farine, le sucre, la levure, le bicarbonate et le sel
+            - Tout mélanger
             - Laisser reposer 10 minutes
-        - label: Cuisson
-          emoji: 🔥
-          details: 
-            - Faire chauffer une poêle à crêpes
-            - Tester que la poêle est chaude en faisant un mini pancake
-            - Cuire chaque pancake, 2-3 minutes par côté
+            
+  Au Levain:
+    yield: 6
+    ingredients: 
+      - label: farine T55
+        qty: 100
+        unit: gr
+      - label: levure chimique
+        qty: 6
+        unit: gr
+      - label: levain mûr
+        qty: 200
+        unit: gr
+        variable: true
+      - label: oeufs
+        qty: 2
+      - label: lait
+        qty: 100
+        unit: mL
+    steps:
+        - label: Préparation
+          details:
+            - Mélanger la farine, la levure et une pincée de sel
+            - Mélanger les oeufs, le lait et le levain
+            - Tout mélanger
