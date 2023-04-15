@@ -19,14 +19,18 @@ recipes:
           - Peler les patates
           - Cuire les patates
           - Presser les patates à l'aide d'un presse-purée
+          - Patienter 10 minutes le temps que les patates refroidissent
           - Ajouter l'oeuf et mélanger à la main
           - Incorporer la farine en deux fois
+          - Rajouter de la farine si la pâte colle de trop
       - label: Façonnage
         details:
+          - Fleurer le plan de travail
           - Diviser en 4
-          - Façonner chaque morceau en un long et fin boudin
-          - Diviser chaque boudin en petits bouts de deux centimètres environ
+          - Façonner chaque morceau en un long boudin d'un centimètre de diamètre environ
+          - Diviser chaque boudin en bouts de un centimètre environ
           - Passer chaque bout sur la planche à gnocchi
+          - Bien fariner les gnocchis pour éviter qu'ils se collent entre eux
       - label: Cuisson
         emoji: 🔥
         details:
