@@ -20,21 +20,25 @@ recipes:
         qty: 2
         unit: tranches
     steps:
-      - label: Première Fermentation
+      - label: Première Fermentation 
         details:
           - Déverser l'eau et le sucre dans un bocal à fermeture mécanique
           - Secouer jusqu'à ce que le sucre soit dissous 
           - Ajouter les grains de kéfir, la figue et les tranches de citron
           - Fermer le bocal 
           - Laisser fermenter à température ambiante pendant 24h
-      - label: Seconde Fermentation
+      - label: Seconde Fermentation 
         details:
           - Retirer la figue et les tranches de citron
           - Passer la préparation au tamis et conserver les grains de kéfir
           - Embouteiller la préparation dans des bouteilles à bouchon mécanique
           - Fermer les bouteilles
           - Laisser fermenter à température ambiante pendant 24h
-          - Le kéfir est prêt à être consommé. Il se conserve au frais environ une semaine
+          - Placer au frais
+      - label: Troisième Fermentation
+        details:
+          - Laisser fermenter au réfrigérateur de 1 jour à 7 jours
+          - Le kéfir est prêt à être consommé
     
 notes:
   - label: Exemple de bocal à fermeture mécanique
