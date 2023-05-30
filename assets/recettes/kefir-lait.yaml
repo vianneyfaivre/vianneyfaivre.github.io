@@ -1,0 +1,35 @@
+title: Kéfir de Lait
+recipes:
+  Doux:
+    yield: 1
+    yieldType: litre
+    ingredients: 
+      - label: lait 
+        qty: 1
+        unit: litre
+        variable: true
+      - label: grains de kéfir de lait
+        qty: 2
+        unit: cuillères à soupe
+    steps:
+      - label: Première Fermentation 
+        details:
+          - Déverser le lait et les grains de kéfir dans un bocal à fermeture mécanique
+          - Fermer le bocal 
+          - Laisser fermenter à température ambiante pendant 24h
+      - label: Seconde Fermentation 
+        details:
+          - Passer la préparation au tamis et conserver les grains de kéfir
+          - Embouteiller la préparation dans des bouteilles à bouchon mécanique
+          - Fermer les bouteilles
+          - Placer au frais
+          - Laisser fermenter au réfrigérateur pendant 24h
+          - Le kéfir est prêt à être consommé
+    
+notes:
+  - label: Exemple de bocal à fermeture mécanique
+    link: https://www.leparfait.fr/bocaux-le-parfait-super
+  
+  - label: Exemple de bouteille à bouchon mécanique
+    link: https://fr.wikipedia.org/wiki/Bouchon_m%C3%A9canique
+  

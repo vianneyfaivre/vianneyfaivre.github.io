@@ -107,6 +107,7 @@ EVENTS = [
     new Event(2021, 4, EventType.MOVE, "", "France 🇫🇷"),
     new Event(2022, 1, EventType.MOVE, "", "Chateaubourg, France 🇫🇷"),
     new Event(2022, 6, EventType.MOVE, "", "Ancenis, France 🇫🇷"),
+    new Event(2023, 6, EventType.MOVE, "", "Ancenis, France 🇫🇷"),
 
     new Event(2008, 6, EventType.GRADUATION, "Baccalauréat"),
     new Event(2010, 6, EventType.GRADUATION, "Techincal Degree"),
@@ -142,6 +143,7 @@ EVENTS = [
     new Event(2022, 5, EventType.TRAVEL, "one week", "Greece ⛵🇬🇷"),
     new Event(2022, 7, EventType.TRAVEL, "one week", "Biarritz, France 🇫🇷"),
     new Event(2022, 8, EventType.TRAVEL, "one month", "Argentina 🇦🇷"),
+    new Event(2023, 1, EventType.TRAVEL, "one week", "Valmorel, France 🇫🇷"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
