@@ -1,6 +1,3 @@
-
-
-
 title: Galettes de Sarrasin
 utensils:
   - tamis
@@ -12,16 +9,19 @@ recipes:
     yield: 12
     ingredients: 
       - label: farine de sarrasin 
-        qty: 500
+        qty: 250
         unit: gr
         variable: true
       - label: oeufs
-        qty: 1
+        qty: 2
       - label: eau
-        qty: 900
-        unit: mL
+        qty: 50
+        unit: cL
+      - label: beurre
+        qty: 40
+        unit: gr
       - label: sel
-        qty: 15
+        qty: 2
         unit: gr
     steps:
       - label: Préparation
@@ -30,7 +30,7 @@ recipes:
           - Faire un trou au milieu
           - Mettre l'oeuf dans le trou
           - Ajouter l'eau au fur et à mesure en mélangeant au fouet
-          - Couvrir et laisser reposer 1h au réfrigérateur 
+          - Couvrir et laisser reposer 1h minimum 
       - label: Cuisson
         emoji: 🔥
         details:
