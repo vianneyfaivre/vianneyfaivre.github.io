@@ -7,7 +7,7 @@ recipes:
       - label: patates
         qty: 500
         unit: gr
-      - label: oeuf
+      - label: oeufs
         qty: 1
         variable: true
       - label: farine
@@ -19,8 +19,9 @@ recipes:
           - Peler les patates
           - Cuire les patates
           - Presser les patates à l'aide d'un presse-purée
-          - Patienter 10 minutes le temps que les patates refroidissent
-          - Ajouter l'oeuf et mélanger à la main
+          - Attendreque les patates soient tièdes
+          - Ajouter les oeufs
+          - Mélanger à la main
           - Incorporer la farine en deux fois
           - Rajouter de la farine si la pâte colle de trop
       - label: Façonnage
