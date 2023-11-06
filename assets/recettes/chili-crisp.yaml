@@ -16,8 +16,8 @@ recipes:
       - label: sel 
         qty: 0.5
         unit: cuillère à café
-      - label: cardamome noire
-        qty: 1
+      - label: cardamome
+        qty: 3
         unit: cosse
       - label: anis étoilé
         qty: 1
@@ -64,10 +64,10 @@ recipes:
         emoji: 🌶️
         details: 
           - Préchauffer le wok sur feu fort sans huile
-          - Écraser la cosse de cardamome
-          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le paprika fumé, le piment d'espelette et le poivre de Sichuan
+          - Écraser les cosses de cardamome
+          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le paprika fumé, le piment d'espelette et le poivre de Sichuan dans le wok
           - Torréfier les épices 5 minutes
-          - Déverser toute l'huile
+          - Déverser toute l'huile dans le wok
           - Faire infuser 25 minutes sur feu moyen
           - Passer au chinois (conserver l'huile)
       - label: Cuisson
