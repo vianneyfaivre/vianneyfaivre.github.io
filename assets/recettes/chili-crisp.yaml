@@ -38,7 +38,7 @@ recipes:
         qty: 5
         unit: gr
       - label: huile de tournesol
-        qty: 100
+        qty: 125
         unit: mL
         variable: true
       - label: oignon rouge
