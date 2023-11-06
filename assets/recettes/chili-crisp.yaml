@@ -28,11 +28,11 @@ recipes:
       - label: laurier
         qty: 1
         unit: feuille
-      - label: paprika fumé
-        qty: 1
-        unit: cuillère à café
+      - label: paprika
+        qty: 2
+        unit: cuillères à café
       - label: piment d'espelette
-        qty: 1
+        qty: 0.25
         unit: cuillère à café
       - label: poivre de Sichuan
         qty: 5
@@ -53,34 +53,35 @@ recipes:
         qty: 3
         unit: cuillères à soupe
     steps:
-      - label: Préparation des cacahuètes
+      - label: Torréfaction et mixage des cacahuètes
         emoji: 🥜
         details:
           - Torréfier les cacahuètes au four 15 minutes à 180°C
           - Laisser refroidir
-          - Mixer les cacahuètes avec les graines de sésame et le piment séché 
+          - Mixer les cacahuètes avec les graines de sésame, le paprika, le piment d'espelette et le piment séché 
           - Ajouter le sel
-      - label: Torréfaction des épices
+      - label: Torréfaction des épices et infusion de l'huile
         emoji: 🌶️
         details: 
           - Préchauffer le wok sur feu fort sans huile
           - Écraser les cosses de cardamome
-          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le paprika fumé, le piment d'espelette et le poivre de Sichuan dans le wok
+          - Émincer le gingembre 
+          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le gingembre, et le poivre de Sichuan dans le wok
           - Torréfier les épices 5 minutes
           - Déverser toute l'huile dans le wok
           - Faire infuser 25 minutes sur feu moyen
-          - Passer au chinois (conserver l'huile)
-      - label: Cuisson
+          - Passer au chinois (conserver l'huile, jeter les épices)
+      - label: Cuisson de l'oignon et de l'ail
         emoji: 🔥
         details: 
-          - Émincer l'oignon, le gingembre et l'ail
+          - Émincer l'oignon et l'ail
           - Préchauffer le wok sur feu fort
-          - Déverser l'huile infusée
-          - Faire frire l'oignon, le gingembre et l'ail
+          - Déverser l'huile infusée dans le wok
+          - Faire frire l'oignon et l'ail
       - label: Finalisation
         emoji: 🥃
         details: 
-          - Tout rassembler dans un saladier
+          - Tout déverser dans un saladier
           - Ajouter l'huile de sésame
           - Mélanger
           - Déverser dans le pot à confiture
