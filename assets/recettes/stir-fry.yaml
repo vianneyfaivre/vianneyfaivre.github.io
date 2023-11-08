@@ -1,6 +1,3 @@
-
-
-
 title: Stir Fry - Sauces
 utensils:
   - saladier
@@ -64,3 +61,25 @@ recipes:
           - Dissoudre la fécule de maïs dans l'eau
           - Mélanger tous les ingrédients dans un saladier
           - Ajouter la sauce vers la fin de la cuisson des autres ingrédients sur feu assez vif pour la faire épaissir
+  Dan Dan:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: sauce soja
+        qty: 3
+        unit: cuillères à soupe
+        variable: true
+      - label: huile de sésame
+        qty: 1
+        unit: cuillère à soupe
+      - label: tahini
+        qty: 1
+        unit: cuillère à soupe
+      - label: vinaigre de riz
+        qty: 1
+        unit: cuillère à soupe
+    steps:
+      - label: Préparation de la sauce
+        details:
+          - Mélanger tous les ingrédients dans un saladier
+          - Ajouter la sauce vers la fin de la cuisson des autres ingrédients
