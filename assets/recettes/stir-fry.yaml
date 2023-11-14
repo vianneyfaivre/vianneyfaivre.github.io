@@ -73,13 +73,19 @@ recipes:
         qty: 1
         unit: cuillère à soupe
       - label: tahini
-        qty: 1
-        unit: cuillère à soupe
+        qty: 40
+        unit: gr
       - label: vinaigre de riz
         qty: 1
         unit: cuillère à soupe
+      - label: ail
+        qty: 3
+        unit: gousses
+      - label: gingembre
     steps:
       - label: Préparation de la sauce
         details:
+          - Raper l'ail
+          - Raper le gingembre
           - Mélanger tous les ingrédients dans un saladier
           - Ajouter la sauce vers la fin de la cuisson des autres ingrédients
