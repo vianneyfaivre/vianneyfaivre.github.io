@@ -2,29 +2,29 @@ title: Amandier
 recipes:
   Classique:
     ingredients: 
-      - label: oeufs 
-        qty: 3
+      - label: oeufs
+        qty: 5
         variable: true
       - label: sucre
-        qty: 80
+        qty: 120
         unit: gr
       - label: miel
-        qty: 20
+        qty: 30
         unit: gr
       - label: poudre d'amandes
-        qty: 150
+        qty: 250
         unit: gr
       - label: amande amère
-        qty: 5
+        qty: 8
         unit: gouttes
       - label: fleur d'oranger
-        qty: 15
+        qty: 20
         unit: gr
       - label: beurre
-        qty: 75
+        qty: 120
         unit: gr
       - label: mascarpone
-        qty: 50
+        qty: 80
         unit: gr
 
     steps:
@@ -44,3 +44,7 @@ recipes:
         emoji: 🔥
         details:
           - Cuire 45 minutes à 150°C en chaleur tournante
+
+notes:
+  - Par défaut, la recette est pour un moule rond
+  - N'utiliser que 4 oeufs pour un moule à muffins (x16)

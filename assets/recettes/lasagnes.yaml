@@ -1,6 +1,3 @@
-
-
-
 title: Lasagnes
 utensils:
   - casserole
@@ -63,3 +60,5 @@ recipes:
         details:
         - Cuire 20 minutes à 200°C
         - Le dessus doit être bien gratiné
+notes:
+  - "Pour les réchauffer : 35 minutes à 170°C"

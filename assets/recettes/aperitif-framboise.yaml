@@ -4,17 +4,17 @@ recipes:
     yield: 75
     yieldType: cL
     ingredients:
-      - label: vin rouge
+      - label: vin
         qty: 55
         unit: cL
         variable: true
       - label: sucre
-        qty: 75
+        qty: 30
         unit: gr
       - label: framboises
-        qty: 225
+        qty: 200
         unit: gr
-      - label: vodka
+      - label: alcool blanc
         qty: 8
         unit: cL
     steps:
@@ -32,7 +32,7 @@ recipes:
       - label: Préparation 2/2
         details:
           - Déverser le contenu du bocal dans un pichet à travers une passoire fine
-          - Ajouter la vodka
+          - Ajouter l'alcool blanc
           - Embouteiller
           - Placer la bouteille dans un endroit frais
       - label: Patience
@@ -44,3 +44,5 @@ recipes:
         details:
           - Se conserve à température ambiante plusieurs mois
           - À déguster pur avec un glaçon 
+notes:
+  - "Alcools blanc : vodka, rhum blanc, eau de vie, ..."

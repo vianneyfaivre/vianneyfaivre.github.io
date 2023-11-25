@@ -1,0 +1,25 @@
+title: Salade de chou
+recipes:
+  Vendéenne:
+    yield: 2
+    yieldType: personnes
+    ingredients: 
+      - label: chou blanc
+        qty: 350
+        unit: gr
+        variable: true
+      - label: "vinaigrette au fromage blanc"
+        link: /recettes/vinaigrette?sr=Fromage+Blanc 
+      - label: fromage à pâte dure
+        qty: 50
+        unit: gr
+      - label: jambon fumé
+        qty: 100
+        unit: gr
+    steps:
+      - label: Préparation
+        details:
+          - Émincer le plus finement possible le chou
+          - Faire des dés de jambon
+          - Faire des dés de fromage
+          - Mélanger tous les ingrédients ensemble

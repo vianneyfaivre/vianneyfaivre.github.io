@@ -1,0 +1,24 @@
+title: Tartinade ail et fines herbes
+recipes:
+  Classique:
+    ingredients: 
+      - label: fromage frais
+        qty: 300
+        unit: gr
+        variable: true
+      - label: ail
+        qty: 1
+        unit: gousse
+      - label: échalote
+        qty: 1
+      - label: herbes fraîches
+    steps:
+      - label: "Préparation"
+        details:
+          - Raper l'ail
+          - Hacher l'échalote 
+          - Hacher les herbes fraîches
+          - Mélanger tous les ingrédients ensemble
+          - Réserver au frais
+notes:
+ - "Herbes fraîches : persil, ciboulette, ..."

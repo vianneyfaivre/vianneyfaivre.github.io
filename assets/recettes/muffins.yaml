@@ -7,7 +7,7 @@ recipes:
       - fouet
       - spatule-silicone
       - moule-muffins
-    yield: 6
+    yield: 12
     ingredients: 
       - label: farine blanche
         qty: 150

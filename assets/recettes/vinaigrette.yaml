@@ -1,0 +1,47 @@
+title: Vinaigrette
+recipes:
+  Classique:
+    yield: 2
+    yieldType: personnes
+    ingredients:
+      - label: moutarde
+        qty: 20
+        unit: gr
+        variable: true
+      - label: moutarde à l'ancienne
+        qty: 10
+        unit: gr
+      - label: huile neutre
+        qty: 15
+        unit: cL
+      - label: vinaigre
+        qty: 5
+        unit: cL
+    steps:
+      - label: Préparation
+        details:
+          - Mélanger tous les ingrédients ensemble au fouet jusqu'à ce que l'émulsion soit formée
+  Fromage Blanc:
+    yield: 2
+    yieldType: personnes
+    ingredients:
+      - label: fromage blanc
+        qty: 100
+        unit: gr
+        variable: true
+      - label: jus de citron
+        qty: 2
+        unit: cuillères à soupe
+      - label: moutarde
+        qty: 0.5
+        unit: cuillère à café
+      - label: herbes fraîches
+    steps:
+      - label: Préparation
+        details:
+          - Hacher les herbes fraîches
+          - Mélanger tous les ingrédients ensemble
+          - Goûter, ajuster si besoin
+          - Réserver au frais
+    notes:
+      - "Herbes fraîches : persil, ciboulette, ..."
