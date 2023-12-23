@@ -26,7 +26,7 @@ recipes:
         qty: 0.5
         unit: cuillère à café
       - label: gingembre
-        qty: 0.5
+        qty: 0.25
         unit: cuillère à café
       - label: cardamome
         qty: 0.25
