@@ -1,6 +1,3 @@
-
-
-
 title: Banana Bread
 utensils:
   - moule-cake
@@ -25,7 +22,7 @@ recipes:
       - label: bananes mûres
         qty: 200
         unit: gr
-      - label: beurre mou
+      - label: beurre
         qty: 80
         unit: gr
       - label: lait
@@ -42,10 +39,9 @@ recipes:
           - Mélanger à l'aide d'une fourchette
       - label: Préparation
         details:
-          - Dans un saladier, tamiser 150 gr de farine avec la levure et le sucre
+          - Dans un saladier, tamiser la farine avec la levure et le sucre
           - Ajouter les bananes, le beurre et le lait
           - Mélanger les oeufs un à un
-          - Mélanger avec les 100 derniers grammes de farine
           - Beurrer et fariner le moule
           - Verser la préparation dans le moule
       - label: Cuisson
