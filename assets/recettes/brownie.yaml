@@ -7,7 +7,7 @@ utensils:
   - moule-brownie
 recipes:
   Classique:
-    pictures: 1
+    pictures: 2
     yield: 1
     yieldType: brownie 23x23 cm
     ingredients: 

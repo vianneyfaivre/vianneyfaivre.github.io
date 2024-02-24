@@ -2,4 +2,4 @@ _site
 run.bat
 .jekyll-metadata
 .vscode
-**/.DS_Store
+**/**/.DS_Store
