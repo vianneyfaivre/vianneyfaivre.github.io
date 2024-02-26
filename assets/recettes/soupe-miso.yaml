@@ -1,0 +1,43 @@
+title: Soupe Miso
+recipes:
+  Classique:
+    yield: 2
+    yieldType: parts
+    ingredients: 
+      - label: eau 
+        qty: 1000
+        unit: mL
+      - label: kombu
+        qty: 10
+        unit: gr
+      - label: bonite
+        qty: 10
+        unit: gr
+      - label: miso
+        qty: 50
+        unit: gr
+      - label: tofu
+        qty: 200
+        unit: gr
+        variable: true
+      - label: légumes
+      - label: champignons
+    preconditions:
+      - Raper la bonite
+      - Détailler le tofu en cubes
+      - Détailler les légumes et les champignons
+    steps:
+      - label: Kombu
+        details:
+          - Déverser l'eau dans une casserole
+          - Faire tremper le kombu 10 minutes dans l'eau
+      - label: Dashi
+        details:
+          - Porter l'eau et le kombu à ébullition
+          - Réduire à feu doux/moyen
+          - Ajouter la bonite
+      - label: Soupe Miso
+        details:
+          - Déverser les légumes et les champignons
+          - Faire cuire 5 minutes
+          - Déverser le miso dans la casserole hors du feu
