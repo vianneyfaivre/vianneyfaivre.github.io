@@ -11,8 +11,8 @@ recipes:
         qty: 10
         unit: gr
       - label: bonite
-        qty: 10
-        unit: gr
+        qty: 1
+        unit: cuillère à café
       - label: miso
         qty: 50
         unit: gr

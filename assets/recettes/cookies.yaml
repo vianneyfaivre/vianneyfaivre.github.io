@@ -36,8 +36,7 @@ recipes:
         qty: 3
         unit: gr
       - label: chocolat
-        qty: 250
-        unit: gr
+      - label: noix
     steps:
       - label: Ingrédients liquides
         details:
@@ -52,7 +51,7 @@ recipes:
         details:
           - Incorporer les ingrédients liquides et solides ensemble à la spatule silicone
           - Détailler grossièrement le chocolat
-          - Mélanger le chocolat avec la pâte
+          - Mélanger le chocolat et/ou les noix avec la pâte
           - Laisser reposer au réfrigérateur de 7 heures à 2 jours
       - label: Cuisson
         emoji: 🔥
