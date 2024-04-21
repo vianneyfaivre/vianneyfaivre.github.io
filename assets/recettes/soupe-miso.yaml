@@ -14,8 +14,8 @@ recipes:
         qty: 2
         unit: cuillères à café
       - label: miso
-        qty: 50
-        unit: gr
+        qty: 3
+        unit: cuillères à soupe
       - label: tofu
         qty: 200
         unit: gr
