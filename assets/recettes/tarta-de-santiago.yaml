@@ -40,14 +40,13 @@ recipes:
         details:
           - Faire fondre le beurre
           - Fouetter les oeufs avec le sucre
-          - Ajouter le beurre fondu et mélanger
-          - Ajouter la poudre d'amandes, les épices et les zestes
-          - Mélanger
-          - Verser dans un moule
+          - Ajouter le beurre fondu tout en fouettant
+          - Incorporer la poudre d'amandes, les épices et les zestes
+          - Déverser la préparation dans un moule
       - label: Cuisson
         emoji: 🔥
         details: 
-          - Cuire 30 minutes à 180°C
+          - Cuire 30 minutes à 160°C
           - Laisser refroidir le gâteau à température ambiante
           - Démouler
           - Saupoudrer de sucre glace (au moment de servir)

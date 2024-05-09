@@ -65,12 +65,9 @@ recipes:
         link: /recettes/pate-brisee 
         qty: 1
       - label: ail
-        qty: 15
+        qty: 30
         unit: gousses
       - label: huile d'olive
-      - label: eau
-        qty: 220
-        unit: gr
       - label: vinaigre balsamique
         qty: 1
         unit: cuillère à soupe
@@ -86,10 +83,10 @@ recipes:
         qty: 3
         variable: true
       - label: crème fleurette
-        qty: 90
+        qty: 100
         unit: mL
       - label: lait
-        qty: 90
+        qty: 100
         unit: mL
       - label: fromage rapé
         qty: 50
@@ -102,14 +99,13 @@ recipes:
       - label: Cuisson de l'ail
         details:
           - Peler toutes les gousses d'ail
-          - Placer les gousses d'ail dans une casserole avec de l'eau 
-          - Porter à ébullition pour 3 minutes
+          - Blanchir les gousses d'ail 3 minutes
           - Égoutter
-          - Essuyer la casserole
           - Ajouter un filet d'huile d'olive dans la casserole
           - Faire revenir les gousses d'ail à feu moyen-fort pour 3-5 minutes en remuant constamment
-          - Ajouter les 220 grammes d'eau et le vinaigre balsamique
-          - Cuire sur feu moyen pendant 10 minutes
+          - Couvrir d'eau
+          - Ajouter le vinaigre balsamique
+          - Cuire sur feu moyen pendant 10 minutes (ou jusqu'à expiration)
           - Ajouter le sucre, le romarin, le thym et une bonne pincée de sel
           - Cuire jusqu'à ce que l'eau soit évaporée
           - Réserver
