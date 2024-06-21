@@ -35,7 +35,7 @@ recipes:
         qty: 75
         unit: gr
     steps:
-      - label: Pétrissage et Pointage  (la veille - soir)
+      - label: Pétrissage et Pointage (la veille - soir)
         details:
         - Couper le beurre en tout petits dés
         - Utiliser le robot pâtissier avec le crochet pétrisseur

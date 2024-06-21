@@ -1,0 +1,93 @@
+
+
+
+title: Pain au levain
+recipes:
+  Overnight:
+    pictures: 0
+    ingredients: 
+      - label: levain
+        qty: 80
+        unit: gr
+        variable: true
+      - label: eau
+        qty: 600
+        unit: gr
+      - label: farine T80
+        qty: 750
+        unit: gr
+      - label: farine T110
+        qty: 150
+        unit: gr
+      - label: sel
+        qty: 16
+        unit: gr
+    preconditions:
+      - Le levain doît être pâteux, bien acide au nez et mûr (le rafraîchir le matin même)
+    steps:
+      - label: Pétrissage et Pointage (la veille - soir vers 22h)
+        details:
+          - Dans le bol du robot, verser le levain, l'eau, les farines et le sel
+          - Mélanger jusqu'à incorporation
+          - Racler les bords
+          - Mélanger pendant 4 minutes sur vitesse 2
+          - Mélanger pendant 4 minutes sur vitesse 3
+          - Faire quelques rabats
+          - Couvrir d'un torchon humide
+          - Laisser pointer à température ambiante toute la nuit
+      - label: Pointage (le lendemain - matin vers 8h)
+        details:
+          - Faire quelques rabats
+          - Laisser pointer à température ambiante 30 minutes
+      - label: Façonnage I
+        details:
+          - Débaquer
+          - Faire quelques rabats
+          - Façonner (clé vers le bas)
+          - Couvrir avec un cul de poule
+          - Laisser pointer à température ambiante 30 minutes
+      - label: Préparation du banneton
+        details:
+          - Fariner le banneton abondamment
+          - Réserver
+      - label: Façonnage II
+        details:
+          - Retourner le pâton (clé vers le haut)
+          - Former un rectangle en aplatissant un peu le pâton
+          - Plier horizontalement la moitié du pâton sur lui même (par le bas)
+          - Plier horizontalement l'autre moitié du pâton sur lui même (par le haut)
+          - Faire pivoter le pâton de 180 degrés
+          - Rouler le pâton sur lui même progressivement en partant du bas (style pain au chocolat)
+          - Bouler (clé vers le bas)
+          - Placer le pâton dans le banneton (clé vers le haut)
+      - label: Pointage
+        details:
+          - Couvrir avec une feuille de papier sulfurisé
+          - Couvrir avec un torchon
+          - Laisser pointer à température ambiante au moins 1h30
+      - label: Préchauffage du four
+        details:
+          - Placer la cocotte en fonte dans le four
+          - Allumer le four à 220 degrés celsius
+          - Laisser le four chauffer au moins 20 minutes
+      - label: Grignage
+        details:
+          - Retirer le torchon
+          - Placer une planche à découper sur le banneton
+          - Retourner
+          - Retirer le banneton
+          - Asperger d'un peu d'eau
+          - Grigner profondément
+      - label: Cuisson
+        emoji: 🔥
+        details:
+          - Sortir la cocotte en fonte du four
+          - Placer le pâton dans la cocotte
+          - Asperger d'un peu d'eau
+          - Refermer la cocotte en fonte
+          - Placer la cocotte en fonte dans le four
+          - Cuire 40 minutes à 220°C 
+          - Retirer le couvercle de la cocotte en fonte
+          - Cuire 10 minutes à 220°C 
+          - Sortir le pain de la cocotte en fonte
+          - Laisser ressuer le pain sur grille pendant au moins 1h30
