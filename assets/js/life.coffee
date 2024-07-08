@@ -151,6 +151,7 @@ EVENTS = [
     new Event(2024, 1, EventType.TRAVEL, "one week", "Les Arcs, France 🇫🇷"),
     new Event(2024, 1, EventType.TRAVEL, "four days", "Lyon/Aix-Les-Bains, France 🇫🇷"),
     new Event(2024, 2, EventType.TRAVEL, "one week", "Dijon, France 🇫🇷"),
+    new Event(2024, 6, EventType.TRAVEL, "one week", "Crozon & Perros-Guirec, France 🇫🇷"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
