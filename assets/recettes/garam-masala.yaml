@@ -12,10 +12,10 @@ recipes:
     - label: poivre noir en grains
       qty: 1
       unit: cuillère à soupe
-    - label: clous de girofle
+    - label: fenouil en grains
       qty: 1
       unit: cuillère à café
-    - label: fenouil en grains
+    - label: clous de girofle
       qty: 1
       unit: cuillère à café
     - label: muscade en poudre

@@ -8,16 +8,13 @@ recipes:
     - label: coriandre en grains
       qty: 1
       unit: cuillère à café
-    - label: cannelle en poudre
-      qty: 0.5
-      unit: cuillère à café
-    - label: gingembre en poudre
-      qty: 1
-      unit: cuillère à café
     - label: moutarde en grains
       qty: 1
       unit: cuillère à café
     - label: poivre noir en grains
+      qty: 1
+      unit: cuillère à café
+    - label: gingembre en poudre
       qty: 1
       unit: cuillère à café
     - label: paprika en poudre
