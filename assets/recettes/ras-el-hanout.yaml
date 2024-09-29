@@ -2,31 +2,37 @@ title: Ras el hanout
 recipes:
   Classique:
     ingredients: 
-    - label: cumin
+    - label: cumin en grains
       qty: 2
       unit: cuillères à café
-    - label: coriandre 
+      variable: true
+    - label: coriandre en grains
       qty: 1
       unit: cuillère à café
-    - label: cannelle
+    - label: cannelle en poudre
       qty: 0.5
       unit: cuillère à café
-    - label: muscade
+    - label: muscade en poudre
       qty: 1
       unit: cuillère à café
-    - label: gingembre
+    - label: gingembre en poudre
       qty: 1
       unit: cuillère à café
-    - label: paprika
+    - label: paprika en poudre
       qty: 2
       unit: cuillères à café
-    - label: curcuma
+    - label: curcuma en poudre
       qty: 1
       unit: cuillère à café
     - label: sel
       qty: 2
       unit: cuillères à café
     steps:
+      - label: Préparation
+        details:
+          - Torréfier les épices en grains quelques minutes à feu doux
+          - Réduire tous les grains en poudre
+          - Mélanger tous les ingrédients
       - label: Utilisations
         emoji: 💡
         details:
