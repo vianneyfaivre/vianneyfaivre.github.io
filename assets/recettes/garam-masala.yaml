@@ -1,0 +1,40 @@
+title: Garam Masala
+recipes:
+  Classique:
+    ingredients: 
+    - label: cumin en grains
+      qty: 1
+      unit: cuillères à soupe
+    - label: coriandre en grains
+      qty: 2
+      unit: cuillère à soupe
+      variable: true
+    - label: poivre noir en grains
+      qty: 1
+      unit: cuillère à soupe
+    - label: clous de girofle
+      qty: 1
+      unit: cuillère à café
+    - label: fenouil en grains
+      qty: 1
+      unit: cuillère à café
+    - label: muscade en poudre
+      qty: 0.5
+      unit: cuillère à café
+    - label: cardamome en poudre
+      qty: 0.5
+      unit: cuillère à café
+    - label: cannelle en poudre
+      qty: 1.5
+      unit: cuillère à café
+    steps:
+      - label: Préparation
+        details:
+          - Torréfier les épices en grains quelques minutes à feu doux
+          - Réduire tous les grains en poudre
+          - Mélanger tous les ingrédients
+      - label: Utilisations
+        emoji: 💡
+        details:
+          - Currys 🤯 (en fin de cuisson)
+     

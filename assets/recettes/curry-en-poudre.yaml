@@ -1,0 +1,47 @@
+title: Curry en poudre
+recipes:
+  Classique:
+    ingredients: 
+    - label: cumin en grains
+      qty: 1
+      unit: cuillères à café
+    - label: coriandre en grains
+      qty: 1
+      unit: cuillère à café
+    - label: cannelle en poudre
+      qty: 0.5
+      unit: cuillère à café
+    - label: gingembre en poudre
+      qty: 1
+      unit: cuillère à café
+    - label: moutarde en grains
+      qty: 1
+      unit: cuillère à café
+    - label: poivre noir en grains
+      qty: 1
+      unit: cuillère à café
+    - label: paprika en poudre
+      qty: 2
+      unit: cuillères à café
+    - label: curcuma en poudre
+      qty: 3
+      unit: cuillère à café
+      variable: true
+    - label: cardamome en poudre
+      qty: 0.5
+      unit: cuillère à café
+    - label: cannelle en poudre
+      qty: 0.5
+      unit: cuillère à café
+    - label: piments entiers séchés
+    steps:
+      - label: Préparation
+        details:
+          - Torréfier les épices en grains quelques minutes à feu doux
+          - Réduire tous les grains et les piments en poudre
+          - Mélanger tous les ingrédients
+      - label: Utilisations
+        emoji: 💡
+        details:
+          - Currys 🤯 (en début de cuisson)
+     
