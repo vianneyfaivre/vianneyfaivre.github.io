@@ -1,0 +1,58 @@
+title: Curry
+recipes:
+  Classique:
+    yield: 6
+    yieldType: personnes
+    ingredients: 
+      - label: oignons
+        qty: 2
+        variable: true
+      - label: légumes
+      - label: gingembre
+        qty: 16
+        unit: grammes
+      - label: ail
+        qty: 6
+        unit: gousses
+      - label: curry en poudre
+        qty: 2
+        unit: cuillères à café
+        link: /recettes/curry-en-poudre
+      - label: tomates
+        qty: 1
+        unit: conserve
+      - label: pois chiches
+        qty: 1
+        unit: conserve
+      - label: garam masala
+        qty: 2
+        unit: cuillères à café
+        link: /recettes/garam-masala
+      - label: crème de coco
+        qty: 1
+        unit: conserve
+    steps:
+      - label: Préparation des légumes
+        details:
+          - Émincer grossièrement l'ail
+          - Émincer grossièrement le gingembre
+          - Émincer les oignons
+          - Détailler les légumes en gros morceaux
+          - Égoutter et rincer les pois chiches
+      - label: Pâte Ail-Gingembre
+        details:
+          - Déverser l'ail et le gingembre dans un hachoir
+          - Ajouter une pincée de sel
+          - Mixer l'ail et le gingembre jusqu'à obtenir une pâte
+      - label: Préparation
+        details:
+          - Faire chauffer une cocotte avec de l'huile sur feu moyen
+          - Ajouter les oignons, faire revenir 3 minutes
+          - Ajouter les légumes, faire revenir 5 minutes
+          - Ajouter la pâte ail-gingembre, faire revenir 5 minutes
+          - Ajouter le curry en poudre, faire revenir 2 minutes
+          - Ajouter les tomates et les pois chiches
+          - Porter à ébullition puis laisser mijoter 10 minutes
+          - Ajouter le garam masala
+          - Ajouter la crème de coco 
+          - Porter à ébullition puis laisser mijoter 20 minutes
