@@ -25,7 +25,7 @@ recipes:
       unit: cuillères à café
     - label: curcuma en poudre
       qty: 3
-      unit: cuillère à café
+      unit: cuillères à café
       variable: true
     - label: cardamome en poudre
       qty: 0.5
