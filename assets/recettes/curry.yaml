@@ -25,7 +25,7 @@ recipes:
         qty: 1
         unit: conserve
       - label: garam masala
-        qty: 2
+        qty: 1
         unit: cuillères à café
         link: /recettes/garam-masala
       - label: crème de coco
