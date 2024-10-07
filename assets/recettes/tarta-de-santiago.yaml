@@ -33,8 +33,6 @@ recipes:
         unit: cuillère à café
       - label: zestes de citron
       - label: zestes d'orange
-    preconditions:
-      - Préchauffer le four à 180°C
     steps:
       - label: Préparation
         details:

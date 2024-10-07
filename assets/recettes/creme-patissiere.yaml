@@ -24,8 +24,8 @@ recipes:
       - label: jaunes d'oeufs
         qty: 4
       - label: vanille
-        qty: 1
-        unit: gousses
+        qty: 0.5
+        unit: gousse
       - label: beurre
         qty: 40
         unit: gr
