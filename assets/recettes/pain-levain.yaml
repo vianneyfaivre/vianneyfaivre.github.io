@@ -1,10 +1,10 @@
-
-
-
-title: Pain au levain
+title: Pain au Levain
 recipes:
   Overnight:
-    pictures: 0
+    yield: 1
+    yieldType: miche
+    options: HYDRATION
+    pictures: 8
     ingredients: 
       - label: levain
         qty: 80
