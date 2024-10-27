@@ -1,6 +1,3 @@
-
-
-
 title: Houmous
 utensils:
   - casserole
@@ -19,14 +16,14 @@ recipes:
         qty: 60
         unit: gr
       - label: ail
-        qty: 10
-        unit: gr
+        qty: 1
+        unit: gousse
       - label: jus de citron
         qty: 50
         unit: gr
         variable: true
       - label: huile d'olive
-        qty: 15
+        qty: 25
         unit: gr
       - label: sel
         qty: 4
@@ -36,14 +33,12 @@ recipes:
         details:
           - Recuire les pois chiches 10 minutes dans leur eau
           - Égoutter et conserver l'eau de cuisson
-      - label: Ingrédients liquides
+      - label: Préparation
         details:
-          - Émincer l'ail finement
-          - Verser le tahini, l'ail, le jus de citron, l'huile d'olive et le sel dans un saladier
-          - Mélanger 
-      - label: Mixage
-        details:
-          - Verser les pois chiches et les ingrédients liquides dans le bol du robot
+          - Piler l'ail avec un peu de sel afin d'en faire de la purée
+          - Verser le tahini, l'ail, le jus de citron, l'huile d'olive et le sel dans le bol du robot
+          - Mixer
+          - Verser les pois chiches dans le bol du robot
           - Mixer
       - label: Dégustation
         details:
