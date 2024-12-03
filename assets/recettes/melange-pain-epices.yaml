@@ -27,7 +27,7 @@ recipes:
         unit: cuillère à café
       - label: sel
         qty: 0.5
-        unit: cuillères à café
+        unit: cuillère à café
     steps:
       - label: Utilisations
         emoji: 💡

@@ -31,7 +31,7 @@ recipes:
         unit: mL
       - label: crème fraîche
         qty: 1
-        unit: cuillères à café
+        unit: cuillère à café
     steps:
       - label: Découpe
         emoji: 🔪

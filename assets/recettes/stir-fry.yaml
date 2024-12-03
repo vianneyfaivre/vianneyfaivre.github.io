@@ -18,14 +18,17 @@ recipes:
         qty: 2
         unit: cuillères à soupe
       - label: miel
-        qty: 2
-        unit: cuillères à soupe
+        qty: 1
+        unit: cuillère à soupe
       - label: concentré de tomates
         qty: 2
         unit: cuillères à soupe
       - label: fécule de maïs
         qty: 4
         unit: cuillères à café
+      - label: piment d'espelette
+        qty: 0.5
+        unit: cuillère à café
     steps:
       - label: Préparation de la sauce
         details:

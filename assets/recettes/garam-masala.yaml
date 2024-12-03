@@ -4,7 +4,7 @@ recipes:
     ingredients: 
     - label: cumin en grains
       qty: 1
-      unit: cuillères à soupe
+      unit: cuillère à soupe
     - label: coriandre en grains
       qty: 2
       unit: cuillères à soupe
@@ -26,7 +26,7 @@ recipes:
       unit: cuillère à café
     - label: cannelle en poudre
       qty: 1.5
-      unit: cuillères à café
+      unit: cuillère à café
     steps:
       - label: Préparation
         details:

@@ -18,7 +18,7 @@ recipes:
         unit: mL
       - label: huile d'olive
         qty: 1
-        unit: cuillères à soupe
+        unit: cuillère à soupe
     steps:
       - label: "Préparation"
         details:
