@@ -1,6 +1,3 @@
-
-
-
 title: Pancakes
 utensils:
   - saladier
@@ -9,7 +6,7 @@ utensils:
   - spatule-plate
 recipes:
   Classique:
-    yield: 16
+    yield: 6
     ingredients: 
         - label: farine blanche
           qty: 125
@@ -28,13 +25,13 @@ recipes:
           unit: gr
         - label: oeuf 
           qty: 1
+          variable: true
         - label: huile neutre
           qty: 30
           unit: mL
         - label: lait
           qty: 190
           unit: mL
-          variable: true
         - label: vanille liquide
           qty: au goût
     steps:
