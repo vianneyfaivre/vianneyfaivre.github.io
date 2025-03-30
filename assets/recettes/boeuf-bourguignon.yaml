@@ -1,22 +1,13 @@
-
-
-
 title: Boeuf Bourguignon
-utensils:
-  - couteau
-  - cocotte
-  - boule-the
-  - pince
-  - saladier
 recipes:
   Classique:
+    yield: 4
+    yieldType: parts
     ingredients: 
       - label: cubes de boeuf
         qty: 1000
         unit: gr
         variable: true
-      - label: bicarbonate de soude
-        qty: 2
         unit: cuillères à café
       - label: vin rouge
       - label: laurier
@@ -29,41 +20,42 @@ recipes:
       - label: carottes
         qty: 2
       - label: sucre blanc
-        qty: 2
-        unit: cuillères à café
+        qty: 1
+        unit: cuillère à café
       - label: ail 
         qty: 6
         unit: gousses 
       - label: farine
         qty: 2
         unit: cuillères à soupe
+      - label: bouillon de légumes
       - label: petits champignons
         qty: 15
     steps:
       - label: Marinade
         details:
           - Placer la viande dans un grand saladier
-          - Saupoudrer de bicarbonate de soude
-          - Ajouter le laurier, le romarin, le thym et un peu de sel dans une boule à thé
-          - Placer la boule à thé dans le saladier
-          - Couvrir de vin rouge
-          - Laisser mariner au moins deux heures
+          - Saler la viande légèrement
+          - Ajouter le laurier, le romarin, le thym
+          - Couvrir la viande de vin rouge
+          - Laisser mariner au moins deux heures au réfrigérateur 
+      - label: Coloration de la viande
+        details:
+          - Égoutter la marinade et la conserver
+          - Sécher la viande avec du papier absorbant
+          - Faire chauffer une cocotte avec un filet d'huile sur feu vif
+          - Faire brunir la viande
+          - Réserver la viande
       - label: Préparation
         details:
-          - Égoutter la marinade, la conserver
-          - Faire chauffer une cocotte avec un filet d'huile sur feu vif
-          - Faire brunir les cubes de boeuf
-          - Réserver le boeuf
           - Remettre de l'huile dans la cocotte
-          - Faire revenir les oignons avec les carottes et le sucre sur feu vif
-          - Réduire le feu et ajouter l'ail
+          - Peler les oignons, les couper en deux si ils sont trop gros
+          - Détailler les carottes en gros morceaux
+          - Faire revenir les oignons, les carottes sur feu vif
+          - Réduire le feu, ajouter l'ail écrasé et le sucre
           - Remettre le boeuf
           - Saupoudrer avec la farine et remuer le tout
-          - Déverser la marinade
-          - Mijoter une heure
-          - Goûter, ajuster si besoin
-          - Mijoter une heure
-          - Goûter, ajuster si besoin
+          - Déverser la marinade et couvrir de bouillon de légumes
+          - Laisser mijoter deux heures à feu doux
           - Ajouter les champignons
-          - Mijoter 15 minutes
-          - Servir
+          - Laisser mijoter 15 minutes
