@@ -8,7 +8,6 @@ recipes:
         qty: 1000
         unit: gr
         variable: true
-        unit: cuillères à café
       - label: vin rouge
       - label: laurier
         qty: 2 
