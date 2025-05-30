@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-coffeescript
 
 # Tag static resources
 defaults:
