@@ -3,3 +3,4 @@ run.bat
 .jekyll-metadata
 .vscode
 **/**/.DS_Store
+.sass-cache/

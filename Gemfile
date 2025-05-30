@@ -1,7 +1,13 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem "hpricot"
-gem "open_uri_redirections"
-gem "minima"
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem "webrick", "~> 1.7"
+gem "github-pages", "~> 232"
+gem "jemoji", "~> 0.13.0"
+
+gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-seo-tag", "~> 2.8"
+
+gem "jekyll-sitemap", "~> 1.4"
+
+gem "jekyll-feed", "~> 0.17.0"
+
+gem "jekyll-gist", "~> 1.5"
