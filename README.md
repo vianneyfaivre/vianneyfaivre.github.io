@@ -4,12 +4,11 @@ My Personal Blog
 
 # Installation
 
-1. Follow instructions on https://jekyllrb.com/docs/
-2. Install CoffeeScript for Jekyll: `gem install jekyll-coffeescript`
+1. Follow instructions on https://jekyllrb.com/docs/ (use Ruby 3.3.4)
 
 # Run
 
-See `run.sh`
+Execute `bash run.sh`
 
 # Update Dependencies
 

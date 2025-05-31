@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
+
 gem "github-pages", "~> 232"
+
 gem "jemoji", "~> 0.13.0"
 
 gem "jekyll-paginate", "~> 1.1"
