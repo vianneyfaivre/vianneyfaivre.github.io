@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Archives"
+description: "Old posts written by Vianney"
+---
+<h1 class="page-heading">Archives</h1>
+
+<p>
+There are {{ site.categories.tech | size }} posts, some of them might not be displayed properly (several technical migrations have been done since I created this website)
+</p>
+
+<p>
+After ten years of blogging, I decided in 2025 to stop writing new technical posts. All the content below has been written by myself.
+</p>
+
+<ul class="post-list">
+{% for post in site.categories.tech %}
+  <li>
+       {% include post_link.html %}
+  </li>
+{% endfor %}
+</ul>

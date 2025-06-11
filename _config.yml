@@ -1,4 +1,4 @@
-title: Vianney's blog
+title: Vianney FAIVRE
 author: Vianney FAIVRE
 linkedin_username: vianneyfaivre
 github_username: vianneyfaivre
@@ -10,7 +10,6 @@ social:
     - https://github.com/vianneyfaivre
 
 permalink: /:categories/:title
-paginate: 15
 
 excerpt_separator: <!--more-->
 
@@ -20,7 +19,6 @@ encoding: UTF-8
 theme: minima
 
 header_pages: 
-  - tech.html
   - things.html
   - recettes.html
   - about.html
@@ -33,7 +31,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-gist
   - jekyll-coffeescript
 
