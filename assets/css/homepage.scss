@@ -1,0 +1,52 @@
+---
+---
+
+.about {
+
+	h1 {
+		text-align: center;
+	}
+	
+	h2 {
+		text-decoration-line: overline;
+		margin-top: 30px;
+		margin-bottom: 5px;
+	}
+
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	.left {
+		text-align: left;
+	}
+
+	.profile-pic {
+		border-radius: 25px;
+		max-width: 250px;
+	}
+
+	.side-by-side-blocks {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		row-gap: 25px;
+		column-gap: 25px;
+
+		text-align: center;
+
+		/* Mobile view */ 
+		@media all and (max-width: 700px) {
+			flex-direction: column;
+		}
+	}
+}

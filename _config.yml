@@ -21,7 +21,6 @@ theme: minima
 header_pages: 
   - things.html
   - recettes.html
-  - about.html
 
 # false = Hide posts when post.date > today
 future: false
