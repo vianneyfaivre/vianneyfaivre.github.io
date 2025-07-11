@@ -60,10 +60,8 @@ recipes:
       - label: Cuisson
         emoji: 🔥
         details:
-          - Cuire 13 min à 180°C
-          - Sortir du four et laisser le plat tomber de haut plusieurs fois afin de briser la surface du brownie
+          - Cuire 30 min à 170°C
           - Parsemer de fleur de sel
-          - Cuire 7 min à 180°C 
 
   Chocolat en Poudre:
     pictures: 0
