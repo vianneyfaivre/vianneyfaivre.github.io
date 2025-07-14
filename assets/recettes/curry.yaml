@@ -15,22 +15,22 @@ recipes:
         qty: 6
         unit: gousses
       - label: curry en poudre
-        qty: 2
+        qty: 3
         unit: cuillères à café
         link: /recettes/curry-en-poudre
       - label: tomates
-        qty: 1
-        unit: conserve
+        qty: 400
+        unit: grammes
       - label: pois chiches
-        qty: 1
-        unit: conserve
+        qty: 200
+        unit: grammes
       - label: garam masala
         qty: 1
         unit: cuillère à café
         link: /recettes/garam-masala
       - label: crème de coco
-        qty: 1
-        unit: conserve
+        qty: 400
+        unit: mL
     steps:
       - label: Préparation des légumes
         details:
