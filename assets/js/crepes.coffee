@@ -29,6 +29,30 @@ CREPES_RECIPES = {
         { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
+    BRETONNE: {
+      title: 'Bretonne',
+      ingredients: [
+        { name: 'farine', quantity: 500, unite: 'gr', type: "solid" },
+        { name: 'lait', quantity: 1000, unite: 'mL'},
+        { name: 'eau', quantity: 100, unite: 'mL'},
+        { name: 'sucre', quantity: 75, unite: 'gr', type: "solid" },
+        { name: 'oeufs', quantity: 5 },
+        { name: 'beurre', quantity: 25, unite: 'gr' }
+      ],
+      preconditions: [
+        "Les oeufs et le lait doivent être à température ambiante",
+        "Le beurre doit être noisette"
+      ], 
+      steps: [
+        { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
+        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
+        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: true, value: "Ajouter le beurre puis mélanger" },
+        { hidden: true, value: "Ajouter le reste du lait et l'eau en deux fois puis mélanger" },
+        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+      ]
+    },
     BIERE: {
       title: 'À la bière',
       ingredients: [
