@@ -1,0 +1,23 @@
+title: Porridge
+recipes:
+  Classique:
+    yield: 2
+    yieldType: portions
+    ingredients:
+      - label: flocons d'avoine
+        qty: 50
+        unit: gr
+        variable: true
+      - label: lait
+        qty: 250
+        unit: mL
+      - label: miel
+        qty: 1
+        unit: cuillère à café
+    steps:
+      - label: Cuisson
+        details:
+          - Verser les flocons d'avoine et le lait dans la casserole
+          - Faire cuire pendant 5-10 minutes à feu moyen en remuant fréquemment
+notes:
+  - Des fruits frais ou surgelés peuvent être ajoutés à la toute fin
