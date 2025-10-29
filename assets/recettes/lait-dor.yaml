@@ -1,0 +1,32 @@
+title: Lait d'or
+recipes:
+  Classique:
+    yield: 1
+    yieldType: tasse
+    ingredients:
+      - label: ghee
+        qty: 1
+        unit: cuillère à café
+      - label: miel
+        qty: 1
+        unit: cuillère à café
+      - label: curcuma en poudre
+        qty: 1
+        unit: cuillère à café
+      - label: cardamome en poudre
+        qty: 0.25
+        unit: cuillère à café
+      - label: poivre moulu
+        qty: 0.25
+        unit: cuillère à café
+      - label: lait
+        qty: 200
+        unit: mL
+        variable: true
+    steps:
+      - label: Préparation
+        details:
+          - Verser tous les ingrédients dans une casserole
+          - Mélanger avec un fouet
+          - Porter lentement à ébullition (environ 5 minutes sur feu moyen)
+          - Verser dans une tasse

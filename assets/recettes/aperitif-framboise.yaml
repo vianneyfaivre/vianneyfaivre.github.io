@@ -14,7 +14,7 @@ recipes:
       - label: framboises
         qty: 200
         unit: gr
-      - label: alcool blanc
+      - label: alcool blanc 40%
         qty: 8
         unit: cL
     steps:
