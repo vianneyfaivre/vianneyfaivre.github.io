@@ -1,0 +1,43 @@
+title: Chai Latte
+recipes:
+  Classique:
+    yield: 2
+    yieldType: tasses
+    ingredients:
+      - label: clous de girofle
+        qty: 2
+      - label: cardamome en poudre
+        qty: 0.5
+        unit: cuillère à café
+      - label: cannelle en poudre
+        qty: 0.5
+        unit: cuillère à café
+      - label: gingembre en poudre
+        qty: 0.5
+        unit: cuillère à café
+      - label: badiane
+        qty: 1
+        unit: étoile
+      - label: eau
+        qty: 250
+        unit: mL
+      - label: thé noir
+        qty: 1
+        unit: cuillère à café
+      - label: lait
+        qty: 125
+        unit: mL
+        variable: true
+      - label: sucre
+        qty: 0.5
+        unit: cuillère à café
+    steps:
+      - label: Préparation
+        details:
+          - Déverser toutes les épices et l'eau dans une casserole
+          - Porter à ébullition
+          - Ajouter le thé et laisser frémir 2 minutes
+          - Ajouter le lait et porter à ébullition
+          - Ajouter le sucre hors du feu
+          - Laisser infuser 5 minutes
+          - Filtrer et servir
