@@ -1,0 +1,23 @@
+title: Lassi
+recipes:
+  Banane:
+    yield: 2
+    yieldType: verres
+    ingredients:
+      - label: bananes
+        qty: 2
+        variable: true
+      - label: lait de coco
+        qty: 400
+        unit: mL
+      - label: cannelle en poudre
+        qty: 0.25
+        unit: cuillère à café
+      - label: yaourt
+        qty: 100
+        unit: mL
+    steps:
+      - label: Préparation
+        details:
+          - Tout mixer au blender
+          - Servir frais
