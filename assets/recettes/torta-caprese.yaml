@@ -1,32 +1,24 @@
 title: Torta Caprese
-utensils:
-  - saladier
-  - batteur-elec
-  - spatule-silicone
-  - moule-rond
 recipes:
   Chocolat Noir:
     ingredients:
       - label: beurre
-        qty: 110
+        qty: 160
         unit: gr
       - label: chocolat noir 70%
-        qty: 150
-        unit: gr
-      - label: sucre glace
-        qty: 100
-        unit: gr
-      - label: sucre brun
-        qty: 60
+        qty: 220
         unit: gr
       - label: oeufs
-        qty: 4
+        qty: 6
         variable: true
+      - label: sucre
+        qty: 200
+        unit: gr
       - label: poudre d'amandes
-        qty: 100
+        qty: 150
         unit: gr
       - label: cacao en poudre non sucré
-        qty: 20
+        qty: 30
         unit: gr
     steps:
       - label: Préparation
@@ -40,11 +32,10 @@ recipes:
       - label: Cuisson
         emoji: 🔥
         details:
-        - Cuire 30 à 40 minutes à 170°C
+        - Cuire 30 minutes à 150°C
+    notes:
+      - La pâte peut être faite en avance et placée au réfrigérateur mais elle deviendra très dure
   Chocolat Blanc: 
-    utensils:
-      - microplane
-      - rape
     ingredients:
       - label: huile neutre
         qty: 80
