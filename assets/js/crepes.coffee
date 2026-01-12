@@ -16,11 +16,8 @@ CREPES_RECIPES = {
         { name: 'oeufs', quantity: 3 },
         { name: 'beurre', quantity: 75, unite: 'gr' }
       ],
-      preconditions: [
-        "Les oeufs et le lait doivent être à température ambiante",
-        "Le beurre doit être fondu"
-      ], 
       steps: [
+        { hidden: false, value: "Faire fondre le beurre" },
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
         { hidden: false, value: "Casser les oeufs dans un bol" },
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
@@ -40,11 +37,8 @@ CREPES_RECIPES = {
         { name: 'oeufs', quantity: 5 },
         { name: 'beurre', quantity: 25, unite: 'gr' }
       ],
-      preconditions: [
-        "Les oeufs et le lait doivent être à température ambiante",
-        "Le beurre doit être noisette"
-      ], 
       steps: [
+        { hidden: false, value: "Faire un beurre noisette" },
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
         { hidden: false, value: "Casser les oeufs dans un bol" },
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
@@ -63,9 +57,6 @@ CREPES_RECIPES = {
         { name: 'oeufs', quantity: 5.5 },
         { name: 'huile', quantity: 20, unite: 'mL' }
       ],
-      preconditions: [
-        "Les oeufs, le lait et la bière doivent être à température ambiante",
-      ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
         { hidden: false, value: "Casser les oeufs dans un bol" },
@@ -86,11 +77,8 @@ CREPES_RECIPES = {
         { name: 'oeufs', quantity: 4.5 },
         { name: 'beurre', quantity: 45, unite: 'gr' }
       ],
-      preconditions: [
-        "Les oeufs et le lait doivent être à température ambiante",
-        "Le beurre doit être fondu"
-      ], 
       steps: [
+        { hidden: false, value: "Faire fondre le beurre" },
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
         { hidden: false, value: "Casser les oeufs dans un bol" },
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
@@ -109,11 +97,8 @@ CREPES_RECIPES = {
         { name: 'oeufs', quantity: 4.5 },
         { name: 'beurre', quantity: 68, unite: 'gr' }
       ],
-      preconditions: [
-        "Les oeufs et le lait doivent être à température ambiante",
-        "Le beurre doit être fondu"
-      ], 
       steps: [
+        { hidden: false, value: "Faire fondre le beurre" },
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
         { hidden: false, value: "Casser les oeufs dans un bol" },
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
@@ -131,9 +116,6 @@ CREPES_RECIPES = {
         { name: 'oeufs', quantity: 5 },
         { name: 'huile', quantity: 10, unite: 'mL' },
       ],
-      preconditions: [
-        "Les oeufs et le lait doivent être à température ambiante",
-      ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
         { hidden: false, value: "Casser les oeufs dans un bol" },
@@ -151,11 +133,8 @@ CREPES_RECIPES = {
         { name: 'lait', quantity: 1000, unite: 'mL' },
         { name: 'beurre', quantity: 100, unite: 'gr' }
       ],
-      preconditions: [
-        "Le lait doit être à température ambiante",
-        "Le beurre doit être fondu"
-      ], 
       steps: [
+        { hidden: false, value: "Faire fondre le beurre" },
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
         { hidden: false, value: "Verser le lait dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
         { hidden: false, value: "Ajouter le beurre puis mélanger" },
@@ -177,8 +156,6 @@ toIngredientListItem = (ingredient) ->
     "<li>#{ingredient.name} : #{ingredient.quantity} #{ingredient.unite}</li>"
   else 
     "<li>#{ingredient.name} : #{ingredient.quantity}</li>"
-
-toPreconditionListItem = (precondition) -> "<li>#{precondition}</li>"
 
 toStepListItem = (step) -> 
   display = if step.hidden then "none" else "list-item"
@@ -241,10 +218,6 @@ onRecipeChange = (recipes, selectedRecipe, quantity) ->
   CURRENT_RECIPE = recipe
 
   document.getElementById("ingredients").innerHTML = toIngredientsList recipe.ingredients
-
-  preconditions = []
-  preconditions.push toPreconditionListItem precondition for id, precondition of recipe.preconditions
-  document.getElementById("preconditions").innerHTML = preconditions.join("")
 
   steps = []
   stepsHtmlList = document.getElementById("steps")
