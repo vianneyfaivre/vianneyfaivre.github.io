@@ -4,6 +4,7 @@
 
 # Each recipe is based on 15 units
 DEFAULT_QUANTITY = 15
+EGG_WEIGHT_GRAMS = 50
 
 CREPES_RECIPES = {
     MAMAN: {
@@ -21,12 +22,12 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
-        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
-        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le beurre puis mélanger" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
-        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+        { hidden: false, value: "Casser les oeufs dans un bol" },
+        { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter le beurre puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
     BRETONNE: {
@@ -45,12 +46,12 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
-        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
-        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le beurre puis mélanger" },
-        { hidden: true, value: "Ajouter le reste du lait et l'eau en deux fois puis mélanger" },
-        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+        { hidden: false, value: "Casser les oeufs dans un bol" },
+        { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter le beurre puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait et l'eau en deux fois puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
     BIERE: {
@@ -67,13 +68,13 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
-        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
-        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter l'huile puis mélanger" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
-        { hidden: true, value: "Ajouter la bière puis mélanger" },
-        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+        { hidden: false, value: "Casser les oeufs dans un bol" },
+        { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter l'huile puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter la bière puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
     MEILLEUR_DU_CHEF: {
@@ -91,12 +92,12 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
-        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
-        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le beurre puis mélanger" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
-        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+        { hidden: false, value: "Casser les oeufs dans un bol" },
+        { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter le beurre puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
     MARMITON_RAFFINEE: {
@@ -114,12 +115,12 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine et le sucre" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
-        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
-        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter le beurre puis mélanger" },
-        { hidden: true, value: "Ajouter le reste du lait en deux fois puis mélanger" },
-        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+        { hidden: false, value: "Casser les oeufs dans un bol" },
+        { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter le beurre puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
     FARINE_COMPLETE: {
@@ -135,11 +136,11 @@ CREPES_RECIPES = {
       ], 
       steps: [
         { hidden: false, value: "Dans un saladier, tamiser la farine" },
-        { hidden: false, value: "Casser les oeufs dans un bol, les peser et indiquer le poids ici : <input type='text' required='required' style='border-radius: 3px; border: 1px solid #ccc;font-size: 13px; text-align: center;' id='eggs-grams' minlength='1' maxlength='4' size='2' /> grammes" },
-        { hidden: true, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
-        { hidden: true, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: true, value: "Ajouter l'huile et le reste du lait en deux fois puis mélanger" },
-        { hidden: true, value: "Couvrir et laisser reposer minimum 30 minutes" },
+        { hidden: false, value: "Casser les oeufs dans un bol" },
+        { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
+        { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
+        { hidden: false, value: "Ajouter l'huile et le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
     SANS_OEUFS: {
@@ -201,41 +202,6 @@ toIngredientsList = (ingredients) ->
   list.push toIngredientListItem ingredient for id, ingredient of ingredients
   list.join("")
 
-showError = (li, milkToAdd) ->
-  eggsToRemove = Math.abs milkToAdd 
-
-  error = document.getElementById "mix-error"
-  if (!error)
-    error = document.createElement "div" 
-    error.id = 'mix-error'
-  else 
-    error.innerHTML = ''
-  
-  errorText = document.createTextNode "Retirer #{eggsToRemove} grammes d'oeufs"
-
-  btnOnClick = (event) -> 
-    eggsGrams = document.getElementById("eggs-grams")
-    eggsGrams.value = eggsGrams.value - eggsToRemove
-    eggsGramsOnChange eggsGrams.value
-
-  btn = document.createElement "button"
-  btn.innerHTML = "C'est fait !"
-  btn.style = "margin-left: 10px;
-              font-size: 13px;
-              border-radius: 3px;
-              border: 1px solid #d1d1d1;
-              padding: 5px 10px;
-              cursor: pointer;"
-  btn.addEventListener 'click', btnOnClick 
-
-  error.appendChild errorText
-  error.appendChild btn
-  li.appendChild error
-
-hideError = (li) ->
-  error = document.getElementById('mix-error')
-  if error then li.removeChild(error)
-  
 #
 # Data Manipulation Functions
 #
@@ -261,34 +227,6 @@ updateQuantity = (newCount, ingredient) ->
     newIngredientQuantity = Math.round(newIngredientQuantity)
   
   { name: ingredient.name, quantity: newIngredientQuantity, unite: ingredient.unite, type: ingredient.type }
-
-eggsGramsOnChange = (eggsGrams) -> 
-  console.log "Changed Eggs Grams Input to #{eggsGrams}"
-
-  eggsGramsHtmlInput = document.getElementById("eggs-grams")
-  eggsGramsHtmlListItem = eggsGramsHtmlInput.parentNode
-
-  mixLiquidHtmlSpan = document.getElementById("mix-liquid")
-  mixLiquidHtmlListItem = mixLiquidHtmlSpan.parentNode
-
-  cuissonHtmlDiv = document.getElementById "cuisson-panel"
-
-  milkToAdd = CURRENT_RECIPE.mixSolidGrams - eggsGrams
-  mixLiquidHtmlSpan.innerHTML = milkToAdd
-
-  if (milkToAdd == 0)
-    display step for step in document.getElementsByClassName("step-hidden-true")
-    hide mixLiquidHtmlListItem
-    hideError eggsGramsHtmlListItem
-    display cuissonHtmlDiv
-  else if(milkToAdd > 0) 
-    display step for step in document.getElementsByClassName("step-hidden-true")
-    hideError eggsGramsHtmlListItem
-    display cuissonHtmlDiv
-  else
-    hide step for step in document.getElementsByClassName("step-hidden-true")
-    showError eggsGramsHtmlListItem, milkToAdd
-    hide cuissonHtmlDiv
 
 #
 # Business Logic
@@ -316,33 +254,13 @@ onRecipeChange = (recipes, selectedRecipe, quantity) ->
   document.getElementById("crepes-count-input").value = quantity
   updateIngredientsList(quantity)
 
-  eggsGramsHtmlInput = document.getElementById("eggs-grams")
-  hide document.getElementById "cuisson-panel"
-
-  # Update mix-liquid value
-  if eggsGramsHtmlInput?
-    eggsGramsHtmlInput.addEventListener 'input', (event) -> 
-      eggsGrams = parseInt(event.target.value)
-      if isNaN(eggsGrams) then return 
-      eggsGramsOnChange eggsGrams
-
 onCrepesCountChange = (recipes, newCount) ->
   console.log "Changed Crepes Count to #{newCount}"
 
-  if(isNaN(newCount) || newCount < 0)
+  if(isNaN(newCount) || newCount < 0)
     return 
 
   updateCount newCount
-  document.getElementById("eggs-grams")?.value = ''
-  document.getElementById("mix-liquid")?.innerHTML = ''
-  document.getElementById("ingredients").innerHTML = ''
-
-  error = document.getElementById "mix-error"
-  if error then hide error
-
-  hide step for step in document.getElementsByClassName("step-hidden-true") 
-  hide document.getElementById "cuisson-panel" 
-
   updateIngredientsList(newCount)
 
 updateIngredientsList = (newCount) ->
@@ -357,6 +275,17 @@ updateIngredientsList = (newCount) ->
 
   # Update DOM
   document.getElementById("ingredients").innerHTML = toIngredientsList CURRENT_RECIPE.updatedIngredients
+
+  # Calculate milk to add based on egg weight
+  eggs = getIngredientByName(CURRENT_RECIPE.updatedIngredients, 'oeufs')
+  if eggs
+    eggsGrams = parseFloat(eggs.quantity) * EGG_WEIGHT_GRAMS
+    milkToAdd = CURRENT_RECIPE.mixSolidGrams - eggsGrams
+    mixLiquidHtmlSpan = document.getElementById("mix-liquid")
+    if mixLiquidHtmlSpan
+      mixLiquidHtmlSpan.innerHTML = Math.round(milkToAdd)
+  
+  display document.getElementById "cuisson-panel"
 
 #
 # Main Function
