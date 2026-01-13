@@ -25,14 +25,14 @@ recipes:
     preconditions:
       - Le levain doît être pâteux, bien acide au nez et mûr (le rafraîchir le matin même)
     steps:
-      - label: Pétrissage et Pointage (la veille - soir vers 22h)
+      - label: Pétrissage et Pointage (la veille - soir vers 21h)
         details:
           - Dans le bol du robot, verser le levain, l'eau, les farines et le sel
           - Mélanger jusqu'à incorporation
           - Racler les bords
           - Mélanger pendant 4 minutes sur vitesse 2
           - Mélanger pendant 4 minutes sur vitesse 3
-          - Faire quelques rabats
+          - Faire quelques rabats toutes les 20 minutes (au moins une fois)
           - Couvrir d'un torchon humide
           - Laisser pointer à température ambiante toute la nuit
       - label: Pointage (le lendemain - matin vers 8h)
@@ -48,7 +48,7 @@ recipes:
           - Laisser pointer à température ambiante 30 minutes
       - label: Préparation du banneton
         details:
-          - Fariner le banneton abondamment
+          - Fariner légèrement le banneton
           - Réserver
       - label: Façonnage II
         details:
@@ -69,7 +69,7 @@ recipes:
         details:
           - Placer la cocotte en fonte dans le four
           - Allumer le four à 220 degrés celsius
-          - Laisser le four chauffer au moins 20 minutes
+          - Laisser le four chauffer 20 minutes
       - label: Grignage
         details:
           - Retirer le torchon
@@ -88,6 +88,6 @@ recipes:
           - Placer la cocotte en fonte dans le four
           - Cuire 40 minutes à 220°C 
           - Retirer le couvercle de la cocotte en fonte
-          - Cuire 10 minutes à 220°C 
+          - Cuire 10 minutes à 200°C 
           - Sortir le pain de la cocotte en fonte
           - Laisser ressuer le pain sur grille pendant au moins 1h30
