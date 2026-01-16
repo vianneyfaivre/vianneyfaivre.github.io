@@ -23,7 +23,7 @@ CREPES_RECIPES = {
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
         { hidden: false, value: "Ajouter le beurre puis mélanger" },
-        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait (<span id='remaining-milk'></span> mL) en deux fois puis mélanger" },
         { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -44,7 +44,7 @@ CREPES_RECIPES = {
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
         { hidden: false, value: "Ajouter le beurre puis mélanger" },
-        { hidden: false, value: "Ajouter le reste du lait et l'eau en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait (<span id='remaining-milk'></span> mL) et l'eau en deux fois puis mélanger" },
         { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -63,7 +63,7 @@ CREPES_RECIPES = {
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
         { hidden: false, value: "Ajouter l'huile puis mélanger" },
-        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait (<span id='remaining-milk'></span> mL) en deux fois puis mélanger" },
         { hidden: false, value: "Ajouter la bière puis mélanger" },
         { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
@@ -84,7 +84,7 @@ CREPES_RECIPES = {
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
         { hidden: false, value: "Ajouter le beurre puis mélanger" },
-        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait (<span id='remaining-milk'></span> mL) en deux fois puis mélanger" },
         { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -104,7 +104,7 @@ CREPES_RECIPES = {
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
         { hidden: false, value: "Ajouter le beurre puis mélanger" },
-        { hidden: false, value: "Ajouter le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter le reste du lait (<span id='remaining-milk'></span> mL) en deux fois puis mélanger" },
         { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -121,7 +121,7 @@ CREPES_RECIPES = {
         { hidden: false, value: "Casser les oeufs dans un bol" },
         { hidden: false, value: "Ajouter <span id='mix-liquid'></span> mL de lait dans ce bol" },
         { hidden: false, value: "Verser le contenu du bol dans le saladier puis mélanger jusqu'à ce que la préparation soit bien lisse" },
-        { hidden: false, value: "Ajouter l'huile et le reste du lait en deux fois puis mélanger" },
+        { hidden: false, value: "Ajouter l'huile et le reste du lait (<span id='remaining-milk'></span> mL) en deux fois puis mélanger" },
         { hidden: false, value: "Couvrir et laisser reposer minimum 30 minutes" },
       ]
     },
@@ -251,12 +251,17 @@ updateIngredientsList = (newCount) ->
 
   # Calculate milk to add based on egg weight
   eggs = getIngredientByName(CURRENT_RECIPE.updatedIngredients, 'oeufs')
-  if eggs
+  milk = getIngredientByName(CURRENT_RECIPE.updatedIngredients, 'lait')
+  if eggs and milk
     eggsGrams = parseFloat(eggs.quantity) * EGG_WEIGHT_GRAMS
     milkToAdd = CURRENT_RECIPE.mixSolidGrams - eggsGrams
     mixLiquidHtmlSpan = document.getElementById("mix-liquid")
     if mixLiquidHtmlSpan
       mixLiquidHtmlSpan.innerHTML = Math.round(milkToAdd)
+    remainingMilk = milk.quantity - Math.round(milkToAdd)
+    remainingMilkHtmlSpan = document.getElementById("remaining-milk")
+    if remainingMilkHtmlSpan
+      remainingMilkHtmlSpan.innerHTML = remainingMilk
   
   display document.getElementById "cuisson-panel"
 
