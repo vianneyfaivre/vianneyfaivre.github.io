@@ -3,38 +3,49 @@ recipes:
   Pomme:
     ingredients: 
       - label: pommes 
-        qty: 6
+        qty: 8
         variable: true
+      - label: citron
+        qty: 1
       - label: sucre
         qty: 100
         unit: gr
       - label: farine
         qty: 150
         unit: gr
-      - label: beurre
-        qty: 125
+      - label: poudre d'amandes
+        qty: 50
         unit: gr
-      - label: citron
-        qty: 1
-      - label: épices
-        qty: 1 
+      - label: beurre
+        qty: 160
+        unit: gr
+      - label: muscade
+        qty: 0.25
+        unit: cuillère à café
+      - label: gingembre
+        qty: 0.25
+        unit: cuillère à café
+      - label: cardamome
+        qty: 0.25
+        unit: cuillère à café
+      - label: cannelle
+        qty: 0.5
         unit: cuillère à café
     steps:
       - label: Préparation des pommes
         details:
           - Peler les pommes
           - Détailler les pommes en cubes
-          - Ajouter le jus de citron et les épices
+          - Ajouter le jus de citron
+          - Faire chauffer un peu de beurre avec les épices dans une casserole
+          - Déverser les pommes dans la casserole
+          - Précuire les pommes pendant 10 minutes sur feu moyen
           - Déverser les pommes dans le moule
       - label: Préparation du crumble
         details:
-          - Mélanger le sucre et la farine
-          - Détailler le beurre en cubes
-          - Faire le crumble avec les mains
-          - Étaler le crumble sur les pommes
+          - Mélanger le sucre, la farine, la poudre d'amandes et le beurre
+          - Déposer les bouts de crumble sur les pommes
       - label: Cuisson
         emoji: 🔥
         details:
-          - Cuire 35 minutes à 210°C
-notes:
-  - "épices : muscade, cannelle, gingembre"
+          - Cuire 30 minutes à 200°C
