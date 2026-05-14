@@ -144,10 +144,10 @@ EVENTS = [
     new Event(2022, 7, EventType.TRAVEL, "one week", "Biarritz, France 🇫🇷"),
     new Event(2022, 8, EventType.TRAVEL, "one month", "Argentina 🇦🇷"),
     new Event(2023, 1, EventType.TRAVEL, "one week", "Valmorel, France 🇫🇷"),
-    new Event(2023, 5, EventType.TRAVEL, "one week", "Route des Vins, Alsace & Bourgogne, France 🇫🇷"),
+    new Event(2023, 5, EventType.TRAVEL, "one week", "Routes des Vins (bicycle), Alsace & Bourgogne, France 🇫🇷"),
     new Event(2023, 6, EventType.TRAVEL, "one week", "Annecy & Aix-les-Bains, France 🇫🇷"),
     new Event(2023, 8, EventType.TRAVEL, "three days", "Roscoff, France 🇫🇷"),
-    new Event(2023, 8, EventType.TRAVEL, "four days", "Pornic-Ancenis by bike, France 🇫🇷"),
+    new Event(2023, 8, EventType.TRAVEL, "four days", "Pornic-Ancenis (bicycle), France 🇫🇷"),
     new Event(2024, 1, EventType.TRAVEL, "one week", "Les Arcs, France 🇫🇷"),
     new Event(2024, 1, EventType.TRAVEL, "four days", "Lyon/Aix-Les-Bains, France 🇫🇷"),
     new Event(2024, 2, EventType.TRAVEL, "one week", "Dijon, France 🇫🇷"),
@@ -161,6 +161,13 @@ EVENTS = [
     new Event(2025, 6, EventType.TRAVEL, "one week", "Bordeaux, France 🇫🇷"),
     new Event(2025, 7, EventType.TRAVEL, "three weeks", "Pordic - Hendaye - Alsace, France 🇫🇷"),
     new Event(2025, 9, EventType.TRAVEL, "one week", "Saint-Étienne-les-Orgues, France 🇫🇷"),
+    new Event(2025, 11, EventType.TRAVEL, "ten days", "Lyon & Dijon, France 🇫🇷"),
+
+    new Event(2026, 1, EventType.TRAVEL, "one week", "Valloire, France 🇫🇷"),
+    new Event(2026, 3, EventType.TRAVEL, "five days", "Champagne, France 🇫🇷"),
+    new Event(2026, 3, EventType.TRAVEL, "three days", "Rennes, France 🇫🇷"),
+    new Event(2026, 4, EventType.TRAVEL, "one week", "La Rochelle-Montpellier (bicycle), France 🇫🇷"),
+    new Event(2026, 4, EventType.TRAVEL, "three days", "Madrid, Spain 🇪🇸"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
@@ -170,7 +177,7 @@ EVENTS = [
     new Event(2015, 2, EventType.WORK, "Orange Business Services", "Nantes, France"),
     new Event(2016, 10, EventType.WORK, "Cogeco", "Montréal, Canada"),
     new Event(2019, 3, EventType.WORK, "University of Auckland", "Auckland, New Zealand"),
-    new Event(2021, 7, EventType.WORK, "Disneyland Paris", "Remote, France"),
+    new Event(2021, 7, EventType.WORK, "Disneyland Paris", "France"),
 
     new Event(MY_BIRTHDATE.getFullYear(), MY_BIRTHDATE.getMonth(), EventType.BIRTH, "Birth", null)
     new Event(2013 + 40, 0, EventType.RETIREMENT, "Retirement", null),
