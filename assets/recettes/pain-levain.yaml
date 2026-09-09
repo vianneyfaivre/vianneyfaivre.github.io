@@ -7,17 +7,14 @@ recipes:
     pictures: 8
     ingredients: 
       - label: levain
-        qty: 80
+        qty: 90
         unit: gr
         variable: true
       - label: eau
         qty: 600
         unit: gr
-      - label: farine T80
-        qty: 750
-        unit: gr
-      - label: farine T110
-        qty: 150
+      - label: farine T65
+        qty: 900
         unit: gr
       - label: sel
         qty: 16
@@ -25,15 +22,20 @@ recipes:
     preconditions:
       - Le levain doît être pâteux, bien acide au nez et mûr (le rafraîchir le matin même)
     steps:
+      - label: Autolyse (la veille - après-midi vers 17h)
+        details:
+          - Dans le bol du robot, verser l'eau et la farine
+          - Mélanger jusqu'à incorporation
+          - Couvrir avec un torchon
       - label: Pétrissage et Pointage (la veille - soir vers 21h)
         details:
-          - Dans le bol du robot, verser le levain, l'eau, les farines et le sel
+          - Dans le bol du robot, verser le levain et le sel
           - Mélanger jusqu'à incorporation
           - Racler les bords
           - Mélanger pendant 4 minutes sur vitesse 2
           - Mélanger pendant 4 minutes sur vitesse 3
-          - Faire quelques rabats toutes les 20 minutes (au moins une fois)
-          - Couvrir d'un torchon humide
+          - Faire quelques rabats toutes les 30 minutes (au moins une fois)
+          - Couvrir avec un torchon humide
           - Laisser pointer à température ambiante toute la nuit
       - label: Pointage (le lendemain - matin vers 8h)
         details:
