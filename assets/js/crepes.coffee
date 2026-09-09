@@ -30,12 +30,12 @@ CREPES_RECIPES = {
     BRETONNE: {
       title: 'Bretonne',
       ingredients: [
-        { name: 'farine', quantity: 500, unite: 'gr', type: "solid" },
-        { name: 'lait', quantity: 1000, unite: 'mL'},
-        { name: 'eau', quantity: 100, unite: 'mL'},
-        { name: 'sucre', quantity: 75, unite: 'gr', type: "solid" },
-        { name: 'oeufs', quantity: 5 },
-        { name: 'beurre', quantity: 25, unite: 'gr' }
+        { name: 'farine', quantity: 300, unite: 'gr', type: "solid" },
+        { name: 'lait', quantity: 600, unite: 'mL'},
+        { name: 'eau', quantity: 60, unite: 'mL'},
+        { name: 'sucre', quantity: 45, unite: 'gr', type: "solid" },
+        { name: 'oeufs', quantity: 3 },
+        { name: 'beurre', quantity: 15, unite: 'gr' }
       ],
       steps: [
         { hidden: false, value: "Faire un beurre noisette" },
