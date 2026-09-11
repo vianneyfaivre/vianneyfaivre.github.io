@@ -56,7 +56,7 @@ recipes:
       - label: Torréfaction et mixage des cacahuètes
         emoji: 🥜
         details:
-          - Torréfier les cacahuètes au four 13 minutes à 180°C
+          - Torréfier les cacahuètes au four une dizaine de minutes à 180°C
           - Laisser refroidir
           - Mixer les cacahuètes avec les graines de sésame, le paprika, le piment d'espelette et le piment séché 
           - Ajouter le sel
@@ -66,8 +66,8 @@ recipes:
           - Préchauffer le wok sur feu fort sans huile
           - Hacher le gingembre 
           - Écraser les cosses de cardamome
-          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, le gingembre, et le poivre de Sichuan dans le wok
-          - Torréfier les épices 5 minutes
+          - Déverser la cardamome, l'anis étoilé, la cannelle, le laurier, et le poivre de Sichuan dans le wok
+          - Torréfier les épices à sec pendant 5 minutes
           - Déverser le gingembre et l'huile dans le wok
           - Faire infuser 25 minutes sur feu moyen
           - Passer au chinois (conserver l'huile, jeter les épices)
@@ -75,9 +75,9 @@ recipes:
         emoji: 🔥
         details: 
           - Émincer l'oignon et l'ail
-          - Préchauffer le wok sur feu fort
+          - Préchauffer le wok sur feu moyen-fort
           - Déverser l'huile infusée dans le wok
-          - Faire frire l'oignon et l'ail
+          - Faire frire l'oignon et l'ail pendant 10 minutes
       - label: Finalisation
         emoji: 🥃
         details: 
