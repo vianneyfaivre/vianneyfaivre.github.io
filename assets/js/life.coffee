@@ -168,6 +168,10 @@ EVENTS = [
     new Event(2026, 3, EventType.TRAVEL, "three days", "Rennes, France 🇫🇷"),
     new Event(2026, 4, EventType.TRAVEL, "one week", "La Rochelle-Montpellier (bicycle), France 🇫🇷"),
     new Event(2026, 4, EventType.TRAVEL, "three days", "Madrid, Spain 🇪🇸"),
+    new Event(2026, 5, EventType.TRAVEL, "one week", "Linkin Park @ Lyon & Foo Fighters @ Paris, France 🇫🇷"),
+    new Event(2026, 6, EventType.TRAVEL, "one week", "Sarzeau, France 🇫🇷"),
+    new Event(2026, 7, EventType.TRAVEL, "one week", "Dordogne, France 🇫🇷"),
+    # new Event(2026, 9, EventType.TRAVEL, "two weeks", "Savoie & Auvergne, France 🇫🇷"),
 
     new Event(2010, 3, EventType.WORK, "DB Schenker (internship + two months contract)", "Montaigu, France"),
     new Event(2011, 3, EventType.WORK, "Akka Technologies (3 months internship)", "Nantes, France"),
