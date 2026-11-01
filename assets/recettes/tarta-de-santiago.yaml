@@ -11,16 +11,16 @@ recipes:
   Classique:
     ingredients: 
       - label: oeufs 
-        qty: 4
+        qty: 5
         variable: true
       - label: sucre
-        qty: 100
+        qty: 125
         unit: gr
       - label: poudre d'amandes
-        qty: 200
+        qty: 250
         unit: gr
       - label: beurre
-        qty: 100
+        qty: 125
         unit: gr
       - label: cannelle
         qty: 0.5
@@ -37,6 +37,7 @@ recipes:
       - label: Préparation
         details:
           - Faire fondre le beurre
+          - Mélanger les épices, les zestes et la poudre d'amandes
           - Fouetter les oeufs avec le sucre
           - Ajouter le beurre fondu tout en fouettant
           - Incorporer la poudre d'amandes, les épices et les zestes
